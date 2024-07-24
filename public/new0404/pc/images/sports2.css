@@ -1,0 +1,451 @@
+.content{
+      background-color: #0e0e0e;
+}
+/* 体育赛事 */
+.sports-site {
+  height: 650px;
+  margin: 0 auto;
+  position: relative;
+  width: 1550px;
+  background: url(../images/sports-site.png) no-repeat 0 -20px;
+}
+.sports-site .sport-playbtn {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+}
+
+.btn-playnow {
+  background: url(../images/shabaliji.png) no-repeat 50% 50%;
+  width: 98px;
+  height: 97px;
+}
+.btn-playnow:hover {
+  background-image: url(../images/shabaliji.png);
+}
+.sport-playbtn {
+  background: url(../images/shabaliji.png) 0 0 no-repeat;
+}
+.sport-playbtn .btn-playnow {
+  position: absolute;
+  left: 18px;
+  top: 15px;
+}
+.sport-playbtn a{display:block;width:100%;height:97%;}
+.sport-playbtn a:hover {
+  background:url(../images/shabaliji2.png);}
+html[language='vn'] .sport-playbtn a:hover {
+  background:url(../images/vn/shabaliji2.png);}
+
+.sport-playbtnkk {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 363px;
+  top: 143px;
+  background: url(../images/shabalijikk.png) 0 0 no-repeat;
+}
+.sport-playbtnkk a{display:block;width:100%;height:97%;}
+.sport-playbtnkk a:hover {
+  background:url(../images/shabaliji2.png);}
+html[language='vn'] .sport-playbtnkk a:hover {
+  background:url(../images/vn/shabaliji2.png);}
+
+.sport-playbtnCMD {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  background: url(../images/shabalijiCMD.png) 0 0 no-repeat;
+}
+.sport-playbtnCMD a{display:block;width:100%;height:97%;}
+.sport-playbtnCMD a:hover {
+  background:url(../images/shabaliji2.png);}
+html[language='vn'] .sport-playbtnCMD a:hover {
+  background:url(../images/vn/shabaliji2.png);}
+
+.sport-playbtnSUPER {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  /*left: 407px;
+  top: 208px;*/
+  left: 333px;
+  top: 92px;
+  background: url(../images/shabalijiSUPER.png) 0 0 no-repeat;
+}
+html[language='vn'] .sport-playbtnSUPER {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  /*left: 407px;
+  top: 208px;*/
+  left: 333px;
+  top: 92px;
+  background: url(../images/vn/shabalijiSUPER.png) 0 0 no-repeat;
+}
+.sport-playbtnSUPER a{display:block;width:100%;height:97%;}
+.sport-playbtnSUPER a:hover {
+  background:url(../images/shabaliji2.png);}
+html[language='vn'] .sport-playbtnSUPER a:hover {
+  background:url(../images/vn/shabaliji2.png);}
+
+.sport-guize{
+	width: 306px;
+	height: 77px;
+	position: absolute;
+	left: 77px;
+	top: 143px;
+	background-image: url(../images/guezheshuoming.png);
+	background-repeat:no-repeat;}
+
+	
+.sport-guize li{
+	width: 64px;
+	height: 24px;
+	float: right;
+	margin-top: 8px;
+	font-size: 13px;
+	text-align: center;
+	padding-bottom: 0;
+	padding-right: 21px;
+	padding-top: 0;
+}
+.fil{margin-right:25px;}
+	
+.sport-playbtn2 {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 935px;
+  top: 150px;
+  background: url(../images/lixinsports.png) 0 0 no-repeat;
+}
+html[language='en'] .sport-playbtn2 {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 935px;
+  top: 150px;
+  background: url(../images/en/lixinsports.png) 0 0 no-repeat;
+}
+html[language='vn'] .sport-playbtn2 {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 935px;
+  top: 150px;
+  background: url(../images/vn/lixinsports.png) 0 0 no-repeat;
+}
+html[language='th'] .sport-playbtn2 {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 935px;
+  top: 150px;
+  background: url(../images/th/lixinsports.png) 0 0 no-repeat;
+}
+
+.sport-playbtn2 a{display:block;width:100%;height:97%;}
+.sport-playbtn2 a:hover 
+{
+  background:url(../images/IPMtiyu2.png);
+}
+html[language='vn'] .sport-playbtn2 a:hover 
+{
+  background:url(../images/vn/IPMtiyu2.png);
+}
+html[language='en'] .sport-playbtn2 a:hover 
+{
+  background:url(../images/en/IPMtiyu2.png);
+}
+html[language='th'] .sport-playbtn2 a:hover 
+{
+  background:url(../images/th/IPMtiyu2.png);
+}
+
+.sport-playbtnBBIN {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/lixinsportsbbin.png) 0 0 no-repeat;
+}
+html[language='en'] .sport-playbtnBBIN {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/en/lixinsportsbbin.png) 0 0 no-repeat;
+}
+html[language='vn'] .sport-playbtnBBIN {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/vn/lixinsportsbbin.png) 0 0 no-repeat;
+}
+html[language='th'] .sport-playbtnBBIN {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/th/lixinsportsbbin.png) 0 0 no-repeat;
+}
+
+.sport-playbtnBBIN a{display:block;width:100%;height:97%;}
+.sport-playbtnBBIN a:hover 
+{
+  background:url(../images/shabaliji2.png);
+}
+html[language='vn'] .sport-playbtnBBIN a:hover 
+{
+  background:url(../images/vn/shabaliji2.png);
+}
+html[language='en'] .sport-playbtnBBIN a:hover 
+{
+  background:url(../images/en/shabaliji2.png);
+}
+html[language='th'] .sport-playbtnBBIN a:hover 
+{
+  background:url(../images/th/shabaliji2.png);
+}
+
+/*.sport-playbtnm8 {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 970px;
+  top: 90px; 
+  background: url(../images/lixinsportsm8.png) 0 0 no-repeat;
+}
+html[language='en'] .sport-playbtnm8{
+    width: 203px;
+    height: 46px;
+    position: absolute;
+    left: 970px;
+    top: 90px; 
+    background: url(../images/en/lixinsportsm8.png) 0 0 no-repeat;
+}
+html[language='vn'] .sport-playbtnm8{
+    width: 203px;
+    height: 46px;
+    position: absolute;
+    left: 970px;
+    top: 90px; 
+    background: url(../images/vn/lixinsportsm8.png) 0 0 no-repeat;
+}
+.sport-playbtnm8 a{display:block;width:100%;height:97%;}
+.sport-playbtnm8 a:hover {
+  background:url(../images/IPMtiyu2.png);}
+html[language='vn'] .sport-playbtnm8 a:hover {
+  background:url(../images/vn/IPMtiyu2.png);}*/
+
+.sport-playbtnCRSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 970px;
+  top: 90px; 
+  background: url(../images/CRSPORT.png) 0 0 no-repeat;
+}
+html[language='en'] .sport-playbtnCRSPORT{
+    width: 203px;
+    height: 46px;
+    position: absolute;
+    left: 970px;
+    top: 90px; 
+    background: url(../images/en/CRSPORT.png) 0 0 no-repeat;
+}
+html[language='th'] .sport-playbtnCRSPORT{
+    width: 203px;
+    height: 46px;
+    position: absolute;
+    left: 970px;
+    top: 90px; 
+    background: url(../images/th/CRSPORT.png) 0 0 no-repeat;
+}
+.sport-playbtnCRSPORT a{display:block;width:100%;height:97%;}
+.sport-playbtnCRSPORT a:hover {
+  background:url(../images/IPMtiyu2.png);}
+html[language='en'] .sport-playbtnCRSPORT a:hover {
+  background:url(../images/en/IPMtiyu2.png);}
+html[language='th'] .sport-playbtnCRSPORT a:hover {
+  background:url(../images/th/IPMtiyu2.png);}
+
+.sport-playbtnSB {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 969px;
+  top: 95px;
+  background: url(../images/sb.png) 0 0 no-repeat;
+}
+html[language='en'] .sport-playbtnSB {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 967px;
+  top: 90px;
+  background: url(../images/en/sb.png) 0 0 no-repeat;
+}
+html[language='vn'] .sport-playbtnSB {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 967px;
+  top: 90px;
+  background: url(../images/vn/sb.png) 0 0 no-repeat;
+}
+html[language='th'] .sport-playbtnSB {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 967px;
+  top: 90px;
+  background: url(../images/th/sb.png) 0 0 no-repeat;
+}
+.sport-playbtnSB a{display:block;width:100%;height:97%;}
+.sport-playbtnSB a:hover 
+{
+  background:url(../images/sb01.png);
+}
+html[language='vn'] .sport-playbtnSB a:hover 
+{
+  background:url(../images/vn/sb01.png);
+}
+html[language='en'] .sport-playbtnSB a:hover 
+{
+  background:url(../images/en/sb01.png);
+}
+html[language='th'] .sport-playbtnSB a:hover 
+{
+  background:url(../images/th/sb01.png);
+}
+
+.sport-playbtnOBSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  background: url(../images/OBSPORT.png) 0 0 no-repeat;
+}
+html[language='en'] .sport-playbtnOBSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  background: url(../images/en/OBSPORT.png) 0 0 no-repeat;
+}
+html[language='vn'] .sport-playbtnOBSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  background: url(../images/vn/OBSPORT.png) 0 0 no-repeat;
+}
+html[language='th'] .sport-playbtnOBSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  background: url(../images/th/OBSPORT.png) 0 0 no-repeat;
+}
+.sport-playbtnOBSPORT a{display:block;width:100%;height:98%;}
+.sport-playbtnOBSPORT a:hover 
+{
+  background:url(../images/OBSPORT01.png);
+}
+html[language='vn'] .sport-playbtnOBSPORT a:hover 
+{
+  background:url(../images/vn/OBSPORT01.png);
+}
+html[language='en'] .sport-playbtnOBSPORT a:hover 
+{
+  background:url(../images/en/OBSPORT01.png);
+}
+html[language='th'] .sport-playbtnOBSPORT a:hover 
+{
+  background:url(../images/th/OBSPORT01.png);
+}
+
+.sport-guize2{
+	width: 307px;
+	height: 63px;
+	position: absolute;
+	left: 738px;
+	top: 143px;
+	background-image: url(../images/guezheshuoming2.png);
+	background-repeat:no-repeat;}
+.sport-guize2 li{
+	width: 64px;
+	height: 24px;
+	margin-top: 8px;
+	font-size: 13px;
+	float: left;
+	text-align: center;
+	padding-left: 21px;
+}
+.fil2{margin-left:25px;}	
+	
+.sport-playbtnYLSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/YLSPORT.png) 0 0 no-repeat;
+}
+html[language='en'] .sport-playbtnYLSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/en/YLSPORT.png) 0 0 no-repeat;
+}
+html[language='vn'] .sport-playbtnYLSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/vn/YLSPORT.png) 0 0 no-repeat;
+}
+html[language='th'] .sport-playbtnYLSPORT {
+  width: 203px;
+  height: 46px;
+  position: absolute;
+  left: 333px;
+  top: 92px;
+  background: url(../images/th/YLSPORT.png) 0 0 no-repeat;
+}
+
+.sport-playbtnYLSPORT a{display:block;width:100%;height:97%;}
+.sport-playbtnYLSPORT a:hover 
+{
+  background:url(../images/shabaliji2.png);
+}
+html[language='vn'] .sport-playbtnYLSPORT a:hover 
+{
+  background:url(../images/vn/shabaliji2.png);
+}
+html[language='en'] .sport-playbtnYLSPORT a:hover 
+{
+  background:url(../images/en/shabaliji2.png);
+}
+html[language='th'] .sport-playbtnYLSPORT a:hover 
+{
+  background:url(../images/th/shabaliji2.png);
+}

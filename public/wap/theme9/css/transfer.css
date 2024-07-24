@@ -1,0 +1,34 @@
+#transfer .content {
+    margin: 15px;
+    background: #fff;
+    border-radius:4px;
+}
+.transfer-lists {width: 100%;margin-top: 20px;}
+.transfer-lists tbody tr {display: inline-block;width: 100%;border: 1px solid #aeafb1;border-bottom:0px}
+.transfer-lists tbody tr td {padding: 10px;display: block;}
+.transfer-lists .btntwo{display:inline-block;width:50%;text-align:right;float:right;}
+    .transfer-lists button {
+        margin-left: 10px;
+        width: 42%;
+        height: 31px;
+        border: none;
+        background: #337ab7;
+        color: #fff;
+        border-radius: 4px;
+        position: relative;
+        top: -4px;
+        font-size: 12px;
+    }
+.transfer-lists img {width: 30px;margin-left: 6px;}
+ .transfer-lists td b {margin-left: 10px;font-weight: normal;color:#f52313;}
+.transfer-lists img.add {
+        animation: myfirst 1s infinite;
+    }
+
+@keyframes myfirst
+{
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+.transfer-twochoose p{border-bottom:1px solid #ccc;}
+.transfer-twochoose p:last-child{border:none}

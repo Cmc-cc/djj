@@ -1,0 +1,406 @@
+/* color and special images style */
+/* white themes */
+body { color: #333;}
+
+header.mui-bar-nav a.mui-icon-bars { color: #fff; }
+header.mui-bar-nav .btn-login { background-color: #1dc28e; border: 1px solid #1dc28e; }
+header.mui-bar-nav .btn-demo { background-color: #00BCD4; border: 1px solid #00BCD4; }
+header.mui-bar-nav .btn-register { background-color: #f0af01; border: 1px solid #f0af01; }
+header.mui-bar-nav .mui-action-back { color: #fff; }
+
+.mui-bar-nav { background: #1b75d9; -webkit-box-shadow: none; box-shadow: none; }
+
+.deposit_2 .deposit_2_top {background-color: #1b75d9;}
+
+.yjym { color: #fff; background: #4698f3; border-top: 1px solid #98cfff; }
+
+.mui-title { color: #fff; }
+
+.mui-content.home-content { background: #fff; }
+.mui-content.promo-record-content { background: #f2f2f2; }
+
+/* notice */
+.notice { background: #fff; }
+.notice .btn-title { background: #168df6; border: 1px solid #168df6; }
+.notice .notice-list a { color: #333; }
+
+/* nav */
+.nav { background: #fff url(../images/nav-bg.png) 0 0/100% 60px repeat-x; border-top: 1px solid #d1d1d1; position: relative; }
+.nav:after { content: ''; position: absolute; height: 1px; background: #d1d1d1; bottom: 4px; left: 0; right: 0; }
+.nav .swiper-slide { color: #333; position: relative; }
+.nav .swiper-slide.swiper-slide-active:after { content: ''; position: absolute; top: 0; left: 50%; margin-left: -37px; z-index: 1; width: 74px; height: 70px; background: url(../images/nav-item-active-bg.png) center top/74px 66px no-repeat; }
+
+/* api-grid */
+.api-grid .mui-grid-view.mui-grid-9 { padding: 0 5px; border-top: 0; border-left: 0; background-color: #fff; }
+.api-grid .api-item { background: url(../images/api-bg.png) no-repeat center/70px; }
+.api-grid .api-item:after { background: rgba(255, 255, 255, 0.3); }
+.api-grid .mui-grid-view.mui-grid-9 .mui-table-view-cell a { background: #f2f2f2; }
+.api-grid ul[data-list="lottery"] .lottery-nav { color: #333; border-bottom: 1px solid #fff; }
+.api-grid ul[data-list="lottery"] .lottery-nav ul { background: transparent; }
+.api-grid ul[data-list="lottery"] .lottery-nav li .mui-tab-item { color: #333; border-bottom: 1px solid transparent; }
+.api-grid ul[data-list="lottery"] .lottery-nav li .mui-tab-item.mui-active { border-bottom: 1px solid #168df6; }
+
+/* mui-bar-footer */
+.mui-bar-tab { background: #c2c2c2; border-top: 1px solid #b3b3b3; }
+.mui-bar-tab .mui-tab-label { color: #666; }
+.mui-bar-tab .mui-active .mui-tab-label { color: #007aff; }
+.mui-bar-tab .mui-active .mui-icon {/*图标选中时放大13% */
+    zoom: 113%;
+}
+/* mui-off-canvas-left */
+.mui-off-canvas-left { background: #444; }
+.mui-off-canvas-left .person-info { background: url(../images/off-canvas-sep.png) center bottom/100% 1px no-repeat; }
+.mui-off-canvas-left .person-info .un-login p { color: #fff; }
+.mui-off-canvas-left .person-info .un-login .btn-login { background: #eda527; border: 1px solid #eda527; }
+.mui-off-canvas-left .person-info .login p { color: #fff; }
+.mui-off-canvas-left .person-info .btn-person { background: #31955e; border: 1px solid #31955e; }
+.mui-off-canvas-left .side-nav li { border-left: 3px solid transparent; background: transparent; }
+.mui-off-canvas-left .side-nav li.active { border-left: 3px solid #445dc2; background: #333; }
+.mui-off-canvas-left .side-nav li a { color: #fff; }
+.mui-off-canvas-left .btn-logout { background: #eda527; border: 1px solid #eda527; }
+
+/* lang-menu */
+.lang-menu { background: #333; }
+
+/* page promo */
+.promo .p-t-slide-content { color: #333; }
+
+.promo-header { border-bottom: 1px solid #ccc; }
+
+/* login and register page */
+.type-header { border-bottom: 1px solid #fff; }
+
+.login-content { background: #f2f2f2; }
+
+.login .user-img { background: url(../images/main/login-user.png) center no-repeat/100px, linear-gradient(#1b75d9, #1b75d9); width: 100px; height: 100px; border-radius: 100%; box-shadow: 3px 5px 15px 6px rgba(27, 117, 217, 0.25); margin: 20px auto; }
+.login .login-form a.btn { display: block; text-align: center; height: 40px; line-height: 40px; border-radius: 2px; }
+.login .login-form a.btn-mobile {
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    background-color: #1b75d9;
+    padding: 0px;
+    margin: 0px;
+}
+.login .login-form .btn-login { background: #1b75d9; color: #fff; margin-bottom: 15px; }
+.login .login-form .btn-regist { color: #1b75d9; border: 1px solid #1b75d9; }
+
+/* mine page */
+.mine-content { background: #efefef; }
+.mine-content .user-info-wrap { background: #1b75d9; }
+.mine-content .user-info-wrap .gb-userinfo { background: #fff; }
+
+.mui-bar-mine { -webkit-box-shadow: none !important; box-shadow: none !important; }
+
+/* index-login-info */
+.login-info { /*background: url(../images/icon-open-offcanvas.png) no-repeat right center/5px;*/ color: #fff; }
+
+/* nots deficiency */
+.deficiency-nots { background: #fff; text-align: center; padding: 15px 10px; margin: 5px; border-radius: 6px; word-break: break-word; font-size: 14px; }
+
+/* loading */
+.loading-wrap { background: fff; }
+.loading-wrap:after { content: ""; display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); z-index: 2002; }
+.loading-wrap .loading-img { position: absolute; z-index: 2003; left: 50%; top: 50%; text-align: center; -webkit-transform: translate3d(-50%, -50%, 0) scale(1); transform: translate3d(-50%, -50%, 0) scale(1); }
+.loading-wrap .loading-img img { vertical-align: middle; }
+.loading-wrap .loading-entirety { background: rgba(255, 255, 255, 0.95); width: 64px; height: 64px; line-height: 63px; border-radius: 12px; }
+.loading-wrap .loading-entirety img { width: 48px; }
+
+/* index-login-info */
+.login-info .money { background: url(../images/icon-wallet.png) no-repeat 0 2px/10px; }
+.login-info .ex { border: 1px solid #ccc; box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2); background-color: #fff; }
+.login-info .ex hr { border-bottom: 1px solid #f2f2f2; }
+.login-info .ex table tr td { color: #333; }
+.login-info .ex .bar-asset { padding-right: 0; color: #1b75d9; }
+.login-info .ex .bar-wallet { color: #0ec392; }
+.login-info .ex .zzc, .login-info .ex .qb { background: #1b75d9; white-space: nowrap; color: #fff; display: inline-block; line-height: 1; text-align: center; padding: 4px 5px; border-radius: 3px; }
+.login-info .ex .qb { background: #0ec392; }
+.login-info .ex .ct p .go.btn-refresh { background: #1b75d9; }
+.login-info .ex .ct p .go.btn-deposit { background: #0ec392; }
+
+.ball-pulse.api-div div { background-color: #333; }
+
+.casino-game-type .g-t-slide-indicators { border-bottom: 1px solid #ddd; }
+.casino-game-type .g-t-slide-indicators .swiper-slide-active { color: #0088fe; border-bottom: 1px solid #0088fe; }
+
+.icon-message { background: url(../images/main/icon-message.png) no-repeat center; background-size: 20px auto; }
+
+.icon-gift { background: url(../images/main/icon-gift.png) no-repeat center; background-size: 20px auto; }
+
+.casino-list-bar .mui-icon-back { color: #fff; }
+
+.load-body { background: #1b75d9; }
+.load-body .mui-progressbar.mui-progressbar-infinite:before { background: #1b75d9; }
+
+body.withdraw .gb-form-foot .submit { border: 1px solid #1b75d9; background-color: #1b75d9 !important; }
+body.withdraw .account_tab .mui-segmented-control { border: 1px solid #1b75d9; }
+body.withdraw .account_tab .mui-segmented-control .mui-control-item { border-color: #1b75d9 !important; border-left: 1px solid #1b75d9 !important; color: #1b75d9; }
+body.withdraw .account_tab .mui-segmented-control .mui-active { background-color: #1b75d9 !important; color: #fff !important; }
+
+.mui-btn-blue, .mui-btn-primary, input[type=submit] { color: #fff; border: 1px solid #1b75d9; background-color: #1b75d9; }
+
+.nav .swiper-slide.swiper-slide-active::before {
+    zoom: 118%;
+}
+.mine-bet-record-body .gb-datafilter .btn-ss { background: #1b75d9; border-color: #1b75d9; }
+
+.mine-cash-record-body .gb-datafilter .btn-kx { background: #1b75d9; border-color: #1b75d9; }
+
+.promo-detail-content .gb-imgs > .ct ul li > .ct h5 span { background-color: #1b75d9; }
+
+body.exchange-account .gb-headtabs .mui-segmented-control { border-color: #1b75d9; }
+body.exchange-account .gb-headtabs .mui-segmented-control .mui-control-item { border-color: #1b75d9; border-left: #1b75d9; }
+body.exchange-account .gb-headtabs .mui-segmented-control .mui-active { background: #1b75d9 !important; }
+
+.pro-btn .next-btn { background: #1b75d9; }
+
+.pro-window h3 { color: #1b75d9; }
+
+body.exchange-bitcoin .tit { background-color: #1b75d9; }
+
+body.exchange-wechat .tit { background-color: #1b75d9; }
+
+.promo-apply-content .promo_status .btn_cust_serv { background: #1b75d9; border-color: #1b75d9; }
+
+.btn-wrap .btn-blo { background: #1b75d9; border-color: #1b75d9; }
+
+.cod-btn-wrap .mui-btn { background: #1b75d9; border-color: #1b75d9; }
+
+.bit-wallet .bit_bind_wrap .btn_wrap .btn_bind { background: #1b75d9; border-color: #1b75d9; color: #fff; }
+
+.promo-apply-content.promo-apply3-content .btn_apply { background: #1b75d9; border-color: #1b75d9; color: #fff; }
+
+body.mine-notice .gb-headtabs .mui-segmented-control { border-color: #1b75d9; }
+body.mine-notice .gb-headtabs .mui-segmented-control .mui-control-item { border-color: #1b75d9; }
+body.mine-notice .gb-headtabs .mui-segmented-control .mui-active { background: #1b75d9 !important; }
+body.mine-notice .gb-datafilter .btn { background-color: #1b75d9; border-color: #1b75d9; }
+body.mine-notice .gb-noticetabs .mui-segmented-control .mui-control-item.mui-active { background-color: #1b75d9; }
+
+.mui-content.home-content {background: #fff;}
+/*# sourceMappingURL=style.css.map */
+/***************************手机号码登录**************************/
+.login-form .sendcodes{display:none;}
+/*******************************手机号注册**********************/
+#register_content .mui-btn-primary{color:#fff;}
+.reg-mobile {
+    float:right;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #007aff;
+    display:block;
+}
+
+.login-form .form-ipt .reg-code, .login-form .reg-code {
+    padding: 9px 6px;
+    border: none;
+    background: #007aff;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 31px;
+    right: 1px;
+}
+#sendCodeLi{display:none;position:relative}
+    #sendCodeLi .gb-vcode {
+        position: absolute;
+    right: 0px;
+    top: 4px;
+    }
+.login-form .form-ipt .reg-code.disabledcode {
+    background: #ccc;
+}
+.login-form .forget-pas {
+    display: block;
+    height: 40px;
+    margin-bottom: 10px;
+}
+/********************************返水*************************************/
+.backwater{text-align:right;margin:10px 10px 10px 0;}
+.backwater button{width:120px;height:40px;background:#1b75d9;color:#fff;border:none;border-radius:6px;}
+/**********************弹框****************************************/
+.notice-dialog{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.3);z-index:99999;}
+.notice-dialog.show{display:block;}
+.notice-dialog.hide{display:none;}
+.notice-content.show{transform:translate(0px,0px); transition:transform 1s}
+.notice-content.hide{transform:translate(0px,-700px);; transition:transform 1s}
+.notice-content{width:90%;margin:5% auto 0 auto;background:#fff;box-shadow: 0 3px 9px rgba(0,0,0,.5);border-radius:6px;position:relative}
+.notice-header button{float:right;margin-right:6px;font-size: 20px;font-weight: 700; line-height: 1;color: #000;text-shadow: 0 1px 0 #fff;opacity: .2;}
+.notice-header p{font-size: 20px;padding:30px 0px 20px 20px;border-bottom:1px solid #e5e5e5}
+.notice-list {padding:20px 20px 10px 20px;height:300px;overflow-y:auto}
+.notice-list li {white-space: pre-line;word-break: break-all;padding: 8px 0;border-bottom: 1px dotted #aaa;font-size:14px;line-height:25px;}
+.notice-footer{text-align: right;border-top: 1px solid #e5e5e5;height:50px;line-height:50px;}
+.notice-footer button {
+        color: #333;
+        background-color: #fff;
+        border:1px solid #ccc ;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right:10px;
+}
+.notice-swiper {
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    margin-left: 50px
+}
+/***************************老带新详情****************************/
+.oldwithnew-list {
+    margin: 10px auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+}
+.oldwithnew-list li{width:50%;float:left;text-align:center;}
+.oldwithnew-list li.active{background:#007aff;color:#fff;}
+.oldwithnew-p {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 28px auto;
+    border-radius: 4px;
+}
+#articles .oldwithnew-p p {
+    padding:10px 0;
+    width: 49%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+#articles .oldwithnew-p p:first-child{border:none}
+#articles .oldwithnew-p p b{display:block;font-size:22px}
+#articles .oldwithnew-p p:last-child b{color:red}
+.oldwithnew-url label{display:inline-block;width:80px;text-align:right;margin-right:10px}
+.oldwithnew-url img{width:200px;height:200px;vertical-align:top}
+.oldwithnew-url .downImg {
+    margin-top:10px;
+    border: none;
+    background: none;
+    color: #fff;
+    background: #007aff;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+table.pagetab{width:100%;}
+#articles table th, #articles table td{padding:6px 10px;color:#333}
+table.pagetab tr td{padding:6px 10px;color:#333;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    word-break: break-all;
+    word-wrap: break-word;}
+table.pagetab tr td:last-child{overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 30%;}
+#mailbox b{float:right;margin-right:15px;font-size:14px;color:red;}
+.message-yuedu{margin-bottom:10px;}
+.message-yuedu button {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+#mesageContent table #notice td:last-child {
+    overflow: auto;
+    white-space: normal;
+}
+#mesageContent table td img{width:26px;margin-left:6px;}
+/********公告详情**********/
+#newsBags li img.notice {
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+}
+
+#newsBags li img.more {
+    width: 15px;
+    vertical-align: 5px;
+}
+
+#newsBags li span {
+    display: inline-block;
+    width: 83%;
+    padding: 0 8px;
+}
+.show {
+    display: block !important;
+}
+.hide {
+    display: none !important;
+}
+.text-hide {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    color: #333 !important;
+}
+
+.modal-announcement-content {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+#announcement-content .modal-announcement-content > .mac-title {
+    padding: 15px 10px;
+    color: #fff;
+    text-align: center;
+    word-break: break-all;
+    background: #1b75d9;
+}
+.modal-announcement-content > .mac-body {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 116px;
+    overflow: auto;
+}
+.announcement-content-color p {
+    color: #fff;
+    padding: 0 10px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.modal-announcement-content > .mac-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(51,51,51,.7);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.fa-reply {
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-top: -13px;
+}
+.fa-times {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: -10px;
+}

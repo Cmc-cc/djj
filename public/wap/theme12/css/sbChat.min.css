@@ -1,0 +1,96 @@
+#sbChat {
+    z-index: 10000;
+    position: fixed;
+    width: 350px;
+    height: 500px;
+    right: 10px;
+    bottom: 10px;
+}
+
+    #sbChat iframe {
+        border: none;
+        width: 350px;
+        height: 500px;
+    }
+
+    #sbChat.sbMobileView {
+        height: 50%;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-transform: translate(0) !important;
+        transform: translate(0) !important;
+    }
+
+        #sbChat.sbMobileView.sbChatMobileView_portrait.kbdOpen {
+            top: 56px;
+            height: calc(100% - 56px);
+        }
+
+        #sbChat.sbMobileView.sbChatMobileView_landscape.kbdOpen {
+            top: 0;
+            height: 100%;
+        }
+
+        #sbChat.sbMobileView iframe {
+            height: 100%;
+            width: 100%;
+        }
+
+        #sbChat.sbMobileView #sbChatDraggable {
+            display: none;
+            pointer-events: none;
+        }
+
+#sbChatMinimized {
+    z-index: 10000;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 40px;
+    bottom: 40px;
+}
+
+    #sbChatMinimized #sbChatMinimizedMessage, #sbChatMinimized #sbChatMinimizedIdle {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #1db954;
+        border-radius: 50%;
+    }
+
+        #sbChatMinimized #sbChatMinimizedMessage:after, #sbChatMinimized #sbChatMinimizedIdle:after {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -10px;
+            margin-left: -10px;
+            content: '';
+            height: 20px;
+            width: 20px;
+            
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+    #sbChatMinimized #sbChatMinimizedMessage {
+        background-color: #fff;
+    }
+
+        #sbChatMinimized #sbChatMinimizedMessage:after {
+            
+        }
+
+#sbChatDraggable {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50px;
+    height: 50px;
+    cursor: move;
+}
+
+.sbHidden {
+    display: none;
+}

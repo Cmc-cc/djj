@@ -1,0 +1,49 @@
+
+body{background: #f0f0f0;font-size: 15px;}
+.mui-grid-view.mui-grid-9{background: #fff;border-top: 1px solid #e9e9e9;border-left:none;border-bottom:  1px solid #e9e9e9;}
+.mui-content{background: #f0f0f0;}
+.mui-grid-view.mui-grid-9 img{width: 100%;}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn){padding: 0;}
+.mui-table-view.mui-grid-view .mui-table-view-cell{font-size: 14px;width: 25%;}
+.mui-table-view.mui-grid-view .mui-table-view-cell div{font-size: 13px;color: #222;}
+.index-meg{height: 36px;line-height: 36px;background: #fff;border-bottom: 1px solid #dcdcdc;margin-bottom: 10px;}
+.index-meg span{display: block;float: left;width: 40px;background: url(../images/main/lk_text_home_notice.png) no-repeat 100% 100%;background-size: cover;height: 36px;}
+.index-meg marquee{float: left;height: 30px;width: calc(100% - 40px);}
+.mui-bar-nav{box-shadow: none;border-bottom: 1px solid #d3d3d3;}
+.mui-bar-nav.index-fixed{width: 100%;height: 84px;padding: 0px;}
+.index-gonggao{margin-top: 15px;}
+.index-fixed .mui-grid-view.mui-grid-9 img{width:34px;}
+.index-fixed .mui-grid-view.mui-grid-9{border: none;background: none;}
+.index-fixed .mui-grid-view.mui-grid-9 .mui-table-view-cell{border: none;}
+.index-fixed .mui-grid-view.mui-grid-9 .mui-table-view-cell div{font-size: 12px;color: #222;}
+.mui-bar-tab .mui-tab-item .mui-icon-extra{display: block;position: relative;top: 3px;}
+.mui-bar-tab .mui-tab-item .mui-tab-label{font-size: 11px;}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{padding: 10px;}
+.mui-btn-blue,.mui-btn-primary,input[type=submit]{border: none;}
+.mui-btn-blue.mui-active:enabled, .mui-btn-blue:enabled:active, .mui-btn-primary.mui-active:enabled, .mui-btn-primary:enabled:active, input[type=submit].mui-active:enabled, input[type=submit]:enabled:active{border: none;}
+.mui-input-row label,.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea{font-size: 14px;}
+.mui-input-group .mui-input-row.login-yzm input{width: 52%;}
+.mui-input-group .mui-input-row.login-yzm img{margin-top: -35px;
+    cursor: pointer;
+    position: absolute;
+    z-index:100;
+    right: 0;}
+.mui-input-group .mui-input-row.login-yzm .mui-icon-clear{right: 70px;}
+/*********************************登陆模板**********************/
+.mui-content{height: 100%;}
+.area {margin: 20px auto 0px auto;}
+.mui-input-group {margin-top: 10px;}
+.mui-input-group:first-child {margin-top: 20px;}
+.mui-input-group label {width: 27%;}
+.mui-input-row label~input,.mui-input-row label~select,.mui-input-row label~textarea {width: 70%;float: left;}
+.mui-checkbox input[type=checkbox],.mui-radio input[type=radio] {top: 6px;}
+.mui-content-padded {margin-top: 25px;}
+.mui-btn {padding: 10px;}
+.link-area {display: block;margin-top: 25px;text-align: center;}
+.spliter {color: #bbb;padding: 0px 8px;}
+.oauth-area {position: absolute;bottom: 20px;left: 0px;text-align: center;width: 100%;padding: 0px;margin: 0px;}
+.oauth-area .oauth-btn {display: inline-block;width: 50px;height: 50px;background-size: 30px 30px;background-position: center center;background-repeat: no-repeat;margin: 0px 20px;border: solid 1px #ddd;border-radius: 25px;}
+.oauth-area .oauth-btn:active {border: solid 1px #aaa;}
+.oauth-area .oauth-btn.disabled {background-color: #ddd;}
+.area {margin: 20px auto 0px auto;}
+.mui-input-group:first-child {margin-top: 20px;}

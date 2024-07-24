@@ -1,0 +1,140 @@
+body {
+    background: #f5f5f5;
+}
+.module-main .main-container {
+    margin-bottom:43px;
+}
+.detail-form {
+    min-height: calc(100vh - 230px);
+    overflow-y: auto;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff;
+}
+
+    .detail-form .top-section {
+        position: relative;
+        padding: 15px 25px;
+        border-bottom: 1px solid #ccc;
+    }
+
+        .detail-form .top-section p {
+            margin: 0;
+            color: #999;
+            font-size: 13px;
+        }
+
+            .detail-form .top-section p span {
+                color: #999;
+            }
+
+            .detail-form .top-section p.title {
+                margin-bottom: 5px;
+                color: #666;
+                font-size: 18px;
+                word-break: break-all;
+            }
+
+        .detail-form .top-section i {
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            font-size: 25px;
+        }
+
+    .detail-form .form-section {
+        padding: 15px 25px;
+    }
+
+    .detail-form .recommend-section {
+        margin-bottom: 15px;
+    }
+
+        .detail-form .recommend-section > div {
+            display: inline-block;
+            min-width: 30%;
+            margin: 0 3% 3% 0;
+            padding: 0 6px;
+            vertical-align: top;
+            line-height: 34px;
+            text-align: center;
+            word-break: break-all;
+            border: 1px solid #999;
+            border-radius: 5px;
+        }
+
+            .detail-form .recommend-section > div.selected {
+                border-color: transparent;
+            }
+
+    .detail-form .error-tip {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+    .detail-form .point-section {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+        .detail-form .point-section .form-group {
+            margin: 0;
+        }
+
+        .detail-form .point-section .control-label {
+            width: 30%;
+            margin: 0 10px 0 0;
+            font-weight: normal;
+            text-align: right;
+        }
+
+        .detail-form .point-section .control-div {
+            display: inline-block;
+            width: 60%;
+        }
+
+    .detail-form button {
+        display: block;
+        width: 100%;
+        padding: 0;
+        font-size: 16px;
+        line-height: 33px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+    }
+
+        .detail-form button.custom-deposit-bg {
+            background-color: #435b7e;
+            color:#fff;
+        }
+
+        .detail-form button[disabled] {
+            opacity: .6;
+        }
+
+    .detail-form .btn-back {
+        margin-top: 15px;
+        color: #797979;
+        background-color: #fff;
+        border: 1px solid #ccc;
+    }
+
+    .detail-form .reg-form .kjinput div {
+        display: inline-block;
+        min-width: 28%;
+        margin: 9px 1.5%;
+        padding: 0 6px;
+        vertical-align: top;
+        line-height: 34px;
+        text-align: center;
+        word-break: break-all;
+        border: 1px solid #4f5978;
+        border-radius: 5px;
+    }
+
+        .detail-form .reg-form .kjinput div.active {
+            background: #4f5978;
+            border-color: #4f5978;
+            color: #fff;
+        }

@@ -1,0 +1,700 @@
+/* Minification failed. Returning unminified contents.
+(384,33): run-time error CSS1039: Token not allowed after unary operator: '-page-text'
+(385,44): run-time error CSS1039: Token not allowed after unary operator: '-page-bg'
+(401,42): run-time error CSS1039: Token not allowed after unary operator: '-page-bg'
+(462,25): run-time error CSS1039: Token not allowed after unary operator: '-page-text'
+(499,28): run-time error CSS1039: Token not allowed after unary operator: '-page-title-bg'
+(511,21): run-time error CSS1039: Token not allowed after unary operator: '-page-title-text'
+ */
+.panel {
+    background-color:#f9f9f9;
+}
+#content {
+    padding-top: 44px;
+    height: calc(100% - 104px);
+    overflow: scroll;
+}
+#content.container {
+    padding-top: 0px;
+    min-height: 590px;
+    background-color: #FFF;
+    height: calc(100% - 60px);
+}
+#financial {
+    /*padding: 15px;*/
+    text-align: center;
+    height: calc(100vh - 131px);
+    overflow-y: scroll;
+}
+
+#financial .list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#financial .list li {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 78px;
+    vertical-align: top;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+#financial .list li:active {
+    text-decoration: underline;
+}
+
+#financial .list li a {
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 25px 0 0 80px;
+    color: inherit;
+    text-decoration: none;
+}
+
+#financial .list li a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 73px;
+    height: 78px;
+}
+
+#financial .word-break {
+    word-break: break-all;
+}
+
+.table tbody > tr > td.vert-align {
+    vertical-align: middle;
+}
+
+#form-group-amount {
+    position: relative;
+}
+
+.input-group {
+    position: static;
+}
+/* #region custom tooltip */
+
+.custom-tooltip {
+    position: absolute;
+    left: 9%;
+    bottom: -3px;
+    z-index: 1;
+    width: 100%;
+}
+
+.tooltipshow {
+    position: absolute;
+    z-index: 999 !important;
+    width: 80%;
+    padding: 5px;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border: 1px solid;
+    border-color: #faebcc #faebcc #faebcc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+.tooltipshowarrow_int {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 1000;
+    display: block;
+    border: 8px solid;
+    border-color: #fcf8e3 transparent;
+    border-top-width: 0;
+    -moz-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.07);
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.07);
+}
+
+.tooltipshowarrow_out {
+    position: absolute;
+    top: -1px;
+    left: 20px;
+    z-index: 999;
+    display: block;
+    border: 8px solid;
+    border-top-width: 0;
+    border-color: #faebcc transparent;
+    -moz-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.07);
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.07);
+}
+/* #endregion custom tooltip */
+
+/*#region pad */
+@media (min-width:768px) {
+    #financial .list li {
+        width: 200px;
+        margin: 4%;
+        font-size: 18px;
+    }
+}
+
+@media (min-width:320px) {
+    .form-horizontal .control-label {
+        padding-top: 7px;
+    }
+}
+
+/* #endregion pad */
+
+.deposit-highlight {
+    color: #f00 !important;
+}
+
+/* #region Form */
+#financial .Form .payment-list {
+    margin-bottom: 60px;
+}
+
+#financial .Form .payment-list .payment-tip {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#financial .Form .payment-list > div {
+    position: relative;
+    padding: 15px 30px 15px 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    border-top: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
+    border-bottom: 1px solid #bcbcbc;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#financial .Form .payment-list > div p {
+    margin: 0;
+    color: #999;
+    font-size: 13px;
+}
+
+#financial .Form .payment-list > div p.title {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+#financial .Form .payment-list > div i {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    font-size: 20px;
+}
+
+#financial .Form .payment-list > div.default i {
+    color: #ccc;
+}
+
+#financial .Form .payment-list > div.selected {
+    border-width: 2px;
+    border-left-width: 5px;
+}
+
+#financial .Form .payment-list > div.selected i {
+    display: block;
+}
+
+#financial .payment-detail {
+    margin: -15px;
+}
+
+#financial .payment-detail .detail-form {
+    min-height: calc(100vh - 230px);
+    overflow-y: auto;
+    font-size: 15px;
+    text-align: left;
+    background-color: #fff;
+}
+
+#financial .payment-detail .detail-form .top-section {
+    position: relative;
+    padding: 22px 25px 5px 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+#financial .payment-detail .detail-form .top-section p {
+    margin: 0;
+    color: #999;
+    font-size: 13px;
+}
+#financial .payment-detail .detail-form .top-section p span {
+    color: #999;
+}
+
+#financial .payment-detail .detail-form .top-section p.title {
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 15px;
+    word-break: break-all;
+}
+
+#financial .payment-detail .detail-form .top-section i {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 25px;
+}
+
+#financial .payment-detail .detail-form .form-section {
+    padding: 15px 25px;
+}
+
+#financial .payment-detail .detail-form .recommend-section {
+    margin-bottom: 15px;
+}
+
+#financial .payment-detail .detail-form .recommend-section > div {
+    display: inline-block;
+    min-width: 30%;
+    margin: 0 3% 3% 0;
+    padding: 0 6px;
+    vertical-align: top;
+    line-height: 34px;
+    text-align: center;
+    word-break: break-all;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+#financial .payment-detail .detail-form .recommend-section > div.selected {
+    border-color: transparent;
+}
+
+#financial .payment-detail .detail-form .error-tip {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#financial .payment-detail .detail-form .point-section {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+#financial .payment-detail .detail-form .point-section .form-group {
+    margin: 0;
+}
+
+#financial .payment-detail .detail-form .point-section .control-label {
+    width: 30%;
+    margin: 0 10px 0 0;
+    font-weight: normal;
+    text-align: right;
+}
+
+#financial .payment-detail .detail-form .point-section .control-div {
+    display: inline-block;
+    width: 60%;
+}
+
+#financial .payment-detail .detail-form button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+#financial .payment-detail .detail-form button.custom-deposit-bg {
+    background-color: #fb2564;
+}
+
+#financial .payment-detail .detail-form button[disabled] {
+    opacity: .6;
+}
+
+#financial .payment-detail .detail-form .btn-back {
+    margin-top: 15px;
+    color: #797979;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+/* #endregion Form */
+
+/* #region DTPP */
+#financial .DTPPPay .qrcode {
+    max-width: 80%;
+}
+/* #endregion DTPP */
+
+[ng-cloak] {
+    display: none !important;
+}
+
+/* #region financial-layout-component */
+financial-layout-component {
+    display: block;
+}
+
+financial-layout-component .tab-section {
+    border-bottom: none;
+}
+
+financial-layout-component .tab-section ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px 0 0;
+    font-size: 0;
+    list-style: none;
+    text-align: left;
+}
+
+financial-layout-component .tab-section ul:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,.5);
+}
+
+financial-layout-component .tab-section ul li {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+financial-layout-component .tab-section ul li + li:after {
+    content: '|';
+    position: absolute;
+    top: 0;
+    left: -1.5px;
+    opacity: .4;
+    font-size: 12px;
+    line-height: 45px;
+    color: #fff;
+}
+
+financial-layout-component .tab-section ul li span {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    vertical-align: top;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+financial-layout-component .tab-section ul li.active span {
+    /*color: var(--page-text);*/
+    color: #fff;
+    background-color: #08090b;
+    border: 1px solid rgba(255,255,255,.5);
+    border-bottom: none;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+financial-layout-component .tab-section ul li.active span:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--page-bg);
+}
+
+financial-layout-component .tab-section ul li i.note {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    height: 21px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 21px;
+    white-space: nowrap;
+    background: #e70c0c;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 1px 1px 5px rgba(0,0,0,.4);
+    -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,.4);
+    box-shadow: 1px 1px 5px rgba(0,0,0,.4);
+    z-index: 200;
+}
+
+financial-layout-component .tab-section ul li i.note.toggle-color {
+    color: #fffc00;
+}
+
+financial-layout-component .tab-section ul li i.note:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 0;
+    border-color: #be0c0c transparent transparent transparent;
+}
+
+financial-list-component {
+    display: block;
+    padding: 15px;
+}
+
+financial-list-component ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    text-align: left;
+}
+
+financial-list-component ul li {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 78px;
+    vertical-align: top;
+    margin: 10px 0;
+    color: var(--page-text);
+    font-size: 13px;
+    float:left;
+}
+
+financial-list-component ul li:active {
+    text-decoration: underline;
+}
+
+financial-list-component ul li a {
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 25px 0 0 80px;
+    color: inherit;
+    text-decoration: none;
+}
+financial-list-component ul li a span {
+    color: #504747;
+}
+financial-list-component ul li a:hover,
+financial-list-component ul li a:focus {
+    color: inherit;
+    outline: none;
+}
+
+financial-list-component ul li a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 73px;
+    height: 78px;
+}
+
+financial-recommend-component {
+    position: relative;
+    display: block;
+    margin: 15px 15px 0;
+    padding: 10px 5px 10px 15px;
+    background-color: #2c2c2c;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.8);
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+financial-recommend-component .recommend-content {
+    max-height: 40px;
+    color: #FFF;
+    line-height: 20px;
+    overflow: hidden;
+    -moz-transition: max-height .6s !important;
+    -o-transition: max-height .6s !important;
+    -webkit-transition: max-height .6s !important;
+    transition: max-height .6s !important;
+}
+
+financial-recommend-component .recommend-content p {
+    margin: 0;
+    word-break: break-all;
+    white-space: pre-line;
+    font-size:0.35rem;
+}
+
+financial-recommend-component .recommend-content.more {
+    /* �̦h���10�� */
+    max-height: 200px;
+    overflow: auto;
+}
+
+financial-recommend-component .recommend-content .show-more {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    font-size: 22px;
+}
+
+financial-recommend-component .recommend-content .show-more i {
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+@media (max-width:320px) {
+    financial-layout-component .tab-section ul li i.note {
+        left: 3px;
+        -moz-transform: scale(.85);
+        -ms-transform: scale(.85);
+        -o-transform: scale(.85);
+        -webkit-transform: scale(.85);
+        transform: scale(.85);
+    }
+}
+/* #endregion financial-layout-component */
+
+span{
+    color: #FFF;
+}
+.page-title{
+    background: linear-gradient(to bottom, #424242 0,#1d1d1d 100%);
+}
+#zxDepositTitle li {
+    display: none;
+}
+#mgmChongZhi li, #gschongzhi li {
+    display: none;
+}
+#page-title {
+    height: 70px;
+    font-size: 22px;
+    line-height: 70px;
+    letter-spacing: 2px;
+    text-align: center;
+    background: linear-gradient(to bottom, #424242 0,#1d1d1d 100%);
+    color: #fff;
+}
+
+/*************在线支付**************/
+#bankList .tongdao-item {
+    width: 100%;
+    background: rgba(77, 92, 91, 0.2);
+    margin-top: 10px;
+    border-radius: 4px;
+    height: 55px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+#bankList .tongdao-item img {
+    width: 46%;
+    height:66%;
+    vertical-align: middle;
+    margin: 10px;
+    float: left;
+    display: inline-block;
+}
+#bankList .tongdao-item input {
+    width: 20px;
+    height: 20px;
+    margin-top: 19px;
+    float: left;
+}
+#bankList .tongdao-item span {
+    color: #5c5656;
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.input-group {
+    position: static;
+    display: table;
+    border-collapse: separate;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 1%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.input-group .form-control {
+    display: table-cell;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 90%;
+    margin-bottom: 0;
+    height: 37px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.input-section p {
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-family: Arial, 'Microsoft Jhenghei';
+}
+.reg-form {
+    margin-top:20px;
+}
+/********在线取款*********/
+iframe.zxWithdraw {
+    width: 100%;
+    min-height: 415px;
+}
+#app .view {
+    padding-top:unset;
+}
+.btn-kjActive {
+    background-color: #19191a;
+    color: #FFF;
+}
+

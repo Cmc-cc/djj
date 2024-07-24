@@ -1,0 +1,423 @@
+.live-container{
+  position: relative;
+  overflow: hidden;
+  height: 652px;
+}
+.live-container .live-main {
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg.jpg) 0 0 no-repeat;
+    position: relative;
+}
+.live-main {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.live-bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2020px;
+  height: 794px;
+  margin-left: -1010px;
+  z-index: 0;
+  background-size: 100% 100%;
+}
+.live-scene {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 21;
+  perspective: 1000px;
+}
+.live-scene .layer {
+  backface-visibility: hidden;
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0px;
+}
+.live-item {
+  position: absolute;
+}
+.live-item05 {
+    width: 970px;
+    height: 610px;
+    background: url(../images/peo01.png) 0 0 no-repeat;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+}
+.live-item06-1 {
+  left: -268px;
+  top: 8px;
+}
+.live-item06-2 {
+  left: 8px;
+  top: -125px;
+}
+.live-item06-4 {
+  left: 648px;
+  top: 98px;
+}
+.live-item01-h {
+  background: url("../images/girlw_1.png") 0 0 no-repeat;
+}
+.live-item02-h {
+  background: url("../images/girlw_2.png") 0 0 no-repeat;
+}
+.live-item03-h {
+  background: url("../images/girlw_3.png") 0 0 no-repeat;
+}
+.live-item04-h {
+  background: url("../images/girlw_4.png") 0 0 no-repeat;
+}
+.live-item05-h {
+  background: url("../images/girlw_5.png") 0 0 no-repeat;
+}
+.live-item07-h {
+  background: url("../images/girlw_7.png") 0 0 no-repeat;
+}
+.live-title01 {
+  width: 140px;
+  height: 68px;
+  background: url("../images/ebet.png") 0 0 no-repeat;
+}
+.live-title02 {
+  width: 126px;
+  height: 68px;
+  background: url("../images/PT.png") 0 0 no-repeat;
+}
+.live-title03 {
+  width: 126px;
+  height: 68px;
+  background: url("../images/ag.png") 0 0 no-repeat;
+}
+.live-title04 {
+  width: 127px;
+  height: 68px;
+  background: url("../images/mg.png") 0 0 no-repeat;
+}
+.live-title05 {
+  width: 129px;
+  height: 68px;
+  background: url("../images/lixinlive.png") 0 0 no-repeat;
+}
+.live-title06 {
+  width: 140px;
+  height: 77px;
+  background: url("../images/og1.png") 0 0 no-repeat;
+}
+.live-title07 {
+  width: 140px;
+  height: 77px;
+  background: url("../images/ALLBET.png") 0 0 no-repeat;
+}
+.btn-liveplay {
+  width: 138px;
+  height: 42px;
+  background: url("../images/play.png") 0 0 no-repeat;
+}
+.live-title,
+.btn-liveplay {
+  margin: 0 auto;
+}
+.live-title {
+  margin-bottom: 4px;
+}
+.live-area:hover {
+  transform: translateY(-6px);
+}
+.live-area02 {
+  position: absolute;
+  left: 208px;
+  top: 345px;
+}
+.live-area03 {
+  position: absolute;
+  left: 431px;
+  top: 421px;
+}
+.live-area04 {
+  position: absolute;
+  left: 646px;
+  top: 349px;
+}
+.live-area05 {
+  position: absolute;
+  left: 841px;
+  top: 293px;
+}
+.live-area06 {
+  position: absolute;
+  left: 1029px;
+  top: -62px;
+}
+.live-area07 {
+  position: absolute;
+  left: 841px;
+  top: 293px;
+}
+.live-bottom .bottom-info-main .bottom-info {
+  width: auto;
+  margin: 0 30px 0 0;
+}
+.live-bottom .browser-tip {
+  padding: 0;
+  font-size: 12px;
+  color: #b79436;
+  white-space: nowrap;
+}
+.live-bottom .browser-tip span {
+  font-size: 12px;
+  color: red;
+}
+.live-bottom .browser-list {
+  float: none;
+  *width: 100%;
+}
+.live-bottom .browser-list li {
+  float: left;
+  font-size: 0;
+  width: 33.3%;
+  line-height: 1;
+}
+.live-bottomline {
+  height: 3px;
+  background: url("../images/00.jpg") 0 0 repeat-x;
+}
+.live-bottom .bottom-info-main .bottom-info.first {
+  width: 326px;
+}
+div.spinningDots div.loadingDot {
+  background: #29F7D0 !important;
+}
+.loadingTracker {
+  text-align: center;
+  margin: -25px 0 0 -53px;
+  display: none;
+}
+.loading .loadingTracker {
+  display: block;
+}
+.gameinfo-list {
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+.gameinfo-list li {
+  float: left;
+}
+.gameinfo-list li .icon {
+  margin-bottom: 3px;
+}
+.gameinfo-list li a {
+  color: #EBEBEB;
+}
+.gameinfo-list li a:hover {
+  color: #FFF;
+}
+.icon-gameinfoDT {
+  width: 73px;
+  height: 62px;
+  background: url("../images/08.png") 0 0 no-repeat;
+}
+.icon-gameinfoRL {
+  width: 73px;
+  height: 62px;
+  background: url("../images/09.png") 0 0 no-repeat;
+}
+.icon-gameinfoSB {
+  width: 73px;
+  height: 62px;
+  background: url("../images/010.png") 0 0 no-repeat;
+}
+.icon-gameinfoBC {
+  width: 73px;
+  height: 62px;
+  background: url("../images/011.png") 0 0 no-repeat;
+}
+.live-area02 {
+  position: absolute;
+  left: 158px;
+  top: 95px;
+  height: 529px;
+}
+.live-area03 {
+  position: absolute;
+  left: 520px;
+  top: 138px;
+  height: 487px;
+}
+.live-area04 {
+  position: absolute;
+  left: 696px;
+  top: 114px;
+  height: 511px;
+}
+.live-area05 {
+  position: absolute;
+  left: 841px;
+  top: 0;
+  height: 630px;
+}
+.live-area07{
+  position: absolute;
+  left: 331px;
+  top: 138px;
+  height: 487px;
+}
+.live-area01_in {
+  margin-top: 279px;
+}
+.live-area02_in {
+  margin-top: 250px;
+}
+.live-area03_in {
+  margin-top: 291px;
+}
+.live-area04_in {
+  margin-top: 245px;
+}
+.live-area05_in {
+  margin-top: 293px;
+}
+.live-area07_in {
+  margin-top: 283px;
+}
+
+.live-game-btns-wrap{
+  position: absolute;
+  top: 440px;
+  left: 0;
+  z-index: 22;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.live-game-btns-wrap .game-btns{
+  background: url(../images/btnbg.png) no-repeat;
+  width: 170px;
+  height: 170px;
+  display: inline-block;
+  margin: 0 -14px;
+  position: relative;
+  transition: all .3s;
+  transform: scale(.8);
+}
+
+.live-game-btns-wrap .game-btns:hover{
+  transform: scale(1);
+}
+.live-game-btns-wrap .game-btns::before{
+  display: block;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.live-game-btns-wrap2{
+  position: absolute;
+  top: 330px;
+  left: 0;
+  z-index: 22;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.live-game-btns-wrap2 .game-btns{
+  background: url(../images/btnbg.png) no-repeat;
+  width: 170px;
+  height: 170px;
+  display: inline-block;
+  margin: 0 -14px;
+  position: relative;
+  transition: all .3s;
+  transform: scale(.8);
+}
+
+.live-game-btns-wrap2 .game-btns:hover{
+  transform: scale(1);
+}
+.live-game-btns-wrap2 .game-btns::before{
+  display: block;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.live-game-btns-wrap2 .game-btns.ebet::before{
+  background-image: url(../images/ebet.png);
+}
+
+.live-game-btns-wrap2 .game-btns.ag::before{
+  background-image: url(../images/ag.png);
+}
+
+.live-game-btns-wrap2 .game-btns.allbet::before{
+  background-image: url(../images/ALLBET.png);
+  background-position: center -3px;
+  background-size: contain;
+}
+
+.live-game-btns-wrap2 .game-btns.lixin::before{
+  background-image: url(../images/wm_logo.svg);
+  background-size: 50% 50%;
+}
+
+.live-game-btns-wrap2 .game-btns.lixin-ui::before{
+  background-image: url(../images/wm_logo2.svg);
+  background-size: 60% 60%;
+}
+
+.live-game-btns-wrap .game-btns.mg::before{
+  background-image: url(../images/mg.png);
+}
+
+.live-game-btns-wrap .game-btns.pt::before{
+  background-image: url(../images/PT.png);
+}
+
+.live-game-btns-wrap2 .game-btns.og1::before{
+  background-image: url(../images/og1.png);
+}
+
+.live-game-btns-wrap2 .game-btns.SA::before{
+  background-image: url(../images/SA.png);
+}
+
+.live-game-btns-wrap2 .game-btns.SB::before{
+  background-image: url(../images/SB.png);
+}
+
+.live-game-btns-wrap2 .game-btns.DG::before {
+  background-image: url(../images/DGlive.png);
+}
+
+.live-game-btns-wrap2 .game-btns.mg::before {
+  background-image: url(../images/mg.png);
+}
+
+.live-game-btns-wrap2 .game-btns.SEXYLIVE::before {
+  background-image: url(../images/SEXYLIVE.png);
+  background-size: 70% 50%;
+}
+
+.live-game-btns-wrap2 .game-btns.EVO::before {
+  background-image: url(../images/EVO.png);
+  background-size: 70% 50%;
+}

@@ -1,0 +1,829 @@
+/* wechat qr ICON */
+
+.recharge-tab-btns .recharge-item-btns.wechat {
+    background: #FFF url(../fonts/add_i131.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* WechatMobile ICON */
+
+.recharge-tab-btns .recharge-item-btns.WechatMobile {
+    background: #FFF url(../fonts/add_i701.svg) center/auto 50% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.WechatMobile.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.WechatMobile.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* wechat ICON*/
+
+.recharge-tab-btns .recharge-item-btns.wechat-icon {
+    background: #FFF url(../fonts/add_i101.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-icon.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-icon.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* wechat公眾號 */
+
+.recharge-tab-btns .recharge-item-btns.wechat-public {
+    background: #FFF url(../fonts/add_i151.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-public.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-public.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* wechat公眾號 (M) */
+
+.recharge-tab-btns .recharge-item-btns.wechat-public-m {
+    background: #FFF url(../fonts/add_i171.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-public-m.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-public-m.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* wechat公眾號 (R) */
+
+.recharge-tab-btns .recharge-item-btns.wechat-public-r {
+    background: #FFF url(../fonts/add_i181.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-public-r.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechat-public-r.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* 支付寶 QR ICON */
+
+.recharge-tab-btns .recharge-item-btns.alipay {
+    background: #FFF url(../fonts/add_i141.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.alipay.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.alipay.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 支付寶h5 ICON */
+
+.recharge-tab-btns .recharge-item-btns.AlipayMobile {
+    background: #FFF url(../fonts/add_i801.svg) center/auto 50% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayMobile.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayMobile.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+
+/* 支付寶轉帳 ICON */
+
+.recharge-tab-btns .recharge-item-btns.AlipayTransfer {
+    background: #FFF url(../fonts/add_i201.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayTransfer.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayTransfer.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 網銀 ICON */
+
+.recharge-tab-btns .recharge-item-btns.web {
+    background: #FFF url(../fonts/add_i401.svg) center/auto 53% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.web.active::before {
+    border: 2px solid #005bac;
+}
+
+.recharge-tab-btns .recharge-item-btns.web.active::after {
+    background: url(../fonts/tick/add_t005.svg) right bottom/auto 50% no-repeat
+}
+
+/* QQ 錢包 */
+
+.recharge-tab-btns .recharge-item-btns.qq {
+    background: #FFF url(../fonts/add_i501.svg) center/auto 56% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.qq.active::before {
+    border: 2px solid #15a0ff;
+}
+
+.recharge-tab-btns .recharge-item-btns.qq.active::after {
+    background: url(../fonts/tick/add_t006.svg) right bottom/auto 50% no-repeat
+}
+
+/* QQ H5 */
+
+.recharge-tab-btns .recharge-item-btns.qqh5 {
+    background: #FFF url(../fonts/add/add2_i154.svg) center/auto 56% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.qqh5.active::before {
+    border: 2px solid #15a0ff;
+}
+
+.recharge-tab-btns .recharge-item-btns.qqh5.active::after {
+    background: url(../fonts/tick/add_t006.svg) right bottom/auto 50% no-repeat
+}
+
+/* QQ qr */
+
+.recharge-tab-btns .recharge-item-btns.QQ {
+    background: #FFF url(../fonts/add/add2_i264.svg) center/auto 56% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.QQ.active::before {
+    border: 2px solid #15a0ff;
+}
+
+.recharge-tab-btns .recharge-item-btns.QQ.active::after {
+    background: url(../fonts/tick/add_t006.svg) right bottom/auto 50% no-repeat
+}
+
+/* 快捷 */
+
+.recharge-tab-btns .recharge-item-btns.fast {
+    background: #FFF url(../fonts/add_i121.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.fast.active::before {
+    border: 2px solid #00baae;
+}
+
+.recharge-tab-btns .recharge-item-btns.fast.active::after {
+    background: url(../fonts/tick/add_t007.svg) right bottom/auto 50% no-repeat
+}
+
+/* 銀聯掃碼 */
+
+.recharge-tab-btns .recharge-item-btns.UnionpayQR {
+    background: #FFF url(../fonts/add_i161.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.UnionpayQR.active::before {
+    border: 2px solid #00baae;
+}
+
+.recharge-tab-btns .recharge-item-btns.UnionpayQR.active::after {
+    background: url(../fonts/tick/add_t007.svg) right bottom/auto 50% no-repeat
+}
+
+/* 銀聯H5 */
+
+.recharge-tab-btns .recharge-item-btns.union-pay-h5 {
+    background: #FFF url(../fonts/add/add2_i244.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.union-pay-h5.active::before {
+    border: 2px solid #00baae;
+}
+
+.recharge-tab-btns .recharge-item-btns.union-pay-h5.active::after {
+    background: url(../fonts/tick/add_t007.svg) right bottom/auto 50% no-repeat
+}
+
+/* 京東 ICON */
+
+.recharge-tab-btns .recharge-item-btns.jd{
+    background: #FFF url(../fonts/add/add2_i254.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.jd.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.jd.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 京東H5 */
+
+.recharge-tab-btns .recharge-item-btns.JingdongMobile{
+    background: #FFF url(../fonts/add/add2_i404.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.JingdongMobile.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.JingdongMobile.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 京東掃碼 */
+
+.recharge-tab-btns .recharge-item-btns.JingdongScanCode{
+    background: #FFF url(../fonts/add/add2_i304.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.JingdongScanCode.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.JingdongScanCode.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 雲閃付 */
+
+.recharge-tab-btns .recharge-item-btns.YunShanPay{
+    background: #FFF url(../fonts/add/add2_i904.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.YunShanPay.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.YunShanPay.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 微信小程序 */
+
+.recharge-tab-btns .recharge-item-btns.WechatMina{
+    background: #FFF url(../fonts/add/add2_i903.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.WechatMina.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.WechatMina.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* 原生支付寶H5 */
+
+.recharge-tab-btns .recharge-item-btns.NativeAlipayH5{
+    background: #FFF url(../fonts/add/add2_i902.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.NativeAlipayH5.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.NativeAlipayH5.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 線上支付碼 */
+
+.recharge-tab-btns .recharge-item-btns.OnlineQR{
+    background: #FFF url(../fonts/add/add2_i901.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.OnlineQR.active::before {
+    border: 2px solid #005bac;
+}
+
+.recharge-tab-btns .recharge-item-btns.OnlineQR.active::after {
+    background: url(../fonts/tick/add_t005.svg) right bottom/auto 50% no-repeat
+}
+
+/* 電話卡支付 */
+
+.recharge-tab-btns .recharge-item-btns.PhoneCard{
+    background: #FFF url(../fonts/add/add2_i901.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.PhoneCard.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.PhoneCard.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 存款 */
+
+.recharge-tab-btns .recharge-item-btns.Deposit{
+    background: #FFF url(../fonts/add_i301.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.Deposit.active::before {
+    border: 2px solid #dcb454;
+}
+
+.recharge-tab-btns .recharge-item-btns.Deposit.active::after {
+    background: url(../fonts/tick/add_t004.svg) right bottom/auto 50% no-repeat
+}
+
+/* 越南金流 */
+
+.recharge-tab-btns .recharge-item-btns.VNQR{
+    background: #FFF url(../fonts/add/add2_i930.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.VNQR.active::before {
+    border: 2px solid #005bac;
+}
+
+.recharge-tab-btns .recharge-item-btns.VNQR.active::after {
+    background: url(../fonts/tick/add_t005.svg) right bottom/auto 50% no-repeat
+}
+
+/* ATM ICON */
+
+.recharge-tab-btns .recharge-item-btns.ATM {
+    background: #FFF url(../fonts/add/add2_i905.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.ATM.active::before {
+    border: 2px solid #dcb454;
+}
+
+.recharge-tab-btns .recharge-item-btns.ATM.active::after {
+    background: url(../fonts/tick/add_t004.svg) right bottom/auto 50% no-repeat
+}
+
+/* 網路ATM ICON */
+
+.recharge-tab-btns .recharge-item-btns.WebATM {
+    background: #FFF url(../fonts/add/add2_i908.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.WebATM.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.WebATM.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 超商代碼 ICON */
+
+.recharge-tab-btns .recharge-item-btns.MerchantCode {
+    background: #FFF url(../fonts/add/add2_i906.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.MerchantCode.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.MerchantCode.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 超商條碼 ICON */
+
+.recharge-tab-btns .recharge-item-btns.MerchantBarcode {
+    background: #FFF url(../fonts/add/add2_i907.svg) center/auto 66% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.MerchantBarcode.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.MerchantBarcode.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 支付寶轉支付寶 ICON */
+
+.recharge-tab-btns .recharge-item-btns.AlipayToAlipay {
+    background: #FFF url(../fonts/add/add2_i913.png) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayToAlipay.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayToAlipay.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 轉數快 ICON */
+
+.recharge-tab-btns .recharge-item-btns.FPS {
+    background: #FFF url(../fonts/add/add2_i910.png) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.FPS.active::before {
+    border: 2px solid #005bac;
+}
+
+.recharge-tab-btns .recharge-item-btns.FPS.active::after {
+    background: url(../fonts/tick/add_t005.svg) right bottom/auto 50% no-repeat
+}
+
+/* 門店入現金 ICON */
+
+.recharge-tab-btns .recharge-item-btns.Cash {
+    background: #FFF url(../fonts/add/add2_i912.png) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.Cash.active::before {
+    border: 2px solid #dcb454;
+}
+
+.recharge-tab-btns .recharge-item-btns.Cash.active::after {
+    background: url(../fonts/tick/add_t004.svg) right bottom/auto 50% no-repeat
+}
+
+/* PAYME ICON */
+
+.recharge-tab-btns .recharge-item-btns.PAYME {
+    background: #FFF url(../fonts/add/add2_i909.png) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.PAYME.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.PAYME.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 銀行轉賬/入鈔機 ICON */
+
+.recharge-tab-btns .recharge-item-btns.BankTransfer {
+    background: #FFF url(../fonts/add/add2_i911.png) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.BankTransfer.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.BankTransfer.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 支付寶QR碼 ICON */
+
+.recharge-tab-btns .recharge-item-btns.AlipayQRpay {
+    background: #FFF url(../fonts/add_i141.svg) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayQRpay.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayQRpay.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 公司入款 */
+
+.recharge-tab-btns .recharge-item-btns.CompanyBank{
+    background: #3c424e url(../fonts/add/add2_i914.png) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.CompanyBank.active::before {
+    border: 2px solid #e71958;
+}
+
+.recharge-tab-btns .recharge-item-btns.CompanyBank.active::after {
+    background: url(../images/add_i403.png) no-repeat 100% 100%;
+    background-size: cover;
+}
+
+/* Qrcode */
+
+.recharge-tab-btns .recharge-item-btns.qrcode {
+    background: #FFF url(../fonts/add_i901.svg) center/auto 56% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.qrcode.active::before {
+    border: 2px solid #5bbe13;
+}
+
+.recharge-tab-btns .recharge-item-btns.qrcode.active::after {
+    background: url(../fonts/tick/add_t002.svg) right bottom/auto 50% no-repeat
+}
+
+/* 其他 ICON */
+
+.recharge-tab-btns .recharge-item-btns.other {
+    background: #FFF url(../fonts/add_i301.svg) center/auto 70% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.other.active::before {
+    border: 2px solid #dcb454;
+}
+
+.recharge-tab-btns .recharge-item-btns.other.active::after {
+    background: url(../fonts/tick/add_t004.svg) right bottom/auto 50% no-repeat
+}
+
+/* 支付寶群紅包 ICON */
+
+.recharge-tab-btns .recharge-item-btns.AlipayReds {
+    background: #FFF url(../fonts/add/add2_i916.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayReds.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayReds.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* MOMO ICON */
+
+.recharge-tab-btns .recharge-item-btns.MOMO {
+    background: #FFF url(../fonts/add/add2_i917.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.MOMO.active::before {
+    border: 2px solid #e60012;
+}
+
+.recharge-tab-btns .recharge-item-btns.MOMO.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 银行扫码 ICON */
+
+.recharge-tab-btns .recharge-item-btns.BankScan {
+    background: #FFF url(../fonts/add/add2_i920.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.BankScan.active::before {
+    border: 2px solid #00baae;
+}
+
+.recharge-tab-btns .recharge-item-btns.BankScan.active::after {
+    background: url(../fonts/tick/add_t007.svg) right bottom/auto 50% no-repeat
+}
+
+/* ZALO ICON */
+
+.recharge-tab-btns .recharge-item-btns.ZALO {
+    background: #FFF url(../fonts/add/add2_i918.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.ZALO.active::before {
+    border: 2px solid #005bac;
+}
+
+.recharge-tab-btns .recharge-item-btns.ZALO.active::after {
+    background: url(../fonts/tick/add_t005.svg) right bottom/auto 50% no-repeat
+}
+
+/* VIETTELPAY ICON */
+
+.recharge-tab-btns .recharge-item-btns.VIETTELPAY {
+    background: #FFF url(../fonts/add/add2_i919.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.VIETTELPAY.active::before {
+    border: 2px solid #00baae;
+}
+
+.recharge-tab-btns .recharge-item-btns.VIETTELPAY.active::after {
+    background: url(../fonts/tick/add_t007.svg) right bottom/auto 50% no-repeat
+}
+
+/* USDT ICON */
+
+.recharge-tab-btns .recharge-item-btns.USDT {
+    background: #FFF url(../fonts/add/add2_i921.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.USDT.active::before {
+    border: 2px solid #00a478;
+}
+
+.recharge-tab-btns .recharge-item-btns.USDT.active::after {
+    background: url(../fonts/tick/add_t001.svg) right bottom/auto 50% no-repeat
+}
+
+/* Paytm Wallet ICON */
+
+.recharge-tab-btns .recharge-item-btns.PaytmWallet {
+    background: #3c424e url(../fonts/add/add2_i922.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.PaytmWallet.active::before {
+    border: 2px solid #e71958;
+}
+
+.recharge-tab-btns .recharge-item-btns.PaytmWallet.active::after {
+    background: url(../fonts/tick/add_t005.svg) right bottom/auto 50% no-repeat
+}
+
+/* Paytm UPI ICON */
+
+.recharge-tab-btns .recharge-item-btns.PaytmUPI {
+    background: #3c424e url(../fonts/add/add2_i924.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.PaytmUPI.active::before {
+    border: 2px solid #e71958;
+}
+
+.recharge-tab-btns .recharge-item-btns.PaytmUPI.active::after {
+    background: url(../fonts/tick/add_t007.svg) right bottom/auto 50% no-repeat
+}
+
+/* PhonePe ICON */
+
+.recharge-tab-btns .recharge-item-btns.PhonePe {
+    background: #3c424e url(../fonts/add/add2_i923.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.PhonePe.active::before {
+    border: 2px solid #e71958;
+}
+
+.recharge-tab-btns .recharge-item-btns.PhonePe.active::after {
+    background: url(../fonts/tick/add_t008.svg) right bottom/auto 50% no-repeat
+}
+
+/* 泰國掃碼 ICON */
+
+.recharge-tab-btns .recharge-item-btns.THAIQR {
+    background: #FFF url(../fonts/add/add2_i929.png) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.THAIQR.active::before {
+    border: 2px solid #005bac;
+}
+
+.recharge-tab-btns .recharge-item-btns.THAIQR.active::after {
+    background: url(../fonts/tick/add_t005.svg) right bottom/auto 50% no-repeat
+}
+
+/* UPI ICON */
+
+.recharge-tab-btns .recharge-item-btns.UPI {
+    background: #3c424e url(../fonts/add/add2_i925.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.UPI.active::before {
+    border: 2px solid #dcb454;
+}
+
+.recharge-tab-btns .recharge-item-btns.UPI.active::after {
+    background: url(../fonts/tick/add_t004.svg) right bottom/auto 50% no-repeat
+}
+
+/* USDTBank ICON */
+
+.recharge-tab-btns .recharge-item-btns.USDTBank {
+    background: #FFF url(../fonts/add/add2_i921.svg) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.USDTBank.active::before {
+    border: 2px solid #00a478;
+}
+
+.recharge-tab-btns .recharge-item-btns.USDTBank.active::after {
+    background: url(../fonts/tick/add_t001.svg) right bottom/auto 50% no-repeat
+}
+
+/* 微信話費 ICON */
+
+.recharge-tab-btns .recharge-item-btns.WechatSmall {
+    background: #FFF url(../fonts/add/add2_i946.png) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.WechatSmall.active::before {
+    border: 2px solid #00a478;
+}
+
+.recharge-tab-btns .recharge-item-btns.WechatSmall.active::after {
+    background: url(../fonts/tick/add_t001.svg) right bottom/auto 50% no-repeat
+}
+
+/* 點數 ICON */
+
+.recharge-tab-btns .recharge-item-btns.Point {
+    background: #FFF url(../fonts/add/add2_i950.png) center/auto 60% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.Point.active::before {
+    border: 2px solid #00a478;
+}
+
+.recharge-tab-btns .recharge-item-btns.Point.active::after {
+    background: url(../fonts/tick/add_t001.svg) right bottom/auto 50% no-repeat
+}
+
+/* 支付寶群紅包 ICON */
+
+.recharge-tab-btns .recharge-item-btns.AlipayReds {
+    background: #FFF url(../fonts/add/add2_i947.png) center/auto 100% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayReds.active::before {
+    border: 2px solid #2594c9;
+}
+
+.recharge-tab-btns .recharge-item-btns.AlipayReds.active::after {
+    background: url(../fonts/tick/add_t003.svg) right bottom/auto 50% no-repeat
+}
+
+/* 微信群紅包 ICON */
+
+.recharge-tab-btns .recharge-item-btns.wechatReds {
+    background: #FFF url(../fonts/add/add2_i948.png) center/auto 100% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechatReds.active::before {
+    border: 2px solid #00a478;
+}
+
+.recharge-tab-btns .recharge-item-btns.wechatReds.active::after {
+    background: url(../fonts/tick/add_t001.svg) right bottom/auto 50% no-repeat
+}
+
+/* GCash ICON */
+
+.recharge-tab-btns .recharge-item-btns.GCash {
+    background: #3c424e url(../fonts/add/add2_i944.svg) center/auto 75% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.GCash.active::before {
+    border: 2px solid #e71958;
+}
+
+.recharge-tab-btns .recharge-item-btns.GCash.active::after {
+    background: url(../images/add_i403.png) no-repeat 100% 100%;
+    background-size: cover;
+}
+
+/* GrabPay ICON */
+
+.recharge-tab-btns .recharge-item-btns.GrabPay {
+    background: #3c424e url(../fonts/add/add2_i945.svg) center/auto 75% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.GrabPay.active::before {
+    border: 2px solid #e71958;
+}
+
+.recharge-tab-btns .recharge-item-btns.GrabPay.active::after {
+    background: url(../images/add_i403.png) no-repeat 100% 100%;
+    background-size: cover;
+}
+
+/* SLP ICON */
+
+.recharge-tab-btns .recharge-item-btns.SLP {
+    background: #3c424e url(../fonts/add/add2_i951.svg) center/auto 75% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.SLP.active::before {
+    border: 2px solid #00a478;
+}
+
+.recharge-tab-btns .recharge-item-btns.SLP.active::after {
+    background: url(../fonts/tick/add_t001.svg) right bottom/auto 50% no-repeat
+}
+
+/* 小額門店充值 ICON */
+
+.recharge-tab-btns .recharge-item-btns.SmallCash {
+    background: #FFF url(../fonts/add/add2_i955.png) center/auto 80% no-repeat;
+}
+
+.recharge-tab-btns .recharge-item-btns.SmallCash.active::before {
+    border: 2px solid #dcb454;
+}
+
+.recharge-tab-btns .recharge-item-btns.SmallCash.active::after {
+    background: url(../fonts/tick/add_t004.svg) right bottom/auto 50% no-repeat
+}

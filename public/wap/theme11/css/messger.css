@@ -1,0 +1,304 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+/*消息弹框、**/
+.modal {
+    left: 50%;
+    top: 50px;
+    position: fixed;
+    z-index: 9999;
+    display: none;
+    padding-bottom: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    background: #fff;
+    overflow: hidden;
+}
+
+.modal, .reveal-modal-bg:after {
+    vertical-align: middle;
+}
+
+    .modal .modal-hd h2 {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 15px 10px;
+        font-family: "Microsoft YaHei";
+        color: #01633c;
+    }
+
+    .modal .modal-close {
+        position: absolute;
+        right: 20px;
+        top: 19px;
+        background: url(../images/main/close.png) no-repeat;
+        width: 15px;
+        height: 14px;
+        cursor: pointer;
+    }
+
+        .modal .modal-close:active {
+            background-position: 0 -14px;
+        }
+
+    .modal .modal-content {
+        padding: 0 10px;
+        line-height: 20px;
+        max-height: 255px;
+        overflow-y: auto;
+    }
+
+    .modal h3 {
+        font: 15px/22px "Microsoft YaHei";
+        font-weight: normal;
+        padding: 10px 0 10px;
+    }
+
+    .modal .modal-content p {
+        margin: 5px 0;
+    }
+
+    .modal .tips {
+        color: #666;
+    }
+
+    .modal .forms-btn-g {
+        margin: 0;
+    }
+
+        .modal .forms-btn-g .btn-gray {
+            font-size: 12px;
+            font-weight: normal;
+            margin: 0 10px;
+        }
+
+    .modal .modal-btn a {
+        width: 100px;
+        display: inline-block;
+        text-align: center;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 14px;
+        margin: 20px 17px 0;
+    }
+
+        .modal .modal-btn a.btn-sub {
+            background: #019754;
+            background-image: linear-gradient(to top,#019754,#2bb673);
+            background-image: -webkit-linear-gradient(to top,#019754,#2bb673);
+            color: #fff;
+        }
+
+            .modal .modal-btn a.btn-sub:active, .items .join-btn a:active {
+                background: #00874b;
+                background-image: linear-gradient(to top,#00874b,#1fa464);
+                background-image: -webkit-linear-gradient(to top,#00874b,#1fa464);
+            }
+
+        .modal .modal-btn a.btn-close {
+            background: #eee;
+            background-image: linear-gradient(to top,#eee,#f8f8f8);
+            background-image: -webkit-linear-gradient(to top,#eee,#f8f8f8);
+            border: 1px solid #dcdcdc;
+            height: 24px;
+            line-height: 24px;
+        }
+
+.modal-promotion-detail {
+    height: 75%;
+    padding-bottom: 42px;
+}
+
+    .modal-promotion-detail .modal-content {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 100%;
+        max-height: 100%;
+    }
+
+        .modal-promotion-detail .modal-content ol li {
+            border: none;
+            margin: 5px 0;
+        }
+
+        .modal-promotion-detail .modal-content table td, .modal-promotion-detail .modal-content table th {
+            border: 1px solid #dcdcdc;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        .modal-promotion-detail .modal-content table p {
+            margin: 0;
+        }
+
+    .modal-promotion-detail .modal-btn {
+        background: #fff;
+        height: 42px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+        .modal-promotion-detail .modal-btn a {
+            background: #eee;
+            background-image: linear-gradient(to top,#eee,#f8f8f8);
+            background-image: -webkit-linear-gradient(to top,#eee,#f8f8f8);
+            border: 1px solid #dcdcdc;
+            width: 270px;
+            margin: 8px 10px;
+        }
+
+            .modal-promotion-detail .modal-btn a:active {
+                background: #ddd;
+                background-image: linear-gradient(to top,#ddd,#eee);
+                background-image: -webkit-linear-gradient(to top,#ddd,#eee);
+            }
+
+.modal-recycle h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.modal-platform .transfer-form {
+    margin: 10px 0 10px 26px;
+}
+
+    .modal-platform .transfer-form label {
+        font-size: 14px;
+    }
+
+    .modal-platform .transfer-form input {
+        width: 160px;
+        height: 18px;
+        line-height: 18px;
+        border: 1px solid #dcdcdc;
+        padding: 3px 5px;
+        margin-left: 5px;
+    }
+
+.to-pc {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+    .to-pc a {
+        display: block;
+    }
+
+        .to-pc a:active span {
+            color: #01633c;
+        }
+
+    .to-pc span {
+        text-decoration: underline;
+    }
+
+    .to-pc img {
+        vertical-align: 0px;
+        margin-left: 5px;
+    }
+
+.modal-platform .modal-hd h2 {
+    text-align: left;
+}
+
+.modal-platform .mod-forms li {
+    border: none;
+    line-height: 28px;
+}
+
+    .modal-platform .mod-forms li label {
+        width: 60px;
+    }
+
+.modal-platform .btn-deposit {
+    float: left;
+    display: inline;
+    margin: 2px 0 0 10px;
+    background: url(/images/btn_deposit_bg.png) no-repeat;
+    width: 51px;
+    height: 24px;
+    font-size: 12px;
+    color: #007922;
+    line-height: 24px;
+    padding-left: 17px;
+    cursor: pointer;
+}
+
+    .modal-platform .btn-deposit:hover {
+        background-position: 0 -24px;
+        color: #ff7800;
+    }
+
+.modal-platform .forms-btn-g a {
+    background: url(/images/common_spirits.png) repeat-x;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+    border: 0;
+}
+
+.modal-platform .forms-btn-g .btn-sub {
+    background-position: 0 0;
+    color: #fff;
+    margin-right: 15px;
+}
+
+    .modal-platform .forms-btn-g .btn-sub:hover, .modal-platform .forms-btn-g .btn-sub:active {
+        background-position: 0 -35px;
+    }
+
+.modal-platform .forms-btn-g .btn-reset {
+    background-position: 0 -70px;
+}
+
+    .modal-platform .forms-btn-g .btn-reset:hover, .modal-platform .forms-btn-g .btn-reset:active {
+        background-position: 0 -105px;
+    }
+    /*转账显示*/
+.dep-warnings, .dep-warning {
+    color: #012c1f;
+    text-align: center;
+}
+
+.dep-warnings {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+    .dep-warnings.red {
+        color: red;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+        .dep-warnings.red b {
+            font-size: 20px;
+        }
+
+.depcont-img {
+    text-align: center;
+}
+
+    .depcont-img img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }

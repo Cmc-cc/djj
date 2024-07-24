@@ -1,0 +1,129 @@
+.wrap{padding: 10px;font-size: 10px;margin-bottom: 70px}
+.wrap .nav{height: auto; text-align: center; padding-bottom: 10px}
+.wrap .nav select{width: 100%}
+.wrap table{background-color: #ddd; border-collapse: separate; border-spacing: 1px}
+.wrap table td{line-height: 25px; background-color: #fff; padding: 5px}
+.wrap .tit, .wrap .tic{color: #000; text-align: center; background-color: #e9e9e9}
+.wrap .tit{font-weight: bold}
+.wrap .tic td{background-color: #f6f6f6}
+.wrap .list{text-align: center}
+.wrap .list:hover td{background-color: #ffffa2}
+.wrap .bg{background-color: #f6f6f6}
+.wrap .mt10{margin-top: 10px}
+.wrap .c_blue{color: #0000ff}
+.wrap .c_red{color: red}
+.wrap .c_green{color: green}
+.wrap .c_gray{color: #999}
+.wrap .f_12{font-size: 12px}
+.wrap .f_b{font-weight: bold}
+.wrap .info{margin-top: 5px; padding: 0 5px; line-height: 25px}
+.wrap input{border: 1px solid #ddd; padding: 0 5px; border-radius: 2px}
+.wrap input[type="radio"]{vertical-align: -2px}
+.wrap select{height: 30px; line-height: 1; border: 1px solid #ddd; border-radius: 2px; cursor: pointer; background: url("../../images/dy/select.png") no-repeat right center; padding-right: 15px; appearance:none; -moz-appearance:none; -webkit-appearance:none}
+.wrap input:hover, .wrap input:focus, .wrap select:hover, .wrap select:focus{border: 1px solid #7eb4ea}
+.wrap button{cursor: pointer}
+.wrap hr{border: none; height: 1px; background-color: #ddd}
+.wrap .tab1, .wrap .page{width: 100%}
+.wrap .page{border-spacing: 0}
+.wrap .page td{padding: 0}
+.wrap .page a{margin: 0 3px; color: #38539a}
+.wrap .page a.current, .wrap .page a:hover{color: red}
+
+.userInfo .submit_btn {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    /*background: #f13130;*/
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    height: 35px;
+    line-height: 35px;
+    border: none !important;
+    color: #fff;
+}
+.text-center {
+    text-align: center;
+}
+
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+
+
+.userInfo dt {
+    font-size: 16px;
+    padding: 0 20px;
+    line-height: 35px;
+    background: #f6f7f9;
+    border-bottom: 1px solid #e3e3e3;
+}
+.setCard{
+    font-size: 15px;
+}
+.userInfo dl > dd {
+    background: #fff;
+}
+.setCard .set_card dt {
+    line-height: 20px;
+    padding: 10px 20px;
+}
+.userInfo dt {
+    font-size: 16px;
+    padding: 0 20px;
+    line-height: 35px;
+    background: #f6f7f9;
+    border-bottom: 1px solid #e3e3e3;
+}
+.userInfo dd {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+.userInfo input, .userInfo select, .userInfo textarea {
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    /*border: none;*/
+    border: 1px solid #ddd; padding: 0 5px; border-radius: 2px;
+    outline: none;
+    padding-left: 5px;
+
+}
+.setCard .set_card input {
+    border: 1px solid #6b6b6b;
+}
+.setCard .set_card dd div {
+    width: 25%;
+}
+dt {
+    font-weight: 700;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.userInfo .icon-angle-right {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -10px;
+}
+

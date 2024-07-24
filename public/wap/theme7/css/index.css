@@ -1,0 +1,373 @@
+.common-module-home .page-top-area{
+    background: linear-gradient(rgb(76,145,110),rgb(0,50,0));
+}
+.common-module-home .user-info .icon{
+    color: rgb(127,176,152);
+}
+.btn-primary{
+    background-color: rgb(63,137,100) !important;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{
+    background-color: rgb(25,113,69) !important;
+}
+.type-list-head.btn-primary{
+   background: linear-gradient(rgb(153,192,172),rgb(51,129,90));
+}
+.type-list-head.btn-primary:hover,.type-list-head.btn-primary:focus,.type-list-head.btn-primary:active{
+   background: linear-gradient(rgb(127,176,152),rgb(25,113,69));
+}
+.layout-bottom .main-menu-area > div > a:focus,.layout-bottom .main-menu-area > div > a:active{
+    color: rgb(51,129,90) !important;
+}
+.common-module-home .notice-area{
+    box-shadow: 1px 1px 8px rgb(102,160,131);
+}
+.common-module-home .notice-area .notice-icon{
+    color: rgb(76,145,110);
+}
+.common_style .module-top{
+    background: linear-gradient(rgb(76,145,110),rgb(0,50,0));
+}
+.module-main .list-group-item:nth-child(even), .modal-body .list-group-item:nth-child(even){
+    background-color: rgb(242,247,244);
+}
+.main-container.menu-area .list-group-item:active, .common-module-moreMenu .list-group-item:active, .sport-module-index .list-group-item .item-area:active, .member-module-recharge .list-group-item:active, .member-module-rechargeBank .list-group-item:active, .sport-module .rate-btn:active{
+    background-color: rgb(247,250,248);
+}
+.common_style .top-menu-area .active-tab{
+    background-color: rgb(51,129,90);
+}
+.module-main .panel-heading{
+    background-color: rgb(76,145,110);
+}
+.sport-module .team-info{
+    background-color: rgb(76,145,110);
+}
+.sport-module .team-h-txt, .sport-module .team-c-txt{
+    background-color: rgb(127,176,152);
+}
+.sport-module .match-item .rate-row:nth-child(even), .sport-result-module .rate-row:nth-child(even){
+    background-color: rgb(234,242,238);
+}
+.sport-module .match-item .rate-row > div, .sport-result-module .rate-row>div{
+    border-color:rgb(244,248,246);
+}
+.sport-result-module .common-container{
+    background-color: rgb(234,242,238);
+}
+.sport-result-module .common-container .txt-important{
+    border-left: 1px solid rgb(244,248,246);
+}
+.layout-bottom .money-menu .icon{
+    color: rgb(51,129,90);
+}
+.main-container.menu-area .list-group-item .glyphicon, .main-container.menu-area .list-group-item .fa{
+    color: rgb(102,160,131);
+}
+.btn.order-item:before{
+    color: rgb(102,160,131);
+}
+.member-module-login .form-group > label, .member-module-gestureSetting .form-group > label{
+    color: rgb(76,145,110);
+}
+.main-container.menu-area .member-info-area .member-info{
+    background-color: rgba(0,98,49,0.5);
+}
+.main-container.menu-area .member-info-area .more-info{
+    background-color: rgba(0,98,49,0.8);
+}
+.common-module-home .module-main{
+    background-color: rgb(242,247,244);
+}
+.top-container .dropdown-menu .menu-head{
+    background: linear-gradient(rgb(76,145,110),rgb(0,50,0));
+}
+.sport-module-index .module-main .list-group-item .item-area-active{
+    background-color: rgb(51,129,90);
+}
+
+.common-module-youhui .module-main .list-group-item{
+    background-color: rgb(229,239,234);
+}
+.common-module-youhui .module-main .list-group-item:nth-child(even){
+    background-color: rgb(229,239,234);
+}
+
+
+
+.member-module-login .right-menu .btn{
+    color: #fff !important;
+}
+.member-module-login .module-main{
+    background: linear-gradient(rgb(127,176,152),rgb(0,50,0));
+}
+.member-module-login .left-menu span{
+    color: #fff !important;
+}
+.common-module-dzp .module-main{
+    background: #f02d2f;
+}
+.ad-dialog-main .modal-header{
+    background: linear-gradient(rgb(127,176,152),rgb(0,50,0));
+    color: #fff;
+    border-bottom: none;
+    padding: 8px;
+}
+.ad-dialog-main .modal-content{
+    border-radius: 0;
+}
+.carousel-indicators li{
+    border-color: rgb(178,207,193) !important;
+}
+.carousel-indicators li.active{
+    background: rgb(178,207,193) !important;
+}
+/*******************************手机号注册**********************/
+.reg-mobile {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    display:block;
+}
+
+/*.mod-forms li .form-ipt .txt-ipt#regUserPhoneCode, .mod-forms-2 .form-group input#loginUserPhoneCode {
+    width: 50%;
+}*/
+
+.mod-forms-2 .form-group .reg-code, .placeholder-fit .form-group .reg-code {
+    padding: 11px 6px;
+    border: none;
+    background: #1a4c1f;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#sendCodeLi {
+    display: none;
+}
+
+.mod-forms-2 .form-group .form-ipt .reg-code.disabledcode {
+    background: #ccc;
+}
+/*************手机号登陆**************************/
+.mod-forms-2 .form-group.sendcodes {
+    display: none
+}
+/********************************返水*************************************/
+.backwater{text-align:right;margin-bottom:10px;}
+.backwater button{width:120px;height:40px;background:#327048;color:#fff;border:none;border-radius:6px;}
+/**********************弹框****************************************/
+.notice-swiper li{list-style:none;}
+.notice-dialog{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.3);z-index:99999;}
+.notice-dialog.show{display:block;}
+.notice-dialog.hide{display:none;}
+.notice-content.show{transform:translate(0px,0px); transition:transform 1s}
+.notice-content.hide{transform:translate(0px,-700px);; transition:transform 1s}
+.notice-content{width:90%;margin:5% auto 0 auto;background:#fff;box-shadow: 0 3px 9px rgba(0,0,0,.5);border-radius:6px;position:relative}
+.notice-header button{float:right;margin-right:6px;font-size: 20px;font-weight: 700; line-height: 1;color: #000;text-shadow: 0 1px 0 #fff;opacity: .2;}
+.notice-header p{font-size: 20px;padding:30px 0px 20px 20px;border-bottom:1px solid #e5e5e5}
+.notice-list {padding:20px 20px 10px 20px;height:300px;overflow-y:auto}
+.notice-list li {white-space: pre-line;word-break: break-all;padding: 8px 0;border-bottom: 1px dotted #aaa;font-size:14px;line-height:25px;}
+.notice-footer{text-align: right;border-top: 1px solid #e5e5e5;height:50px;line-height:50px;}
+.notice-footer button {
+        color: #333;
+        background-color: #fff;
+        border:1px solid #ccc ;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right:10px;
+}
+/***************************老带新详情****************************/
+.oldwithnew-list{margin:10px auto;border-radius:4px;border:1px solid #ccc;height:35px;line-height:35px;padding:0}
+.oldwithnew-list li{width:50%;float:left;text-align:center;list-style:none;}
+.oldwithnew-list li.active{background:#327048;color:#fff;}
+.oldwithnew-p {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 28px auto;
+    border-radius: 4px;
+}
+#articles .oldwithnew-p p {
+    padding:10px 0;
+    width: 49%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+#articles .oldwithnew-p p:first-child{border:none}
+#articles .oldwithnew-p p b{display:block;font-size:22px}
+#articles .oldwithnew-p p:last-child b{color:red}
+.oldwithnew-url label{display:inline-block;width:80px;text-align:right;margin-right:10px}
+.oldwithnew-url img{width:200px;height:200px;vertical-align:top}
+.oldwithnew-url .downImg {
+    margin-top:10px;
+    border: none;
+    background: none;
+    color: #fff;
+    background: #327048;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+#articles table{width:100%;}
+#articles table th, #articles table td{padding:6px 10px;color:#333}
+#mailbox{position:relative}
+#mailbox b{font-size: 14px;color: red;position: absolute;top: 6px;right: 22px;}
+.message-yuedu{margin-bottom:10px;}
+.message-yuedu button {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+#mesageContent table #notice td:last-child {
+    overflow: auto;
+    white-space: normal;
+}
+#mesageContent table td img{width:26px;margin-left:6px;}
+.vip-layout {
+    width: 25px;
+    float: right;
+    margin-right: 6px;
+}
+/**********************首页弹框*********************************/
+.advert-opcity {position:fixed;top:0px;width:100%;height:100%;background:rgba(0,0,0,.1);z-index:99999;display:none;}
+.advert-content {margin: auto;width: 90%;z-index: 99999;animation: mymove .5s 1;}
+.advert-content h3{margin:0px;background:#000;color:#fff;text-align:center;padding:10px 0;font-size:16px;border-top-left-radius:6px;border-top-right-radius:6px;}
+.advert-content img{width:100%;}
+.advert-content h3:last-child{border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:6px;}
+.advert-content.show{}
+@keyframes mymove
+{
+from {transform:scale(0.3);}
+to {transform:scale(1);}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+from {transform:scale(0.3);}
+to {transform:scale(1);}
+}
+
+/********公告详情**********/
+#newsBags li img.notice {
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    vertical-align: initial;
+}
+
+#newsBags li img.more {
+    width: 15px;
+    vertical-align: 5px;
+    display: inline-block;
+}
+
+#newsBags li span {
+    display: inline-block;
+    width: 82%;
+    padding: 0 8px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.text-hide {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    color: #333 !important;
+}
+
+.modal-announcement-content {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+
+#announcement-content .modal-announcement-content > .mac-title {
+    padding: 15px 10px;
+    color: #fff;
+    text-align: center;
+    word-break: break-all;
+    background: #3f8964;
+}
+
+.modal-announcement-content > .mac-body {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 116px;
+    overflow: auto;
+}
+
+.announcement-content-color p {
+    color: #fff;
+    padding: 0 10px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+
+.modal-announcement-content > .mac-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(51,51,51,.7);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #e71516;
+    border-color: #e71516;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.fa-reply {
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-top: -13px;
+}
+
+.fa-times {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: -10px;
+}
+#newsBags {
+    list-style-type:none;
+}

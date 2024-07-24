@@ -1,0 +1,342 @@
+#lobby {
+    text-align: center
+}
+
+    #lobby .loading {
+        margin: 15px
+    }
+
+    #lobby #page-title {
+        height: 50px;
+        line-height: 50px
+    }
+
+    #lobby #banner img {
+        width: 100%
+    }
+
+    #lobby .list-title {
+        display: none;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        text-align: left
+    }
+
+        #lobby .list-title:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 10px;
+            display: inline-block;
+            height: 1px;
+            background-color: #ff000f
+        }
+
+        #lobby .list-title span {
+            display: inline-block;
+            vertical-align: top;
+            padding: 0 5px;
+            color: #fff;
+            font-size: 18px;
+            line-height: 30px;
+            background-color: #ff000f;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px
+        }
+
+        #lobby .list-title.recommend:before {
+            background-color: #b9006d
+        }
+
+        #lobby .list-title.recommend span {
+            background-color: #b9006d
+        }
+
+        #lobby .list-title.recommend .more-btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            color: #b9006d;
+            height: 26px;
+            text-decoration: none;
+            line-height: 26px
+        }
+
+            #lobby .list-title.recommend .more-btn:after {
+                content: '';
+                display: inline-block;
+                width: 0;
+                height: 0;
+                border: 5px solid transparent;
+                border-left: 10px solid #b9006d
+            }
+
+        #lobby .list-title.other {
+            display: block
+        }
+
+            #lobby .list-title.other:before {
+                background-color: #ff7c54
+            }
+
+            #lobby .list-title.other span {
+                background-color: #ff7c54
+            }
+
+    #lobby .game-list, #lobby .TJgame-list {
+        list-style: none;
+        margin: 15px 0;
+        padding: 0 10px;
+        font-size: 0;
+        text-align: left;
+        min-height: 10px;
+    }
+
+        #lobby .game-list li {
+            position: relative;
+            display: inline-block;
+            width: 31%;
+            margin: 1%;
+            font-size: 13px;
+            text-align: center;
+            vertical-align: top
+        }
+        #lobby .TJgame-list li {
+            position: relative;
+            display: inline-block;
+            width: 31%;
+            font-size: 13px;
+            text-align: center;
+            vertical-align: top
+        }
+
+            #lobby .game-list li img.icon, #lobby .TJgame-list li img.icon {
+                position: absolute;
+                z-index: 2
+            }
+
+                #lobby .game-list li img.icon.icon01, #lobby .TJgame-list li img.icon.icon01 {
+                    top: -2px;
+                    right: 50%;
+                    margin-right: -49px
+                }
+
+                #lobby .game-list li img.icon.icon02, #lobby .TJgame-list li img.icon.icon02 {
+                    top: 0;
+                    left: 50%;
+                    margin-left: -46px
+                }
+
+                #lobby .game-list li img.icon.icon03, #lobby .TJgame-list li img.icon.icon03 {
+                    top: 65px;
+                    right: 50%;
+                    margin-right: -48px
+                }
+
+                #lobby .game-list li img.icon.icon04, #lobby .TJgame-list li img.icon.icon04 {
+                    top: 65px;
+                    left: 50%;
+                    margin-left: -49px
+                }
+
+            #lobby .game-list li .pic, #lobby .TJgame-list li .pic {
+                position: relative;
+                width: 92.5px;
+                margin: 0 auto;
+                overflow: hidden;
+                -moz-border-radius: 12px;
+                -webkit-border-radius: 12px;
+                border-radius: 12px
+            }
+
+                #lobby .game-list li .pic img, #lobby .TJgame-list li .pic img {
+                    position: relative;
+                    width: 100%;
+                    z-index: -1
+                }
+
+            #lobby .game-list li:active .pic:after, #lobby .TJgame-list li:active .pic:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+                border: 1px solid #ccc;
+                -moz-border-radius: 12px;
+                -webkit-border-radius: 12px;
+                border-radius: 12px
+            }
+
+            #lobby .game-list li .supplier, #lobby .TJgame-list li .supplier {
+                font-size: 12px
+            }
+
+    #lobby #search {
+        min-height: 60px;
+        padding: 3% 5%
+    }
+
+        #lobby #search form .form-group {
+            margin-bottom: 7px
+        }
+
+        #lobby #search form input {
+            float: left;
+            width: 80%;
+            height: 28px;
+            padding-left: 5px;
+            font-size: 14px;
+            vertical-align: top;
+            border: 1px solid #e1e1e5;
+            border-radius: 5px
+        }
+
+        #lobby #search form button {
+            width: 20%;
+            height: 28px;
+            border: 1px solid #c8c8c8;
+            background: -moz-linear-gradient(top,#fefefe 0,#fefefe 37%,#ececec 67%,#e2e2e3 89%,#e0e0e0 96%,#e5e5e5 100%);
+            background: -webkit-linear-gradient(top,#fefefe 0,#fefefe 37%,#ececec 67%,#e2e2e3 89%,#e0e0e0 96%,#e5e5e5 100%);
+            background: linear-gradient(to bottom,#fefefe 0,#fefefe 37%,#ececec 67%,#e2e2e3 89%,#e0e0e0 96%,#e5e5e5 100%);
+            border-radius: 5px
+        }
+
+        #lobby #search select {
+            display: block;
+            width: 100%;
+            height: 28px;
+            padding-left: 5px;
+            font-size: 14px
+        }
+
+    #lobby #recommend-list {
+        height: 0;
+        overflow: hidden
+    }
+
+        #lobby #recommend-list.show {
+            height: auto;
+            padding-top: 20px
+        }
+
+        #lobby #recommend-list li {
+            width: auto;
+            margin: 0
+        }
+
+        #lobby #recommend-list .pic {
+            height: 92.5px
+        }
+
+            #lobby #recommend-list .pic img {
+                height: 100%
+            }
+
+        #lobby #recommend-list li:active .pic:after {
+            display: none
+        }
+
+        #lobby #recommend-list .slick-dots {
+            position: static;
+            width: 90%;
+            margin: 10px auto 0
+        }
+
+            #lobby #recommend-list .slick-dots li.slick-active button:before {
+                color: #b9006d;
+                opacity: 1
+            }
+
+@media(min-width:667px) {
+    #lobby .game-list li {
+        width: 23%
+    }
+}
+
+@media(min-width:767px) {
+    #lobby #search {
+        padding: 1% 5%
+    }
+}
+
+#lobby .listType {
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    height:auto;
+}
+
+    #lobby .listType p {
+    }
+
+    #lobby .listType p {
+        border-bottom: 1px solid #b9006d;
+        text-align: left;
+        margin: 0px 10px;
+    }
+
+    #lobby .listType:nth-child(4) p {
+        border-bottom: 1px solid #ff000f;
+    }
+
+    #lobby .listType:nth-child(5) p {
+        border-bottom: 1px solid #ff7c54;
+    }
+
+    #lobby .listType p span {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0 5px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 30px;
+        background-color: #b9006d;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    #lobby .listType:nth-child(4) p span {
+        background-color: #ff000f;
+    }
+
+    #lobby .listType:nth-child(5) p span {
+        background-color: #ff7c54;
+    }
+
+#lobby .tj-swiper {
+height:192px;
+}
+#lobby .tj-swiper .swiper-wrapper {
+    width: auto;
+    position: relative;
+    padding: 0px;
+    height:120px;
+}
+.tj-swiper .TJgame-pagination {
+    bottom:0px;
+}
+
+.tj-swiper .swiper-pagination-bullet {
+    font-size: 0;
+    line-height: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #fefefe;
+}
+
+.tj-swiper .swiper-pagination-bullet-active {
+    background-color: #b9006d;
+}

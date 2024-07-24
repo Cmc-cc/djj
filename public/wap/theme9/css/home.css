@@ -1,0 +1,357 @@
+#slider img {
+    width: 100%
+}
+
+#leaderboard {
+    display: none;
+    position: relative;
+    height: 60px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    background: #222;
+    overflow: hidden
+}
+
+    #leaderboard > ul {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+        height: 30px;
+        line-height: 30px
+    }
+
+        #leaderboard > ul.head {
+            background: #555
+        }
+
+            #leaderboard > ul.head li {
+                display: inline-block;
+                padding: 0 2px;
+                width: 25%;
+                max-width: 25%;
+                white-space: nowrap;
+                -ms-text-overflow: ellipsis;
+                -o-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                overflow: hidden
+            }
+
+        #leaderboard > ul.list > *,
+        #leaderboard > ul.list > * > div {
+            width: 100%
+        }
+
+        #leaderboard > ul.list li {
+            height: 30px
+        }
+
+            #leaderboard > ul.list li span {
+                display: inline-block;
+                padding: 0 2px;
+                width: 25%;
+                max-width: 25%;
+                white-space: nowrap;
+                -ms-text-overflow: ellipsis;
+                -o-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                overflow: hidden
+            }
+
+#home {
+    overflow-x: hidden
+}
+
+#content #home:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+.game-tab {
+    display: inline-block;
+    margin: 0 0 20px;
+    width: 100%;
+    height: 108px;
+    padding: 7px 0;
+    list-style: none
+}
+
+    .game-tab .slick-list {
+        overflow: visible
+    }
+
+.swiper2 .swiper-slide {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding-top: 65px;
+    font-size: 14px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 62px
+}
+.swiper2 .swiper-slide.navsort-Hot {
+    background-image: url('../images/Hot.png');
+}
+
+.swiper2 .swiper-slide.navsort-Slot {
+    background-image: url('../images/Slot.png');
+}
+
+.swiper2 .swiper-slide.navsort-Live {
+    background-image: url('../images/Live.png');
+}
+
+.swiper2 .swiper-slide.navsort-Fish {
+    background-image: url('../images/Fish.png');
+}
+
+.swiper2 .swiper-slide.navsort-Board {
+    background-image: url('../images/Board.png');
+}
+
+.swiper2 .swiper-slide.navsort-Sport {
+    background-image: url('../images/Sport.png');
+}
+
+.swiper2 .swiper-slide.navsort-Lottery {
+    background-image: url('../images/Lottery.png');
+}
+
+        .swiper2 .swiper-slide.active:before {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            display: block;
+            width: 0;
+            height: 0;
+            margin-left: -8px;
+            border-style: solid;
+            border-width: 11px 8.5px 0 8.5px
+        }
+
+        .swiper2 .swiper-slide:hover,
+        .swiper2 .swiper-slide.active {
+            text-decoration: underline;
+            outline: none
+        }
+
+        .swiper2 .swiper-slide span {
+            display: inline-block;
+            min-height: 30px;
+            line-height: normal;
+            vertical-align: middle
+        }
+
+.game-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    min-width: 330px;
+    min-height: 360px
+}
+
+    .game-list li {
+        position: relative;
+        display: inline-block;
+        width: 33%;
+        min-width: 108px;
+        height: 85px;
+        font-size: 14px;
+        text-align: center;
+        vertical-align: top;
+       margin-bottom:15px;
+    }
+        .game-list li img {
+            width:70%;
+        }
+        .game-list li span {
+            display: block;
+            font-size:16px;
+        }
+
+        .game-list li a {
+            display:block;
+            height: 100%;
+            color: inherit;
+            text-decoration: none
+        }
+
+        .game-list li.hot:before {
+            content: '热';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -56px;
+            width: 20px;
+            color: red;
+            background: #fc0;
+            border-radius: 4px;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -moz-animation-name: hotblink;
+            -o-animation-name: hotblink;
+            -webkit-animation-name: hotblink;
+            animation-name: hotblink;
+            -moz-animation-iteration-count: infinite;
+            -o-animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite
+        }
+
+        .game-list li.new:after {
+            content: '新';
+            position: absolute;
+            top: 0;
+            left: 9px;
+            margin-right: -56px;
+            width: 20px;
+            color: #fff;
+            background: #09f;
+            border-radius: 4px;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -moz-animation-name: newblink;
+            -o-animation-name: newblink;
+            -webkit-animation-name: newblink;
+            animation-name: newblink;
+            -moz-animation-iteration-count: infinite;
+            -o-animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite
+        }
+
+        .game-list li i.event {
+            position: absolute;
+            left: 50%;
+            margin-left: -56px;
+            bottom: 25px;
+            width: 19px;
+            height: 38px;
+            background: url(../images/main/event.gif) no-repeat center top
+        }
+
+@-moz-keyframes newblink {
+    from {
+        color: #fff;
+        background: #09f
+    }
+
+    to {
+        color: red;
+        background: #fff
+    }
+}
+
+@-webkit-keyframes newblink {
+    from {
+        color: #fff;
+        background: #09f
+    }
+
+    to {
+        color: red;
+        background: #fff
+    }
+}
+
+@keyframes newblink {
+    from {
+        color: #fff;
+        background: #09f
+    }
+
+    to {
+        color: red;
+        background: #fff
+    }
+}
+
+@-moz-keyframes hotblink {
+    from {
+        color: red;
+        background: #fc0
+    }
+
+    to {
+        color: red;
+        background: #fff
+    }
+}
+
+@-webkit-keyframes hotblink {
+    from {
+        color: red;
+        background: #fc0
+    }
+
+    to {
+        color: red;
+        background: #fff
+    }
+}
+
+@keyframes hotblink {
+    from {
+        color: red;
+        background: #fc0
+    }
+
+    to {
+        color: red;
+        background: #fff
+    }
+}
+
+@media(min-width:767px) {
+    .game-list li {
+        margin: 30px 0;
+        padding-top: 60px;
+        font-size: 16px
+    }
+}
+
+.swiper-pagination-bullet {
+    background: #120106;
+    width: 12px;
+    height: 12px
+}
+
+.swiper-pagination-bullet-active {
+    background: #120106;
+    opacity: 0.75;
+}
+/**********************首页弹框*********************************/
+.advert-opcity {position:fixed;top:0px;width:100%;height:100%;background:rgba(0,0,0,.1);z-index:99999;display:none;}
+.advert-content {margin: auto;width: 90%;z-index: 99999;animation: mymove .5s 1;}
+.advert-content h3{margin:0px;background:#000;color:#fff;text-align:center;padding:10px 0;font-size:16px;border-top-left-radius:6px;border-top-right-radius:6px;}
+.advert-content img{width:100%;}
+.advert-content h3:last-child{border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:6px;}
+.advert-content.show{}
+@keyframes mymove
+{
+from {transform:scale(0.3);}
+to {transform:scale(1);}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+from {transform:scale(0.3);}
+to {transform:scale(1);}
+}    

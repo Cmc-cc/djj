@@ -1,0 +1,100 @@
+﻿html.IsMobile .account-empty-message {
+    margin:50px;
+
+}
+
+.transaction-time li {
+    margin-bottom: 10px;
+}
+
+    .transaction-time li input, .transaction-time li select {
+        width: 70%;
+        height: 35px;
+        background: #fff;
+        font-weight:500;
+    }
+.transaction-time {
+    min-height: 120px;
+    display: inline-block;
+}
+.page-cont {
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    padding: 0 1%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+    .page-cont .first {
+        float: left;
+        font-size: 14px;
+    }
+
+        .page-cont .first span {
+            color: red;
+        }
+
+    .page-cont .second {
+        float: right;
+        margin-top: 4px;
+    }
+
+        .page-cont .second input {
+            width: 65px;
+            height: 28px;
+            line-height: 24px;
+            text-align: center;
+            position: relative;
+            top: -1px;
+            float: left;
+            margin-left: 7px;
+            border: 1px solid #e1e1e1;
+        }
+
+        .page-cont .second button {
+            width: 54px;
+            font-size: 14px;
+            height: 26px;
+            text-align: center;
+            background: #007aff;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            float: left;
+            margin-left: 7px;
+            text-overflow: unset;
+            padding: 0px;
+        }
+
+table.pagetab {
+    width: 100%;
+}
+
+    table.pagetab tr td, table.pagetab tr th {
+        width:15%;
+        padding: 10px 0px;
+        text-align: center;
+        border: 1px solid #e0e0e0;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+
+        table.pagetab tr th:last-child, table.pagetab tr td:last-child {
+            overflow: hidden;
+            /*white-space: nowrap;*/
+            text-overflow: ellipsis;
+            width: 30%;
+        }
+.clearboth:after {
+    display: block;
+    content: "";
+    clear: both;
+    visibility: hidden;
+}
+#panels-bottom-holder {
+margin-top:20px;
+}

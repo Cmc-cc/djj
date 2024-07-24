@@ -1,0 +1,109 @@
+/* 彩票 */
+
+.lottery .banner-container {
+    height: 386px;
+}
+
+.lottery-banner {
+    background: url("../images/banner/lottery_bg.jpg") center no-repeat;
+    width: 100%;
+    height: 386px;
+}
+
+.Chessgame-banner .Chessgame-nav {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 0px auto;
+    text-align: center;
+    /*padding:45px 0 0 0;*/
+}
+
+.lottery-banner .lottery-nav {
+    position: relative;
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0 0 0;
+}
+
+.lottery-nav li {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.lottery-nav li a {
+    display: block;
+    width: 220px;
+    /*height: 30px;*/
+    margin: 0 2px;
+    line-height: 18px;
+    padding-top: 13px;
+    text-align: center;
+    font-size: 16px;
+    /* background: url(../images/btn-lomenu.png) 0 0 no-repeat; */
+    border-radius: 5px;
+    color: #000;
+}
+
+.lottery-nav li a img {
+    width: 100%;
+}
+
+.lottery-nav li a span {
+    background: rgba(255, 255, 255, 0.8);
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    margin: -33px 0 0 0;
+    z-index: 9;
+    position: relative;
+    border-radius: 33px;
+}
+
+.lottery-nav li a:hover span {
+    /*background: url("../images/btn-lomenu.png") 0 -43px no-repeat;*/
+    background: #cbff31;
+}
+
+.Chessgame-banner {
+    background: url("../images/banner/Chessgame_bg.jpg") center no-repeat;
+    width: 100%;
+    height: 386px;
+}
+.Chessgame-nav li a {
+    display: block;
+    width: 174px;
+    margin: 0 2px;
+    line-height: 18px;
+    /*padding-top: 13px;*/
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #000;
+}
+.Chessgame-nav li a img {
+    width: 100%;
+}
+.Chessgame-nav li a:hover span {
+    background: #cbff31;
+}
+.Chessgame-nav li a span {
+    background: rgba(255, 255, 255, 0.8);
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    margin: -33px 0 0 0;
+    z-index: 9;
+    position: relative;
+    border-radius: 33px;
+}
+.Chessgame-nav li {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}

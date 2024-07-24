@@ -1,0 +1,581 @@
+body {
+    background-color: #480519
+}
+
+#account-box .closed, #nav .closed {
+    color: #fff;
+    background: #27231e
+}
+
+#nav {
+    background: #480519
+}
+
+    #nav .member {
+        background: #310714
+    }
+
+    #nav .account li {
+        color: #000;
+        background: #fff
+    }
+        #nav .account li span {
+        color:#222;
+        }
+
+        .sidebar li {
+            color: #fff;
+            border-bottom: 1px solid #807979
+        }
+
+    .sidebar li:active {
+        color: #ffde00;
+        background: #310714
+    }
+
+    .sidebar li select {
+        color: #000
+    }
+
+#header {
+    background: #b90030
+}
+
+    #header .domain {
+        color: #fff
+    }
+
+        #header .domain span {
+            color: #ffe400
+        }
+
+.nav-toggle {
+    background: #fff;
+    background: -moz-linear-gradient(top,#fff 0,#cbcbcb 100%);
+    background: -webkit-linear-gradient(top,#fff 0,#cbcbcb 100%);
+    background: linear-gradient(to bottom,#fff 0,#cbcbcb 100%);
+    border: 1px solid #e6e7e8
+}
+
+    .nav-toggle .icon-bar {
+        background-color: #676978
+    }
+
+#nav .member .btn01, #header .header-right .btn01 {
+    color: #fff;
+    background: #ff4545;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+#nav .member .btn02, #header .header-right .btn02 {
+    color: #000;
+    background: #fff535;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+#account-box:before {
+    background: -moz-linear-gradient(top,#1d0202 0,#881437 100%);
+    background: -webkit-linear-gradient(top,#1d0202 0,#881437 100%);
+    background: linear-gradient(to bottom,#1d0202 0,#881437 100%)
+}
+
+#account-box form input {
+    color: #000;
+    background: #fff 92% center no-repeat
+}
+
+    #account-box form input::-webkit-input-placeholder {
+        color: #000
+    }
+
+    #account-box form input::-moz-placeholder {
+        color: #000
+    }
+
+    #account-box form input:-ms-input-placeholder {
+        color: #000
+    }
+
+    #account-box form input.placeholder {
+        color: #000
+    }
+
+#account-box form #login_account {
+    background-image: url('../images/main/input_id_black.png')
+}
+
+#account-box form #login_password {
+    background-image: url('../images/main/input_pw_black.png')
+}
+
+#account-box form button {
+    color: #0a0a0a;
+    background: -moz-linear-gradient(top,#c3892d 0,#f9cd45 100%);
+    background: -webkit-linear-gradient(top,#c3892d 0,#f9cd45 100%);
+    background: linear-gradient(to bottom,#c3892d 0,#f9cd45 100%)
+}
+
+#account-box form #get-captcha {
+    color: #000
+}
+
+#account-box .link li {
+    color: #30f3ff
+}
+
+    #account-box .link li + li {
+        border-left: 1px solid #30f3ff
+    }
+
+#account-box .copyright {
+    color: #fff
+}
+
+#news, #news i {
+    color: #fff;
+    background: #480519
+}
+
+#page-title {
+    color: #ffcc01;
+    background: -moz-linear-gradient(left,#790808 0,#1d0202 100%);
+    background: -webkit-linear-gradient(left,#790808 0,#1d0202 100%);
+    background: linear-gradient(to right,#790808 0,#1d0202 100%)
+}
+
+#luckywheel-service {
+    display: block;
+    background: url('../images/main/luckywheel_service.png') no-repeat center center
+}
+
+.panel-custom {
+    border: 1px solid #fcf8e3
+}
+
+    #announcement-content .modal-announcement-content > .mac-title, #promotion .discount > .content .content-bar, .panel-custom > .panel-heading {
+        color: #fff;
+        background: #b90030
+    }
+
+#lobby #search {
+    background: -moz-linear-gradient(top,#fff 0,#d2d2d6 100%);
+    background: -webkit-linear-gradient(top,#fff 0,#d2d2d6 100%);
+    background: linear-gradient(to bottom,#fff 0,#d2d2d6 100%)
+}
+
+    #lobby #search select {
+        color: #141414;
+        border: 1px solid #e1e1e5
+    }
+
+#lobby .game-list li {
+    color: #fff
+}
+
+#financial .list li {
+    color: #fff
+}
+
+    #financial .list li:active {
+        color: #ffde00
+    }
+
+.menu-bottom {
+    border-top: 1px solid #f39a9a;
+    background: -moz-linear-gradient(top,#ff5a5a 0,#940202 100%);
+    background: -webkit-linear-gradient(top,#ff5a5a 0,#940202 100%);
+    background: linear-gradient(to bottom,#ff5a5a 0,#940202 100%)
+}
+
+    .menu-bottom li {
+        color: #fff
+    }
+
+        .menu-bottom li.promotion {
+        }
+
+        .menu-bottom li i {
+            text-shadow: 0 1px 0 0 #111
+        }
+
+        .menu-bottom li + li:before {
+            width: 1px;
+            background: #f55252;
+            -moz-box-shadow: 1px 0 0 0 rgba(25,25,25,.75);
+            -webkit-box-shadow: 1px 0 0 0 rgba(25,25,25,.75);
+            box-shadow: 1px 0 0 0 rgba(25,25,25,.75)
+        }
+
+#content #home:before {
+    background: #480519
+}
+
+#leaderboard {
+    color: #fff;
+    background: #222
+}
+
+    #leaderboard > ul.head {
+        color: #fff;
+        background: #555
+    }
+
+        #leaderboard > ul.head > li {
+        }
+
+    #leaderboard > ul.list {
+    }
+
+        #leaderboard > ul.list li > span {
+        }
+
+.game-tab {
+    background: #f44236
+}
+
+.clearboth:after {
+    display: block;
+    content: "";
+    clear: both;
+    visibility: hidden;
+}
+
+.swiper2 .swiper-slide.active:before {
+    border-color: #f44236 transparent transparent transparent
+}
+
+.swiper2 .swiper-slide {
+    color: #fff
+}
+
+    .swiper2 .swiper-slide.active {
+        color: #ffde00
+    }
+
+.game-list li {
+    color: #fff
+}
+
+    .game-list li:active {
+        color: #ffde00
+    }
+
+#promotion .discount > .content:before, .announcement-content-bg {
+    background: #111
+}
+
+#promotion .discount > .content h4 {
+    display: table;
+    padding: 6px 15px;
+    font-size: 16px;
+    font-weight: normal;
+    background: #9a003e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+#promotion .discount > .content table tr, #promotion .discount > .content table th, #promotion .discount > .content table td {
+    color: #000;
+    background: #fff;
+    border: 2px solid #111
+}
+
+#promotion .discount > .content table th {
+    color: #fff;
+    background: #760030
+}
+
+#promotion .discount > .content .content-text, .announcement-content-color {
+    color: #fff
+}
+
+#promotion .discount > .content .content-bar i {
+    background: transparent;
+    border: 1px solid transparent
+}
+
+#register label {
+    color: #8a8d94
+}
+
+#register .agreement label {
+    color: #000
+}
+
+#register .agreement a {
+    color: #f05757
+}
+
+#register #get-captcha i {
+    color: #a92430
+}
+
+#register .submit {
+    color: #fff;
+    background: #a92430
+}
+/**********************弹框****************************************/
+.notice-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    z-index: 99999;
+}
+
+    .notice-dialog.show {
+        display: block;
+    }
+
+    .notice-dialog.hide {
+        display: none;
+    }
+
+.notice-content.show {
+    transform: translate(0px,0px);
+    transition: transform 1s
+}
+
+.notice-content.hide {
+    transform: translate(0px,-700px);
+    ;
+    transition: transform 1s
+}
+
+.notice-content {
+    width: 90%;
+    margin: 5% auto 0 auto;
+    background: #fff;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    border-radius: 6px;
+    position: relative
+}
+
+.notice-header button {
+    float: right;
+    margin-right: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+}
+
+.notice-header p {
+    font-size: 20px;
+    padding: 30px 0px 20px 20px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.notice-list {
+    padding: 20px 20px 10px 20px;
+    height: 300px;
+    overflow-y: auto
+}
+
+    .notice-list li {
+        white-space: pre-line;
+        word-break: break-all;
+        padding: 8px 0;
+        border-bottom: 1px dotted #aaa;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+.notice-footer {
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+    height: 50px;
+    line-height: 50px;
+}
+
+    .notice-footer button {
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+
+/***************************老带新详情****************************/
+.oldwithnew-list {
+    margin: 10px auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+    padding: 0
+}
+
+    .oldwithnew-list li {
+        width: 50%;
+        float: left;
+        text-align: center;
+        list-style: none;
+    }
+
+        .oldwithnew-list li.active {
+            background: #337ab7;
+            color: #fff
+        }
+
+.oldwithnew-p {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 28px auto;
+    border-radius: 4px;
+}
+
+#articles .oldwithnew-p p {
+    padding: 10px 0;
+    width: 49%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+
+    #articles .oldwithnew-p p:first-child {
+        border: none
+    }
+
+    #articles .oldwithnew-p p b {
+        display: block;
+        font-size: 22px
+    }
+
+    #articles .oldwithnew-p p:last-child b {
+        color: red
+    }
+
+.oldwithnew-url label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px
+}
+
+.oldwithnew-url img {
+    width: 200px;
+    height: 200px;
+    vertical-align: top
+}
+
+.oldwithnew-url .downImg {
+    margin-top: 10px;
+    border: none;
+    background: none;
+    color: #fff;
+    background: #337ab7;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+
+#articles table {
+    width: 100%;
+}
+
+    #articles table th, #articles table td {
+        padding: 6px 10px;
+        color: #333;
+    }
+
+#mailbox b {
+    float: right;
+    margin-right: 15px;
+    font-size: 14px;
+    color: red;
+}
+
+.message-yuedu {
+    margin: 10px 4px;
+}
+
+    .message-yuedu button {
+        border: 1px solid #ddd;
+        background-color: #fff;
+        padding: 8px 5px;
+        border-radius: 4px;
+    }
+
+#mesageContent table #notice td:last-child {
+    overflow: auto;
+    white-space: normal;
+}
+
+#mesageContent table td img {
+    width: 26px;
+    margin-left: 6px;
+}
+
+.vip-layout {
+    width: 25px;
+}
+
+/********公告详情**********/
+#newsBags li img.notice {
+    width: 20px;
+    vertical-align: baseline;
+}
+
+#newsBags li img.more {
+    width: 15px;
+    vertical-align: baseline;
+}
+
+#newsBags li span {
+    display: inline-block;
+    width: 84%;
+    padding: 0 8px;
+    height: 25px;
+    line-height: 25px;
+    color: #191818;
+    font-size: 14px;
+}
+.announcement-content-color p {
+    color: #fff;
+    padding: 0 10px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.fa.fa-2x {
+    margin: -13px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.text-hide {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    color:#333 !important;
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: hidden !important;
+}
+.table.table-bordered {
+width:100%;
+overflow-x:hidden;
+}

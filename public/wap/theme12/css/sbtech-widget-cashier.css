@@ -1,0 +1,3919 @@
+.sbtech-widget-cashier-navigation-button__button {
+    display: inline-block;
+    padding: 17px 30px;
+    border-radius: 24px;
+    background-color: #2e8a41;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer
+}
+
+@media print {
+    .sbtech-widget-cashier-navigation-button__button {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-try-again-button__button {
+    display: inline-block;
+    padding: 17px 30px;
+    border-radius: 24px;
+    background-color: #2e8a41;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer
+}
+
+@media print {
+    .sbtech-widget-cashier-try-again-button__button {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-http-error__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    /*text-align: center*/
+}
+
+.sbtech-widget-cashier-http-error__heading {
+    margin: 0 0 16px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-http-error__message {
+    max-width: 380px;
+    margin: 0 auto 30px;
+    color: #272a31;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-http-error__message-wrap {
+    width: 100%
+}
+
+@keyframes sbtech-widget-cashier-loader__rotate {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes sbtech-widget-cashier-loader__dash {
+    0% {
+        stroke-dasharray: 1,200;
+        stroke-dashoffset: 0
+    }
+
+    50% {
+        stroke-dasharray: 89,200;
+        stroke-dashoffset: -35px
+    }
+
+    to {
+        stroke-dasharray: 89,200;
+        stroke-dashoffset: -124px
+    }
+}
+
+.sbtech-widget-cashier-loader__wrap {
+    z-index: 2147483647;
+    height: 100%;
+    font-family: tahoma,helvetica,arial,sans-serif
+}
+
+.sbtech-widget-cashier-loader__overlay {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: hsla(0,0%,93%,.95);
+    -ms-touch-action: none;
+    touch-action: none
+}
+
+.sbtech-widget-cashier-loader__loader {
+    position: relative;
+    width: 86px;
+    margin-bottom: 24px
+}
+
+    .sbtech-widget-cashier-loader__loader:before {
+        content: "";
+        display: block;
+        padding-top: 100%
+    }
+
+.sbtech-widget-cashier-loader__circular {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform-origin: center center;
+    animation: sbtech-widget-cashier-loader__rotate 2s linear infinite
+}
+
+.sbtech-widget-cashier-loader__path {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: 0;
+    animation: sbtech-widget-cashier-loader__dash 1.5s ease-in-out infinite;
+    stroke-linecap: round;
+    stroke: #2e8a41
+}
+
+.sbtech-widget-cashier-loader__message {
+    color: #272a31;
+    font-size: 16px
+}
+
+.sbtech-widget-cashier-error-message__error-message {
+    padding-top: 9px;
+    color: #e92227;
+    font-size: 12px
+}
+
+.sbtech-widget-cashier-checkbox__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 26px
+}
+
+.sbtech-widget-cashier-checkbox__input {
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    margin: 0 12px 0 0;
+    background-color: #ddd;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+    .sbtech-widget-cashier-checkbox__input:checked {
+        border-color: transparent;
+        background-color: #2e8a41
+    }
+
+        .sbtech-widget-cashier-checkbox__input:checked:before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 7px;
+            width: 7px;
+            height: 12px;
+            border: solid #fff;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg)
+        }
+
+.sbtech-widget-cashier-checkbox__input_invalid {
+    border-color: #d03b3b
+}
+
+.sbtech-widget-cashier-checkbox__input-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.sbtech-widget-cashier-checkbox__input_disabled {
+    opacity: .4;
+    cursor: default
+}
+
+.sbtech-widget-cashier-checkbox__label {
+    color: #444;
+    font-size: 12px;
+    line-height: 14px
+}
+
+    .sbtech-widget-cashier-checkbox__label a {
+        color: #444
+    }
+
+.sbtech-widget-cashier-selected-bonus-code__container {
+    height: 100%;
+    margin-top: 19px;
+    margin-bottom: 19px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-selected-bonus-code__container {
+        margin-top: 21px;
+        margin-bottom: 21px
+    }
+}
+
+.sbtech-widget-cashier-selected-bonus-code__btn {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url(assets/bonus-close-50cbd3.svg);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    opacity: .7;
+    line-height: 18px;
+    filter: alpha(opacity=20)
+}
+
+    .sbtech-widget-cashier-selected-bonus-code__btn:hover {
+        opacity: .9;
+        filter: alpha(opacity=40);
+        cursor: pointer
+    }
+
+.sbtech-widget-cashier-selected-bonus-code__edit_btn {
+    background-image: url(assets/bonus-edit-ce380a.svg)
+}
+
+.sbtech-widget-cashier-selected-bonus-code__label {
+    display: inline-block;
+    width: 90%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    word-break: break-all;
+    word-wrap: break-word;
+    vertical-align: text-top
+}
+
+.sbtech-widget-cashier-show-bonuses-button__show-bonuses {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right
+}
+
+.sbtech-widget-cashier-show-bonuses-button__show-bonuses_block {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top
+}
+
+.sbtech-widget-cashier-show-bonuses-button__show-bonuses_free {
+    margin-bottom: 16px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-show-bonuses-button__show-bonuses_free {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-expandable-control__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 14px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-expandable-control__container {
+        margin-bottom: 16px
+    }
+}
+
+.sbtech-widget-cashier-expandable-control__container .sbtech-widget-cashier-expandable-control__expandable_input_container {
+    width: 100%
+}
+
+.sbtech-widget-cashier-expandable-control__label {
+    display: inline-block;
+    color: #222;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.sbtech-widget-cashier-expandable-control__label_word_wrap {
+    width: 50%
+}
+
+.sbtech-widget-cashier-expandable-control__field-wrap {
+    padding-top: 11px;
+    padding-bottom: 3px
+}
+
+.sbtech-widget-cashier-text-input__field {
+    display: block;
+    width: 100%;
+    padding: 15px 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sbtech-widget-cashier-text-input__field_error {
+    border-color: #e92227
+}
+
+.sbtech-widget-cashier-text-input__field::-ms-clear {
+    display: none
+}
+
+.sbtech-widget-cashier-text-input__field:-ms-input-placeholder {
+    color: #aaa
+}
+
+.sbtech-widget-cashier-text-input__field::placeholder {
+    color: #aaa
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-text-input__field {
+        padding: 12px 13px
+    }
+}
+
+.sbtech-widget-cashier-control__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 19px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-control__container {
+        margin-bottom: 21px
+    }
+}
+
+.sbtech-widget-cashier-control__label {
+    display: block;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-bottom: 11px;
+    color: #222;
+    font-size: 14px;
+    line-height: 16px
+}
+
+.sbtech-widget-cashier-control__label_required:after {
+    content: " *"
+}
+
+.sbtech-widget-cashier-number-input__field {
+    display: block;
+    width: 100%;
+    padding: 15px 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px
+}
+
+.sbtech-widget-cashier-number-input__field_amount, .sbtech-widget-cashier-text-input__field {
+    padding: 12px 13px;
+    font-size: 16px;
+    line-height: 22px;
+    /*text-align: center*/
+}
+
+.sbtech-widget-cashier-number-input__field_error {
+    border-color: #e92227
+}
+
+.sbtech-widget-cashier-number-input__field_readonly {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.sbtech-widget-cashier-number-input__field::-ms-clear {
+    display: none
+}
+
+.sbtech-widget-cashier-number-input__field:-ms-input-placeholder {
+    color: #aaa
+}
+
+.sbtech-widget-cashier-number-input__field::placeholder {
+    color: #aaa
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-number-input__field {
+        padding: 12px 13px
+    }
+
+    .sbtech-widget-cashier-number-input__field_amount {
+        padding: 8px
+    }
+}
+
+.sbtech-widget-cashier-select-editable-input__select-input-edit {
+    position: absolute;
+    width: 90%;
+    height: 46px;
+    padding: 12px 28px 12px 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-select-editable-input__select-input-edit_number {
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-select-editable-input__select-input-edit {
+        height: 40px;
+        background-color: #fff;
+        color: #000
+    }
+}
+
+.sbtech-widget-cashier-native-select__select-container {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background-color: #fff
+}
+
+    .sbtech-widget-cashier-native-select__select-container:last-child {
+        margin-bottom: 0
+    }
+
+.sbtech-widget-cashier-native-select__select-container_error {
+    border-color: #e92227
+}
+
+.sbtech-widget-cashier-native-select__select-container_disabled {
+    background-image: none
+}
+
+.sbtech-widget-cashier-native-select__select {
+    position: absolute;
+    word-wrap: break-word;
+    width: 100%;
+    height: 46px;
+    padding: 13px 25px 13px 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-image: url('../images/main/dropdown-arrow-a2beeb.svg');
+    background-position: top 50% right 14px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+    .sbtech-widget-cashier-native-select__select::-ms-expand {
+        display: none
+    }
+
+.sbtech-widget-cashier-native-select__select_paired, .sbtech-widget-cashier-native-select__select_triple {
+    -ms-flex: 1;
+    flex: 1
+}
+
+.sbtech-widget-cashier-native-select__select_cuted-right {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.sbtech-widget-cashier-native-select__select_cuted-left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.sbtech-widget-cashier-custom-select__container {
+    position: relative
+}
+
+.sbtech-widget-cashier-custom-select__input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.sbtech-widget-cashier-custom-select__input-label {
+    overflow: hidden;
+    padding: 12px 28px 12px 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.sbtech-widget-cashier-custom-select__input-arrow {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    width: 12px;
+    height: 7px;
+    margin-top: -4px;
+    background-image: url(assets/dropdown-arrow-a2beeb.svg);
+    background-repeat: no-repeat
+}
+
+.sbtech-widget-cashier-custom-select__input-arrow_up {
+    transform: rotate(180deg)
+}
+
+.sbtech-widget-cashier-custom-select__dropdown-popper {
+    z-index: 2
+}
+
+    .sbtech-widget-cashier-custom-select__dropdown-popper[data-placement=top] {
+        padding-bottom: 10px
+    }
+
+    .sbtech-widget-cashier-custom-select__dropdown-popper[data-placement=bottom] {
+        padding-top: 10px
+    }
+
+    .sbtech-widget-cashier-custom-select__dropdown-popper[data-x-out-of-boundaries=""] {
+        visibility: hidden
+    }
+
+.sbtech-widget-cashier-custom-select__dropdown {
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fff
+}
+
+.sbtech-widget-cashier-custom-select__dropdown-item {
+    padding: 16px 14px 11px;
+    border-bottom: 1px solid #eee;
+    color: #000;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer
+}
+
+    .sbtech-widget-cashier-custom-select__dropdown-item:last-child {
+        border-bottom: none
+    }
+
+.sbtech-widget-cashier-custom-select__dropdown-item_disabled {
+    color: #ccc;
+    cursor: default
+}
+
+.sbtech-widget-cashier-custom-select__dropdown-item:hover:not(.sbtech-widget-cashier-custom-select__dropdown-item_disabled) {
+    background-color: #e5e5e5
+}
+
+.sbtech-widget-cashier-custom-select__select {
+    width: 100%
+}
+
+.sbtech-widget-cashier-custom-select__select_paired {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+.sbtech-widget-cashier-custom-select__select_triple {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%
+}
+
+.sbtech-widget-cashier-custom-select__select_disabled .sbtech-widget-cashier-custom-select__input {
+    background-image: none
+}
+
+.sbtech-widget-cashier-custom-select__select_error .sbtech-widget-cashier-custom-select__input {
+    border-color: #e92227
+}
+
+.sbtech-widget-cashier-custom-select__select_cuted-right .sbtech-widget-cashier-custom-select__input {
+    border-top-right-radius: 0;
+    border-right: 1px solid #eee;
+    border-bottom-right-radius: 0
+}
+
+.sbtech-widget-cashier-custom-select__select_cuted-left .sbtech-widget-cashier-custom-select__input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.sbtech-widget-cashier-custom-select__select_expiration_datetimeyear {
+    padding-right: 12px
+}
+
+.sbtech-widget-cashier-select-autocomplete__select-container {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-select-autocomplete__select-container_error {
+    border-color: #e92227
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-select-autocomplete__select-container {
+        height: 42px
+    }
+}
+
+.sbtech-widget-cashier-date-time-input__container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%
+}
+
+.sbtech-widget-cashier-card-number-input__field {
+    display: block;
+    width: 100%;
+    padding: 15px 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px
+}
+
+.sbtech-widget-cashier-card-number-input__field_error {
+    border-color: #e92227
+}
+
+.sbtech-widget-cashier-card-number-input__field_credit-card {
+    background-position: 96% 50%;
+    background-repeat: no-repeat
+}
+
+.sbtech-widget-cashier-card-number-input__field_american_express {
+    background-image: url(assets/american-express-6365c8.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_solo_paymentech {
+    background-image: url(assets/chase-159a9c.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_cvv {
+    background-image: url(assets/cvv-8faa34.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_discover {
+    background-image: url(assets/discover-d62aa3.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_diners_club {
+    background-image: url(assets/diners-club-3540cf.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_diners_club_international {
+    background-image: url(assets/diners-club-3540cf.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_diners_club_carte_blanche {
+    background-image: url(assets/diners-club-3540cf.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_discover {
+    background-image: url(assets/discover-d62aa3.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_japanese_credit_bureau {
+    background-image: url(assets/japanese-credit-bureau-c89c7e.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_laser {
+    background-image: url(assets/laser-credit-card-081ff1.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_maestro {
+    background-image: url(assets/maestro-24c128.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_mastercard {
+    background-image: url(assets/mastercard-5be6d1.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_visa {
+    background-image: url(assets/visa-761edf.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field_visa_electron {
+    background-image: url(assets/visa-electron-0e1d3b.svg)
+}
+
+.sbtech-widget-cashier-card-number-input__field::-ms-clear {
+    display: none
+}
+
+.sbtech-widget-cashier-card-number-input__field:-ms-input-placeholder {
+    color: #aaa
+}
+
+.sbtech-widget-cashier-card-number-input__field::placeholder {
+    color: #aaa
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-card-number-input__field {
+        padding: 12px
+    }
+}
+
+.sbtech-widget-cashier-cvv-hint__information {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 12px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    background-image: url(assets/info-icon-d122f1.svg);
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-cvv-hint__hint {
+    position: absolute;
+    top: 100%;
+    right: -12px;
+    display: none;
+    width: 280px;
+    padding-top: 13px
+}
+
+.sbtech-widget-cashier-cvv-hint__hint-active {
+    display: block
+}
+
+.sbtech-widget-cashier-cvv-hint__hint-inner {
+    padding: 16px 20px 15px 74px;
+    border-radius: 4px;
+    background-image: url(assets/cvv-8faa34.svg);
+    background-position: top 50% left 12px;
+    background-size: 52px 34px;
+    background-color: #444;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px
+}
+
+    .sbtech-widget-cashier-cvv-hint__hint-inner:before {
+        content: "";
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        width: 0;
+        height: 0;
+        border-right: 5px solid transparent;
+        border-bottom: 4px solid #444;
+        border-left: 5px solid transparent
+    }
+
+.sbtech-widget-cashier-cvv-number-input__container {
+    position: relative
+}
+
+.sbtech-widget-cashier-cvv-number-input__container_fullsize {
+    width: 100%
+}
+
+.sbtech-widget-cashier-cvv-number-input__field {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 15px 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px
+}
+
+.sbtech-widget-cashier-cvv-number-input__field_error {
+    border-color: #e92227
+}
+
+.sbtech-widget-cashier-cvv-number-input__field::-ms-clear {
+    display: none
+}
+
+.sbtech-widget-cashier-cvv-number-input__field:-ms-input-placeholder {
+    color: #aaa
+}
+
+.sbtech-widget-cashier-cvv-number-input__field::placeholder {
+    color: #aaa
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-cvv-number-input__field {
+        padding: 12px 13px
+    }
+}
+
+.sbtech-widget-cashier-regulation-revision__container {
+    padding: 24px;
+    border-radius: 4px;
+    background: #e7e7e7;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px
+}
+
+    .sbtech-widget-cashier-regulation-revision__container h3 {
+        margin: 0 0 16px;
+        font-size: 14px;
+        font-weight: 400
+    }
+
+    .sbtech-widget-cashier-regulation-revision__container p:only-child {
+        margin: 0
+    }
+
+    .sbtech-widget-cashier-regulation-revision__container p:not(:last-child) {
+        margin-bottom: 20px
+    }
+
+    .sbtech-widget-cashier-regulation-revision__container p:last-child {
+        margin: 0
+    }
+
+.sbtech-widget-cashier-payment-method-error__container {
+    padding: 16px 18px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background-color: #d03b3b;
+    color: #fff;
+    font-size: 13px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-method-error__container {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-payment-method-error__message {
+    margin-bottom: 4px
+}
+
+    .sbtech-widget-cashier-payment-method-error__message:last-child, .sbtech-widget-cashier-payment-method-error__message:only-child {
+        margin-bottom: 0
+    }
+
+.sbtech-widget-cashier-add-payment-account-toggle-button__btn {
+    width: 100%;
+    padding: 14px 31px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1px;
+    margin-bottom: 19px;
+    background-color: #e5e5e5;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: 17px 50%;
+    color: #222;
+    outline: none;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-add-payment-account-toggle-button__btn {
+        margin-top: 3px;
+        margin-bottom: 21px
+    }
+}
+
+.sbtech-widget-cashier-add-payment-account-toggle-button__btn_add {
+    background-image: url(assets/add-b84707.svg)
+}
+
+.sbtech-widget-cashier-add-payment-account-toggle-button__btn_prev {
+    background-image: url(assets/arrow-back-387dbb.svg)
+}
+
+.sbtech-widget-cashier-amount-selector__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 21px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-amount-selector__wrap {
+        line-height: 24px
+    }
+}
+
+.sbtech-widget-cashier-amount-selector__item {
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    margin-right: 6px;
+    color: #000;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-amount-selector__item {
+        line-height: 40px
+    }
+}
+
+.sbtech-widget-cashier-amount-selector__item:last-child {
+    margin-right: 0
+}
+
+.sbtech-widget-cashier-amount-selector__item_active {
+    border-color: #2e8a41;
+    background-color: #2e8a41;
+    color: #fff
+}
+
+.sbtech-widget-cashier-amount-selector__item_disabled {
+    opacity: .4;
+    cursor: default
+}
+
+.sbtech-widget-cashier-amount-selector__radio {
+    display: none
+}
+
+.sbtech-widget-cashier-card-expiration-date__container {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 67%;
+    vertical-align: top
+}
+
+.sbtech-widget-cashier-terms-and-conditions-control__container {
+    display: inline-block
+}
+
+.sbtech-widget-cashier-terms-and-conditions-control__link {
+    display: inline
+}
+
+.sbtech-widget-cashier-terms-and-conditions-control__label {
+    color: #444;
+    font-size: 12px;
+    line-height: 14px
+}
+
+.sbtech-widget-cashier-cvv__container {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 33%;
+    vertical-align: top
+}
+
+.sbtech-widget-cashier-cvv__container_fullsize {
+    width: 100%
+}
+
+.sbtech-widget-cashier-submit-payment__btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background-color: #2e8a41;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer
+}
+
+    .sbtech-widget-cashier-submit-payment__btn:disabled {
+        opacity: .7
+    }
+
+.sbtech-widget-cashier-submit-skrill1tap-payment__custom_btn {
+    display: block;
+    width: 190px;
+    height: 50px;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 auto 12px;
+    background-image: url(assets/Skrill_1_tap_white_189x50-cc2ae1.png);
+    background-color: transparent;
+    color: transparent;
+    outline: none;
+    cursor: pointer
+}
+
+    .sbtech-widget-cashier-submit-skrill1tap-payment__custom_btn:disabled {
+        opacity: .7
+    }
+
+.sbtech-widget-cashier-modal__overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.8)
+}
+
+.sbtech-widget-cashier-modal__container {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 4px;
+    margin-right: 21px;
+    margin-left: 21px;
+    background-color: #fff;
+    color: #000;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-modal__container {
+        width: 330px
+    }
+}
+
+.sbtech-widget-cashier-modal__content {
+    padding: 18px 22px
+}
+
+.sbtech-widget-cashier-modal__footer {
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sbtech-widget-cashier-modal__button {
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+    line-height: 44px;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-modal__button_close {
+    background-color: #eaeaea;
+    color: #000
+}
+
+.sbtech-widget-cashier-modal__button_confirm {
+    background-color: #2e8a41;
+    color: #fff
+}
+
+.sbtech-widget-cashier-bonus-card__container {
+    border-radius: 8px;
+    margin: 16px 20px;
+    background: #fff
+}
+
+.sbtech-widget-cashier-bonus-card__image {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    background: #000
+}
+
+.sbtech-widget-cashier-bonus-card__image_hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-bonus-card__body {
+    height: 100%;
+    margin: auto
+}
+
+.sbtech-widget-cashier-bonus-card__bonus_name {
+    display: inline-block;
+    margin: 20px 20px 0;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 16px;
+    line-height: 19px
+}
+
+.sbtech-widget-cashier-bonus-card__body_description {
+    margin: 8px 20px 0;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.sbtech-widget-cashier-bonus-card__body_shortTermsAndConditions {
+    margin: 12px 20px 0;
+    color: #666;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 10px;
+    line-height: 13px
+}
+
+.sbtech-widget-cashier-bonus-card__body_fullTermsAndConditions {
+    margin: 12px 20px 0;
+    color: #666;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.sbtech-widget-cashier-bonus-card__body_fullTermsAndConditions_hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-bonus-card__footer {
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sbtech-widget-cashier-bonus-card__claim_btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    margin: 15px 20px 20px;
+    background-color: #2e8a41;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-bonus-list__overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.8)
+}
+
+.sbtech-widget-cashier-bonus-list__container {
+    overflow: hidden;
+    max-width: 686px;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    color: #000
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bonus-list__container {
+        min-width: 320px
+    }
+}
+
+.sbtech-widget-cashier-bonus-list__header {
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    margin-bottom: 7px;
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1)
+}
+
+.sbtech-widget-cashier-bonus-list__content {
+    overflow-y: auto;
+    height: 90%;
+    margin-top: 4px;
+    background-color: #eee
+}
+
+.sbtech-widget-cashier-bonus-list__close_btn {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    margin-left: 23px;
+    background-image: url(assets/close-popup-8566d5.svg);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    opacity: .4;
+    line-height: 25px;
+    filter: alpha(opacity=20)
+}
+
+    .sbtech-widget-cashier-bonus-list__close_btn:hover {
+        opacity: .8;
+        filter: alpha(opacity=40);
+        cursor: pointer
+    }
+
+.sbtech-widget-cashier-bonus-list__label {
+    display: block;
+    float: left;
+    padding-right: 37px;
+    margin: auto;
+    margin-left: 0;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.sbtech-widget-cashier-terms-and-conditions-modal__overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.8)
+}
+
+.sbtech-widget-cashier-terms-and-conditions-modal__container {
+    overflow: hidden;
+    max-width: 686px;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    color: #000
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-terms-and-conditions-modal__container {
+        min-width: 320px
+    }
+}
+
+.sbtech-widget-cashier-terms-and-conditions-modal__header {
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    margin-bottom: 7px;
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1)
+}
+
+.sbtech-widget-cashier-terms-and-conditions-modal__content {
+    overflow-y: auto;
+    height: 90%;
+    padding: 24px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-terms-and-conditions-modal__content {
+        padding: 30px
+    }
+}
+
+.sbtech-widget-cashier-terms-and-conditions-modal__close_btn {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    margin-left: 23px;
+    background-image: url(assets/close-popup-8566d5.svg);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    opacity: .4;
+    line-height: 25px;
+    filter: alpha(opacity=20)
+}
+
+    .sbtech-widget-cashier-terms-and-conditions-modal__close_btn:hover {
+        opacity: .8;
+        filter: alpha(opacity=40);
+        cursor: pointer
+    }
+
+.sbtech-widget-cashier-terms-and-conditions-modal__label {
+    display: block;
+    float: left;
+    margin: auto;
+    margin-left: 0;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.sbtech-widget-cashier-deposit-payment-form__container {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-deposit-payment-form__container {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-locked-bonuses-item__container {
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background-color: #fff
+}
+
+    .sbtech-widget-cashier-locked-bonuses-item__container:last-child {
+        margin-bottom: 0
+    }
+
+.sbtech-widget-cashier-locked-bonuses-item__item {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 1
+}
+
+    .sbtech-widget-cashier-locked-bonuses-item__item:last-child {
+        border-bottom: none
+    }
+
+.sbtech-widget-cashier-locked-bonuses-item__heading {
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+    color: #000
+}
+
+.sbtech-widget-cashier-locked-bonuses-item__value {
+    color: #666
+}
+
+.sbtech-widget-cashier-locked-bonuses__container {
+    margin-bottom: 24px
+}
+
+.sbtech-widget-cashier-locked-bonuses__header {
+    margin-bottom: 18px;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-withdrawal-payment-form__container {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-withdrawal-payment-form__container {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-vantiv-credit-card-deposit-payment-form__container {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-vantiv-credit-card-deposit-payment-form__container {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-vantiv-credit-card-deposit-payment-form__error {
+    padding: 16px 18px;
+    border-radius: 4px;
+    margin: 12px 34px 0;
+    background-color: #d03b3b;
+    color: #fff;
+    font-size: 13px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-vantiv-credit-card-deposit-payment-form__error {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-vantiv-credit-card-deposit-payment-form__hosted-frame {
+    margin-bottom: 19px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-vantiv-credit-card-deposit-payment-form__hosted-frame {
+        margin-bottom: 21px
+    }
+}
+
+.sbtech-widget-cashier-sightline-play-plus-add-funds__container {
+    height: 100%;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0;
+    margin-bottom: 23px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-sightline-play-plus-add-funds__container {
+        margin-top: 0;
+        margin-bottom: 25px
+    }
+}
+
+.sbtech-widget-cashier-sightline-play-plus-add-funds__btn {
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: text-top;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-sightline-play-plus-add-funds__label {
+    display: inline-block;
+    padding-right: 5px;
+    margin-top: 6px;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    word-break: break-all;
+    word-wrap: break-word;
+    vertical-align: text-top
+}
+
+.sbtech-widget-cashier-sightline-play-plus-deposit-payment-form__container {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-sightline-play-plus-deposit-payment-form__container {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-stp-spei-deposit-payment-form__container {
+    border-radius: 8px;
+    margin: 16px 20px
+}
+
+.sbtech-widget-cashier-stp-spei-deposit-payment-form__image {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    background: #000
+}
+
+.sbtech-widget-cashier-stp-spei-deposit-payment-form__hidden, .sbtech-widget-cashier-stp-spei-deposit-payment-form__image_hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-stp-spei-deposit-payment-form__body {
+    height: 100%;
+    margin: auto
+}
+
+.sbtech-widget-cashier-stp-spei-deposit-payment-form__header {
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-stp-spei-deposit-payment-form__header_caption {
+        margin: 90px 0 0
+    }
+}
+
+.sbtech-widget-cashier-stp-spei-deposit-payment-form__header_info {
+    margin: 25px 0 35px
+}
+
+.sbtech-widget-cashier-stp-spei-deposit-payment-form__label {
+    margin: 0 25px;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: italic
+}
+
+.sbtech-widget-cashier-paymearme-native-deposit-payment-form__container {
+    border-radius: 8px;
+    margin: 16px 20px
+}
+
+.sbtech-widget-cashier-paymearme-native-deposit-payment-form__image {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    background: #000
+}
+
+.sbtech-widget-cashier-paymearme-native-deposit-payment-form__image_hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-paymearme-native-deposit-payment-form__body {
+    height: 100%;
+    margin: auto
+}
+
+.sbtech-widget-cashier-paymearme-native-deposit-payment-form__header {
+    margin: 20px 20px 0;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 16px
+}
+
+    .sbtech-widget-cashier-paymearme-native-deposit-payment-form__header .sbtech-widget-cashier-paymearme-native-deposit-payment-form__info {
+        padding: 0;
+        margin: 5px
+    }
+
+.sbtech-widget-cashier-paymearme-native-deposit-payment-form__footer {
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sbtech-widget-cashier-paymearme-native-deposit-payment-form__find_your_store_btn {
+    width: 30%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    margin: 30px auto;
+    background-color: #2e8a41;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-definition-list__list {
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background-color: #fff
+}
+
+    .sbtech-widget-cashier-definition-list__list:last-child {
+        margin-bottom: 0
+    }
+
+.sbtech-widget-cashier-definition-list__item {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 1
+}
+
+    .sbtech-widget-cashier-definition-list__item:last-child {
+        border-bottom: none
+    }
+
+.sbtech-widget-cashier-definition-list__label {
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+    color: #000
+}
+
+.sbtech-widget-cashier-definition-list__value {
+    color: #666
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__container {
+    padding-top: 20px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__container {
+        -ms-flex: 1;
+        flex: 1;
+        overflow-y: auto;
+        overflow-y: overlay;
+        padding-top: 22px
+    }
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__channel {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__channel {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__header {
+    margin-bottom: 18px;
+    color: #222;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__header {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__header-info {
+    margin-bottom: 28px;
+    color: #222;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__qrcode {
+    display: none
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__qrcode {
+        display: block
+    }
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__qrcode-image {
+    display: block;
+    width: 180px;
+    padding: 21px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-left: auto;
+    background-color: #fff
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__channel-address {
+    margin-bottom: 18px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__channel-address {
+        margin-bottom: 28px
+    }
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__address-link {
+    color: #666;
+    text-decoration: none
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__footer-info {
+    margin-bottom: 25px;
+    color: #222;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-cubits-bitcoin-deposit-payment-form__hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-portmanat-code-deposit-payment-form__container {
+    border-radius: 8px;
+    margin: 16px 20px
+}
+
+.sbtech-widget-cashier-portmanat-code-deposit-payment-form__footer {
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sbtech-widget-cashier-portmanat-code-deposit-payment-form__redirect_btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background-color: #2e8a41;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer
+}
+
+    .sbtech-widget-cashier-portmanat-code-deposit-payment-form__redirect_btn:disabled {
+        opacity: .7
+    }
+
+.sbtech-widget-cashier-gp-invalid__errorMessageContainer {
+    padding: 16px 18px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background-color: #d03b3b;
+    color: #fff;
+    font-size: 13px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-gp-invalid__errorMessageContainer {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-gp-invalid__errorMessage {
+    margin-bottom: 4px
+}
+
+    .sbtech-widget-cashier-gp-invalid__errorMessage:last-child, .sbtech-widget-cashier-gp-invalid__errorMessage:only-child {
+        margin-bottom: 0
+    }
+
+.sbtech-widget-cashier-gp-submit-enrollment__btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background-color: #2e8a41;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer
+}
+
+    .sbtech-widget-cashier-gp-submit-enrollment__btn:disabled {
+        opacity: .7
+    }
+
+.sbtech-widget-cashier-gp-enrollment__container {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-gp-enrollment__container {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-gp-enrollment__label {
+    padding-right: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    word-break: break-all;
+    word-wrap: break-word;
+    vertical-align: text-top
+}
+
+.sbtech-widget-cashier-gp-deposit__container {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-gp-deposit__container {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-gp-deposit__label {
+    padding-right: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: tahoma,helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    word-break: break-all;
+    word-wrap: break-word;
+    vertical-align: text-top
+}
+
+.sbtech-widget-cashier-gp-deposit-payment-form__errorContent {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-gp-deposit-payment-form__errorContent {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-messages__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 15px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-messages__container {
+        max-width: 414px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-messages__item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 16px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background: #e7e7e7
+}
+
+.sbtech-widget-cashier-messages__content {
+    color: #000;
+    font-size: 13px;
+    line-height: 18px
+}
+
+.sbtech-widget-cashier-messages__icon {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat
+}
+
+.sbtech-widget-cashier-messages__icon-hint {
+    background-image: url('../images/main/hint-3bd8df.png');
+}
+
+.sbtech-widget-cashier-messages__icon-warning {
+    background-image: url(assets/info-warning-7e9581.svg)
+}
+
+.sbtech-widget-cashier-messages__icon-wrap {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-top: 4px;
+    margin-right: 12px
+}
+
+.sbtech-widget-cashier-manipulable-payment-form__container {
+    padding-top: 19px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-manipulable-payment-form__container {
+        -ms-flex: 1;
+        flex: 1;
+        overflow-y: auto;
+        overflow-y: overlay;
+        -webkit-overflow-scrolling: touch;
+        padding-top: 21px
+    }
+
+        .sbtech-widget-cashier-manipulable-payment-form__container::-webkit-scrollbar {
+            width: 11px
+        }
+
+        .sbtech-widget-cashier-manipulable-payment-form__container::-webkit-scrollbar-thumb {
+            border: 4px solid rgba(216,2,2,0);
+            border-radius: 12px;
+            background-color: #aaa;
+            background-clip: padding-box
+        }
+}
+
+.sbtech-widget-cashier-bank-transfer-account-holder__account-holder {
+    margin-bottom: 12px
+}
+
+.sbtech-widget-cashier-bank-transfer-account__account {
+    margin-bottom: 12px
+}
+
+    .sbtech-widget-cashier-bank-transfer-account__account:last-child {
+        margin-bottom: 22px
+    }
+
+.sbtech-widget-cashier-bank-transfer-form__container {
+    padding-top: 20px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bank-transfer-form__container {
+        -ms-flex: 1;
+        flex: 1;
+        overflow-y: auto;
+        overflow-y: overlay;
+        padding-top: 22px
+    }
+}
+
+.sbtech-widget-cashier-bank-transfer-form__content {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bank-transfer-form__content {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-bank-transfer-form__header {
+    margin-bottom: 18px;
+    color: #222;
+    font-size: 14px;
+    line-height: 20px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bank-transfer-form__header {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-bank-transfer-form__footer {
+    color: #222;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-bitcoin-form__container {
+    padding-top: 20px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bitcoin-form__container {
+        -ms-flex: 1;
+        flex: 1;
+        overflow-y: auto;
+        overflow-y: overlay;
+        padding-top: 22px
+    }
+}
+
+.sbtech-widget-cashier-bitcoin-form__wallet {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bitcoin-form__wallet {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-bitcoin-form__header {
+    margin-bottom: 18px;
+    color: #222;
+    font-size: 14px;
+    line-height: 20px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bitcoin-form__header {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-bitcoin-form__wallet-id {
+    margin-bottom: 18px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bitcoin-form__wallet-id {
+        margin-bottom: 28px
+    }
+}
+
+.sbtech-widget-cashier-bitcoin-form__wallet-link {
+    color: #666;
+    text-decoration: none
+}
+
+.sbtech-widget-cashier-bitcoin-form__info {
+    margin-bottom: 25px;
+    color: #222;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-bitcoin-form__qrcode {
+    display: none
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-bitcoin-form__qrcode {
+        display: block
+    }
+}
+
+.sbtech-widget-cashier-bitcoin-form__qrcode-label {
+    margin-bottom: 28px;
+    color: #222;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-bitcoin-form__qrcode-image {
+    display: block;
+    width: 180px;
+    padding: 21px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff
+}
+
+.sbtech-widget-cashier-manual_cheque-form__container {
+    padding-top: 20px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-manual_cheque-form__container {
+        -ms-flex: 1;
+        flex: 1;
+        overflow-y: auto;
+        overflow-y: overlay;
+        padding-top: 22px
+    }
+}
+
+.sbtech-widget-cashier-manual_cheque-form__content {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-manual_cheque-form__content {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-manual_cheque-form__header {
+    margin-bottom: 18px;
+    color: #222;
+    font-size: 14px;
+    line-height: 20px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-manual_cheque-form__header {
+        margin-bottom: 20px
+    }
+}
+
+.sbtech-widget-cashier-manual_cheque-form__footer {
+    color: #222;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-manual-payment-form__container {
+    padding-top: 20px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-manual-payment-form__container {
+        -ms-flex: 1;
+        flex: 1;
+        overflow-y: auto;
+        overflow-y: overlay;
+        -webkit-overflow-scrolling: touch;
+        padding-top: 24px
+    }
+
+        .sbtech-widget-cashier-manual-payment-form__container::-webkit-scrollbar {
+            width: 11px
+        }
+
+        .sbtech-widget-cashier-manual-payment-form__container::-webkit-scrollbar-thumb {
+            border: 4px solid rgba(216,2,2,0);
+            border-radius: 12px;
+            background-color: #aaa;
+            background-clip: padding-box
+        }
+}
+
+.sbtech-widget-cashier-invalid-payment-form__container {
+    padding-top: 20px;
+    background-color: #eee
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-invalid-payment-form__container {
+        -ms-flex: 1;
+        flex: 1;
+        overflow-y: auto;
+        overflow-y: overlay;
+        padding-top: 22px
+    }
+}
+
+.sbtech-widget-cashier-invalid-payment-form__content {
+    padding: 0 15px 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-invalid-payment-form__content {
+        max-width: 414px;
+        padding: 0 0 24px;
+        margin: 0 auto
+    }
+}
+
+.sbtech-widget-cashier-payment-list__container {
+    position: relative;
+    z-index: 1;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ddd
+}
+
+    .sbtech-widget-cashier-payment-list__container::-webkit-scrollbar {
+        display: none
+    }
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-list__container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 1;
+        flex: 1;
+        overflow-x: hidden;
+        width: 144px;
+        padding-bottom: 0;
+        border-bottom: none;
+        background-color: #fff;
+        box-shadow: inset -1px 0 0 0 #ddd
+    }
+}
+
+.sbtech-widget-cashier-payment-list__label {
+    padding: 0 15px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    line-height: 1
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-list__label {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-payment-list__scroller {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    height: 88px
+}
+
+    .sbtech-widget-cashier-payment-list__scroller::-webkit-scrollbar {
+        display: none
+    }
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-list__scroller {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        max-height: 100%;
+        height: 100%
+    }
+}
+
+.sbtech-widget-cashier-payment-list__list {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-list__list {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.sbtech-widget-cashier-payment-list__item {
+    height: 85px;
+    padding-right: 12px;
+    text-align: center;
+}
+
+    .sbtech-widget-cashier-payment-list__item:first-child {
+        padding-left: 15px
+    }
+
+    .sbtech-widget-cashier-payment-list__item:last-child {
+        padding-right: 15px
+    }
+
+.sbtech-widget-cashier-payment-list__item_show-more:empty {
+    padding: 0
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-list__item_show-more {
+        display: none
+    }
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-list__item {
+        height: 60px;
+        padding: 0
+    }
+
+        .sbtech-widget-cashier-payment-list__item:first-child, .sbtech-widget-cashier-payment-list__item:last-child {
+            padding: 0
+        }
+}
+
+.sbtech-widget-cashier-payment-result-layout__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-result-layout__container {
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        overflow-y: auto;
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+        border-radius: 5px;
+        background-color: #eee
+    }
+}
+
+@media only screen and (max-height:420px) {
+    .sbtech-widget-cashier-payment-result-layout__container {
+        -ms-flex-pack: initial;
+        justify-content: initial;
+        padding-top: 10px
+    }
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-result-layout__body-content {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        width: 400px
+    }
+}
+
+.sbtech-widget-cashier-payment-result-layout__debug-content {
+    padding-top: 15px
+}
+
+.sbtech-widget-cashier-custom-payment-result-receipt__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    color: #272a31;
+    font-size: 14px;
+    line-height: 40px
+}
+
+.sbtech-widget-cashier-custom-payment-result-receipt__row {
+    border-bottom: 1px solid #ddd
+}
+
+    .sbtech-widget-cashier-custom-payment-result-receipt__row:first-child {
+        border-top: 1px solid #ddd
+    }
+
+.sbtech-widget-cashier-custom-payment-result-receipt__label, .sbtech-widget-cashier-custom-payment-result-receipt__value {
+    padding: 0
+}
+
+.sbtech-widget-cashier-custom-payment-result-receipt__label {
+    text-align: left
+}
+
+.sbtech-widget-cashier-custom-payment-result-receipt__value {
+    text-align: right;
+    text-overflow: ellipsis
+}
+
+.sbtech-widget-cashier-custom-payment-result-receipt__qrcode-image {
+    width: 200px;
+    padding-top: 15px
+}
+
+.sbtech-widget-cashier-custom-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-custom-payment-info__container {
+        width: 400px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+.sbtech-widget-cashier-custom-payment-info__heading {
+    margin: 0 0 35px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-custom-payment-info__hint {
+    max-width: 100%;
+    margin: 0 0 15px;
+    color: #666;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.sbtech-widget-cashier-custom-payment-info__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.sbtech-widget-cashier-completed-payment-print-button__button {
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+@media print {
+    .sbtech-widget-cashier-completed-payment-print-button__button {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-completed-payment-icon__icon {
+    width: 47px;
+    height: 36px;
+    margin-right: auto;
+    margin-bottom: 21px;
+    margin-left: auto;
+    background-image: url(assets/success-bec194.svg);
+    background-size: 47px 36px
+}
+
+.sbtech-widget-cashier-maldopay-banktransfer-header__title {
+    margin-bottom: 22px;
+    font-size: 26px
+}
+
+.sbtech-widget-cashier-maldopay-banktransfer-header__sub-title {
+    color: #000;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-maldopay-cubits-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-maldopay-cubits-payment-info__container {
+        width: 400px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-left: auto
+    }
+}
+
+.sbtech-widget-cashier-maldopay-cubits-payment-info__heading {
+    margin: 0 0 20px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-maldopay-cubits-payment-info__heading {
+        margin: 0 0 22px
+    }
+}
+
+.sbtech-widget-cashier-maldopay-cubits-payment-info__hint {
+    margin-bottom: 34px;
+    color: #000;
+    font-size: 14px;
+    line-height: 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-maldopay-cubits-payment-info__hint {
+        margin-bottom: 24px
+    }
+}
+
+.sbtech-widget-cashier-maldopay-cubits-payment-info__wallet {
+    margin-bottom: 16px
+}
+
+.sbtech-widget-cashier-maldopay-cubits-payment-info__wallet-id {
+    display: block;
+    padding: 17px 30px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #e5e5e5;
+    color: #000;
+    text-decoration: none
+}
+
+.sbtech-widget-cashier-maldopay-cubits-payment-info__wallet-btn {
+    display: block;
+    padding: 17px 30px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #2e8a41;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none
+}
+
+@media print {
+    .sbtech-widget-cashier-maldopay-cubits-payment-info__wallet-btn {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-maldopay-cubits-payment-info__qrcode {
+    display: none;
+    width: 180px;
+    padding: 21px;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #fff
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-maldopay-cubits-payment-info__qrcode {
+        display: block
+    }
+}
+
+.sbtech-widget-cashier-sdpay-p2pbanktransfer-header__title {
+    margin-bottom: 22px;
+    font-size: 26px
+}
+
+.sbtech-widget-cashier-sdpay-p2pbanktransfer-header__sub-title {
+    color: #000;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-perfectmoney-voucher-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-perfectmoney-voucher-payment-info__container {
+        width: 400px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+.sbtech-widget-cashier-perfectmoney-voucher-payment-info__message {
+    margin: 0 0 35px;
+    color: #272a31;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-coinpayments-native-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-coinpayments-native-payment-info__container {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+        border-radius: 5px;
+        background-color: #eee
+    }
+}
+
+.sbtech-widget-cashier-coinpayments-native-payment-info__body-content {
+    padding-top: 15px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-coinpayments-native-payment-info__body-content {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        width: 400px
+    }
+}
+
+.sbtech-widget-cashier-coinpayments-native-payment-info__actions-content {
+    padding-bottom: 15px
+}
+
+.sbtech-widget-cashier-safecharge-applepay-payment-result__safecharge-iframe {
+    width: 100%;
+    height: 100vh
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-safecharge-applepay-payment-result__safecharge-iframe {
+        height: 100%
+    }
+}
+
+.sbtech-widget-cashier-unionpay-onepay-qr-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-unionpay-onepay-qr-payment-info__container {
+        width: 400px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-left: auto
+    }
+}
+
+.sbtech-widget-cashier-unionpay-onepay-qr-payment-info__heading {
+    margin: 0 0 20px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-unionpay-onepay-qr-payment-info__heading {
+        margin: 0 0 22px
+    }
+}
+
+.sbtech-widget-cashier-unionpay-onepay-qr-payment-info__hint {
+    margin-bottom: 34px;
+    color: #000;
+    font-size: 14px;
+    line-height: 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-unionpay-onepay-qr-payment-info__hint {
+        margin-bottom: 24px
+    }
+}
+
+.sbtech-widget-cashier-unionpay-onepay-qr-payment-info__wallet {
+    margin-bottom: 16px
+}
+
+.sbtech-widget-cashier-unionpay-onepay-qr-payment-info__wallet-id {
+    display: block;
+    padding: 17px 30px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #e5e5e5;
+    color: #000;
+    text-decoration: none
+}
+
+.sbtech-widget-cashier-unionpay-onepay-qr-payment-info__wallet-btn {
+    display: block;
+    padding: 17px 30px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #2e8a41;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none
+}
+
+@media print {
+    .sbtech-widget-cashier-unionpay-onepay-qr-payment-info__wallet-btn {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-unionpay-onepay-qr-payment-info__qrcode {
+    display: block;
+    width: 180px;
+    padding: 21px;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #fff
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-unionpay-onepay-qr-payment-info__qrcode {
+        display: block
+    }
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-jeton-go-qr-payment-info__container {
+        width: 400px;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-left: auto
+    }
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__heading {
+    margin: 0 0 20px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-jeton-go-qr-payment-info__heading {
+        margin: 0 0 22px
+    }
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__hint {
+    margin-bottom: 34px;
+    color: #000;
+    font-size: 14px;
+    line-height: 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-jeton-go-qr-payment-info__hint {
+        margin-bottom: 24px
+    }
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__wallet {
+    margin-bottom: 16px
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__wallet-id {
+    display: block;
+    padding: 17px 30px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #e5e5e5;
+    color: #000;
+    text-decoration: none
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__wallet-btn {
+    display: block;
+    padding: 17px 30px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #2e8a41;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none
+}
+
+@media print {
+    .sbtech-widget-cashier-jeton-go-qr-payment-info__wallet-btn {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__qrcode {
+    display: block;
+    width: 180px;
+    padding: 21px;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #fff
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-jeton-go-qr-payment-info__qrcode {
+        display: block
+    }
+}
+
+.sbtech-widget-cashier-jeton-go-qr-payment-info__href {
+    margin-bottom: 34px;
+    color: #000;
+    font-size: 14px;
+    line-height: 22px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-jeton-go-qr-payment-info__href {
+        margin-bottom: 24px
+    }
+}
+
+.sbtech-widget-cashier-download-receipt-button__button {
+    display: inline-block;
+    padding: 17px 30px 28px;
+    border-radius: 24px;
+    color: #2e8a41;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer
+}
+
+@media print {
+    .sbtech-widget-cashier-download-receipt-button__button {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-download-receipt-button__button.sbtech-widget-cashier-download-receipt-button__isDisabled {
+    color: #666;
+    opacity: .3
+}
+
+.sbtech-widget-cashier-download-receipt-button__button.sbtech-widget-cashier-download-receipt-button__hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-pending-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    /*text-align: center*/
+}
+
+.sbtech-widget-cashier-pending-payment-info__heading {
+    margin: 0 0 16px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-pending-payment-info__message {
+    max-width: 380px;
+    margin: 0 auto 30px;
+    color: #272a31;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-payment-header-info__heading {
+    margin: 0 0 12px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-payment-header-info__info {
+    margin: 0 0 30px;
+    color: #272a31;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.sbtech-widget-cashier-payment-redirection-debug-info__hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-custom-actions-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center
+}
+
+.sbtech-widget-cashier-custom-actions-payment-info__heading {
+    margin: 0 0 16px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-custom-actions-payment-info__message {
+    max-width: 380px;
+    margin: 0 auto 30px;
+    color: #272a31;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-successful-payment-result__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center
+}
+
+.sbtech-widget-cashier-successful-payment-result__heading {
+    margin: 0 0 12px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-successful-payment-result__message {
+    max-width: 380px;
+    margin: 0 auto 30px;
+    color: #272a31;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-failed-payment-info__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center
+}
+
+.sbtech-widget-cashier-failed-payment-info__heading {
+    margin: 0 0 16px;
+    color: #272a31;
+    font-size: 26px;
+    font-weight: 400
+}
+
+.sbtech-widget-cashier-failed-payment-info__message {
+    max-width: 380px;
+    margin: 0 auto 30px;
+    color: #272a31;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-payment-card-logo__logotype {
+    overflow: hidden;
+    max-width: 64px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.sbtech-widget-cashier-payment-card__card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 130px;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+    outline: 0;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-payment-card__card.active, .sbtech-widget-cashier-payment-card__card_hover-able:hover {
+    border: 3px solid #2e8a41
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-card__card {
+        width: auto;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid #eee;
+        border-radius: 0;
+        background-color: inherit
+    }
+
+    .sbtech-widget-cashier-payment-card__card_active, .sbtech-widget-cashier-payment-card__card_hover-able:hover {
+        border: none;
+        background-color: #eee;
+        box-shadow: 0 0 0 1px #ddd
+    }
+
+    .sbtech-widget-cashier-payment-card__card_hover-able:hover {
+        border-right: 1px solid #ddd
+    }
+
+    .sbtech-widget-cashier-payment-card__card_active:hover {
+        border-right: 0
+    }
+}
+
+.sbtech-widget-cashier-grid-payment-card__card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 66px;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-grid-payment-card__card {
+        min-height: 60px
+    }
+}
+
+.sbtech-widget-cashier-show-more-payments__show-more {
+    width: 100%;
+    border: none;
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-show-more-payments__show-more {
+        box-shadow: inset -1px 0 0 0 #ddd
+    }
+}
+
+.sbtech-widget-cashier-show-more-payments__show-more_aside {
+    display: none;
+    overflow: hidden;
+    width: 144px;
+    padding: 19px 15px;
+    background-color: #f5f5f5;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-show-more-payments__show-more_aside {
+        display: block
+    }
+}
+
+.sbtech-widget-cashier-show-more-payments__show-more_list {
+    position: relative;
+    overflow: hidden;
+    width: 130px;
+    height: 100%;
+    padding-top: 30px;
+    border-radius: 8px;
+    background-color: #fff
+}
+
+    .sbtech-widget-cashier-show-more-payments__show-more_list:before {
+        content: "";
+        position: absolute;
+        top: 22px;
+        left: 50%;
+        width: 16px;
+        height: 16px;
+        transform: rotate(180deg) translateX(50%);
+        background-image: url(assets/arrow-back-387dbb.svg);
+        background-repeat: no-repeat
+    }
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-show-more-payments__show-more_list {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-payment-balance__balance {
+    display: none;
+    color: #fff
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-balance__balance {
+        display: block
+    }
+}
+
+.sbtech-widget-cashier-payment-balance__hidden {
+    display: none
+}
+
+.sbtech-widget-cashier-payment-header__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-height: 62px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #272a31
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__container {
+        padding-right: 34px;
+        padding-left: 0
+    }
+}
+
+.sbtech-widget-cashier-payment-header__list-heading {
+    display: none
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__list-heading {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-item-align: stretch;
+        align-self: stretch;
+        width: 144px;
+        margin-right: 34px;
+        background-color: #2f333b;
+        color: #fff;
+        font-size: 16px;
+        text-align: center
+    }
+}
+
+.sbtech-widget-cashier-payment-header__payment-method {
+    display: none
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__payment-method {
+        display: block;
+        -ms-flex: 1;
+        flex: 1;
+        overflow: hidden;
+        padding-right: 15px;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        white-space: nowrap;
+        text-overflow: ellipsis
+    }
+}
+
+.sbtech-widget-cashier-payment-header__transaction-type {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__transaction-type {
+        display: none
+    }
+}
+
+.sbtech-widget-cashier-payment-header__help-panel {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none
+}
+
+.sbtech-widget-cashier-payment-header__help-panel-email:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    background-image: url(assets/email-881df6.png);
+    background-repeat: no-repeat
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__help-panel-email:before {
+        margin-right: 10px
+    }
+}
+
+.sbtech-widget-cashier-payment-header__help-panel-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 25px 23px;
+    border-right: 1px solid #7a7b7f;
+    font-size: 12px;
+    line-height: 14px;
+    cursor: pointer
+}
+
+    .sbtech-widget-cashier-payment-header__help-panel-item:last-child {
+        border-right: 0
+    }
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__help-panel-item {
+        padding: 2px 12px 2px 14px;
+        border-right-color: #7a7b7f
+    }
+
+        .sbtech-widget-cashier-payment-header__help-panel-item:first-child {
+            padding-left: 0
+        }
+
+        .sbtech-widget-cashier-payment-header__help-panel-item:last-child {
+            padding-right: 0
+        }
+}
+
+.sbtech-widget-cashier-payment-header__help-panel-label {
+    display: none;
+    color: #fff;
+    white-space: nowrap;
+    text-decoration: none
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__help-panel-label {
+        display: inline-block
+    }
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-header__help-panel {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #fff
+    }
+}
+
+.sbtech-widget-cashier-security-notice__container {
+    padding: 19px 15px;
+    background-color: #e5e5e5;
+    color: #666;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center
+}
+
+.sbtech-widget-cashier-security-notice__read-more {
+    color: #666;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.sbtech-widget-cashier-payment__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment__container {
+        overflow: hidden;
+        min-height: 100%;
+        height: 100%;
+        border-radius: 5px
+    }
+}
+
+.sbtech-widget-cashier-payment__main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 18px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment__main {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        min-height: 0;
+        padding: 0
+    }
+}
+
+@media only screen and (min-width:626px) and (min-height:421px) {
+    .sbtech-widget-cashier-payment__main {
+        height: calc(100% - 62px)
+    }
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment__aside {
+        flex-direction: column
+    }
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment__aside, .sbtech-widget-cashier-payment__content {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        max-height: 100%
+    }
+
+    .sbtech-widget-cashier-payment__content {
+        flex-direction: column;
+        -ms-flex: 1;
+        flex: 1
+    }
+}
+
+.sbtech-widget-cashier-payment-methods-grid__container {
+    padding: 14px 10px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-methods-grid__container {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 18px 24px
+    }
+}
+
+.sbtech-widget-cashier-payment-methods-grid__grid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none
+}
+
+.sbtech-widget-cashier-payment-methods-grid__item {
+    -ms-flex-preferred-size: 33.3333%;
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-bottom: 8px
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payment-methods-grid__item {
+        -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+        max-width: 20%;
+        padding-right: 6px;
+        padding-left: 6px;
+        margin-bottom: 12px
+    }
+}
+
+.sbtech-widget-cashier-payment-methods-grid-header__container {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 62px;
+    padding: 0 40px;
+    background: #272a31
+}
+
+.sbtech-widget-cashier-payment-methods-grid-header__navigate-back {
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    width: 16px;
+    height: 16px;
+    border: none;
+    transform: translateY(-50%);
+    background-color: #272a31;
+    background-image: url(assets/arrow-back-f1bd07.svg);
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-payment-methods-grid-header__heading {
+    color: #fff;
+    font-size: 16px
+}
+
+.sbtech-widget-cashier-payment-methods-grid-header__balance-block {
+    position: absolute;
+    top: 50%;
+    right: 23px;
+    border: none;
+    transform: translateY(-50%)
+}
+
+.sbtech-widget-cashier-payments-grid__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payments-grid__container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        overflow: hidden;
+        min-height: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background-color: #eee
+    }
+}
+
+@keyframes sbtech-widget-cashier-loader-icon-small__rotate {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes sbtech-widget-cashier-loader-icon-small__dash {
+    0% {
+        stroke-dasharray: 1,200;
+        stroke-dashoffset: 0
+    }
+
+    50% {
+        stroke-dasharray: 89,200;
+        stroke-dashoffset: -35px
+    }
+
+    to {
+        stroke-dasharray: 89,200;
+        stroke-dashoffset: -124px
+    }
+}
+
+.sbtech-widget-cashier-loader-icon-small__wrap {
+    z-index: 2147483647;
+    height: 100%;
+    font-family: tahoma,helvetica,arial,sans-serif
+}
+
+.sbtech-widget-cashier-loader-icon-small__overlay {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: hsla(0,0%,93%,.95);
+    -ms-touch-action: none;
+    touch-action: none
+}
+
+.sbtech-widget-cashier-loader-icon-small__loader {
+    position: relative;
+    width: 30px;
+    margin-bottom: 24px
+}
+
+    .sbtech-widget-cashier-loader-icon-small__loader:before {
+        content: "";
+        display: block;
+        padding-top: 100%
+    }
+
+.sbtech-widget-cashier-loader-icon-small__circular {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform-origin: center center;
+    animation: sbtech-widget-cashier-loader-icon-small__rotate 2s linear infinite
+}
+
+.sbtech-widget-cashier-loader-icon-small__path {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: 0;
+    animation: sbtech-widget-cashier-loader-icon-small__dash 1.5s ease-in-out infinite;
+    stroke-linecap: round;
+    stroke: #2e8a41
+}
+
+.sbtech-widget-cashier-loader-icon-small__message {
+    color: #272a31;
+    font-size: 16px
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__container {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 62px;
+    background: #272a31
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__navigate-back {
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    width: 16px;
+    height: 16px;
+    border: none;
+    transform: translateY(-50%);
+    background-color: #272a31;
+    background-image: url(assets/arrow-back-f1bd07.svg);
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__heading {
+    color: #fff;
+    font-size: 16px
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__balance-block {
+    position: absolute;
+    top: 50%;
+    right: 23px;
+    border: none;
+    transform: translateY(-50%)
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__payment-method {
+    display: block;
+    overflow: hidden;
+    padding-right: 15px;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__info {
+    position: absolute;
+    top: 50%;
+    right: 23px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    transform: translateY(-50%);
+    background-color: #272a31;
+    background-image: url(assets/info-fe592f.png);
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__info_close {
+    background-image: url(assets/close-227a3a.png)
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__tooltip {
+    position: absolute;
+    display: none
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__tooltip_enabled {
+    z-index: 1;
+    top: 70px;
+    right: 20px;
+    left: 20px;
+    display: block;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px;
+    border-radius: 6px;
+    background: #272a31;
+    color: #fff;
+    font-size: 14px
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__spinner {
+    position: absolute;
+    top: 25%;
+    right: 75px;
+    display: none
+}
+
+.sbtech-widget-cashier-payment-methods-redirect-header__spinner_enabled {
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sbtech-widget-cashier-payments-redirect__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payments-redirect__container {
+        overflow: hidden
+    }
+}
+
+.sbtech-widget-cashier-payments-redirect__iframe {
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    border: 0
+}
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-payments-redirect__iframe {
+        height: 100%
+    }
+}
+
+.sbtech-widget-cashier-cashier-widget__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 626px;
+    font-family: tahoma,helvetica,arial,sans-serif
+}
+
+    .sbtech-widget-cashier-cashier-widget__container *, .sbtech-widget-cashier-cashier-widget__container :after, .sbtech-widget-cashier-cashier-widget__container :before {
+        box-sizing: inherit
+    }
+
+@media only screen and (min-width:626px) {
+    .sbtech-widget-cashier-cashier-widget__container {
+        overflow: hidden;
+        max-height: 668px;
+        height: 100%
+    }
+}
+
+/*********´æ¿î**********/
+form {
+    padding: 0px;
+}
+
+.sbtech-widget-cashier-withdrawal-payment-form__container .container {
+    padding: 0px;
+}
+
+input[type=text], input[type=password] {
+    padding: 12px 13px;
+    font-weight: 500;
+}
+
+.deposit-chongzhi {
+    padding-top: 19px;
+    background-color: #eee;
+}
+div.deposit-chongzhi div.deposit-detail {
+    padding: 0 15px 22px;
+}
+    div.deposit-chongzhi div.deposit-detail div.deposit-shuru {
+        width: 100%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    div.deposit-chongzhi div.deposit-detail div.deposit-shuru label {
+        display: block;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 11px;
+        color: #222;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    div.deposit-chongzhi div.deposit-detail div.deposit-shuru select,
+    div.deposit-chongzhi div.deposit-detail div.deposit-shuru input {
+        
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 12px 13px;
+        color: #000;
+        font-weight: 700;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #fff;
+        border-radius: 4px;
+        background-color: #fff;
+        box-shadow: none;
+    }
+
+button.mui-btn.surebtn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background-color: #2e8a41;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.deposit-qrcode {
+
+}
+    .deposit-qrcode p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+.sbtech-widget-cashier-payment-list__item label {
+    display: block;
+}
+.sbtech-widget-cashier-payment-list__item span {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.sbtech-widget-cashier-payment-list__item img {
+    margin-top: -11px;
+    float: left;
+    margin-left: 24%;
+}

@@ -1,0 +1,1438 @@
+img.loading {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    width: 80px;
+}
+
+
+
+div[class*="mg_"]{
+    width: 77%;
+    height: 133px; 
+    background-position: 0 0;
+    margin: 0px auto;
+   
+}
+
+div[class*="mg_"]:hover { 
+    background-position: -145px 0;
+}
+
+.mg_3CardPoker {
+    background-image: url(../images/game/mg/BTN_3CardPoker1.png);
+}
+.mg_3CardPokerGold {
+    background-image: url(../images/game/mg/BTN_GoldSeries_3CardPoker1.png);
+}
+.mg_5ReelDrive {
+    background-image: url(../images/game/mg/BTN_5ReelDrive1.png);
+}
+.mg_acesfaces {
+    background-image: url(../images/game/mg/BTN_AcesFaces1.png);
+}
+.mg_AcesfacesPwrPoker {
+    background-image: url(../images/game/mg/BTN_AcesFacesPowerPoker1.png);
+}
+.mg_AlaskanFishing {
+    background-image: url(../images/game/mg/BTN_AlaskanFishing1.png);
+}
+.mg_AmericanRoulette {
+    background-image: url(../images/game/mg/BTN_USRoulette1.png);
+}
+.mg_ArcticFortune {
+    background-image: url(../images/game/mg/BTN_ArcticFortune.png);
+}
+.mg_AsianBeauty {
+    background-image: url(../images/game/mg/BTN_AsianBeauty1.png);
+}
+.mg_Avalon {
+    background-image: url(../images/game/mg/BTN_Avalon_HD.png);
+}
+.mg_Avalon2 {
+    background-image: url(../images/game/mg/BTN_AvalonII.png);
+}
+.mg_AvalonV90 {
+    background-image: url(../images/game/mg/BTN_Avalon1.png);
+}
+.mg_Baccarat {
+    background-image: url(../images/game/mg/BTN_Baccarat2.png);
+}
+.mg_BaccaratGold {
+    background-image: url(../images/game/mg/BTN_GoldSeries_Baccarat1.png);
+}
+.mg_BarsAndStripesV90 {
+    background-image: url(../images/game/mg/BTN_Bars&Stripes1.png);
+}
+.mg_Belissimo {
+    background-image: url(../images/game/mg/BTN_Belissimo17.png);
+}
+.mg_big5 {
+    background-image: url(../images/game/mg/BTN_BigFive1.png);
+}
+.mg_BigKahuna {
+    background-image: url(../images/game/mg/BTN_BigKahuna1.png);
+}
+.mg_BigKahunav90 {
+    background-image: url(../images/game/mg/BTN_BigKahuna1.png);
+}
+.mg_BigTop {
+    background-image: url(../images/game/mg/BTN_BigTop1.png);
+}
+.mg_BigTopV90 {
+    background-image: url(../images/game/mg/BTN_BigTop1.png);
+}
+.mg_BlackjackBonanza {
+    background-image: url(../images/game/mg/BTN_BlackjackBonanza5.png);
+}
+.mg_Bobby7s {
+    background-image: url(../images/game/mg/BTN_Bobby7s.png);
+}
+.mg_BootyTime {
+    background-image: url(../images/game/mg/BTN_BootyTime.png);
+}
+.mg_breakaway {
+    background-image: url(../images/game/mg/BTN_BreakAway1.png);
+}
+.mg_BreakDaBank {
+    background-image: url(../images/game/mg/BTN_BreakDaBank1.png);
+}
+.mg_Bridezilla {
+    background-image: url(../images/game/mg/BTN_BrideZilla.png);
+}
+.mg_BubbleBonanza {
+    background-image: url(../images/game/mg/BTN_BubbleBonanza.png);
+}
+.mg_BushTelegraph {
+    background-image: url(../images/game/mg/BTN_BushTelegraph1.png);
+}
+.mg_BustTheBank {
+    background-image: url(../images/game/mg/BTN_BustTheBank1.png);
+}
+.mg_ButterFlies {
+    background-image: url(../images/game/mg/BTN_Butterflies.png);
+}
+.mg_Carnaval {
+    background-image: url(../images/game/mg/BTN_Carnaval2.png);
+}
+.mg_CashanovaV90 {
+    background-image: url(../images/game/mg/BTN_Cashanova1.png);
+}
+.mg_CashClams {
+    background-image: url(../images/game/mg/BTN_CashClams2.png);
+}
+.mg_CashCrazy {
+    background-image: url(../images/game/mg/BTN_CashCrazy9.png);
+}
+.mg_CashSplash {
+    background-image: url(../images/game/mg/BTN_CashSplash1.png);
+}
+.mg_CashSplash5Reel {
+    background-image: url(../images/game/mg/BTN_CashSplash5Reel1.png);
+}
+.mg_Cashville {
+    background-image: url(../images/game/mg/BTN_Cashville1.png);
+}
+.mg_CastleBuilder {
+    background-image: url(../images/game/mg/BTN_CastleBuilder.png);
+}
+.mg_CherryRed {
+    background-image: url(../images/game/mg/BTN_CherryRed15.png);
+}
+.mg_chiefsmagic {
+    background-image: url(../images/game/mg/BTN_ChiefsMagic1.png);
+}
+.mg_coolbuck {
+    background-image: url(../images/game/mg/BTN_CoolBuck1.png);
+}
+.mg_coolwolf {
+    background-image: url(../images/game/mg/BTN_CoolWolf1.png);
+}
+.mg_cosmicc {
+    background-image: url(../images/game/mg/BTN_CosmicCat1.png);
+}
+.mg_CouchPotato {
+    background-image: url(../images/game/mg/BTN_CouchPotato2.png);
+}
+.mg_crackerjack {
+    background-image: url(../images/game/mg/BTN_CrackerJack1.png);
+}
+.mg_Craps {
+    background-image: url(../images/game/mg/BTN_Craps1.png);
+}
+.mg_CrazyChameleons {
+    background-image: url(../images/game/mg/BTN_CrazyChameleons1.png);
+}
+.mg_Crocodopolis {
+    background-image: url(../images/game/mg/BTN_Crocodopolis.png);
+}
+.mg_crocs {
+    background-image: url(../images/game/mg/BTN_CrazyCrocs1.png);
+}
+.mg_CrownAndAnchor {
+    background-image: url(../images/game/mg/BTN_CrownAndAnchor1.png);
+}
+.mg_Cyberstud {
+    background-image: url(../images/game/mg/BTN_Cyberstud1.png);
+}
+.mg_DeucesandJoker {
+    background-image: url(../images/game/mg/BTN_DeucesJoker1.png);
+}
+.mg_DeucesJokerPwrPoker {
+    background-image: url(../images/game/mg/BTN_DeucesJokerPowerPoker1.png);
+}
+.mg_deuceswi {
+    background-image: url(../images/game/mg/BTN_DeucesWild1.png);
+}
+.mg_DeucesWildPwrPoker {
+    background-image: url(../images/game/mg/BTN_DeucesWildPowerPoker1.png);
+}
+.mg_DinoMight {
+    background-image: url(../images/game/mg/BTN_DinoMight1.png);
+}
+.mg_dm {
+    background-image: url(../images/game/mg/BTN_DoubleMagic1.png);
+}
+.mg_DoctorLove {
+    background-image: url(../images/game/mg/BTN_DoctorLove.png);
+}
+.mg_DolphinQuest {
+    background-image: url(../images/game/mg/BTN_DolphinQuest.png);
+}
+.mg_DoubleDoubleBonus {
+    background-image: url(../images/game/mg/BTN_DoubleDoubleBonus1.png);
+}
+.mg_DoubleJoker {
+    background-image: url(../images/game/mg/BTN_DoubleJoker1.png);
+}
+.mg_DoubleJokerPwrPoker {
+    background-image: url(../images/game/mg/BTN_DoubleJokerPowerPoker1.png);
+}
+.mg_DoubleWammy {
+    background-image: url(../images/game/mg/BTN_DoubleWammy1.png);
+}
+.mg_DrWattsUp {
+    background-image: url(../images/game/mg/BTN_DrWattsUp1.png);
+}
+.mg_EaglesWings {
+    background-image: url(../images/game/mg/BTN_EaglesWings1.png);
+}
+.mg_ElectroBingo {
+    background-image: url(../images/game/mg/BTN_ElectroBingo1.png);
+}
+.mg_EnchantedMermaid {
+    background-image: url(../images/game/mg/BTN_EnchantedMermaid1.png);
+}
+.mg_EnchantedWoods {
+    background-image: url(../images/game/mg/BTN_EnchantedWoods1.png);
+}
+.mg_EuroRouletteGold {
+    background-image: url(../images/game/mg/BTN_GoldSeries_EuroRoulette1.png);
+}
+.mg_fan7 {
+    background-image: url(../images/game/mg/BTN_FantasticSevens1.png);
+}
+.mg_FatLadySings {
+    background-image: url(../images/game/mg/BTN_FatLadySings1.png);
+}
+.mg_FireHawk {
+    background-image: url(../images/game/mg/BTN_FireHawk.png);
+}
+.mg_fishparty {
+    background-image: url(../images/game/mg/BTN_FishParty1.png);
+}
+.mg_FlipCard {
+    background-image: url(../images/game/mg/BTN_FlipCard1.png);
+}
+.mg_flowerpower {
+    background-image: url(../images/game/mg/BTN_FlowerPower1.png);
+}
+.mg_footballstar {
+    background-image: url(../images/game/mg/BTN_FootballStar.png);
+}
+.mg_FortuneCookie {
+    background-image: url(../images/game/mg/BTN_FortuneCookie7.png);
+}
+.mg_FrenchRoulette {
+    background-image: url(../images/game/mg/BTN_FrenchRoulette1.png);
+}
+.mg_FruitFiesta {
+    background-image: url(../images/game/mg/BTN_FruitFiesta1.png);
+}
+.mg_FruitFiesta5Reel {
+    background-image: url(../images/game/mg/BTN_FruitFiesta5Reel1.png);
+}
+.mg_fruits {
+    background-image: url(../images/game/mg/BTN_FruitSlots1.png);
+}
+.mg_Galacticons {
+    background-image: url(../images/game/mg/BTN_Galacticons.png);
+}
+.mg_gdragon {
+    background-image: url(../images/game/mg/BTN_GoldenDragon6.png);
+}
+.mg_geniesgems {
+    background-image: url(../images/game/mg/BTN_GeniesGems2.png);
+}
+.mg_Germinator {
+    background-image: url(../images/game/mg/BTN_Germinator1.png);
+}
+.mg_GiftRap {
+    background-image: url(../images/game/mg/BTN_GiftRap2.png);
+}
+.mg_GirlsWithGuns {
+    background-image: url(../images/game/mg/BTN_GirlswithGuns1.png);
+}
+.mg_girlswithgunsfrozenDawn {
+    background-image: url(../images/game/mg/BTN_GirlswithGuns2.png);
+}
+.mg_GladiatorsGold {
+    background-image: url(../images/game/mg/BTN_GladiatorGold9.png);
+}
+.mg_goblinsgold {
+    background-image: url(../images/game/mg/BTN_GoblinsGold1.png);
+}
+.mg_GoldFactoryV90 {
+    background-image: url(../images/game/mg/BTN_GoldFactory1.png);
+}
+.mg_GopherGold {
+    background-image: url(../images/game/mg/BTN_GopherGold2.png);
+}
+.mg_GreatGriffin {
+    background-image: url(../images/game/mg/BTN_GreatGriffin1.png);
+}
+.mg_Hexaline {
+    background-image: url(../images/game/mg/BTN_Hexaline.png);
+}
+.mg_HighFive {
+    background-image: url(../images/game/mg/BTN_HighFive1.png);
+}
+.mg_HighLimitBaccarat {
+    background-image: url(../images/game/mg/BTN_HighLimitBaccarat1.png);
+}
+.mg_Highsociety {
+    background-image: url(../images/game/mg/BTN_HighSociety.png);
+}
+.mg_HighSpeedPoker {
+    background-image: url(../images/game/mg/BTN_GoldSeries_HighSpeedPoker1.png);
+}
+.mg_hohoho {
+    background-image: url(../images/game/mg/BTN_Hohoho1.png);
+}
+.mg_HotInk {
+    background-image: url(../images/game/mg/BTN_HotInk1.png);
+}
+.mg_houseofdragons {
+    background-image: url(../images/game/mg/HouseofDragons.png);
+}
+.mg_ImmortalRomance {
+    background-image: url(../images/game/mg/BTN_ImmortalRomance1.png);
+}
+.mg_ImmortalRomancev90 {
+    background-image: url(../images/game/mg/BTN_ImmortalRomance1.png);
+}
+.mg_IrishEyes {
+    background-image: url(../images/game/mg/BTN_IrishEyes.png);
+}
+.mg_Isis {
+    background-image: url(../images/game/mg/BTN_Isis1.png);
+}
+.mg_IWCardSelector {
+    background-image: url(../images/game/mg/BTN_InstantWinCardSelector1.png);
+}
+.mg_JackpotDeuces {
+    background-image: url(../images/game/mg/BTN_JackpotDeuces1.png);
+}
+.mg_jacks {
+    background-image: url(../images/game/mg/BTN_JacksOrBetter1.png);
+}
+.mg_Jackspwrpoker {
+    background-image: url(../images/game/mg/BTN_JacksorBetterPowerPoker1.png);
+}
+.mg_JasonAndTheGoldenFleece {
+    background-image: url(../images/game/mg/BTN_JasonGoldenFleece1.png);
+}
+.mg_jesters {
+    background-image: url(../images/game/mg/BTN_JestersJackpot6.png);
+}
+.mg_JewelsOfTheOrient {
+    background-image: url(../images/game/mg/BTN_JewelsoftheOrient1.png);
+}
+.mg_jexpress {
+    background-image: url(../images/game/mg/BTN_JackpotExpress1.png);
+}
+.mg_Jokerpok {
+    background-image: url(../images/game/mg/BTN_JokerPoker1.png);
+}
+.mg_jurassicbr {
+    background-image: url(../images/game/mg/BTN_JurassicJackpot1.png);
+}
+.mg_jurassicjackpot {
+    background-image: url(../images/game/mg/BTN_JurassicJackpot1.png);
+}
+.mg_jurassicpark {
+    background-image: url(../images/game/mg/BTN_JurassicPark.png);
+}
+.mg_KaratePig {
+    background-image: url(../images/game/mg/BTN_KaratePig1.png);
+}
+.mg_KaratePigv90 {
+    background-image: url(../images/game/mg/BTN_KaratePig1.png);
+}
+.mg_Keno {
+    background-image: url(../images/game/mg/BTN_Keno3.png);
+}
+.mg_KingCashaLot {
+    background-image: url(../images/game/mg/BTN_KingsOfCash.png);
+}
+.mg_KingsOfCash {
+    background-image: url(../images/game/mg/BTN_KingsofCash1.png);
+}
+.mg_LadiesNite {
+    background-image: url(../images/game/mg/BTN_LadiesNite5.png);
+}
+.mg_LadyInRed {
+    background-image: url(../images/game/mg/BTN_LadyInRed2.png);
+}
+.mg_LeaguesOfFortune {
+    background-image: url(../images/game/mg/BTN_LeaguesOfFortune1.png);
+}
+.mg_LeaguesOfFortunev90 {
+    background-image: url(../images/game/mg/BTN_LeaguesOfFortune1.png);
+}
+.mg_lions {
+    background-image: url(../images/game/mg/BTN_LionsShare1.png);
+}
+.mg_Loaded {
+    background-image: url(../images/game/mg/BTN_Loaded1.png);
+}
+.mg_LooseCannon {
+    background-image: url(../images/game/mg/BTN_LooseCannon1.png);
+}
+.mg_LotsaLoot5Reel {
+    background-image: url(../images/game/mg/BTN_Lotsaloot5Reel1.png);
+}
+.mg_LotsofLoot {
+    background-image: url(../images/game/mg/BTN_Lotsaloot1.png);
+}
+.mg_LouisianaDouble {
+    background-image: url(../images/game/mg/BTN_LouisianaDouble1.png);
+}
+.mg_LoveBugs {
+    background-image: url(../images/game/mg/BTN_LoveBugs1.png);
+}
+.mg_LuckyCharmer {
+    background-image: url(../images/game/mg/BTN_LuckyCharmer1.png);
+}
+.mg_LuckyKoi {
+    background-image: url(../images/game/mg/BTN_LuckyKoi.png);
+}
+.mg_LuckyLeprechaunsLoot {
+    background-image: url(../images/game/mg/BTN_LuckyLeprechaunsLoot.png);
+}
+.mg_LuckyWitch {
+    background-image: url(../images/game/mg/BTN_LuckyWitch1.png);
+}
+.mg_LuckyWitchv90 {
+    background-image: url(../images/game/mg/BTN_LuckyWitch1.png);
+}
+.mg_MadHatters {
+    background-image: url(../images/game/mg/BTN_MadHatters1.png);
+}
+.mg_MajorMillions {
+    background-image: url(../images/game/mg/BTN_MajorMillions5Reel1.png);
+}
+.mg_MajorMillions5Reel {
+    background-image: url(../images/game/mg/BTN_MajorMillions5Reel1.png);
+}
+.mg_MayanPrincess {
+    background-image: url(../images/game/mg/BTN_MayanPrincess1.png);
+}
+.mg_MerlinsMillions {
+    background-image: url(../images/game/mg/BTN_MerlinsMillions.png);
+}
+.mg_MermaidsMillions {
+    background-image: url(../images/game/mg/BTN_MermaidsMillions1.png);
+}
+.mg_MermaidsMillionsV90 {
+    background-image: url(../images/game/mg/BTN_MermaidsMillions1.png);
+}
+.mg_MH3CardPokerGold {
+    background-image: url(../images/game/mg/BTN_MH3CardPoker1.png);
+}
+.mg_monkeys {
+    background-image: url(../images/game/mg/BTN_MonkeysMoney1.png);
+}
+.mg_MonsterMania {
+    background-image: url(../images/game/mg/BTN_MonsterMania1.png);
+}
+.mg_MonteCarloRiches {
+    background-image: url(../images/game/mg/BTN_RivieraRiches1.png);
+}
+.mg_MoonshineV90 {
+    background-image: url(../images/game/mg/BTN_Moonshine1.png);
+}
+.mg_MSBreakDaBankAgain {
+    background-image: url(../images/game/mg/BTN_BreakdaBankAgainMegaSpin1.png);
+}
+.mg_MugshotMadness {
+    background-image: url(../images/game/mg/BTN_MugshotMadness1.png);
+}
+.mg_MultiWheelRouletteGold {
+    background-image: url(../images/game/mg/BTN_GoldSeries_MultiWheelRoulette1.png);
+}
+.mg_MysticDreams {
+    background-image: url(../images/game/mg/BTN_MysticDreams1.png);
+}
+.mg_oceans {
+    background-image: url(../images/game/mg/BTN_7Oceans1.png);
+}
+.mg_octopays {
+    background-image: url(../images/game/mg/BTN_Octopays.png);
+}
+.mg_OrientalFortune {
+    background-image: url(../images/game/mg/BTN_OrientalFortune2.png);
+}
+.mg_ParadiseFound {
+    background-image: url(../images/game/mg/BTN_ParadiseFound.png);
+}
+.mg_partytime {
+    background-image: url(../images/game/mg/BTN_PartyTime1.png);
+}
+.mg_phantomcash {
+    background-image: url(../images/game/mg/BTN_PhantomCash.png);
+}
+.mg_PharaohBingo {
+    background-image: url(../images/game/mg/BTN_PharaohBingo1.png);
+}
+.mg_pharaohs {
+    background-image: url(../images/game/mg/BTN_PharaohsFortune2.png);
+}
+.mg_PiggyFortunes {
+    background-image: url(../images/game/mg/BTN_PiggyFortunes.png);
+}
+.mg_pirates {
+    background-image: url(../images/game/mg/BTN_PiratesParadise4.png);
+}
+.mg_playboy {
+    background-image: url(../images/game/mg/BTN_Playboy1.png);
+}
+.mg_PokerPursuit {
+    background-image: url(../images/game/mg/BTN_PokerPursuit1.png);
+}
+.mg_PollenNation {
+    background-image: url(../images/game/mg/BTN_PollenNation1.png);
+}
+.mg_PremierRacing {
+    background-image: url(../images/game/mg/BTN_PremierRacing1.png);
+}
+.mg_PremierRouletteDE {
+    background-image: url(../images/game/mg/BTN_PremierRouletteDE1.png);
+}
+.mg_PremierTrotting {
+    background-image: url(../images/game/mg/BTN_PremierTrotting1.png);
+}
+.mg_ProgCyberstud {
+    background-image: url(../images/game/mg/BTN_Cyberstud1.png);
+}
+.mg_PurePlatinum {
+    background-image: url(../images/game/mg/BTN_PurePlatinum1.png);
+}
+.mg_RacingForPinks {
+    background-image: url(../images/game/mg/BTN_RacingForPinks.png);
+}
+.mg_RamessesRiches {
+    background-image: url(../images/game/mg/BTN_RamessesRiches.png);
+}
+.mg_RedDog {
+    background-image: url(../images/game/mg/BTN_RedDog1.png);
+}
+.mg_redhotdevil {
+    background-image: url(../images/game/mg/BTN_RedHotDevil.png);
+}
+.mg_ReelGems {
+    background-image: url(../images/game/mg/BTN_ReelGems1.png);
+}
+.mg_ReelStrike {
+    background-image: url(../images/game/mg/BTN_ReelStrike1.png);
+}
+.mg_ReelThunder {
+    background-image: url(../images/game/mg/BTN_ReelThunder2.png);
+}
+.mg_RetroReels {
+    background-image: url(../images/game/mg/BTN_RetroReels1.png);
+}
+.mg_RetroReelsDiamondGlitz {
+    background-image: url(../images/game/mg/BTN_RRDiamondGlitz1.png);
+}
+.mg_RetroReelsExtremeHeat {
+    background-image: url(../images/game/mg/BTN_RRExtreme1.png);
+}
+.mg_robojack {
+    background-image: url(../images/game/mg/BTN_robojack1.png);
+}
+.mg_RockTheBoat {
+    background-image: url(../images/game/mg/BTN_RocktheBoat18.png);
+}
+.mg_romanriches {
+    background-image: url(../images/game/mg/BTN_RomanRiches11.png);
+}
+.mg_Roulette {
+    background-image: url(../images/game/mg/BTN_EuroRoulette1.png);
+}
+.mg_royce {
+    background-image: url(../images/game/mg/BTN_ReelsRoyce1.png);
+}
+.mg_RRGeorgiePorgie {
+    background-image: url(../images/game/mg/BTN_RRGeorgiePorgie.png);
+}
+.mg_RRJackAndJill {
+    background-image: url(../images/game/mg/BTN_RRJack&Jill1.png);
+}
+.mg_RROldKingColeV90 {
+    background-image: url(../images/game/mg/BTN_RRKing1.png);
+}
+.mg_RRQueenOfHearts {
+    background-image: url(../images/game/mg/BTN_RRHearts&Tarts1.png);
+}
+.mg_RubyAcesAndEights {
+    background-image: url(../images/game/mg/BTN_AcesAndEights1.png);
+}
+.mg_RubyAgentJaneBlonde {
+    background-image: url(../images/game/mg/BTN_AgentJaneBlonde7.png);
+}
+.mg_RubyAgeOfDiscovery {
+    background-image: url(../images/game/mg/BTN_AgeofDiscovery3.png);
+}
+.mg_RubyAllAces {
+    background-image: url(../images/game/mg/BTN_AllAces1.png);
+}
+.mg_RubyAllAmerican {
+    background-image: url(../images/game/mg/BTN_AllAmerican1.png);
+}
+.mg_RubyAroundTheWorld {
+    background-image: url(../images/game/mg/BTN_AroundTheWorld.png);
+}
+.mg_RubyAstronomical {
+    background-image: url(../images/game/mg/BTN_Astronomical2.png);
+}
+.mg_RubyBallisticBingo {
+    background-image: url(../images/game/mg/BTN_BallisticBingo1.png);
+}
+.mg_RubyBarBarBlackSheep {
+    background-image: url(../images/game/mg/BTN_BarBarBlacksheep1.png);
+}
+.mg_RubyBeerFest {
+    background-image: url(../images/game/mg/BTN_BeerFest1.png);
+}
+.mg_RubyBigBreak {
+    background-image: url(../images/game/mg/BTN_BigBreak1.png);
+}
+.mg_RubyBigKahunaSnakesAndLadders {
+    background-image: url(../images/game/mg/BTN_BigKahuna_SL1.png);
+}
+.mg_RubyBingoBonanza {
+    background-image: url(../images/game/mg/BTN_BingoBonanza1.png);
+}
+.mg_RubyBonusDeucesWild {
+    background-image: url(../images/game/mg/BTN_BonusDeucesWild1.png);
+}
+.mg_RubyBonusPoker {
+    background-image: url(../images/game/mg/BTN_BonusPoker1.png);
+}
+.mg_RubyBonusPokerDeluxe {
+    background-image: url(../images/game/mg/BTN_BonusPokerDeluxe1.png);
+}
+.mg_RubyBowledOver {
+    background-image: url(../images/game/mg/BTN_BowledOver1.png);
+}
+.mg_RubyBreakDaBankAgainV90 {
+    background-image: url(../images/game/mg/BTN_BreakDaBankAgain1.png);
+}
+.mg_RubyBullsEye {
+    background-image: url(../images/game/mg/BTN_BullsEye2.png);
+}
+.mg_RubyBunnyBoiler {
+    background-image: url(../images/game/mg/BTN_BunnyBoiler1.png);
+}
+.mg_RubyBunnyBoilerGold {
+    background-image: url(../images/game/mg/BTN_BunnyBoilerGold1.png);
+}
+.mg_RubyBurningDesireV90 {
+    background-image: url(../images/game/mg/BTN_BurningDesire1.png);
+}
+.mg_RubyCabinFever {
+    background-image: url(../images/game/mg/BTN_CabinFever1.png);
+}
+.mg_RubyCaptainCash {
+    background-image: url(../images/game/mg/BTN_CaptainCash16.png);
+}
+.mg_RubyCardClimber {
+    background-image: url(../images/game/mg/BTN_CardClimber1.png);
+}
+.mg_RubyCashapillar {
+    background-image: url(../images/game/mg/BTN_Cashapillar1.png);
+}
+.mg_RubyCentreCourt {
+    background-image: url(../images/game/mg/BTN_CentreCourt1.png);
+}
+.mg_RubyChainMail {
+    background-image: url(../images/game/mg/BTN_ChainMail1.png);
+}
+.mg_RubyChiefsFortune {
+    background-image: url(../images/game/mg/BTN_ChiefsFortune1.png);
+}
+.mg_RubyCityofGold {
+    background-image: url(../images/game/mg/BTN_CityOfGold17.png);
+}
+.mg_RubyCrazy80s {
+    background-image: url(../images/game/mg/BTN_Crazy80s4.png);
+}
+.mg_RubyCryptCrusade {
+    background-image: url(../images/game/mg/BTN_CryptCrusade1.png);
+}
+.mg_RubyCryptCrusadeGold {
+    background-image: url(../images/game/mg/BTN_CryptCrusadeGold1.png);
+}
+.mg_RubyCutesyPie {
+    background-image: url(../images/game/mg/BTN_CutesyPie17.png);
+}
+.mg_RubyDawnOfTheBread {
+    background-image: url(../images/game/mg/BTN_DawnoftheBread1.png);
+}
+.mg_RubyDeckTheHalls {
+    background-image: url(../images/game/mg/BTN_DeckTheHalls1.png);
+}
+.mg_RubyDeckTheHallsV90 {
+    background-image: url(../images/game/mg/BTN_DeckTheHalls1.png);
+}
+.mg_RubyDiamond7s {
+    background-image: url(../images/game/mg/BTN_DiamondSevens15.png);
+}
+.mg_RubyDiamondDeal {
+    background-image: url(../images/game/mg/BTN_DiamondDeal1.png);
+}
+.mg_RubyDogfather {
+    background-image: url(../images/game/mg/BTN_Dogfather2.png);
+}
+.mg_RubyDonDeal {
+    background-image: url(../images/game/mg/BTN_DonDeal11.png);
+}
+.mg_RubyDoubleBonusPoker {
+    background-image: url(../images/game/mg/BTN_DoubleBonus1.png);
+}
+.mg_RubyDoubleDose {
+    background-image: url(../images/game/mg/BTN_DoubleDose14.png);
+}
+.mg_RubyDragonsFortune {
+    background-image: url(../images/game/mg/BTN_DragonsFortune1.png);
+}
+.mg_RubyElementals {
+    background-image: url(../images/game/mg/BTN_Elementals2.png);
+}
+.mg_RubyFairyRing {
+    background-image: url(../images/game/mg/BTN_FairyRing3.png);
+}
+.mg_RubyFloriditaFandango {
+    background-image: url(../images/game/mg/BTN_FloriditaFandango11.png);
+}
+.mg_RubyFlosDiner {
+    background-image: url(../images/game/mg/BTN_FlosDiner3.png);
+}
+.mg_RubyFlyingAce {
+    background-image: url(../images/game/mg/BTN_FlyingAce2.png);
+}
+.mg_RubyFoamyFortunes {
+    background-image: url(../images/game/mg/BTN_FoamyFortunes1.png);
+}
+.mg_RubyFortuna {
+    background-image: url(../images/game/mg/BTN_Fortuna4.png);
+}
+.mg_RubyFreeSpirit {
+    background-image: url(../images/game/mg/BTN_FreeSpiritWOW2.png);
+}
+.mg_RubyFreezingFuzzballs {
+    background-image: url(../images/game/mg/BTN_FreezingFuzzballs1.png);
+}
+.mg_RubyFrootLoot {
+    background-image: url(../images/game/mg/BTN_FrootLoot1.png);
+}
+.mg_RubyFrostBite {
+    background-image: url(../images/game/mg/BTN_FrostBite6.png);
+}
+.mg_RubyFruitSalad {
+    background-image: url(../images/game/mg/BTN_FruitSalad2.png);
+}
+.mg_RubyFunHouse {
+    background-image: url(../images/game/mg/BTN_FunHouse8.png);
+}
+.mg_RubyGameSetAndScratch {
+    background-image: url(../images/game/mg/BTN_GameSetandScratch1.png);
+}
+.mg_RubyGoldCoast {
+    background-image: url(../images/game/mg/BTN_GoldCoast3.png);
+}
+.mg_RubyGoldenGhouls {
+    background-image: url(../images/game/mg/BTN_GoldenGhouls1.png);
+}
+.mg_RubyGoodToGo {
+    background-image: url(../images/game/mg/BTN_GoodToGo2.png);
+}
+.mg_RubyGrand7s {
+    background-image: url(../images/game/mg/BTN_GrandSevens13.png);
+}
+.mg_RubyGrannyPrix {
+    background-image: url(../images/game/mg/BTN_GrannyPrix1.png);
+}
+.mg_RubyHairyFairies {
+    background-image: url(../images/game/mg/BTN_HairyFairies1.png);
+}
+.mg_RubyHalloweenies {
+    background-image: url(../images/game/mg/BTN_Halloweenies1.png);
+}
+.mg_RubyHandToHandCombat {
+    background-image: url(../images/game/mg/BTN_HandToHandCombat1.png);
+}
+.mg_RubyHappyNewYear {
+    background-image: url(../images/game/mg/BTN_HappyNewYear3.png);
+}
+.mg_RubyHarveys {
+    background-image: url(../images/game/mg/BTN_Harveys1.png);
+}
+.mg_RubyHeavyMetal {
+    background-image: url(../images/game/mg/BTN_HeavyMetal7.png);
+}
+.mg_RubyHellBoy {
+    background-image: url(../images/game/mg/BTN_HellBoy1.png);
+}
+.mg_RubyHitman {
+    background-image: url(../images/game/mg/BTN_Hitman1.png);
+}
+.mg_RubyHotShot {
+    background-image: url(../images/game/mg/BTN_HotShot3.png);
+}
+.mg_RubyIWBigBreak {
+    background-image: url(../images/game/mg/BTN_InstantWin_BigBreak1.png);
+}
+.mg_RubyIWCashapillar {
+    background-image: url(../images/game/mg/BTN_Cashapillar1.png);
+}
+.mg_RubyIWHalloweenies {
+    background-image: url(../images/game/mg/BTN_Halloweenies1.png);
+}
+.mg_RubyJackintheBox {
+    background-image: url(../images/game/mg/BTN_JackintheBox4.png);
+}
+.mg_RubyJewelThief {
+    background-image: url(../images/game/mg/BTN_JewelThief2.png);
+}
+.mg_RubyJingleBells {
+    background-image: url(../images/game/mg/BTN_JingleBells6.png);
+}
+.mg_RubyJoker8000 {
+    background-image: url(../images/game/mg/BTN_Joker80001.png);
+}
+.mg_RubyJungleJim {
+    background-image: url(../images/game/mg/BTN_JungleJim1.png);
+}
+.mg_RubyKashatoa {
+    background-image: url(../images/game/mg/BTN_Kashatoa1.png);
+}
+.mg_RubyKathmandu {
+    background-image: url(../images/game/mg/BTN_Kathmandu1.png);
+}
+.mg_RubyKillerClubs {
+    background-image: url(../images/game/mg/BTN_KillerClubs1.png);
+}
+.mg_RubyKingArthur {
+    background-image: url(../images/game/mg/BTN_KingArthur.png);
+}
+.mg_RubyLegacy {
+    background-image: url(../images/game/mg/BTN_Legacy2.png);
+}
+.mg_RubyLuckyNumbers {
+    background-image: url(../images/game/mg/BTN_LuckyNumbers1.png);
+}
+.mg_RubyMagicSpell {
+    background-image: url(../images/game/mg/BTN_MagicSpell1_Rev2.png);
+}
+.mg_RubyMHHoldemHigh {
+    background-image: url(../images/game/mg/BTN_GoldSeries_MHHoldEmHighPoker1.png);
+}
+.mg_RubyMHPerfectPairs {
+    background-image: url(../images/game/mg/BTN_GoldSeries_MHEuroPerfectPairsBlackjack1.png);
+}
+.mg_RubyMochaOrange {
+    background-image: url(../images/game/mg/BTN_MochaOrange16.png);
+}
+.mg_RubyMoneyMadMonkey {
+    background-image: url(../images/game/mg/BTN_MoneyMadMonkey.png);
+}
+.mg_RubyMumbaiMagic {
+    background-image: url(../images/game/mg/BTN_MumbaiMagic1.png);
+}
+.mg_RubyMunchkins {
+    background-image: url(../images/game/mg/BTN_Munchkins2.png);
+}
+.mg_RubyOffsideAndSeek {
+    background-image: url(../images/game/mg/BTN_OffsideandSeek1.png);
+}
+.mg_RubyPeekaBoo {
+    background-image: url(../images/game/mg/BTN_PeekaBoo3.png);
+}
+.mg_RubyPharaohsGems {
+    background-image: url(../images/game/mg/BTN_PharoahsGems1.png);
+}
+.mg_RubyPlunderTheSea {
+    background-image: url(../images/game/mg/BTN_PlundertheSea1.png);
+}
+.mg_RubyPremierRoulette {
+    background-image: url(../images/game/mg/BTN_PremierRoulette9.png);
+}
+.mg_RubyPrimePropertyV90 {
+    background-image: url(../images/game/mg/BTN_PrimeProperty1.png);
+}
+.mg_RubyRapidReels {
+    background-image: url(../images/game/mg/BTN_RapidReels5.png);
+}
+.mg_RubyRingsnRoses {
+    background-image: url(../images/game/mg/BTN_RingsnRoses2.png);
+}
+.mg_RubyRoyalDerby {
+    background-image: url(../images/game/mg/BTN_RoyalDerby1.png);
+}
+.mg_RubySamuraiSevens {
+    background-image: url(../images/game/mg/BTN_SamuraiSevens5.png);
+}
+.mg_RubySantaPaws {
+    background-image: url(../images/game/mg/BTN_SantaPaws1.png);
+}
+.mg_RubyScrooge {
+    background-image: url(../images/game/mg/BTN_Scrooge1.png);
+}
+.mg_RubySixShooterLooter {
+    background-image: url(../images/game/mg/BTN_SixShooterLooter1.png);
+}
+.mg_RubySixShooterLooterGold {
+    background-image: url(../images/game/mg/BTN_SixShooterLooterGold1.png);
+}
+.mg_RubySizzlingScorpions {
+    background-image: url(../images/game/mg/BTN_SizzlingScorpions1.png);
+}
+.mg_RubySlamFunk {
+    background-image: url(../images/game/mg/BTN_SlamFunk1.png);
+}
+.mg_RubySoccerSafari {
+    background-image: url(../images/game/mg/BTN_SoccerSafari1.png);
+}
+.mg_RubySonicBoom {
+    background-image: url(../images/game/mg/BTN_SonicBoom1.png);
+}
+.mg_RubySpaceEvader {
+    background-image: url(../images/game/mg/BTN_SpaceEvader1.png);
+}
+.mg_RubySpaceEvaderGold {
+    background-image: url(../images/game/mg/BTN_SpaceEvaderGold1.png);
+}
+.mg_RubySpellBound {
+    background-image: url(../images/game/mg/BTN_SpellBound4.png);
+}
+.mg_RubySummertime {
+    background-image: url(../images/game/mg/BTN_Summertime9.png);
+}
+.mg_RubySupeItUp {
+    background-image: url(../images/game/mg/BTN_SupeItUp2.png);
+}
+.mg_RubySuperBonusBingo {
+    background-image: url(../images/game/mg/BTN_SuperBonusBingo1.png);
+}
+.mg_RubySuperZeroes {
+    background-image: url(../images/game/mg/BTN_SuperZeroes1.png);
+}
+.mg_RubySureWin {
+    background-image: url(../images/game/mg/BTN_SureWin6.png);
+}
+.mg_RubyTheRatPack {
+    background-image: url(../images/game/mg/BTN_RatPack1.png);
+}
+.mg_RubyThousandIslands {
+    background-image: url(../images/game/mg/BTN_ThousandIslands5.png);
+}
+.mg_RubyThreeWheeler {
+    background-image: url(../images/game/mg/BTN_ThreeWheeler1.png);
+}
+.mg_RubyTombRaiderII {
+    background-image: url(../images/game/mg/BTN_TombRaiderSotS1.png);
+}
+.mg_RubyTotemTreasureV90 {
+    background-image: url(../images/game/mg/BTN_TotemTreasure1.png);
+}
+.mg_RubyTriplePocketPoker {
+    background-image: url(../images/game/mg/BTN_GoldSeries_TriplePocket.png);
+}
+.mg_RubyTurtleyAwesome {
+    background-image: url(../images/game/mg/BTN_TurtleyAwesome1.png);
+}
+.mg_RubyTwister {
+    background-image: url(../images/game/mg/BTN_Twister3.png);
+}
+.mg_RubyWasabiSan {
+    background-image: url(../images/game/mg/BTN_WasabiSan4.png);
+}
+.mg_RubyWhackAJackpot {
+    background-image: url(../images/game/mg/BTN_WhackaJackpot1.png);
+}
+.mg_RubyWheelOfRiches {
+    background-image: url(../images/game/mg/BTN_WheelofRiches2.png);
+}
+.mg_RubyWildChampions {
+    background-image: url(../images/game/mg/BTN_WildChampions1.png);
+}
+.mg_RubyWitchesWealth {
+    background-image: url(../images/game/mg/BTN_WitchesWealth1.png);
+}
+.mg_RubyWorldCupMania {
+    background-image: url(../images/game/mg/BTN_WorldcupMania5.png);
+}
+.mg_SambaBingo {
+    background-image: url(../images/game/mg/BTN_SambaBingo1.png);
+}
+.mg_SantasWildRide {
+    background-image: url(../images/game/mg/BTN_SantasWildRide1.png);
+}
+.mg_Scratch {
+    background-image: url(../images/game/mg/BTN_Scratch1.png);
+}
+.mg_SecretAdmirer {
+    background-image: url(../images/game/mg/BTN_SecretAdmirer1.png);
+}
+.mg_SecretSanta {
+    background-image: url(../images/game/mg/BTN_SecretSanta.png);
+}
+.mg_Shoot {
+    background-image: url(../images/game/mg/BTN_Shoot.png);
+}
+.mg_Sicbo {
+    background-image: url(../images/game/mg/BTN_SicBo1.png);
+}
+.mg_Silverfang {
+    background-image: url(../images/game/mg/BTN_SilverFang1.png);
+}
+.mg_SkullDuggery {
+    background-image: url(../images/game/mg/BTN_SkullDuggery1.png);
+}
+.mg_Spectacular {
+    background-image: url(../images/game/mg/BTN_Spectacular3.png);
+}
+.mg_Spingo {
+    background-image: url(../images/game/mg/BTN_Spingo.png);
+}
+.mg_SpringBreak {
+    background-image: url(../images/game/mg/BTN_SpringBreak2.png);
+}
+.mg_StarlightKiss {
+    background-image: url(../images/game/mg/BTN_StarlightKiss1.png);
+}
+.mg_StarscapeV90 {
+    background-image: url(../images/game/mg/BTN_StarScape1.png);
+}
+.mg_StashoftheTitans {
+    background-image: url(../images/game/mg/BTN_StashoftheTitans1.png);
+}
+.mg_SterlingSilver3D {
+    background-image: url(../images/game/mg/BTN_SterlingSilver3D1.png);
+}
+.mg_SunQuest {
+    background-image: url(../images/game/mg/BTN_SunQuest3.png);
+}
+.mg_TallyHo {
+    background-image: url(../images/game/mg/BTN_TallyHo1.png);
+}
+.mg_TensorBetter {
+    background-image: url(../images/game/mg/BTN_TensOrBetter1.png);
+}
+.mg_TensorBetterPwrPoker {
+    background-image: url(../images/game/mg/BTN_TensOrBetterPowerPoker1.png);
+}
+.mg_Terminator2 {
+    background-image: url(../images/game/mg/BTN_Terminator2_1.png);
+}
+.mg_TheBermudaMysteries {
+    background-image: url(../images/game/mg/BTN_TheBermudaMysteries.png);
+}
+.mg_TheFinerReelsOfLife {
+    background-image: url(../images/game/mg/BTN_FinerReelsofLife1.png);
+}
+.mg_thetwistedcircus {
+    background-image: url(../images/game/mg/BTN_TwistedCircus1.png);
+}
+.mg_ThroneOfEgypt {
+    background-image: url(../images/game/mg/BTN_ThroneOfEgypt1.png);
+}
+.mg_ThunderStruck2 {
+    background-image: url(../images/game/mg/BTN_ThunderstruckTwo1.png);
+}
+.mg_ThunderStruckV90 {
+    background-image: url(../images/game/mg/BTN_Thunderstruck1.png);
+}
+.mg_TombRaiderV90 {
+    background-image: url(../images/game/mg/BTN_TombRaider2.png);
+}
+.mg_TreasureNile {
+    background-image: url(../images/game/mg/BTN_TreasureNile1.png);
+}
+.mg_Triangulation {
+    background-image: url(../images/game/mg/BTN_Triangulation.png);
+}
+.mg_trickortreat {
+    background-image: url(../images/game/mg/BTN_TrickOrTreat2.png);
+}
+.mg_TripleMagic {
+    background-image: url(../images/game/mg/BTN_TripleMagic1.png);
+}
+.mg_Tunzamunni {
+    background-image: url(../images/game/mg/BTN_Tunzamunni1.png);
+}
+.mg_UntamedBengalTiger {
+    background-image: url(../images/game/mg/BTN_UntamedBengalTiger1.png);
+}
+.mg_UntamedCrownedEagle {
+    background-image: url(../images/game/mg/BTN_UntamedCrownedEagle.png);
+}
+.mg_UntamedGiantPanda {
+    background-image: url(../images/game/mg/BTN_UntamedGiantPanda.png);
+}
+.mg_UntamedGiantPandav90 {
+    background-image: url(../images/game/mg/BTN_UntamedGiantPanda.png);
+}
+.mg_untamedwolfpack {
+    background-image: url(../images/game/mg/BTN_UntamedWolfPack1.png);
+}
+.mg_VinylCountdown {
+    background-image: url(../images/game/mg/BTN_VinylCountdown4.png);
+}
+.mg_WhatAHoot {
+    background-image: url(../images/game/mg/BTN_WhataHoot3.png);
+}
+.mg_WhatonEarth {
+    background-image: url(../images/game/mg/BTN_WhatonEarth1.png);
+}
+.mg_WheelOfWealthSEV90 {
+    background-image: url(../images/game/mg/BTN_WheelOfWealth1.png);
+}
+.mg_WowPot {
+    background-image: url(../images/game/mg/BTN_Wowpot1.png);
+}
+.mg_wwizards {
+    background-image: url(../images/game/mg/BTN_WinningWizards1.png);
+}
+.mg_zebra {
+    background-image: url(../images/game/mg/BTN_ZanyZebra1.png);
+}
+.mg_luckyfirecracker {
+    background-image: url(../images/game/mg/BTN_LuckyFirecracker.png);
+}
+.mg_adventurepalace {
+    background-image: url('../images/game/mg/BTN_AdventurePalace(HD).png');
+}
+.mg_Ariana {
+    background-image: url(../images/game/mg/BTN_Ariana_ZH.png);
+}
+.mg_BigChef {
+    background-image: url(../images/game/mg/BTN_BigChef.png);
+}
+.mg_ForsakenKingdom {
+    background-image: url(../images/game/mg/BTN_ForsakenKingdom.png);
+}
+.mg_HoundHotel {
+    background-image: url(../images/game/mg/BTN_HoundHotel.png);
+}
+.mg_KittyCabana {
+    background-image: url(../images/game/mg/BTN_KittyCabana.png);
+}
+.mg_LegendOfOlympus {
+    background-image: url(../images/game/mg/BTN_LegendOfOlympus.png);
+}
+.mg_LuckyLeprechaun {
+    background-image: url(../images/game/mg/BTN_LuckyLeprechaun.png);
+}
+.mg_PenguinSplash {
+    background-image: url(../images/game/mg/BTN_PenguinSplash.png);
+}
+.mg_Pistoleras {
+    background-image: url(../images/game/mg/BTN_Pistoleras.png);
+}
+.mg_rabbitinthehat {
+    background-image: url(../images/game/mg/BTN_RabbitintheHat.png);
+}
+.mg_RiverofRiches {
+    background-image: url(../images/game/mg/BTN_RiverOfRiches.png);
+}
+.mg_MegaMoolah {
+    background-image: url(../images/game/mg/BTN_MegaMoolah1.png);
+}
+.mg_MegaMoolahIsis {
+    background-image: url(../images/game/mg/BTN_MMIsis1.png);
+}
+.mg_HotasHades {
+    background-image: url(../images/game/mg/BTN_HotasHades.png);
+}
+.mg_Chainmailnew {
+    background-image: url(../images/game/mg/BTN_Chainmail.png);
+}
+.mg_Bridesmaids {
+    background-image: url(../images/game/mg/BTN_Bridesmaids.png);
+}
+.mg_RugbyStar {
+    background-image: url(../images/game/mg/BTN_RugbyStar.png);
+}
+.mg_Luckyzodiac {
+    background-image: url(../images/game/mg/BTN_LuckyZodiac.png);
+}
+.mg_TitansoftheSunHyperion {
+    background-image: url(../images/game/mg/BTN_TitansoftheSunHyperion.png);
+}
+.mg_TitansoftheSunTheia {
+    background-image: url(../images/game/mg/BTN_TitansoftheSunTheia.png);
+}
+.mg_5ReelDriveV90 {
+    background-image: url(../images/game/mg/BTN_5ReelDrive1.png);
+}
+.mg_AlaskanFishingV90 {
+    background-image: url(../images/game/mg/BTN_AlaskanFishing1.png);
+}
+.mg_BreakAwayV90 {
+    background-image: url(../images/game/mg/BTN_BreakAway1.png);
+}
+.mg_BushTelegraphV90 {
+    background-image: url(../images/game/mg/BTN_BushTelegraph1.png);
+}
+.mg_CashapillarV90 {
+    background-image: url(../images/game/mg/BTN_Cashapillar1.png);
+}
+.mg_CrazyChameleonsV90 {
+    background-image: url(../images/game/mg/BTN_CrazyChameleons1.png);
+}
+.mg_GirlsWithGunsV90 {
+    background-image: url(../images/game/mg/BTN_GirlswithGuns1.png);
+}
+.mg_HoHoHoV90 {
+    background-image: url(../images/game/mg/BTN_Hohoho1.png);
+}
+.mg_HotInkV90 {
+    background-image: url(../images/game/mg/BTN_HotInk1.png);
+}
+.mg_LadiesNiteV90 {
+    background-image: url(../images/game/mg/BTN_LadiesNite5.png);
+}
+.mg_LuckyKoiV90 {
+    background-image: url(../images/game/mg/BTN_LuckyKoi.png);
+}
+.mg_MSBreakDaBankAgainV90 {
+    background-image: url(../images/game/mg/BTN_BreakdaBankAgainMegaSpin1.png);
+}
+.mg_MysticDreamsv90 {
+    background-image: url(../images/game/mg/BTN_MysticDreams1.png);
+}
+.mg_OctopaysV90 {
+    background-image: url(../images/game/mg/BTN_Octopays.png);
+}
+.mg_RacingForPinksV90 {
+    background-image: url(../images/game/mg/BTN_RacingForPinks.png);
+}
+.mg_ReelGemsV90 {
+    background-image: url(../images/game/mg/BTN_ReelGems1.png);
+}
+.mg_ReelStrikeV90 {
+    background-image: url(../images/game/mg/BTN_ReelStrike1.png);
+}
+.mg_SilverFangV90 {
+    background-image: url(../images/game/mg/BTN_SilverFang1.png);
+}
+.mg_SpringBreakV90 {
+    background-image: url(../images/game/mg/BTN_SpringBreak2.png);
+}
+.mg_StarlightKissV90 {
+    background-image: url(../images/game/mg/BTN_StarlightKiss1.png);
+}
+.mg_SunQuestV90 {
+    background-image: url(../images/game/mg/BTN_SunQuest3.png);
+}
+.mg_TheFinerReelsOfLifeV90 {
+    background-image: url(../images/game/mg/BTN_FinerReelsofLife1.png);
+}
+.mg_ThunderStruck2V90 {
+    background-image: url(../images/game/mg/BTN_ThunderstruckTwo1.png);
+}
+.mg_UntamedBengalTigerV90 {
+    background-image: url(../images/game/mg/BTN_UntamedBengalTiger1.png);
+}
+.mg_UntamedCrownedEagleV90 {
+    background-image: url(../images/game/mg/BTN_UntamedCrownedEagle.png);
+}
+.mg_UntamedWolfPackV90 {
+    background-image: url(../images/game/mg/BTN_UntamedWolfPack1.png);
+}
+.mg_VinylCountDownV90 {
+    background-image: url(../images/game/mg/BTN_VinylCountdown4.png);
+}
+.mg_WhatAHootV90 {
+    background-image: url(../images/game/mg/BTN_WhataHoot3.png);
+}
+.mg_Cricketstar {
+    background-image: url(../images/game/mg/BTN_CricketStar.png);
+}
+.mg_GoldenEra {
+    background-image: url(../images/game/mg/BTN_GoldenEra.png);
+}
+.mg_GungPow {
+    background-image: url(../images/game/mg/BTN_GungPow.png);
+}
+.mg_JokerPwrPoker {
+    background-image: url(../images/game/mg/BTN_JokerPokerPowerPoker1.png);
+}
+.mg_SoManyMonsters {
+    background-image: url(../images/game/mg/BTN_somanymonsters.png);
+}
+.mg_SoMuchCandy {
+    background-image: url(../images/game/mg/BTN_somuchcandy.png);
+}
+.mg_SoMuchSushi {
+    background-image: url(../images/game/mg/BTN_somuchsushi.png);
+}
+.mg_SweetHarvest {
+    background-image: url(../images/game/mg/BTN_SweetHarvest.png);
+}
+.mg_ArcticAgents {
+    background-image: url(../images/game/mg/BTN_ArcticAgents.png);
+}
+.mg_InItToWinIt {
+    background-image: url(../images/game/mg/BTN_InItToWinIt.png);
+}
+.mg_joyofsix {
+    background-image: url(../images/game/mg/BTN_JoyOfSix.png);
+}
+.mg_MagicBoxes {
+    background-image: url(../images/game/mg/BTN_MagicBoxes.png);
+}
+.mg_magiccharms {
+    background-image: url(../images/game/mg/BTN_MagicCharms.png);
+}
+.mg_SovereignOfTheSevenSeas {
+    background-image: url(../images/game/mg/BTN_SovereignoftheSevenSeas.png);
+}
+.mg_TigerMoon {
+    background-image: url('../images/game/mg/BTN_Tiger Moon.png');
+}
+.mg_westernfrontier {
+    background-image: url(../images/game/mg/BTN_WesternFrontier.png);
+}
+.mg_BasketballStar {
+    background-image: url(../images/game/mg/BTN_BasketballStar.png);
+    background-size: cover;
+}
+.mg_HappyHolidays {
+    background-image: url(../images/game/mg/BTN_HappyHolidays.png);
+    background-size: cover;
+}
+.mg_BullseyeGameshow {
+    background-image: url(../images/game/mg/BTN_BullseyeGameshow.png);
+}
+.mg_Serenity {
+    background-image: url(../images/game/mg/BTN_Serenity.png);
+}
+.mg_StarDust {
+    background-image: url(../images/game/mg/BTN_StarDust.png);
+}
+.mg_PeekaBoo5Reel {
+    background-image: url(../images/game/mg/BTN_PeekaBoo5Reel.png);
+}
+.mg_luckytwins {
+    background-image: url(../images/game/mg/BTN_LuckyTwins.png);
+}
+.mg_bikiniparty {
+    background-image: url(../images/game/mg/BTN_BikiniParty_ZH.png);
+}
+.mg_dragondance {
+    background-image: url(../images/game/mg/BTN_DragonDance_ZH.png);
+}
+.mg_suntide {
+    background-image: url(../images/game/mg/BTN_SunTide.png);
+}
+.mg_wildorient {
+    background-image: url(../images/game/mg/BTN_WildOrient.png);
+}
+.mg_BarBarBlackSheep5Reel {
+    background-image: url(../images/game/mg/BTN_BarBarBlacksheep.png);
+}
+.mg_108Heroes {
+    background-image: url(../images/game/mg/BTN_108Heroes.png);
+    background-size: contain;
+}
+.mg_WinSumDimSum {
+    background-image: url(../images/game/mg/BTN_winsumdimsum.png);
+}
+.mg_PrettyKitty {
+    background-image: url(../images/game/mg/BTN_prettykitty.png);
+}
+.mg_ninjamagic {
+    background-image: url(../images/game/mg/BTN_NinjaMagic.png);
+}
+.mg_mayanbingo {
+    background-image: url(../images/game/mg/BTN_MayanBingo1.png);
+}
+.mg_3empires {
+    background-image: url(../images/game/mg/BTN_3Empires.png);
+}
+.mg_TootinCarMan {
+    background-image: url(../images/game/mg/BTN_TootinCarMan.png);
+}
+.mg_ElectricDiva {
+    background-image: url(../images/game/mg/BTN_ElectricDiva.png);
+}
+.mg_reelspinner {
+    background-image: url(../images/game/mg/BTN_ReelSpinner_ZH.png);
+}
+.mg_KaraokeParty {
+    background-image: url(../images/game/mg/BTN_KaraokeParty.png);
+}
+.mg_FrozenDiamonds {
+    background-image: url(../images/game/mg/BTN_FrozenDiamonds.png);
+}
+.mg_MonkeyKeno {
+    background-image: url(../images/game/mg/BTN_MonkeyKeno.png);
+}
+.mg_JungleJim_ElDorado {
+    background-image: url(../images/game/mg/BTN_JungleJimElDorado.png);
+}
+.mg_MaxDamageSlot {
+    background-image: url(../images/game/mg/BTN_MaxDamage1.png);
+}
+.mg_LostVegas {
+    background-image: url(../images/game/mg/BTN_LostVegas.png);
+}
+.mg_TombRaider {
+    background-image: url(../images/game/mg/BTN_TombRaider2.png);
+}
+.mg_Dragonz {
+    background-image: url(../images/game/mg/BTN_Dragonz_ZH.png);
+}
+.mg_Tarzan {
+    background-image: url(../images/game/mg/BTN_tarzan.png);
+}
+.mg_Huangdi_TYE {
+    background-image: url(../images/game/mg/BTN_Huangdi_TheYellowEmperor.png);
+}
+.mg_LifeOfRiches {
+    background-image: url(../images/game/mg/BTN_LifeOfRiches.png);
+}
+.mg_FruitVSCandy {
+    background-image: url(../images/game/mg/BTN_FruitVsCandy.png);
+}
+.mg_EmperorOfTheSea {
+    background-image: url(../images/game/mg/BTN_EmperorOfTheSea_ZH.png);
+    background-size: cover;
+}
+.mg_PollenParty {
+    background-image: url(../images/game/mg/BTN_PollenParty.png);
+}

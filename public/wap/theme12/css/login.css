@@ -1,0 +1,25 @@
+﻿
+.auth-form__item.PhoneLogin .user-info__button {
+    background-color: #FFF;
+    background-image: linear-gradient(#6bb4f4, #0a427f);
+}
+
+
+.auth-form__item.register .user-info__button {
+    background-color: #FFF;
+    background-image: linear-gradient(#fbc1b8, #ea0707);
+}
+#loginpin {
+    width: 100%;
+}
+#sendCode {
+    background-color: #1db954;
+    color: #fff;
+    width: 100%;
+    float: left;
+    height: 42px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 42px;
+    margin-left: 0px;
+}

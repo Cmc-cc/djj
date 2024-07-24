@@ -1,0 +1,54 @@
+{
+  "name": "Q8娛樂城",
+  "short_name": "Q8娛樂城",
+  "description": "Ｑ8爲亞洲最大在線合法網上博弈娛樂平台。安全便利, 信譽最佳保證出金，Q8提供各種最新真人視訊百家樂、電子遊戲、SLOT-game、線上六合彩、高賠率運動賽事等賽事遊戲無限，體育直播以及24小時線上客服。",
+  "icons": [
+    {
+      "src": "/_nuxt/icons/icon_64x64.62cd0d.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_120x120.62cd0d.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_144x144.62cd0d.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_152x152.62cd0d.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_192x192.62cd0d.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_384x384.62cd0d.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_512x512.62cd0d.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "lang": "zh-TW"
+}

@@ -1,0 +1,475 @@
+
+/*------------------------------------------------
+ slotgame
+ ------------------------------------------------*/
+.main_wrap{
+    background-color: #0e0e0e;
+}
+.slotgameMenu-bg{
+    width: 974px;
+    min-height: 500px;
+    margin: 10px auto 0;
+    padding: 0 0 20px 0;
+    height: 700px;
+}
+.slotgameMenu-all{
+    position: relative;
+    margin: 0 auto;
+}
+.slotgameMenu{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 2px 0px;
+    float: left;
+    width: 190px;
+    height: 677px;
+    overflow-y: auto;
+}
+
+.slotgameMenu .title-s1 img{
+    content: url('../images/gamelogo.png');
+    margin: 14px;
+}
+html[language='en'] .slotgameMenu .title-s1 img{
+    content: url('../images/gamelogo.png');
+    margin: 14px;
+}
+html[language='vn'] .slotgameMenu .title-s1 img{
+    content: url('../images/gamelogo.png');
+    margin: 14px;
+}
+html[language='th'] .slotgameMenu .title-s1 img{
+    content: url('../images/gamelogo.png');
+    margin: 14px;
+}
+
+.slotgameMenu .title-s1 span {
+    font-size: 80%;
+    color: #cbff31;
+    display: none;
+}
+
+.slotgameMenu ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.slotgameMenu > ul > li > a {
+    display: block;
+    height: 28px;
+    font-size: 15px;
+    font-family: microsoft Yahei;
+    padding: 5px 20px 5px 20px;
+    line-height: 28px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.slotgameMenu .Menuchildren {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slotgameMenu .Menuchildren li a{
+    height: 28px;
+    font-size: 13px;
+    font-family: microsoft Yahei;
+    line-height: 28px;
+}
+
+.slotgameMenu .cld{
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.slotgameMenu .cld:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: #cbff31;
+}
+
+
+.slotgameMenu > ul > li > a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #cbff31;
+}
+.slotgameMenu > ul > li > a:active  {
+    background:  rgba(0, 0, 0, 0.5);
+    color: #cbff31;
+}
+
+.slotgameMenu ul > li.active > a,
+.slotgameMenu ul > li.active > a > .cld  {
+    background:  rgba(0, 0, 0, 0.5);
+    color: #cbff31;
+}
+
+.slotgameMenu li a em {
+    float: right;
+    font-family: "宋体";
+    font-style: normal;
+}
+.slotgameMenu li .seclass {
+    margin: 5px 0 0 0;
+}
+.slotgameMenu li .seclass a {
+    display: block;
+    font-size: 12px;
+    font-family: "宋体";
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    padding: 0 0 0 45px;
+}
+.slotgameMenu li .seclass a:hover,
+.slotgameMenu li .seclass a.active {
+    color: #cbff31;
+}
+.slotgameMenu-c1 > .slotgameWord {
+    background: url('../images/graybg.png') repeat 0 0;
+    width: 758px;
+    float: left;
+    padding: 20px;
+    height: 54px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.slotgameWord .subject {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color:#ffac00;
+}
+.slotgameWord .main-bd {
+    margin: 5px 0px 10px;
+    font-size: 14px;
+    color: #e6e6e6;
+    line-height: 20px;
+    font-family: Tahoma, "Microsoft YaHei", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.slotgameWord h1 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffac00;
+}
+.slotgameWord p {
+    line-height: 20px;
+}
+.hleps-online {
+    text-align: center;
+    width: 80px;
+    display: block;
+    color: #fff;
+    margin-left: 23px;
+    padding: 5px;
+    background: #3e5d9e;
+}
+.hleps-online:hover {
+    background: #ffac00;
+}
+.tabbox .tabbtn {
+    height: 27px;
+    background: url(images/tabbg.gif) repeat-x;
+}
+.tabbox .tabbtn li {
+    float: left;
+    position: relative;
+    margin: 0 0 0 -1px;
+}
+.tabbox .tabbtn li a,
+.tabbox .tabbtn li span {
+    display: block;
+    float: left;
+    height: 27px;
+    line-height: 27px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    background: #7B602D;
+    color: #ffffff;
+    padding: 0 5px;
+    margin: 0 3px;
+}
+.tabbox .tabbtn li span:hover,
+.tabbox .tabbtn li.current span {
+    background: #C0921B;
+}
+.table2 font {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+.table2 input {
+    background: #ececec;
+    border: 1px solid #6394cc;
+    border-radius: 4px;
+    height: 20px;
+    line-height: 20px;
+    color: #000;
+}
+.table2 .btn_aff {
+    margin-left: 200px;
+}
+a.btn_aff {
+    color: #FFCC00;
+    display: block;
+    text-align: center;
+    width: 102px;
+    height: 34px;
+}
+.table1 {
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+.table1 td {
+    border: 1px solid #6B5443;
+    padding: 5px;
+}
+.tabcon p {
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.slot-Menu {
+    width: 105%;
+    height: 677px;
+}
+
+.slot-Menu .game-content {
+    width: 105%;
+    height: 100%;
+}
+
+.slot-Menu .game-content .btn-bet {
+    /*position: absolute;*/
+    display: inline-block;
+    /*width: 230px;
+    height: 180px;
+    right: 80PX ;
+    bottom:0px ;*/
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.slot-Menu .game-content .gameplay-list {
+    width: 774px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.slot-Menu .game-content .ag-fish{
+    width: 1000px;
+    height: 100%;
+    margin-left: 190px;
+}
+.slot-Menu .game-content .ag-fish .mw-fish-bg .btn-fish{
+    height: 180px;
+    margin-top: 45px;
+    margin-left: 23px;
+    background: url(../images/btn03.png) 0 0 no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.slot-Menu .game-content .ag-fish .CQ9-fish-bg .btn-fish{
+    margin-top: 50px;
+    height: 180px;
+    background: url(../images/CQ9-btn.png) 0 0 no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.slot-Menu .game-content .ag-fish .CQ9-fish-bg .btn-fish2{
+    margin-left: -4px;
+    height: 180px;
+    background: url(../images/CQ9-btn2.png) 0 0 no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.slot-Menu .game-content .ag-fish .CQ9-fish-bg .btn-fish3{
+    margin-left: -4px;
+    height: 180px;
+    background: url(../images/CQ9-hlby.png) 0 0 no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+/*.slot-Menu .game-content .ag-fish .mw-fish-bg .btn-fish:hover {
+    background-position: 0 0px;
+    background-image: url(../images/game/EC/btn02.png);
+}*/
+
+/*.slot-Menu .game-content .ag-fish .mw-fish-bg {
+    width: 100%;
+    height: 100%;
+    background: url(../images/game/EC/fish-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-top: 3px;
+}*/
+/*
+.slot-Menu .game-content .ag-fish .ag-fish-bg {
+    width: 100%;
+    height: 100%;
+    background: url(../images/game/ag/fish-bg.jpg) 0 0 no-repeat;
+    background-size: contain;
+    margin-top: 3px;
+}*/
+.slot-Menu .game-content .ag-fish .ag-fish-bg .btn-fish {
+    margin-top: 50px;
+    margin-left: 23px;
+    height: 180px;
+    background-image: url(../images/fishfire1.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+/*.slot-Menu .game-content .ag-fish .pt-fish-bg {
+    width: 100%;
+    height: 100%;
+    background: url(../images/game/playtech/pt_bg.jpg) 0 0 no-repeat;
+    background-size: contain;
+    margin-top: 3px;
+}*/
+.slot-Menu .game-content .ag-fish .pt-fish-bg .btn-fish1 {
+    margin-top: 50px;
+    height: 180px;
+    background-image: url(../images/pt_btn101.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+/*.slot-Menu .game-content .ag-fish .pt-fish-bg .btn-fish1:hover {
+    background-position: 0 0 ;
+    background-image: url(../images/pt_btn102.png);
+}*/
+/*.slot-Menu .game-content .ag-fish .jdb-fish-bg {
+    width: 100%;
+    height: 100%;
+    background: url(../images/game/JDB/jdb-fish-bg.jpg) 0 0 no-repeat;
+    background-size: contain;
+    margin-top: 3px;
+}*/
+.slot-Menu .game-content .ag-fish .pt-fish-bg .btn-fish2 {
+    right: 530px;
+    bottom: 175px;
+    background-image: url(../images/jdb_btn3.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.slot-Menu .game-content .ag-fish .jdb-fish-bg .btn-fish {
+    height: 180px;
+    margin-top: 46px;
+    margin-left: 25px;
+    background-image: url(../images/jdb_btn1.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+/*.slot-Menu .game-content .ag-fish .jdb-fish-bg .btn-fish:hover {
+    background-position: 0 0 ;
+    background-image: url(../images/jdb_btn2.png);
+}*/
+.slot-Menu .game-content .ag-fish .jdb-fish-bg .btn-fish1 {
+    height: 180px;
+    margin-left: -4px;
+    background-image: url(../images/jdb_btn2.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+/*.slot-Menu .game-content .ag-fish .jdb-fish-bg .btn-fish1:hover {
+    background-position: 0 0 ;
+    background-image: url(../images/jdb_btn2.png);
+}*/
+
+.slot-Menu .game-content .ag-fish .jdb-fish-bg .btn-fish2 {
+    height: 180px;
+    margin-left: -4px;
+    background-image: url(../images/jdb_btn3.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.slot-Menu .game-content .ag-fish .jdb-fish-bg .btn-fish3 {
+    height: 180px;
+    margin-left: -4px;
+    background-image: url(../images/jdb_btn4.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.fishTbar div{ font-size: 17px; letter-spacing:1px; width: 230px;  text-align:center; padding-top:155px;color: #fff;}
+.fishTbar_ag{ 
+    width:253px;
+    height:90px;
+    background:url(../images/fishTbar_ag.png) 24px 5px no-repeat;
+}
+.fishTbar_jdb{
+    width:945px;
+    height:46px;
+    background:url(../images/fishTbar_jdb.png) 24px 0px no-repeat;
+}
+html[language='vn'] .fishTbar_jdb{
+    width:945px;
+    height:46px;
+    background:url(../images/fishTbar_jdb.png) 24px 0px no-repeat;
+}
+html[language='en'] .fishTbar_jdb{
+    width:945px;
+    height:46px;
+    background:url(../images/fishTbar_jdb.png) 24px 0px no-repeat;
+}
+html[language='th'] .fishTbar_jdb{
+    width:945px;
+    height:46px;
+    background:url(../images/fishTbar_jdb.png) 24px 0px no-repeat;
+}
+.fishTbar_pt{
+    width:253px;
+    height:50px;
+    background:url(../images/fishTbar_pt.png) 0px 5px no-repeat;
+}
+.fishTbar_mw{
+    width:253px;
+    height:204px;
+    background:url(../images/fishTbar_mw.png) 24px 0 no-repeat;
+    /*margin-top:173px;*/
+    /*margin-left:-2px;*/
+}
+html[language='en'] .fishTbar_mw{
+    width:253px;
+    height:204px;
+    background:url(../images/fishTbar_mw.png) 24px 0px no-repeat;
+}
+html[language='th'] .fishTbar_mw{
+    width:253px;
+    height:204px;
+    background:url(../images/fishTbar_mw.png) 24px 0px no-repeat;
+}
+
+.fishTbar_CQ9{
+    width:460px;
+    height:50px;
+    background:url(../images/fishTbar_CQ9_1.png) 0 5px no-repeat;
+}
+html[language='vn'] .fishTbar_CQ9{
+    width:460px;
+    height:50px;
+    background:url(../images/fishTbar_CQ9_1.png) 0 5px no-repeat;
+}
+html[language='en'] .fishTbar_CQ9{
+    width:460px;
+    height:50px;
+    background:url(../images/fishTbar_CQ9_1.png) 0 5px no-repeat;
+}
+html[language='th'] .fishTbar_CQ9{
+    width:460px;
+    height:50px;
+    background:url(../images/fishTbar_CQ9_1.png) 0 5px no-repeat;
+}
+
+.slot-Menu .game-content .CQ9-fish-bg .btn-fish1 {
+    right: -190px;
+    bottom: 175px;
+    background-image: url(../images/CQ9-btn1.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}

@@ -1,0 +1,5055 @@
+.text_1::before
+{
+    content: "記住密碼";
+}
+.text_2::before
+{
+    content: "註冊";
+}
+.text_3::before
+{
+    content: "登錄";
+}
+.text_4::before
+{
+    content: "聯繫客服";
+}
+.text_5::before
+{
+    content: "試玩";
+}
+.text_6::before
+{
+    content: "授權登錄";
+}
+.text_7::before
+{
+    content: "充提中心";
+}
+.text_8::before
+{
+    content: "加盟代理";
+}
+.text_9::before
+{
+    content: "帳號設置";
+}
+.text_10::before
+{
+    content: "帳戶信息";
+}
+.text_11::before
+{
+    content: "APP下載";
+}
+.text_12::before
+{
+    content: "取消試玩";
+}
+.text_13::before
+{
+    content: "WM館";
+}
+.text_14::before
+{
+    content: "OG視訊";
+}
+.text_15::before
+{
+    content: "DG視訊";
+}
+.text_16::before
+{
+    content: "微投百家";
+}
+.text_17::before
+{
+    content: "微投龍虎";
+}
+.text_18::before
+{
+    content: "微投輪盤";
+}
+.text_19::before
+{
+    content: "微投番攤";
+}
+.text_20::before
+{
+    content: "AG視訊";
+}
+.text_21::before
+{
+    content: "皇家視訊";
+}
+.text_22::before
+{
+    content: "VR直播彩票";
+}
+.text_23::before
+{
+    content: "專區";
+}
+.text_24::before
+{
+    content: "SBO體育";
+}
+.text_25::before
+{
+    content: "WM彩票";
+}
+.text_26::before
+{
+    content: "WM體育";
+}
+.text_27::before
+{
+    content: "體育競猜";
+}
+.text_28::before
+{
+    content: "直播老虎機";
+}
+.text_29::before
+{
+    content: "PT老虎機";
+}
+.text_30::before
+{
+    content: "KA老虎機";
+}
+.text_31::before
+{
+    content: "PlaynGo";
+}
+.text_32::before
+{
+    content: "CQ9老虎機";
+}
+.text_33::before
+{
+    content: "AG老虎機";
+}
+.text_34::before
+{
+    content: "MG老虎機";
+}
+.text_35::before
+{
+    content: "開元棋牌";
+}
+.text_36::before
+{
+    content: "樂游棋牌";
+}
+.text_37::before
+{
+    content: "金龍棋牌";
+}
+.text_38::before
+{
+    content: "專屬下線";
+}
+.text_39::before
+{
+    content: "首頁";
+}
+.text_40::before
+{
+    content: "個人中心";
+}
+.text_41::before
+{
+    content: "手機下載";
+}
+.text_42::before
+{
+    content: "優惠活動";
+}
+.text_43::before
+{
+    content: "教學";
+}
+.text_44::before
+{
+    content: "在線客服";
+}
+.text_45::before
+{
+    content: "現金餘額";
+}
+.text_46::before
+{
+    content: "刷新";
+}
+.text_47::before
+{
+    content: "用戶編號";
+}
+.text_48::before
+{
+    content: "用戶賬號";
+}
+.text_49::before
+{
+    content: "全部類型";
+}
+.text_50::before
+{
+    content: "顯示用戶編號";
+}
+.text_51::before
+{
+    content: "顯示綁定賬號";
+}
+.text_52::before
+{
+    content: "手機瀏覽";
+}
+.text_53::before
+{
+    content: "登出";
+}
+.text_54::before
+{
+    content: "充值";
+}
+.text_55::before
+{
+    content: "提現";
+}
+.text_56::before
+{
+    content: "個人報表";
+}
+.text_57::before
+{
+    content: "賬變記錄";
+}
+.text_58::before
+{
+    content: "下線管理";
+}
+.text_59::before
+{
+    content: "公告信息";
+}
+.text_60::before
+{
+    content: "優惠申請";
+}
+.text_61::before
+{
+    content: "推廣查詢";
+}
+.text_62::before
+{
+    content: "修改提現密碼";
+}
+.text_63::before
+{
+    content: "更改登錄密碼";
+}
+.text_64::before
+{
+    content: "設定二維碼，暢享掌上遊戲快感，在遊戲的同時收穫更多";
+}
+.text_65::before
+{
+    content: "專屬下線";
+}
+.text_66::before
+{
+    content: "訊息公告";
+}
+.text_67::before
+{
+    content: "系統公告";
+}
+.text_68::before
+{
+    content: "我的短信";
+}
+.text_69::before
+{
+    content: "額度轉換";
+}
+.text_70::before
+{
+    content: "存款優惠申請";
+}
+.text_71::before
+{
+    content: "免費優惠申請";
+}
+.text_72::before
+{
+    content: "安全設置";
+}
+.text_73::before
+{
+    content: "修改登入密碼";
+}
+.text_74::before
+{
+    content: "修改提現密碼";
+}
+.text_75::before
+{
+    content: "密碼找回";
+}
+.text_76::before
+{
+    content: "充提中心";
+}
+.text_77::before
+{
+    content: "時間";
+}
+.text_78::before
+{
+    content: "詳情";
+}
+.text_79::before
+{
+    content: "充值提現紀錄";
+}
+.text_80::before
+{
+    content: "日期";
+}
+.text_81::before
+{
+    content: "內容";
+}
+.text_82::before
+{
+    content: "金額";
+}
+.text_83::before
+{
+    content: "狀態";
+}
+.text_84::before
+{
+    content: "盈虧";
+}
+.text_85::before
+{
+    content: "新增下線";
+}
+.text_86::before
+{
+    content: "新增代理";
+}
+.text_87::before
+{
+    content: "下線列表";
+}
+.text_88::before
+{
+    content: "代理列表";
+}
+.text_89::before
+{
+    content: "下線報表查詢";
+}
+.text_90::before
+{
+    content: "下線預設返水";
+}
+.text_91::before
+{
+    content: "在線存款";
+}
+.text_92::before
+{
+    content: "手工存款";
+}
+.text_93::before
+{
+    content: "支付碼存款";
+}
+.text_94::before
+{
+    content: "提款";
+}
+.text_95::before
+{
+    content: "紅利";
+}
+.text_96::before
+{
+    content: "返水";
+}
+.text_97::before
+{
+    content: "人工異動";
+}
+.text_98::before
+{
+    content: "動作";
+}
+.text_99::before
+{
+    content: "用戶名";
+}
+.text_100::before
+{
+    content: "信用額度";
+}
+.text_101::before
+{
+    content: "剩餘額度";
+}
+.text_102::before
+{
+    content: "查看";
+}
+.text_103::before
+{
+    content: "帳號";
+}
+.text_104::before
+{
+    content: "類型";
+}
+.text_105::before
+{
+    content: "成功邀請";
+}
+.text_106::before
+{
+    content: "未接收";
+}
+.text_107::before
+{
+    content: "充值教程";
+}
+.text_108::before
+{
+    content: "提現教程";
+}
+.text_109::before
+{
+    content: "帳號綁定教程";
+}
+.text_110::before
+{
+    content: "APP下載安裝教程";
+}
+.text_111::before
+{
+    content: "手機清理緩存教程";
+}
+.text_112::before
+{
+    content: "視頻卡住、延遲切換線路方法";
+}
+.text_113::before
+{
+    content: "本地IP及DNS查詢方法";
+}
+.text_114::before
+{
+    content: "如何生成推廣二維碼";
+}
+.text_115::before
+{
+    content: "PT電子遊戲";
+}
+.text_116::before
+{
+    content: "KA電子遊戲";
+}
+.text_117::before
+{
+    content: "即將推出";
+}
+.text_118::before
+{
+    content: "利鑫彩票";
+}
+.text_119::before
+{
+    content: "骰寶";
+}
+.text_120::before
+{
+    content: "牛牛";
+}
+.text_121::before
+{
+    content: "輪盤";
+}
+.text_122::before
+{
+    content: "playnGo老虎機";
+}
+.text_123::before
+{
+    content: "iPhone版下載";
+}
+.text_124::before
+{
+    content: "立刻下載";
+}
+.text_125::before
+{
+    content: "Android版下載";
+}
+.text_126::before
+{
+    content: "長按二維碼，保存到手機";
+}
+.text_127::before
+{
+    content: "請使用安卓系統手機進行下載";
+}
+.text_128::before
+{
+    content: "充值金幣";
+}
+.text_129::before
+{
+    content: "Viettel電話卡";
+}
+.text_130::before
+{
+    content: "Vinaphone電話卡";
+}
+.text_131::before
+{
+    content: "MobiFone電話卡";
+}
+.text_132::before
+{
+    content: "銀行卡存款";
+}
+.text_133::before
+{
+    content: "充值請求";
+}
+.text_134::before
+{
+    content: "提交申請";
+}
+.text_135::before
+{
+    content: "取消";
+}
+.text_136::before
+{
+    content: "提現請求";
+}
+.text_137::before
+{
+    content: "增加銀行卡";
+}
+.text_138::before
+{
+    content: "優惠稽核";
+}
+.text_139::before
+{
+    content: "行政費用";
+}
+.text_140::before
+{
+    content: "取款手續費";
+}
+.text_141::before
+{
+    content: "實提金額";
+}
+.text_142::before
+{
+    content: "送出";
+}
+.text_143::before
+{
+    content: "使用第三方號登錄";
+}
+.text_144::before
+{
+    content: "使用手機號/郵箱註冊";
+}
+.text_145::before
+{
+    content: "找回密碼";
+}
+.text_146::before
+{
+    content: "點擊註冊帳號";
+}
+.text_147::before
+{
+    content: "請選擇語系";
+}
+.text_148::before
+{
+    content: "暱稱";
+}
+.text_149::before
+{
+    content: "登錄賬號";
+}
+.text_150::before
+{
+    content: "登錄密碼";
+}
+.text_151::before
+{
+    content: "確認密碼";
+}
+.text_152::before
+{
+    content: "設定支付密碼";
+}
+.text_153::before
+{
+    content: "確認支付密碼";
+}
+.text_154::before
+{
+    content: "手機號";
+}
+.text_155::before
+{
+    content: "綁定";
+}
+.text_156::before
+{
+    content: "舊密碼";
+}
+.text_157::before
+{
+    content: "密碼";
+}
+.text_158::before
+{
+    content: "更改";
+}
+.text_159::before
+{
+    content: "設定反水";
+}
+.text_160::before
+{
+    content: "遊戲名稱";
+}
+.text_161::before
+{
+    content: "返水值";
+}
+.text_162::before
+{
+    content: "設定區間";
+}
+.text_163::before
+{
+    content: "尚有欄位未設定返水值";
+}
+.text_164::before
+{
+    content: "設定的返水值不可高於設定區間";
+}
+.text_165::before
+{
+    content: "請只輸入浮點數";
+}
+.text_166::before
+{
+    content: "保存設定";
+}
+.text_167::before
+{
+    content: "下線反水";
+}
+.text_168::before
+{
+    content: "試玩模式";
+}
+.text_169::before
+{
+    content: "試玩帳號，不做任何記錄，是否繼續試玩";
+}
+.text_170::before
+{
+    content: "確認";
+}
+.text_171::before
+{
+    content: "手機端地址";
+}
+.text_172::before
+{
+    content: "用戶名";
+}
+.text_173::before
+{
+    content: "銀行卡號";
+}
+.text_174::before
+{
+    content: "開戶行";
+}
+.text_175::before
+{
+    content: "開戶省份";
+}
+.text_176::before
+{
+    content: "開戶城市";
+}
+.text_177::before
+{
+    content: "開戶支行";
+}
+.text_178::before
+{
+    content: "您確定要刪除該銀行卡嗎";
+}
+.text_179::before
+{
+    content: "確定";
+}
+.text_180::before
+{
+    content: "公告";
+}
+.text_181::before
+{
+    content: "註冊帳戶";
+}
+.text_182::before
+{
+    content: "立即註冊";
+}
+.text_183::before
+{
+    content: "音樂圖片讀取中";
+}
+.text_184::before
+{
+    content: "跳過";
+}
+.text_185::before
+{
+    content: "音效設置";
+}
+.text_186::before
+{
+    content: "背景音效";
+}
+.text_187::before
+{
+    content: "遊戲歡迎音效";
+}
+.text_188::before
+{
+    content: "總計";
+}
+.text_189::before
+{
+    content: "加載更多";
+}
+.text_190::before
+{
+    content: "刪除";
+}
+.text_191::before
+{
+    content: "複製";
+}
+.text_192::before
+{
+    content: "閱讀全文";
+}
+.text_193::before
+{
+    content: "目前無可用的優惠";
+}
+.text_194::before
+{
+    content: "優惠代碼";
+}
+.text_195::before
+{
+    content: "優惠名稱";
+}
+.text_196::before
+{
+    content: "優惠產品";
+}
+.text_197::before
+{
+    content: "贈送金額";
+}
+.text_198::before
+{
+    content: "打碼金額";
+}
+.text_199::before
+{
+    content: "功能";
+}
+.text_200::before
+{
+    content: "申請";
+}
+.text_201::before
+{
+    content: "已拒絕";
+}
+.text_202::before
+{
+    content: "拒絕原因";
+}
+.text_203::before
+{
+    content: "未完成";
+}
+.text_204::before
+{
+    content: "已完成";
+}
+.text_205::before
+{
+    content: "收起";
+}
+.text_206::before
+{
+    content: "介紹人";
+}
+.text_207::before
+{
+    content: "登錄密碼確認";
+}
+.text_208::before
+{
+    content: "真實姓名";
+}
+.text_209::before
+{
+    content: "郵箱";
+}
+.text_210::before
+{
+    content: "手機";
+}
+.text_211::before
+{
+    content: "取款密碼";
+}
+.text_212::before
+{
+    content: "取款密碼確認";
+}
+.text_213::before
+{
+    content: "QQ";
+}
+.text_214::before
+{
+    content: "鎖定金額";
+}
+.text_215::before
+{
+    content: "WM視訊";
+}
+.text_216::before
+{
+    content:"歐博視訊";
+}
+.text_217::before
+{
+    content:"VSL越南彩票";
+}
+.text_218::before
+{
+    content:"M8體育";
+}
+.text_219::before
+{
+    content:"PNG電子";
+}
+.text_220::before
+{
+    content:"點數餘額";
+}
+.text_221::before
+{
+    content:"點數公告";
+}
+.text_222::before
+{
+    content:"點數轉移";
+}
+.text_223::before
+{
+    content:"MG電子遊戲";
+}
+.text_224::before
+{
+    content:"PLAYNGO電子遊戲";
+}
+.text_225::before
+{
+    content:"立即下載";
+}
+.text_226::before
+{
+    content:"我要買/賣幣";
+}
+.text_227::before
+{
+    content:"操作";
+}
+.text_228::before
+{
+    content:"買幣";
+}
+.text_229::before
+{
+    content:"賣幣";
+}
+.text_230::before
+{
+    content:"幣數量";
+}
+.text_231::before
+{
+    content:"銀行名稱";
+}
+.text_232::before
+{
+    content:"銀行帳戶";
+}
+.text_233::before
+{
+    content:"電話";
+}
+.text_234::before
+{
+    content:"必須投注";
+}
+.text_235::before
+{
+    content:"目前投注";
+}
+.text_236::before
+{
+    content:"讀取中";
+}
+.text_237::before
+{
+    content:"拒絕";
+}
+.text_238::before
+{
+    content:"審核中";
+}
+.text_239::before
+{
+    content:"成功";
+}
+.text_240::before
+{
+    content:"推廣連結";
+}
+.text_241::before
+{
+    content:"有效下注";
+}
+.text_242::before
+{
+    content:"收款人帳號";
+}
+.text_243::before
+{
+    content:'SUPER體育';
+}
+.text_244::before
+{
+    content:'SA視訊';
+}
+.text_245::before
+{
+    content:'在線影院';
+}
+.text_246::before
+{
+    content:'申博視訊';
+}
+.text_247::before
+{
+    content:'DS視訊';
+}
+.text_248::before
+{
+    content:'AG電子';
+}
+.text_249::before
+{
+    content:'JDB電子';
+}
+.text_250::before
+{
+    content:'CQ9電子';
+}
+.text_251::before
+{
+    content:'MW電子';
+}
+.text_252::before
+{
+    content:'SG電子';
+}
+.text_253::before
+{
+    content:'實況鬥雞';
+}
+.text_254::before
+{
+    content:'實況賽馬';
+}
+.text_255::before
+{
+    content:'VR彩票';
+}
+.text_256::before
+{
+    content:'VG棋牌';
+}
+.text_257::before
+{
+    content: "KA電子";
+}
+.text_258::before
+{
+    content: "級別";
+}
+.text_259::before
+{
+    content: "APL彩票";
+}
+.text_260::before
+{
+    content:"PT電子";
+}
+.text_261::before
+{
+    content:"MG電子";
+}
+.text_262::before
+{
+    content: "CMD體育";
+}
+.text_263::before
+{
+    content: "MG視訊";
+}
+.text_264::before
+{
+    content: "PT視訊";
+}
+.text_265::before
+{
+    content: "EBET視訊";
+}
+.text_266::before
+{
+    content: "法老王彩票";
+}
+.text_267::before
+{
+    content: "API線路速度";
+}
+.text_268::before
+{
+    content: "重新檢測";
+}
+.text_269::before
+{
+    content: "詳細";
+}
+.text_270::before
+{
+    content: "沙龍視訊";
+}
+.text_271::before
+{
+    content: "BBIN視訊";
+}
+.text_272::before
+{
+    content: "Hot";
+}
+.text_273::before
+{
+    content: "WM反波膽";
+}
+.text_274::before
+{
+    content: "冠軍體育";
+}
+.text_275::before
+{
+    content: "BBIN體育";
+}
+.text_276::before
+{
+    content:'DS電子';
+}
+.text_277::before
+{
+    content:'KISS電子';
+}
+.text_278::before
+{
+    content:'BBIN電子';
+}
+.text_279::before
+{
+    content:'PG電子';
+}
+.text_280::before
+{
+    content:'彩播彩票';
+}
+.text_281::before
+{
+    content:'G1彩票';
+}
+.text_282::before
+{
+    content:'豪運彩票';
+}
+.text_283::before
+{
+    content:'BBIN彩票';
+}
+.text_284::before
+{
+    content:'BBIN棋牌';
+}
+.text_285::before
+{
+    content: "貨幣種類";
+}
+.text_286::before
+{
+    content: "註冊新用戶";
+}
+.text_287::before
+{
+    content: "贊助伙伴";
+}
+.text_288::before
+{
+    content: "忘記密碼";
+}
+.text_289::before
+{
+    content: "先去逛逛";
+}
+.text_290::before
+{
+    content: "存款";
+}
+.text_291::before
+{
+    content: "轉賬";
+}
+.text_292::before
+{
+    content: "取款";
+}
+.text_293::before
+{
+    content: "VIP";
+}
+.text_294::before
+{
+    content: "體育";
+}
+.text_295::before
+{
+    content: "真人";
+}
+.text_296::before
+{
+    content: "彩票";
+}
+.text_297::before
+{
+    content: "電競";
+}
+.text_298::before
+{
+    content: "電子";
+}
+.text_299::before
+{
+    content: "棋牌";
+}
+.text_300::before
+{
+    content: "贊助";
+}
+.text_301::before
+{
+    content: "已有 Game One 帳號";
+}
+.text_302::before
+{
+    content: "返回登錄";
+}
+.text_303::before
+{
+    content: "百家樂";
+}
+.text_304::before
+{
+    content: "龍虎";
+}
+.text_305::before
+{
+    content: "輪盤";
+}
+.text_306::before
+{
+    content: "骰寶";
+}
+.text_307::before
+{
+    content: "牛牛";
+}
+.text_308::before
+{
+    content: "三公";
+}
+.text_309::before
+{
+    content: "番攤";
+}
+.text_310::before
+{
+    content: "色碟";
+}
+.text_311::before
+{
+    content: "魚蝦蟹";
+}
+.text_312::before
+{
+    content: "炸金花";
+}
+.text_313::before
+{
+    content: "登入";
+}
+.text_314::before
+{
+    content: '娛樂影視直播';
+}
+.text_315::before
+{
+    content: '體育賽事LIVE直播';
+}
+.text_316::before
+{
+    content: '會員帳號';
+}
+.text_317::before
+{
+    content: "玩家登入";
+}
+.text_318::before
+{
+    content: "遊客試玩";
+}
+.text_319::before
+{
+    content: "JDB電子遊戲";
+}
+.text_320::before
+{
+    content: "CQ9電子遊戲";
+}
+.text_321::before
+{
+    content: "MW電子遊戲";
+}
+.text_322::before
+{
+    content: "SG電子遊戲";
+}
+.text_323::before
+{
+    content: "修改支付密碼";
+}
+.text_324::before
+{
+    content: "如未設定支付密碼, 舊支付密碼欄位請輸入會員密碼";
+}
+.text_325::before
+{
+    content: '真人色碟';
+}
+.text_326::before
+{
+    content: 'V8棋牌';
+}
+.text_327::before
+{
+    content: 'DS電子遊戲';
+}
+.text_328::before
+{
+    content: '選擇更多';
+}
+.text_329::before
+{
+    content: '觀看更多';
+}
+.text_330::before
+{
+    content: '視訊主播專區';
+}
+.text_331::before
+{
+    content: '熱門影片專區';
+}
+.text_332::before
+{
+    content: '現有銀行';
+}
+.text_333::before
+{
+    content: '其他銀行';
+}
+.text_334::before
+{
+    content: '皇冠體育';
+}
+.text_335::before
+{
+    content: '我的';
+}
+.text_336::before
+{
+    content: '點擊登錄/註冊';
+}
+.text_337::before
+{
+    content: '任務中心';
+}
+.text_338::before
+{
+    content: '我的錢包';
+}
+.text_339::before
+{
+    content: '投注紀錄';
+}
+.text_340::before
+{
+    content: '交易記錄';
+}
+.text_341::before
+{
+    content: '卡片管理';
+}
+.text_342::before
+{
+    content: '幫助中心';
+}
+.text_343::before
+{
+    content: '存取轉、投注有疑問，看這裡';
+}
+.text_344::before
+{
+    content: '關於 Game One';
+}
+.text_345::before
+{
+    content: '加入我們';
+}
+.text_346::before
+{
+    content: '合營計劃';
+}
+.text_347::before
+{
+    content: '分享APP';
+}
+.text_348::before
+{
+    content: '打開 Game One APP';
+}
+.text_349::before
+{
+    content: '還是成為傳奇的歌頌者';
+}
+.text_350::before
+{
+    content: '合營部QQ';
+}
+.text_351::before
+{
+    content: '複製';
+}
+.text_352::before
+{
+    content: 'Game One 重新定義了博彩';
+}
+.text_353::before
+{
+    content: '會員統計實時更新，實時數據 分析報表，清晰簡單';
+}
+.text_354::before
+{
+    content: '會員統計';
+}
+.text_355::before
+{
+    content: '註冊會員與有效會員隨時查看';
+}
+.text_356::before
+{
+    content: '會員遊戲明細';
+}
+.text_357::before
+{
+    content: '會員參與遊戲盈虧詳情';
+}
+.text_358::before
+{
+    content: '會員報表';
+}
+.text_359::before
+{
+    content: '各種會員信息一目了然';
+}
+.text_360::before
+{
+    content: '平台費用明細';
+}
+.text_361::before
+{
+    content: '流水/費用/輸贏營收明細';
+}
+.text_362::before
+{
+    content: 'Game One 最給力的手機博彩';
+}
+.text_363::before
+{
+    content: 'PC端＆H5還有獨家開發的移動端';
+}
+.text_364::before
+{
+    content: '全面支持iOS及安卓系統下全部移動設備';
+}
+.text_365::before
+{
+    content: '優惠活動申請';
+}
+.text_366::before
+{
+    content: 'WM視訊棋牌';
+}
+.text_367::before
+{
+    content: '支付寶帳號';
+}
+.text_368::before
+{
+    content: '轉數快帳號';
+}
+.text_369::before
+{
+    content: '支付平台';
+}
+.text_370::before
+{
+    content: '銀行帳號';
+}
+.text_371::before
+{
+    content: '戶口姓名';
+}
+.text_372::before
+{
+    content: '充值金額';
+}
+.text_373::before
+{
+    content: '姓名';
+}
+.text_374::before
+{
+    content: '開始時間';
+}
+.text_375::before
+{
+    content: '結束時間';
+}
+.text_376::before
+{
+    content: 'JOKER電子';
+}
+.text_377::before
+{
+    content: '實況';
+}
+.text_378::before
+{
+    content: '電子與捕魚';
+}
+.text_379::before
+{
+    content: '詳細合作內容，請聯繫在線客服';
+}
+.text_380::before
+{
+    content: 'SSG真人';
+}
+.text_381::before
+{
+    content: "JOKER電子遊戲";
+}
+.text_382::before
+{
+    content: "IFSC碼";
+}
+.text_383::before
+{
+    content: "收起";
+}
+.text_384::before
+{
+    content: "閱讀全文";
+}
+.text_385::before
+{
+    content: "在線人數";
+}
+.text_386::before
+{
+    content: "提款方式";
+}
+.text_387::before
+{
+    content: "設定提款密碼";
+}
+.text_388::before
+{
+    content: "支付寶";
+}
+.text_389::before
+{
+    content: "銀行卡";
+}
+.text_390::before
+{
+    content: 'JM棋牌';
+}
+.text_391::before
+{
+    content:'JDB捕魚';
+}
+.text_392::before
+{
+    content:'CQ9捕魚';
+}
+.text_393::before
+{
+    content:'MW捕魚';
+}
+.text_394::before
+{
+    content:'AG捕鱼';
+}
+.text_395::before
+{
+    content:'溫馨提示：每天只有三次取款';
+}
+.text_396::before
+{
+    content:'9WICKETS體育';
+}
+.text_397::before
+{
+    content:'利鑫棋牌';
+}
+.text_398::before
+{
+    content:'直播';
+}
+.text_399::before
+{
+    content:'關閉';
+}
+.text_400::before
+{
+    content:'VIP詳情';
+}
+.text_401::before
+{
+    content:'INPOKER電子';
+}
+.text_402::before
+{
+    content:"BBIN體育";
+}
+.text_403::before
+{
+    content:'體育投注，真人視訊，輕鬆掌握在手中';
+}
+.text_404::before
+{
+    content:'JM APP';
+}
+.text_405::before
+{
+    content:'代理合作';
+}
+.text_406::before
+{
+    content:'我的功能';
+}
+.text_407::before
+{
+    content:'關於我們';
+}
+.text_408::before
+{
+    content:'設置';
+}
+.text_409::before
+{
+    content:'誠意爲每位合營夥伴提供業內最頂級的服務';
+}
+.text_410::before
+{
+    content:'合營部Skype';
+}
+.text_411::before
+{
+    content:'統計實時更新';
+}
+.text_412::before
+{
+    content:'報表明細';
+}
+.text_413::before
+{
+    content:'數據分析報表簡單明瞭';
+}
+.text_414::before
+{
+    content:'佣金報表';
+}
+.text_415::before
+{
+    content:'高佣金比例報表';
+}
+.text_416::before
+{
+    content:'賬單詳情';
+}
+.text_417::before
+{
+    content:'各類營收明細爲你呈現';
+}
+.text_418::before
+{
+    content:'體育、真人、棋牌投注一手掌握';
+}
+.text_419::before
+{
+    content:'高轉化';
+}
+.text_420::before
+{
+    content:'高留存';
+}
+.text_421::before
+{
+    content:'行業第一';
+}
+.text_422::before
+{
+    content:'信譽資金託管';
+}
+.text_423::before
+{
+    content:'最完善的保障';
+}
+.text_424::before
+{
+    content:'賽事覆蓋全面';
+}
+.text_425::before
+{
+    content:'最完美的遊戲體驗';
+}
+.text_426::before
+{
+    content:'三端數據互通';
+}
+.text_427::before
+{
+    content:'隨時隨地輕鬆投注';
+}
+.text_428::before
+{
+    content:'極速出款';
+}
+.text_429::before
+{
+    content:'一流的遊戲體驗';
+}
+.text_430::before
+{
+    content:'聯繫我們即刻加入JM團隊';
+}
+.text_431::before
+{
+    content:'更豐富';
+}
+.text_432::before
+{
+    content:'更穩定';
+}
+.text_433::before
+{
+    content:'更安全';
+}
+.text_434::before
+{
+    content:'更私密';
+}
+.text_435::before
+{
+    content:'JM是全球領先的合法博彩公司,擁有官方頒發的許可證並受其監督運營';
+}
+.text_436::before
+{
+    content:'返回';
+}
+.text_437::before
+{
+    content:'錢包';
+}
+.text_438::before
+{
+    content:'Q & A';
+}
+.text_439::before
+{
+    content:'博樂棋牌';
+}
+.text_440::before
+{
+    content:'賭場遊戲';
+}
+.text_441::before
+{
+    content:'身份證件號';
+}
+.text_442::before
+{
+    content:'USDT帳號';
+}
+.text_443::before
+{
+    content:'存款方式';
+}
+.text_444::before
+{
+    content:'火幣充值教程';
+}
+.text_445::before
+{
+    content:'火幣註冊教程';
+}
+.text_446::before
+{
+    content:'餘額';
+}
+.text_447::before
+{
+    content:'轉回';
+}
+.text_448::before
+{
+    content:'體育返水';
+}
+.text_449::before
+{
+    content:'電競返水';
+}
+.text_450::before
+{
+    content:'彩票返水';
+}
+.text_451::before
+{
+    content:'真人返水';
+}
+.text_452::before
+{
+    content:'棋牌返水';
+}
+.text_453::before
+{
+    content:'電子返水';
+}
+.text_454::before
+{
+    content:'下載APP';
+}
+.text_455::before
+{
+    content:'下載APP，體驗更多遊戲';
+}
+.text_456::before
+{
+    content:'選擇通道';
+}
+.text_457::before
+{
+    content:'條款和規則';
+}
+.text_458::before
+{
+    content:'VIP多端共享原則';
+}
+.text_459::before
+{
+    content:'在BOB綜合、BOB體育、BOB棋牌進行打碼都會被計算成VIP的晉級策略；打造全平臺終端共享VIP的極致體驗。';
+}
+.text_460::before
+{
+    content:'保級策略';
+}
+.text_461::before
+{
+    content:'會員在達到某VIP等級後，90天內投注需要完成保級要求。如果在此期間完成晉升，保級要求從新按照當前等級計算。';
+}
+.text_462::before
+{
+    content:'降級懲罰';
+}
+.text_463::before
+{
+    content:'如果會員在一個季度（90天計算）內沒有完成相應的保級要求流水，系統會自動降級一個等級，相應的返水及其它優惠也會隨之調整至降級後的等級。';
+}
+.text_464::before
+{
+    content:'實物名品';
+}
+.text_465::before
+{
+    content:'達到相應等級的VIP會員可聯繫在線客服進行申請，禮品不能折算爲現金，每個級別的名貴禮品每位會員僅能獲得1次。BOB娛樂對名貴禮品擁有最終解釋權。';
+}
+.text_466::before
+{
+    content:'(名貴禮品僅針對VIP6/VIP7/VIP8/VIP9/VIP10會員)';
+}
+.text_467::before
+{
+    content:'在會員達到該會員級別後系統自動派發，每個級別的升級禮金每位會員僅能獲得1次。（升級禮金1倍流水即可提款）';
+}
+.text_468::before
+{
+    content:'會員在上個月有過至少1次的成功存款，即可在每月1號獲得相應等級的每月紅包彩金。';
+}
+.text_469::before
+{
+    content:'（每月紅包禮金1倍流水即可提款）';
+}
+.text_470::before
+{
+    content:'天天返水';
+}
+.text_471::before
+{
+    content:'每天返水在13:30-16:00期間發放完畢。';
+}
+.text_472::before
+{
+    content:'充值渠道';
+}
+.text_473::before
+{
+    content:'請聯繫客服充值';
+}
+.text_474::before
+{
+    content:'體育投注，真人視訊';
+}
+.text_475::before
+{
+    content:'輕鬆掌握在手中';
+}
+.text_476::before
+{
+    content:"加拿大28";
+}
+.text_477::before
+{
+    content:"WM AndarBahar";
+}
+.text_478::before
+{
+    content:"生日禮金";
+}
+.text_479::before
+{
+    content:"會員在註冊90天內過生日，今年將不能領取生日禮金。另註冊時間大於90天的會員需在生日當天的VIP頁面進行自助領取，每年可領取一次。（生日彩金1倍流水即可提款）";
+}
+.text_480::before
+{
+    content:"選擇銀行";
+}
+.text_481::before
+{
+    content:"充值系統";
+}
+.text_482::before
+{
+    content:"BTi體育";
+}
+.text_483::before
+{
+    content:"需要打碼量";
+}
+.text_484::before
+{
+    content:"目前打碼量";
+}
+.text_485::before
+{
+    content:"確定提交";
+}
+.text_486::before
+{
+    content:"我的消息";
+}
+.text_487::before
+{
+    content:"暫不登錄，返回大廳";
+}
+.text_488::before
+{
+    content:"餘額轉回";
+}
+.text_489::before
+{
+    content:"驗證碼";
+}
+.text_490::before
+{
+    content:"連結";
+}
+.text_491::before
+{
+    content: "OB視訊";
+}
+.text_492::before
+{
+    content:"OB電子";
+}
+.text_493::before
+{
+    content:"OB捕魚";
+}
+.text_494::before
+{
+    content:"JILI電子";
+}
+.text_495::before
+{
+    content:"CP彩票";
+}
+.text_496::before
+{
+    content: "OB電競";
+}
+.text_497::before
+{
+    content: "海霸王";
+}
+.text_498::before
+{
+    content: "吃我一炮";
+}
+.text_499::before
+{
+    content: "獵龍高手";
+}
+.text_500::before
+{
+    content: "全民信賴，隨時隨地暢玩";
+}
+.text_501::before
+{
+    content:"AE電子";
+}
+.text_502::before
+{
+    content:"GAMEONE體育";
+}
+.text_503::before
+{
+    content:"RICH88電子";
+}
+.text_504::before
+{
+    content:"PC蛋蛋";
+}
+.text_505::before
+{
+    content:"SEA電子";
+}
+.text_506::before
+{
+    content:"GAMEONE棋牌";
+}
+.text_507::before
+{
+    content:"公司入款";
+}
+.text_508::before
+{
+    content: "【銀行卡或轉數快帳號，各只能綁定一組，同時必須為相同姓名】";
+}
+.text_509::before
+{
+    content: "必贏電子";
+}
+.text_510::before
+{
+    content: "必贏電子遊戲";
+}
+.text_511::before
+{
+    content: "鑫寶體育";
+}
+.text_512::before
+{
+    content: "鑫寶彩票";
+}
+.text_513::before
+{
+    content: "鑫寶真人";
+}
+.text_514::before
+{
+    content: "百勝棋牌";
+}
+.text_515::before
+{
+    content: "SUPER彩票";
+}
+.text_516::before
+{
+    content: "GTR彩票";
+}
+.text_517::before
+{
+    content: "金堡彩票";
+}
+.text_518::before
+{
+    content: "新增USDT";
+}
+.text_519::before
+{
+    content: "收款通道請使用ERC20";
+}
+.text_520::before
+{
+    content:'PP電子';
+}
+.text_521::before
+{
+    content:'WINNER真人';
+}
+.text_522::before
+{
+    content:'PP真人';
+}
+.text_523::before
+{
+    content:'綁定卡類別';
+}
+.text_524::before
+{
+    content: "收款通道請使用TRC20";
+}
+.text_525::before
+{
+    content: "點數管理";
+}
+.text_526::before
+{
+    content: "LINE客服";
+}
+.text_527::before
+{
+    content: "RGS電子";
+}
+.text_528::before
+{
+    content: "EPG電子";
+}
+.text_529::before
+{
+    content: "好路棋牌";
+}
+.text_530::before
+{
+    content: "17真人";
+}
+.text_531::before
+{
+    content: "JBZ真人";
+}
+.text_532::before
+{
+    content: "小艾電競";
+}
+
+
+
+.text_900::before
+{
+    content: 'WM-live';
+}
+.text_901::before
+{
+    content: 'HO彩票單一錢包';
+}
+.text_902::before
+{
+    content: "SEXY視訊";
+}
+.text_903::before
+{
+    content: "EVO真人";
+}
+.text_904::before
+{
+    content: "新密碼";
+}
+.text_905::before
+{
+    content: "KK彩票";
+}
+.text_906::before
+{
+    content: "OB棋牌";
+}
+.text_907::before
+{
+    content: "FUNKY電子";
+}
+.text_908::before
+{
+    content: "發送驗證碼";
+}
+.text_909::before
+{
+    content: "手機驗證碼";
+}
+.text_910::before
+{
+    content: "Kingmaker TripleChance";
+}
+.text_911::before
+{
+    content: "Kingmaker CardMatka";
+}
+.text_912::before
+{
+    content: "E-sport";
+}
+.text_913::before
+{
+    content: "JM AndarBahar";
+}
+.text_914::before
+{
+    content: "EVO Roulette";
+}
+.text_915::before
+{
+    content: "SSG AndarBahar";
+}
+.text_916::before
+{
+    content: "SSG Teenpatti";
+}
+.text_917::before
+{
+    content: "EVO Sic Bo";
+}
+.text_918::before
+{
+    content: "EVO D&T";
+}
+.text_919::before
+{
+    content: "EVO Blackjack";
+}
+.text_920::before
+{
+    content: "WM Barracat";
+}
+.text_921::before
+{
+    content: "SSG Others";
+}
+.text_922::before
+{
+    content: "EVO HI-LO";
+}
+.text_923::before
+{
+    content: "WM Roulette";
+}
+.text_924::before
+{
+    content: "EVO Moneywheel";
+}
+.text_925::before
+{
+    content: "WM Sic Bo";
+}
+.text_926::before
+{
+    content: "WM Se Die";
+}
+.text_927::before
+{
+    content: "WM D&T";
+}
+.text_928::before
+{
+    content: "AE Casino";
+}
+.text_929::before
+{
+    content: "Slot";
+}
+.text_930::before
+{
+    content: "OB彩票";
+}
+.text_931::before
+{
+    content: "捕魚";
+}
+.text_932::before
+{
+    content: "優惠中心";
+}
+.text_933::before
+{
+    content: "JM Rummy";
+}
+.text_934::before
+{
+    content: "9WICKETS體育";
+}
+.text_935::before
+{
+    content: "沙巴體育";
+}
+.text_936::before
+{
+    content: "LUDOBET";
+}
+.text_937::before
+{
+    content: "清空";
+}
+.text_938::before
+{
+    content: "CrPati";
+}
+.text_939::before
+{
+    content: "VIP特權";
+}
+.text_940::before
+{
+    content: "升級禮金";
+}
+.text_941::before
+{
+    content: "提款次數提升";
+}
+.text_942::before
+{
+    content: "每月紅包";
+}
+.text_943::before
+{
+    content: "提款額度提升";
+}
+.text_944::before
+{
+    content: "VIP優惠";
+}
+.text_945::before
+{
+    content: "次";
+}
+.text_946::before
+{
+    content: "/日";
+}
+.text_947::before
+{
+    content: "MP棋牌";
+}
+.text_948::before
+{
+    content: "BOB保留對活動的修改，停止及最終解釋權。";
+}
+.text_949::before
+{
+    content: "返水比例";
+}
+.text_950::before
+{
+    content:"優惠申請";
+}
+.text_951::before
+{
+    content:"會員註冊";
+}
+.text_952::before
+{
+    content:"會員登入";
+}
+.text_953::before
+{
+    content:"立即試玩";
+}
+.text_954::before
+{
+    content:"開戶國家";
+}
+.text_955::before
+{
+    content:"開戶分行";
+}
+.text_956::before
+{
+    content:"開戶縣市";
+}
+.text_957::before
+{
+    content:"返回首頁";
+}
+.text_958::before
+{
+    content: "AE Barracat";
+}
+.text_959::before
+{
+    content: "AE D&T";
+}
+.text_960::before
+{
+    content: "AE Roulette";
+}
+.text_961::before
+{
+    content: "AE Sic Bo";
+}
+.text_962::before
+{
+    content: "SSG Barracat";
+}
+.text_963::before
+{
+    content: "SSG D&T";
+}
+.text_964::before
+{
+    content: "SSG Roulette";
+}
+.text_965::before
+{
+    content: "Live Betting";
+}
+.text_966::before
+{
+    content: "BBIN電子遊戲";
+}
+.text_967::before
+{
+    content: "Telegram";
+}
+.text_968::before
+{
+    content: "Music";
+}
+.text_969::before
+{
+    content: "Livechat";
+}
+.text_970::before
+{
+    content: "Whatsapp";
+}
+.text_971::before
+{
+    content: "OB體育";
+}
+.text_972::before
+{
+    content: "SA電子";
+}
+.text_973::before
+{
+    content: "SA電子遊戲";
+}
+.text_974::before
+{
+    content: "實況S128鬥雞";
+}
+.text_975::before
+{
+    content: "皇家電子";
+}
+.text_976::before
+{
+    content: "皇家電子遊戲";
+}
+.text_977::before
+{
+    content: "泛亞電競";
+}
+.text_978::before
+{
+    content: "VA電子";
+}
+.text_979::before
+{
+    content: "VA電子遊戲";
+}
+.text_980::before
+{
+    content: "ICG電子";
+}
+.text_981::before
+{
+    content: "ICG電子遊戲";
+}
+.text_982::before
+{
+    content: "DT彩票";
+}
+.text_983::before
+{
+    content: "生日紅包";
+}
+.text_984::before
+{
+    content: "申請";
+}
+.text_985::before
+{
+    content: "歷史帳務";
+}
+.text_986::before
+{
+    content: "即時比分";
+}
+.text_987::before
+{
+    content: "充值提領";
+}
+.text_988::before
+{
+    content: "聯絡客服";
+}
+.text_989::before
+{
+    content: "活動大廳";
+}
+.text_990::before
+{
+    content: "歷史統計";
+}
+.text_991::before
+{
+    content: "會員互轉";
+}
+.text_992::before
+{
+    content: "轉出帳號";
+}
+.text_993::before
+{
+    content: "轉入帳號";
+}
+.text_994::before
+{
+    content: "轉入金額";
+}
+.text_995::before
+{
+    content: "交易密碼";
+}
+.text_996::before
+{
+    content: "下一步!";
+}
+.text_997::before
+{
+    content: "交易成功";
+}
+.text_998::before
+{
+    content: "代理合計";
+}
+.text_999::before
+{
+    content: "熱門賽事";
+}
+.text_1000::before
+{
+    content: "全部";
+}
+.text_1001::before
+{
+    content: "今日";
+}
+.text_1002::before
+{
+    content: "明日";
+}
+.text_1003::before
+{
+    content: "選擇聯盟";
+}
+.text_1004::before
+{
+    content: "交易金額";
+}
+.text_1005::before
+{
+    content: "預估獲利";
+}
+.text_1006::before
+{
+    content: "暫無資料";
+}
+.text_1007::before
+{
+    content: "本週";
+}
+.text_1008::before
+{
+    content: "上週";
+}
+.text_1009::before
+{
+    content: "前兩週";
+}
+.text_1010::before
+{
+    content: "累計流水";
+}
+.text_1011::before
+{
+    content: "總收益";
+}
+.text_1012::before
+{
+    content: "總紅利";
+}
+.text_1013::before
+{
+    content: "合計";
+}
+.text_1014::before
+{
+    content: "明細帳務";
+}
+.text_1015::before
+{
+    content: "投注金額";
+}
+.text_1016::before
+{
+    content: "未結算金額";
+}
+.text_1017::before
+{
+    content: "可用餘額";
+}
+.text_1018::before
+{
+    content: "正在交易筆數";
+}
+.text_1019::before
+{
+    content: "鎖定錢包";
+}
+.text_1020::before
+{
+    content: "總帳表";
+}
+.text_1021::before
+{
+    content: "個人資料";
+}
+.text_1022::before
+{
+    content: "24H線上客服";
+}
+.text_1023::before
+{
+    content: "推廣碼";
+}
+.text_1024::before
+{
+    content: "會員管理";
+}
+.text_1025::before
+{
+    content: "注意事項";
+}
+.text_1026::before
+{
+    content: "本平臺會不定時更換收款帳戶，提醒您每次充值前刷新頁面確認即時收款帳戶，嚴格依照平臺即時顯示的收款帳戶付款充值，如轉帳至過期帳戶，本公司恕不負責，請多加留意，以免造成損失。";
+}
+.text_1027::before
+{
+    content: "如您使用跨行轉帳，請務必選擇實時到帳，以利系統加快您的充值速度。";
+}
+.text_1028::before
+{
+    content: "貼心提醒:如利用本平臺進行任何洗錢詐騙行爲，本公司將保留權力終止會員服務及凍結其帳戶。";
+}
+.text_1029::before
+{
+    content: "交易單號";
+}
+.text_1030::before
+{
+    content: "交易時間";
+}
+.text_1031::before
+{
+    content: "信用卡或其他方式";
+}
+.text_1032::before
+{
+    content: "銀行或電子錢包";
+}
+.text_1033::before
+{
+    content: "代理";
+}
+.text_1034::before
+{
+    content: "可用額度";
+}
+.text_1035::before
+{
+    content: "更新";
+}
+.text_1036::before
+{
+    content: "提款密碼";
+}
+.text_1037::before
+{
+    content: "如未設定提款密碼, 原始密碼欄位請輸入登入密碼";
+}
+.text_1038::before
+{
+    content: "支付密碼不可與登入密碼相同";
+}
+.text_1039::before
+{
+    content: "新增銀行卡";
+}
+.text_1040::before
+{
+    content: "銀行卡管理";
+}
+.text_1041::before
+{
+    content: "個人訊息";
+}
+.text_1042::before
+{
+    content: "代理獎金";
+}
+.text_1043::before
+{
+    content: "全部交易記錄";
+}
+.text_1044::before
+{
+    content: "公司簡介";
+}
+.text_1045::before
+{
+    content: "波膽王是目前亞洲區首創的運動投資型公司，不同於一般市場上的運動投資基金，都是交給專業經理人去掌控您的損利，而是由會員本身去操作您的獲利。";
+}
+.text_1046::before
+{
+    content: "本公司主要經營項目以足球爲主，與英國知名的合法交易所公司合作，經過多年的研發，概念革命性地顛覆了傳統運動市場，集合了機率及統計學概論，讓足球項目不單單只是博弈，也可以是一種投資工具，進行比股票與基金更穩健的操作模式。";
+}
+.text_1047::before
+{
+    content: "下線營收";
+}
+.text_1048::before
+{
+    content: "編號";
+}
+.text_1049::before
+{
+    content: "筆數";
+}
+.text_1050::before
+{
+    content: "累計紅利";
+}
+.text_1051::before
+{
+    content: "試試分享鏈接";
+}
+.text_1052::before
+{
+    content: "提交";
+}
+.text_1053::before
+{
+    content: "市場列表";
+}
+.text_1054::before
+{
+    content: "交易明細";
+}
+.text_1055::before
+{
+    content: "SV388鬥雞";
+}
+.text_1056::before
+{
+    content: "長城賽馬";
+}
+.text_1057::before
+{
+    content: "體育與競技";
+}
+.text_1058::before
+{
+    content: "會員互轉";
+}
+.text_1059::before
+{
+    content: "申請代理";
+}
+.text_1060::before
+{
+    content: "赛事结果";
+}
+.text_1061::before
+{
+    content: "申請代理";
+}
+.text_1062::before
+{
+    content: "代理後臺";
+}
+.text_1063::before
+{
+    content: "代理註冊";
+}
+.text_1064::before
+{
+    content: "關閉";
+}
+.text_1065::before
+{
+    content: "京鼎錢包";
+}
+.text_1066::before
+{
+    content: "關於京鼎";
+}
+.text_1067::before
+{
+    content: "了解京鼎";
+}
+.text_1068::before
+{
+    content: "銀行卡管理";
+}
+.text_1069::before
+{
+    content: "新增";
+}
+.text_1070::before
+{
+    content: "管理";
+}
+.text_1071::before
+{
+    content: "總成交量";
+}
+.text_1072::before
+{
+    content: "成交量：";
+}
+.text_1073::before
+{
+    content: "剩餘開賽時間";
+}
+.text_1074::before
+{
+    content: "開賽時間";
+}
+.text_1075::before
+{
+    content: "單號";
+}
+.text_1076::before
+{
+    content: "交易時間";
+}
+.text_1077::before
+{
+    content: "投注金額";
+}
+.text_1078::before
+{
+    content: "市場";
+}
+.text_1079::before
+{
+    content: "手續費%";
+}
+.text_1080::before
+{
+    content: "預估獲利";
+}
+.text_1081::before
+{
+    content: "金額";
+}
+.text_1082::before
+{
+    content: "請輸入帳號";
+}
+.text_1083::before
+{
+    content: "請輸入密碼";
+}
+.text_1084::before
+{
+    content: "選項";
+}
+.text_1085::before
+{
+    content: "獲利 %";
+}
+.text_1086::before
+{
+    content: "可交易量";
+}
+.text_1087::before
+{
+    content: "您正在";
+}
+.text_1088::before
+{
+    content: "反對";
+}
+.text_1089::before
+{
+    content: "快捷金額設定";
+}
+.text_1090::before
+{
+    content: "第一設定值";
+}
+.text_1091::before
+{
+    content: "第二設定值";
+}
+.text_1092::before
+{
+    content: "第三設定值";
+}
+.text_1093::before
+{
+    content: "取消交易";
+}
+.text_1094::before
+{
+    content: "確定交易";
+}
+.text_1095::before
+{
+    content: "請確認交易明細無誤";
+}
+.text_1096::before
+{
+    content: ",確定交易後";
+}
+.text_1097::before
+{
+    content: ",即無法變更注單";
+}
+.text_1098::before
+{
+    content: "聯盟";
+}
+.text_1099::before
+{
+    content: "賽事";
+}
+.text_1100::before
+{
+    content: "Garma合計";
+}
+.text_1101::before
+{
+    content: "波膽";
+}
+.text_1102::before
+{
+    content: "半場波膽";
+}
+.text_1103::before
+{
+    content: "提款金額";
+}
+.text_1104::before
+{
+    content: "第一次申請提領送出即會綁定銀行卡，請務必將您的銀行卡號填寫正確，若提供之卡號有誤導致損失，本公司恕不負責。";
+}
+.text_1105::before
+{
+    content: "如利用本平臺進行任何洗錢詐騙行爲,本公司將保留權力終止會員服務及凍結其帳戶。";
+}
+.text_1106::before
+{
+    content: "請填入提款密碼與提款金額";
+}
+.text_1107::before
+{
+    content: "優惠稽核 返水";
+}
+.text_1108::before
+{
+    content: "歡樂捕魚";
+}
+.text_1109::before
+{
+    content: "招財龍小鋼珠";
+}
+.text_1110::before
+{
+    content: "搶莊骰子牛牛";
+}
+.text_1111::before
+{
+    content: "(主)";
+}
+.text_1112::before
+{
+    content: "用戶姓名";
+}
+.text_1113::before
+{
+    content: "特殊活動獎金";
+}
+.text_1114::before
+{
+    content: "提早提款手續費";
+}
+.text_1115::before
+{
+    content: "公司介紹";  /*x33 Garma公司介紹,別站若要使用記得去其他語系做修改*/
+}
+.text_1116::before
+{
+    content: "線上客服";
+}
+.text_1117::before
+{
+    content: "總獲利";
+}
+.text_1118::before
+{
+    content: "福利";
+}
+.text_1119::before
+{
+    content: "反比分投資平台";
+}
+.text_1120::before
+{
+    content: "國際足球Garma";
+}
+.text_1121::before
+{
+    content: "Garma Corporation總部位於英國，首次通過其員工進入亞洲體育投資市場，與當今世界上其他傳統體育基金不同。 諮詢會保留丟失的工作，而與此同時，會員可以決定您的利潤。 我們公司主要從事足球領域的業務，與國際足球協會合作，並與英國的一家合法金融公司合作，經過多年的研究，我們發現了突破性投資方法，這與目前可用的傳統投資渠道完全相反 在世界範圍內，這種方法結合了概率和統計數據，不僅使足球博彩業成為一種投資工具，而且比證券和對沖基金安全得多。";
+}
+.text_1122::before
+{
+    content: "2017年3月，Garma平台正式啟動，目標是歐洲市場，總部和網站位於英國，並在國家的監督下。 法律體育投資平台。 目前，該平台已與當今世界上兩個最負盛名的博彩公司Ladbrokes plc和William Hill plc結合在一起。 迄今為止，他們的攤位已在整個歐洲廣泛分佈，是倫敦證券交易所中為數不多的博彩公司中的兩家。";
+}
+.text_1123::before
+{
+    content: "新型遊戲方式Garma平台的發佈時間為歐洲博彩市場帶來了新鮮的空氣。 然而，在2020年，流行的Covid-19嚴重影響了歐洲足球市場，尤其是整個世界。 Garma Corporation的高層決定擴展到亞洲，潛在的市場之一是澳門，越南，此外還有日本，韓國，中國，台灣，香港，菲律賓，馬來西亞，新加坡...";
+}
+.text_1124::before
+{
+    content: "Garma平台不僅是一個博彩平台，而且嚴格來說，它與股票投資具有相似之處，所有這些都必須依靠團隊信息的分析來做出投資決策。但是，這裡最大的區別在於押注最有可能出現在尋找利潤的賠率上。在這一點上，許多人肯定會懷疑，如果每個人都贏了，那麼平台利潤是從哪裡來的呢？";
+}
+.text_1125::before
+{
+    content: "實際上，眾所周知，投資永遠不會沒有風險，在這裡我們也不例外。不同之處在於，Garma平台可幫助用戶把握風險，而不必擔心資金積壓以及平台崩潰。但是，每個人都能獲利，那麼利潤從何而來呢？請說，通過在平台上下注，分數從0-0到3-3，我們選擇了比賽結束後由於玩家獲勝而不會出現的分數，當然，如果您選擇正確的比賽分數，則視為玩家輸了。";
+}
+.text_1126::before
+{
+    content: "Garma平台是可以賺取長期，低風險投資，但又具有高風險投資空間以獲取更高回報的投資者的基礎。總體而言，這是一個具有風險投資和安全投資的多平台平台。該平台將承擔風險資本家的損失，與安全投資者分享利潤。此外，該平台將收取獲利投資者的利潤的5％的費用，並且該平台還將採用交易限額和獲利百分比來管理風險。";
+}
+.text_1127::before
+{
+    content: "例如，風險投資家損失了100％，安全的投資者只贏了85-95％，這意味著該平台可獲得5-15％的收益，平台上的投資參數是公開透明的，有利可圖的平台將長期穩定運行。當然會有很多人問如何參加";
+}
+.text_1128::before
+{
+    content: "傳統的遊戲方式是投資者選擇正確的分數，例如以0-0進行投資，結果必須為0-0才能獲勝。但是Garma平台正好相反，投資0-0，只要結果不是0-0，投資者就獲勝。每次比賽，平台都會顯示16個結果供投資者選擇，這意味著投資者有15/16的獲勝機會，比率超過94％。在這一點上，您認為利潤很容易實現，對嗎？";
+}
+.text_1129::before
+{
+    content: "此外，Garma平台還為代理商級投資者提供了一項獎金計劃，這是一項3-3的投資保全計劃。有關詳細信息，請參閱“3-3資本保護計劃”";
+}
+.text_1130::before
+{
+    content: "充值注意事項";
+}
+.text_1131::before
+{
+    content: "遊戲幣比值： 1遊戲幣 ＝ 1000越南盾。";
+}
+.text_1132::before
+{
+    content: "轉帳充值請務必選擇24/7。";
+}
+.text_1133::before
+{
+    content: "爲維護會員權益平臺將會不定時更換收款帳戶，勿私自儲存平台所提供充值的收款帳戶重複使用，避免會員財務損失。";
+}
+.text_1134::before
+{
+    content: "充值如遇到任何問題，請洽客服協助處理。";
+}
+.text_1135::before
+{
+    content: "提現注意事項";
+}
+.text_1136::before
+{
+    content: "一般充值需完成10倍流水纔可操作提現。";
+}
+.text_1137::before
+{
+    content: "每個活動需完成的流水限制不同（請關注活動大廳公告）。";
+}
+.text_1138::before
+{
+    content: "如未達限制流水堅持提現，將扣除提現金額50％的手續費用。";
+}
+.text_1139::before
+{
+    content: "單筆提現金額限制： 越南盾10萬～1億 ＝ 遊戲幣100～10萬。";
+}
+.text_1140::before
+{
+    content: "每次提現將收取提現金額中5％的手續費用。";
+}
+.text_1141::before
+{
+    content: "提現如遇到任何問題，請洽客服協助處理。";
+}
+.text_1142::before
+{
+    content: "皇家集團成立於1992年，位於緬甸東部第一特區果敢老街東城果敢新天地，是緬甸本土最富盛名的綜合性集團公司。公司分爲三個領域：旅遊，娛樂競技，酒店。緬甸牌照賭場-博彩品牌領導者，更有高質量的遊戲平臺，同時擁有哥斯達黎加合法註冊的的博彩公司。公司不僅擁有市場上最多樣化的遊戲投注平臺，同時強勢推出皇家體育平臺，爲客戶提供實時，刺激，高信譽的服務保證，網站並獲得了GEOTRUST 國際認證，確保網站公平公正性，所有會員資料均經過加密，保障玩家所有隱私。";
+}
+.text_1143::before
+{
+    content: "全網最高信譽，從皇家體育開始！皇家體育是目前亞洲區首創得運動投資型公司，不同於一般市場上得運動投資基金，都是交給專業經理人去掌控您的損利，而是由會員本身去操作你您的獲利。本平臺主要經營項目以足球爲主，與英國知名的合法交易所合作，經過多年的研發，概念革命性的顛覆了傳統運動市場，集合了機率及統計學概論，讓足球項目不單單只是博弈，也可以是一種投資工具，進行比股票與基金更穩健的操作模式。";
+}
+.text_1144::before
+{
+    content: "我們承諾：提供7×24小時專業的客戶服務,隨時解決客戶的諮詢及問題.多渠道的與客戶的互動交流，瞭解客戶的需求,隨時關注客戶的意見及建議.舉辦更多的優惠及促銷活動，給客戶提供更多的回饋及驚喜.我們恪守“客戶至上”的宗旨，力求創新，不斷進步的精神，力拓多元化的娛樂理財。我們聘用龐大的服務團隊，憑市場推廣、客戶服務、技術支持等優秀人員的不懈努力，爲客戶提供最專業的娛樂理財服務。";
+}
+.text_1145::before
+{
+    content: "流水記錄";
+}
+.text_1146::before
+{
+    content: "總流水";
+}
+.text_1147::before
+{
+    content: "流水";
+}
+.text_1148::before
+{
+    content: "超商選擇";
+}
+.text_1149::before
+{
+    content: "模式選擇";
+}
+.text_1150::before
+{
+    content: "銀行帳戶名";
+}
+.text_1151::before
+{
+    content: "電子郵件";
+}
+.text_1152::before
+{
+    content: "證件號碼";
+}
+.text_1153::before
+{
+    content: "信用卡安全碼";
+}
+.text_1154::before
+{
+    content: "卡有效期";
+}
+.text_1155::before
+{
+    content: "請勿在短時間內重複提交充值申請";
+}
+.text_1156::before
+{
+    content: "DV視訊";
+}
+.text_1157::before
+{
+    content: "爲了維護您的權益，請務必綁定本人名下的銀行帳戶，非本人帳戶操作提現如出現異常，且無法提出證明帳戶是本人所有，平臺爲維護客戶資產安全，客服將有權拒絕協助銀行帳戶更新或刪除。";
+}
+.text_1158::before
+{
+    content: "【請謹慎填寫，存取款需相同卡號】";
+}
+.text_1159::before
+{
+    content: "街機";
+}
+.text_1160::before
+{
+    content: "您想充值的點數";
+}
+.text_1161::before
+{
+    content: "新增轉數快";
+}
+.text_1162::before
+{
+    content: "會員只能綁定一個銀行卡帳戶和一個轉數快帳戶，並且戶口持有人姓名必須為相同，綁定後如需修改，請與我們24小時在線客服聯絡。";
+}
+.text_1163::before
+{
+    content: "用戶名";
+}
+.text_1164::before
+{
+    content: "銀行卡列表";
+}
+.text_1165::before
+{
+    content: "開戶姓名";
+}
+.text_1166::before
+{
+    content: "BNG電子";
+}
+.text_1167::before
+{
+    content: "永利高體育";
+}
+.text_1168::before
+{
+    content: "聯繫我們";
+}
+.text_1169::before
+{
+    content: "QT電子";
+}
+.text_1170::before
+{
+    content: "大聖棋牌";
+}
+.text_1171::before
+{
+    content: "新增GCash";
+}
+.text_1172::before
+{
+    content: "GCash帳號";
+}
+.text_1173::before
+{
+    content: "名子與電話必須與GCASH帳號內容相符，如果不相符，將會出現提款 存款問題";
+}
+.text_1174::before
+{
+    content: "USDT金額";
+}
+.text_1175::before
+{
+    content: "錢包地址";
+}
+.text_1176::before
+{
+    content: "USDT教程影片";
+}
+.text_1177::before
+{
+    content: "USDT教程文檔";
+}
+.text_1178::before
+{
+    content: "新增SLP";
+}
+.text_1179::before
+{
+    content: "SLP帳號";
+}
+.text_1180::before
+{
+    content: "SLP金額";
+}
+.text_1181::before
+{
+    content: "BEP20金額";
+}
+.text_1182::before
+{
+    content: "BEP2金額";
+}
+.text_1183::before
+{
+    content: "實扣HKD金額";
+}
+.text_1184::before
+{
+    content: "比特幣地址";
+}
+.text_1185::before
+{
+    content: "BTC數量";
+}
+.text_1186::before
+{
+    content: "ETH-ERC20地址";
+}
+.text_1187::before
+{
+    content: "ETH-ERC20數量";
+}
+.text_1188::before
+{
+    content: "支店號碼";
+}
+.text_1189::before
+{
+    content: "支店名";
+}
+.text_1190::before
+{
+    content: "USDT錢包地址";
+}
+.text_1191::before
+{
+    content: "銀行名";
+}
+.text_1192::before
+{
+    content: "支付訊息管理";
+}
+.text_1193::before
+{
+    content: "銀行轉帳";
+}
+.text_1194::before
+{
+    content: "餘額";
+}
+.text_1195::before
+{
+    content: "Wing錢包帳號";
+}
+.text_1196::before
+{
+    content: "足球直播";
+}
+.text_1197::before
+{
+    content: "轉出方的錢包地址";
+}
+
+
+
+
+.text_1200::before
+{
+    content: "新增下線";
+}
+.text_1201::before
+{
+    content: "美金匯率將依照NAVER網站";
+}
+.text_1202::before
+{
+    content: "居住地";
+}
+.text_1203::before
+{
+    content: "註冊日期";
+}
+.text_1204::before
+{
+    content: "操作規則";
+}
+.text_1205::before
+{
+    content: "同意並願意遵守";
+}
+.text_1206::before
+{
+    content: "用戶協議";
+}
+.text_1207::before
+{
+    content: "和";
+}
+.text_1208::before
+{
+    content: "隱私條款";
+}
+.text_1209::before
+{
+    content: "皇金漁場2";
+}
+.text_1210::before
+{
+    content: "皇金漁場";
+}
+.text_1211::before
+{
+    content: "一炮捕魚";
+}
+.text_1212::before
+{
+    content: "水滸劈魚";
+}
+.text_1213::before
+{
+    content: "新手幫助";
+}
+.text_1214::before
+{
+    content: "規則";
+}
+.text_1215::before
+{
+    content: "條款";
+}
+.text_1216::before
+{
+    content: "交易須知";
+}
+.text_1217::before
+{
+    content: "您可以通過以下方式提款";
+}
+.text_1218::before
+{
+    content: "登入會員後點選'立即提款'。";
+}
+.text_1219::before
+{
+    content: "輸入提款密碼，並確認提款資訊與您本人是否相符。";
+}
+.text_1220::before
+{
+    content: "填寫提款金額。";
+}
+.text_1221::before
+{
+    content: "確認提款銀行帳號與您本人是否相符。";
+}
+.text_1222::before
+{
+    content: "靜候客服審核，一般約5分鐘內完成提款動作。";
+}
+.text_1223::before
+{
+    content: "提款注意事項";
+}
+.text_1224::before
+{
+    content: "會員帳戶當日提款上限2次，單筆最高15萬，當日最高30萬，第一次免手續費，第二次託售金額5%+35元手續費。";
+}
+.text_1225::before
+{
+    content: "儲值須達一倍流水 (例如 儲值1000，須完成1000的有效下注，且有輸贏結果，和局/對押皆不計入流水內) 若您未申請任何紅利優惠，有效投注滿一倍流水即可申請託售。";
+}
+.text_1226::before
+{
+    content: "若您有申請其他優惠，則需滿足優惠活動對應的有效碼量才可申請託售。";
+}
+.text_1227::before
+{
+    content: "每次託售最低需1000點數以上，綁定銀行卡戶名需與註冊姓名一致，所有託售必須符合本網站的託售政策，如儲值未達到全額投注，即無法通過託售審核，託售申請將會被駁回。如有任何利用本公司不法洗碼等詐騙行為，將終止會員服務並凍結其帳戶。";
+}
+.text_1228::before
+{
+    content: "朕天下娛樂城保留權利審核";
+}
+.text_1229::before
+{
+    content: "網路銀行轉帳或ATM櫃員機轉帳";
+}
+.text_1230::before
+{
+    content: '我們有支持銀行轉帳儲值方式，需要儲值點數請先註冊會員帳號，登入會員帳號後，點擊"立即存款"，依照指示完成轉帳動作，系統將在5分鐘內自動為您入點。';
+}
+.text_1231::before
+{
+    content: "（注意:繳費單帳號僅供一次性使用，請勿重複繳費，如需再儲值可重新開單，並且轉帳繳費金額需與開單金額相同。）";
+}
+.text_1232::before
+{
+    content: "超商代碼儲值";
+}
+.text_1233::before
+{
+    content: '支援各大超商代碼儲值付費，需要儲值點數請先註冊會員帳號，登入會員帳號後，點擊"立即存款"，依照頁面顯示代碼至各大超商使用機器列印繳費單至櫃檯繳費完成，系統將在5分鐘內自動為您入點。';
+}
+.text_1234::before
+{
+    content: '存款需知';
+}
+.text_1235::before
+{
+    content: '如您在存款過程中遇到任何問題，請點擊"在線客服"將立即協助您。';
+}
+.text_1236::before
+{
+    content: "朕天下娛樂城儲值金額最低1000元台幣，最高無上限。";
+}
+.text_1237::before
+{
+    content: "重要必讀-使用者須知";
+}
+.text_1238::before
+{
+    content: "會員進入本站參與任何活動前，請務必詳細閱讀本公司之各項規定， 一經「同意」進入本網站進後，即被視為已接受所有規定。";
+}
+.text_1239::before
+{
+    content: "本公司保留修改本協議任何條款之權力，並擁有最終解釋及裁決權。";
+}
+.text_1240::before
+{
+    content: "本網站只向符合法定年齡的用戶提供服務，客戶在進行投注時必須年滿18歲。";
+}
+.text_1241::before
+{
+    content: "注意!!凡發現相同IP有多個帳號以上，將立即停止受理所有點數交易!";
+}
+.text_1242::before
+{
+    content: "因人為或系統發生不能預測因素所導致的失誤，本公司僅以會員「遊戲紀錄」之內容做為計算結果依據， 本公司管理層保留最終裁定權。";
+}
+.text_1243::before
+{
+    content: "如遇不可抗拒之災害，如駭客入侵、網絡問題、系統毀損造成數據丟失之情況，以本網站最終數據為最後的處理數據，本公司保留修改最後結果之權力";
+}
+.text_1244::before
+{
+    content:"接受私隱政策";
+}
+.text_1245::before
+{
+    content:'進入及使用本網站您將會被默認為接受本網站的使用條款。以下簡稱為 " 我們的 "、" 我們 "、" 我們的公司 " 或相似的簡稱是指Firstright Developments Limited；簡稱為 " 您 "、" 您們 " 或相似的簡稱是指進入本網站的人（無論是自然進入與否）。不涉提供購買或銷售本網站的內容在任何情況下都不涉及提出銷售或要求購買任何產品或服務，無論是本公司的與否。連接到其它網站連接到第三方的網站僅僅是為了給您提供方便。若您使用這些連接，您將離開本網站，而不同的使用條款將會套用在那些網站上。有些到其它網站的連接，即使那些網站由我們的公司經營，提供的內容或許並不適合所有人，當透過這個網站的連接進入此網站時，您必須閱讀及接受這個網站的使用條款。我們不會查看第三方網站或其連接的有關條款，不會控制以及並不負責這些網站的任何事情，或者他們的內容。我們不會採用和接受任何第三方的網站的聲明。';    
+}
+.text_1246::before
+{
+    content:"內容聲明";
+}
+.text_1247::before
+{
+    content:"我們盡力維持本網站的內容準確，完全，與及最新（自發表的日期計算），然而，我們的公司並不保證內容準確、完整與及最新，並且不對因技術或數據輸入出錯而負責。此外，發表的信息可能會因日期的改變而不再有效。我們的公司不負責更新這些信息。在使用這些信息之前進行核對是您的責任。我們的公司保留權利去修改或更新本網站的信息，而不用作預先通知。一些產品或服務或會因為受監管或其它限制而不能於所有市場上提供。 本網站所有內容由 朕天下娛樂城在線擁有版權，並保留一切權利。任何未經我們的公司書面批准下的使用，複製，貯存便屬非法。本網站所有圖案、商標、設計、商業包裝與及/或者其它知識產權均由 朕天下娛樂城在線擁有或我們的公司有合法權益；任何未經批准的應用均屬違。我們的公司會追討每一項可能的賠償(民事或刑事)，起訴任何對本網站的知識財產的非法應用或者濫用。";
+}
+.text_1248::before
+{
+    content:"通過本網站取得產品和服務，代表您已經接受該前述產品和服務的使用條款。";
+}
+.text_1249::before
+{
+    content:"會員、代理及第三方營銷者受約束於維持與我們的公司的關係的規則與條款。";
+}
+.text_1250::before
+{
+    content:"促銷、推廣項目與及任何類似的活動將會受到顯著地於本網站發布的每次促銷或者推廣項目特定規則與條款所控制。";
+}
+.text_1251::before
+{
+    content:"所有信息只是作為提供信息的目的，並不會給在美國、中華人民共和國香港特別行政區、越南、菲律賓共和國或者有關信息是被禁止的或需要執照的法律管轄區域，出版或發布。";
+}
+.text_1252::before
+{
+    content:"警告聲明";
+}
+.text_1253::before
+{
+    content:"本公司是菲律賓政府卡格揚認證的合法互聯網絡交易公司，現警告有意與朕天下娛樂城交易之客戶，應注意其國家或居住地的相關法律規定，如有疑問應就相關問題，尋求當地法律見解。本公司將不接受任何客戶因違反當地交易相關法令所引起之任何責任。";
+}
+.text_1254::before
+{
+    content:"致會員";
+}
+.text_1255::before
+{
+    content:'如因軟件或線路問題而導致交易內容或其它與賬號設定不符合的情形，請於開賽前及滾球注單未有實際結果前 " 立即 " 連絡本公司反映問題，否則該交易會員必須同意以本公司數據庫中的數據為準。';
+}
+.text_1256::before
+{
+    content:'若經本公司發現會員以不正當手法進行交易而交易注單內容不正常或於同ㄧ種項目傳送多次相同注單，本公司將保留 "取消" 該非正常注單或只保留一張注單之權利。';
+}
+.text_1257::before
+{
+    content:"本公司保留判定任何涉嫌以任何非正常方式進行的個人或團體交易無效之權利，並將在進行進一步調查期間停止發放彩金。";
+}
+.text_1258::before
+{
+    content:'本公司保留 "拒絕交易" 與 "提高／降低某些賽事單注最高金額" 並不做任何解釋的權利。';
+}
+.text_1259::before
+{
+    content:"於本網站首次交易前，請主動與線上客服做實名認證，身分核實不得馬賽克證件照，只需做一次認證即可。實名審核機制必要時，人臉入鏡檢查是否本人。為加速您點數交易的處理時間，還請各位會員踴躍進行認證。";
+}
+.text_1260::before
+{
+    content:"為避免糾紛，各會員在交易之後，務必進入交易狀況檢查，若發現任何異常，請立即與代理商聯繫查證，否則交易會員必需同意，一切交易歷史將以本公司數據庫中數據為準，不得異議。";
+}
+.text_1261::before
+{
+    content:"報表項目：有效金額是指交易金額扣除（1）取消之注單（2）平手之注單（3）輸贏一半注單的50% 所得之實際有效交易金額。";
+}
+.text_1262::before
+{
+    content:"交易須知";
+}
+.text_1263::before
+{
+    content:"滾球項目";
+}
+.text_1264::before
+{
+    content:"在某些情況下本公司會在無預警情況下取消預定要進行滾球之盤口，例如：衛星收訊不良等因素。";
+}
+.text_1265::before
+{
+    content:"本公司針對因現場直播延遲或其它因素導致在滾球入球後進行交易行為之注單，保留裁決該注單為無效的權利。";
+}
+.text_1266::before
+{
+    content:'走地入球後，如因軟件或線路的問題而導致比數或獲利率無法更新，所有相關交易 "一律取消"。';
+}
+.text_1267::before
+{
+    content:"定時器：滾球比賽時間顯示只供會員參考之用，如比賽時間有所誤差，我們概不對此負責。";
+}
+.text_1268::before
+{
+    content:"在賽事開賽前，比賽隊伍之主場或中立場若有任何更改，本公司將依據盤口與行情差距而保留更改前的注單是否有效之權利，所有判決將於跑馬燈公告上公布。";
+}
+.text_1269::before
+{
+    content:'當日與早場取消之注單可於 "交易狀況 " 查詢，當日以前取消之注單將放於 " 賬戶歷史 " 並於結果字段註明 " 取消 "，敬請各會員查詢後重新交易。';
+}
+.text_1270::before
+{
+    content:"除走地外，開打後接受的交易，將被視為「無效」。";
+}
+.text_1271::before
+{
+    content:"任何的投訴必須在開打之前提出， 朕天下娛樂城不會受理任何開打之後的投訴。所有交易項目(包括走地)；公布獲利率時出現的任何打字錯誤或非故意人為失誤。";
+}
+.text_1272::before
+{
+    content:'所有相關交易 "一律取消"。';
+}
+.text_1273::before
+{
+    content:'更詳細規則請登入會員賬號後點擊 "資訊" 即可查看。';
+}
+.text_1274::before
+{
+    content:"每位玩家，每戶、每一地址、每一電子郵箱地址、每一電話（手機）號碼、相同支付方式（相同借記卡／信用卡／銀行帳戶）、每一IP地址及同網路環境，只能申請一個帳號；若會員有重複申請帳號行為，公司將會取消／收回會員的優惠彩金。";   
+}
+.text_1275::before
+{
+    content:"如發現任何惡意套利行為，平台將扣除所有餘額，並且有權凍結其帳號。";   
+}
+.text_1276::before
+{
+    content:"不得允許任何其他人或第三方，包括任何未成年人使用或重複使用您的帳戶進行任何網站訪問及投注操作，若使用VPN或不同設備登陸導致行為異常，系統會自行判定風險。本公司將有權拒絕支付由此產生的任何獎勵或獎金。您將獨自為第三方在帳戶中產生的所有損失負責。";   
+}
+.text_1277::before
+{
+    content: '請定期修改自己的登錄密碼及資金密碼，會員有責任確保自己的賬戶以及登入資料的保密性，以會員賬號及密碼進行的任何網上投注，將被視為有效。敬請不定時做密碼變更之動作。若賬號密碼被盜用，進行的投注，本平台一概不負賠償責任。';
+}
+.text_1278::before
+{
+    content: '投注相關條款';
+}
+.text_1279::before
+{
+    content: '網上投注如未能成功提交，投注將被視為無效。';
+}
+.text_1280::before
+{
+    content: '凡玩家於開獎途中且尚無結果前自動或強制斷線時，並不影響 開獎結算之結果。';
+}
+.text_1281::before
+{
+    content: '若遇官網未開獎或開獎結果錯誤，本平台將根據實際情況做退獎退買處理。';
+}
+.text_1282::before
+{
+    content: '如遇發生不可抗拒之災害，駭客入侵， 網絡問題造成數據丟失的情況，以本平台公告為最終方案。';
+}
+.text_1283::before
+{
+    content: '本平台將會對所有的電子交易進行記錄，如有任何爭議，本平台將會以注單記錄為準。';
+}
+.text_1284::before
+{
+    content: '若經本平台發現會員以不正當手法（利用外掛程式）進行投注或以任何非正常方式進行的個人、團體投注有損平台利益之投注情事發生，本平台保留權利取消該類注單 以及 注單產生之紅利，並停用該會員賬號。無論代理還是會員，發現漏洞隱瞞不報，利用漏洞惡意刷錢、通過非法手段作弊、或造謠污衊，攻擊平台者，經平台核實後一律無條件永久凍結賬號處理，賬號所有金錢概不退還。';
+}
+.text_1285::before
+{
+    content: '若本平台發現會員有重複申請賬號行為時，保留取消、收回會員所有優惠紅利，以及優惠紅利所產生的盈利之權利。每位玩家、每一住址、每一電子郵箱、每一電話號碼、相同支付卡/信用卡號碼，以及共享電腦環境(例如:網吧、其他公共用電腦等)只能夠擁有一個會員賬號，各項優惠只適用於每位客戶在本平台唯一的賬戶。';
+}
+.text_1286::before
+{
+    content: '為了防止有人惡意洗錢，用戶充值後提款必須要在遊戲中消費充值的100%方可進行提款（不含活動），否則財務不予受理。';
+}
+.text_1287::before
+{
+    content: '平台所有充值賬號不定期更換，請每次充值前務必打開充值界面獲取最新收款賬號，如自己充錯造成的任何損失自由承擔，與平台無關。';
+}
+.text_1288::before
+{
+    content: '平台在必要時會要求玩家提供證明文件，以驗證玩家身份。在接到相關通知時，玩家必須完成審核程序後，才可獲得獎金或提款。若玩家不按要求提供證件審核，即同意自動放棄帳戶全數餘額。';
+}
+.text_1289::before
+{
+    content: '為避免於本網站投注時之爭議，請會員務必於進入網站前詳閱本平台所定之各項規則，客戶一經“我同意”進入本網站進行投注時，即被視為已接受本娛樂平台的所有協議與規則。';
+}
+.text_1290::before
+{
+    content: "每個客戶只能擁有一個帳號，如發現客戶擁有多個帳號， 本公司有權凍結客戶的帳號以及取消該帳號內所有勝出的投注，本公司有權保留取消任何因素導致帳號結餘不正確的金額， 此外如發現帳號持有人與親屬共同使用多個不同帳號，本公司有權限制客戶每人各保留最多一個帳號。";
+}
+.text_1291::before
+{
+    content: "為維護遊戲公平，如審核發現會員在同一局同時投注正反兩種結果或利用非法軟件進行投注時，將取消其投注期間所產生的盈利及優惠（輸贏由會員自行承擔），如發現如此投注的玩家將會取消會員資格，註銷其遊戲帳號。感謝您的支持。";
+}
+.text_1292::before
+{
+    content: "為避免任何爭議，每次登入及離開時，客戶都應核對自己的遊戲幣， 各用戶在參與本網站所有游戲過程中或在結束游戲前，務必檢查該會員帳戶的資料，如發現任何異常情況， 應立即與客服聯繫查證，否則該用戶將被視為同意而且接受，其帳戶之一切數據或歷史數據，以本公司資料庫中的資料為準，用戶不得異議。";
+}
+.text_1293::before
+{
+    content: "本公司有權拒絕或不接受任何用戶以任何不正當方式登入或參與本網站所有游戲之權利，惡意透過遊戲網站程式漏洞，使用外掛程式或擅自修改所獲取之不當遊戲幣、積分， 經查證屬實者，本公司將立即對該用戶永久停權，非法所得之遊戲幣、積分將不予計算，且本公司將保留法律追溯權。";
+}
+.text_1294::before
+{
+    content: "若經查證以不同帳戶轉帳或於不同縣市進行超商儲值之詐騙洗錢嫌疑， 若使用本公司之儲值系統對外進行詐騙，本公司將會進行凍結或終止帳戶並依法交付相關會員資料與當地刑事偵辦。會員請勿以身試法！";
+}
+.text_1295::before
+{
+    content: "近期發現有非法套利集團在惡意攻擊本平台洗錢的動作，已違反本公司規定，近期會請工程部嚴格查詢， 為了避免套利集團使用本平台洗錢，所以本公司一律發現IP異常的帳戶，將不得拋售並且鎖定IP黑名單及凍結帳戶，並且退還最後一筆儲值，退款手續費須由會員方承擔，為了給各位貴賓良好的遊戲環境，所以請各位貴賓遵守規定謝謝。";
+}
+.text_1296::before
+{
+    content: "本公司嚴禁旗下代理或工作人員私自開辦註冊帳號、自索取會員帳號密碼，進行博彩投注、代操行為，如有發現此違規行為，將進行封號停權並禁止一切操作行為（所有點數都將凍結不得再做使用）";
+}
+.text_1297::before
+{
+    content: "MG 補魚";
+}
+.text_1298::before
+{
+    content: '通知';
+}
+.text_1299::before
+{
+    content: '銀行戶名';
+}
+.text_1300::before
+{
+    content: '賽事編號';
+}
+.text_1301::before
+{
+    content: '歡樂捕魚王';
+}
+.text_1302::before
+{
+    content: '海王捕魚';
+}
+.text_1303::before
+{
+    content: '龍珠捕魚';
+}
+.text_1304::before
+{
+    content: '神魔捕魚';
+}
+.text_1305::before
+{
+    content: '霸王虞姬';
+}
+.text_1306::before
+{
+    content: '銀行卡戶名';
+}
+.text_1307::before
+{
+    content:"使用平台進行欺詐或其他套利將導致會員資格被取消和帳戶被暫停。";
+}
+.text_1308::before
+{
+    content:"貼心提醒";
+}
+.text_1309::before
+{
+    content:"網銀入款填入金額與實際打款金額不符合造成損失，本公司恕不負責，請您多加留意感謝您對平台的支持";
+}
+.text_1310::before
+{
+    content:"網絡銀行";
+}
+.text_1311::before
+{
+    content:"打款資訊";
+}
+.text_1312::before
+{
+    content:"輸入金額";
+}
+.text_1313::before
+{
+    content:"備註";
+}
+.text_1314::before
+{
+    content:"請選擇支付帳戶並依金額打款充值";
+}
+.text_1315::before
+{
+    content:"打款人戶名";
+}
+.text_1316::before
+{
+    content:"請選擇支付帳戶";
+}
+.text_1317::before
+{
+    content:"消息";
+}
+.text_1318::before
+{
+    content:"SA電子";
+}
+.text_1319::before
+{
+    content:"幫助";
+}
+.text_1320::before
+{
+    content:"利用契約";
+}
+.text_1321::before
+{
+    content:"隱私政策";
+}
+.text_1322::before
+{
+    content:"責任博彩";
+}
+.text_1323::before
+{
+    content:"賭博可能造成上癮,請玩家自行斟酌";
+}
+.text_1324::before
+{
+    content:"Jackpot";
+}
+.text_1325::before
+{
+    content:"錦標賽";
+}
+.text_1326::before
+{
+    content:"我的帳號";
+}
+.text_1327::before
+{
+    content:"點數轉換";
+}
+.text_1328::before
+{
+    content:"客服";
+}
+.text_1329::before
+{
+    content:"最新贏家";
+}
+.text_1330::before
+{
+    content:"優惠";
+}
+.text_1331::before
+{
+    content:"遊戲";
+}
+.text_1332::before
+{
+    content:"網站推廣/代理";
+}
+.text_1333::before
+{
+    content:"部落客";
+}
+.text_1334::before
+{
+    content:"全部遊戲";
+}
+.text_1335::before
+{
+    content:"Like";
+}
+.text_1336::before
+{
+    content:"歷史";
+}
+.text_1337::before
+{
+    content:"存/提款";
+}
+.text_1338::before
+{
+    content:"下注紀錄";
+}
+.text_1339::before
+{
+    content:"帳號認證";
+}
+.text_1340::before
+{
+    content:"THE EXPERTS";
+}
+.text_1341::before
+{
+    content:"高達40%的獎勵";
+}
+.text_1342::before
+{
+    content:"雖然是 2021 年開始服務的新加盟計劃，但根據迄今為止積累的經驗和成功案例，聚集了總共超過 40 年在線賭場加盟經驗的專家，以實現高轉化率。 如果您正在尋找一個不會浪費吸引客戶的玩家的好程序，請交給皇冠賭場。";
+}
+.text_1343::before
+{
+    content:"分類";
+}
+.text_1344::before
+{
+    content:"網站推薦";
+}
+.text_1345::before
+{
+    content:"依下注最高排列";
+}
+.text_1346::before
+{
+    content:"依下注最低排列";
+}
+.text_1347::before
+{
+    content:"Sort by";
+}
+.text_1348::before
+{
+    content:"新機台";
+}
+.text_1349::before
+{
+    content:"適合女性";
+}
+.text_1350::before
+{
+    content:"下注金額";
+}
+.text_1351::before
+{
+    content:"最低";
+}
+.text_1352::before
+{
+    content:"最高";
+}
+.text_1353::before
+{
+    content:"遊戲公司";
+}
+.text_1354::before
+{
+    content:"排列";
+}
+.text_1355::before
+{
+    content:"A-Z";
+}
+.text_1356::before
+{
+    content:"搜索";
+}
+.text_1357::before
+{
+    content:"或";
+}
+.text_1358::before
+{
+    content:"如果您忘記了密碼，請聯繫客戶支持";
+}
+.text_1359::before
+{
+    content:"同意本站";
+}
+.text_1360::before
+{
+    content:"使用手冊";
+}
+.text_1361::before
+{
+    content:"以及";
+}
+.text_1362::before
+{
+    content:"網站規則";
+}
+.text_1363::before
+{
+    content:"本人以18歲以上";
+}
+.text_1364::before
+{
+    content:"登入ID";
+}
+.text_1365::before
+{
+    content:"再確認密碼";
+}
+.text_1366::before
+{
+    content:"出生年月日";
+}
+.text_1367::before
+{
+    content:"年";
+}
+.text_1368::before
+{
+    content:"月";
+}
+.text_1369::before
+{
+    content:"日";
+}
+.text_1370::before
+{
+    content:"名子";
+}
+.text_1371::before
+{
+    content:"電話號碼";
+}
+.text_1372::before
+{
+    content:"請輸入電話驗證碼";
+}
+.text_1373::before
+{
+    content:"驗證碼發送";
+}
+.text_1374::before
+{
+    content:"國家";
+}
+.text_1375::before
+{
+    content:"城市";
+}
+.text_1376::before
+{
+    content:"郵政編號";
+}
+.text_1377::before
+{
+    content:"州";
+}
+.text_1378::before
+{
+    content:"住宅";
+}
+.text_1379::before
+{
+    content:"如需要更換個人訊息,請聯繫客服";
+}
+.text_1380::before
+{
+    content:"地址";
+}
+.text_1381::before
+{
+    content:"新的密碼";
+}
+.text_1382::before
+{
+    content:"再次輸入新的密碼";
+}
+.text_1383::before
+{
+    content:"當前密碼";
+}
+.text_1384::before
+{
+    content:"按下更換密碼建後(箭頭方向) 跳出以下";
+}
+.text_1385::before
+{
+    content:"確定更換";
+}
+.text_1386::before
+{
+    content:"取消";
+}
+.text_1387::before
+{
+    content:"額度";
+}
+.text_1388::before
+{
+    content:"打碼量";
+}
+.text_1389::before
+{
+    content:"優惠碼";
+}
+.text_1390::before
+{
+    content:"確認存款";
+}
+.text_1391::before
+{
+    content:"皇冠點數";
+}
+.text_1392::before
+{
+    content:"總金額";
+}
+.text_1393::before
+{
+    content:"確認提款";
+}
+.text_1394::before
+{
+    content:"在確認入款完成後, 會立即為您轉為點數";
+}
+.text_1395::before
+{
+    content:"勝/負";
+}
+.text_1396::before
+{
+    content:"認證資料";
+}
+.text_1397::before
+{
+    content:"本人認證";
+}
+.text_1398::before
+{
+    content:"護照";
+}
+.text_1399::before
+{
+    content:"駕照";
+}
+.text_1400::before
+{
+    content:"我的帶有人臉照片的號碼卡";
+}
+.text_1401::before
+{
+    content:"檔案選擇";
+}
+.text_1402::before
+{
+    content:"住址確認";
+}
+.text_1403::before
+{
+    content:"銀行交易證明";
+}
+.text_1404::before
+{
+    content:"水電費賬單";
+}
+.text_1405::before
+{
+    content:"移動服務發票";
+}
+.text_1406::before
+{
+    content:"信用卡認證";
+}
+.text_1407::before
+{
+    content:"請用便利貼隱藏卡號和 CVV";
+}
+.text_1408::before
+{
+    content:"確保背面的簽名行已簽名";
+}
+.text_1409::before
+{
+    content:"請確保未超過有效期。 為了安全起見，信用卡背面的第三位，信用卡的安全碼，信用卡的安全碼。";
+}
+.text_1410::before
+{
+    content:"為了驗證本人,請提供您手握您信用卡(正面,反面)的照片";
+}
+.text_1411::before
+{
+    content:"本站支持(JPG, JPEG, PNG)檔案, 檔案大小請勿超過5MB.";
+}
+.text_1412::before
+{
+    content:"姓名,出生年月日,住址必須與註冊填寫時一致. 上傳時請確認文件在有效期限內.";
+}
+.text_1413::before
+{
+    content:"上傳資料";
+}
+.text_1414::before
+{
+    content:"90天(三個月)以內, 住址確認資料照片截圖";
+}
+.text_1415::before
+{
+    content:"上傳檔案";
+}
+.text_1416::before
+{
+    content:"更多優惠";
+}
+.text_1417::before
+{
+    content:"提示與技巧";
+}
+.text_1418::before
+{
+    content:"消息";
+}
+.text_1419::before
+{
+    content:"所有博客";
+}
+.text_1420::before
+{
+    content:"最近的博客";
+}
+.text_1421::before
+{
+    content:"加密";
+}
+.text_1422::before
+{
+    content:"其他博客";
+}
+.text_1423::before
+{
+    content:"反水";
+}
+.text_1424::before
+{
+    content:"在 CROWN CASINO，我們為您業界第一，高達 1.4% 的返水福利，沒有限制，並提款條件只有1倍。請安心體驗。";
+}
+.text_1425::before
+{
+    content:"沒有限制，並提款條件只有1倍。請安心體驗。";
+}
+.text_1426::before
+{
+    content:"升等條件";
+}
+.text_1427::before
+{
+    content:"新註冊的玩家會從“普通會員”開始。";
+}
+.text_1428::before
+{
+    content:"VIP升等條件由每個玩家的存款金額和投注金額決定。 符合條件的玩家將次月晉升VIP等級。";
+}
+.text_1429::before
+{
+    content:"VIP升等條件計算時間為每月第一天至月底。";
+}
+.text_1430::before
+{
+    content:"VIP等級提升/降級於每月2日18:00（GMT+8）進行。";
+}
+.text_1431::before
+{
+    content:"請注意，黑金會員是一個僅限邀請的等級，我們無法通知您標準。";
+}
+.text_1432::before
+{
+    content:"會員狀態";
+}
+.text_1433::before
+{
+    content:"普通會員";
+}
+.text_1434::before
+{
+    content:"銀卡會員";
+}
+.text_1435::before
+{
+    content:"黃金會員";
+}
+.text_1436::before
+{
+    content:"白金會員";
+}
+.text_1437::before
+{
+    content:"鑽石會員";
+}
+.text_1438::before
+{
+    content:"黑金會員";
+}
+.text_1439::before
+{
+    content:"什麼是VIP";
+}
+.text_1440::before
+{
+    content:"一般支持";
+}
+.text_1441::before
+{
+    content:"貴賓支持";
+}
+.text_1442::before
+{
+    content:"貴賓經理";
+}
+.text_1443::before
+{
+    content:"專屬VIP經理";
+}
+.text_1444::before
+{
+    content:"生日禮物";
+}
+.text_1445::before
+{
+    content:"眾多福利中的一項！";
+}
+.text_1446::before
+{
+    content:"您可以在您生日月份的第一天申请（日本时间 1:00）和您生日结束（日本时间 0:59）之间通过客户支持（实时聊天）出示密码 [生日奖金]。截止日期为收到后 72 小时。";
+}
+.text_1447::before
+{
+    content:"提款条件是 1x。";
+}
+.text_1448::before
+{
+    content:"我们将尽最大努力一年 365 天、一天 24 小时为您的问题提供支持。";
+}
+.text_1449::before
+{
+    content:"通过提升等级，可以在LINE上进行响应。请享受您在其他任何地方都无法品尝到的 VIP 通信。";
+}
+.text_1450::before
+{
+    content:"特別體驗";
+}
+.text_1451::before
+{
+    content:"其他賭場無法享受的特殊待遇";
+}
+.text_1452::before
+{
+    content:"極高的返利率。";
+}
+.text_1453::before
+{
+    content:"VIP 會員的客戶支持以外的支持。";
+}
+.text_1454::before
+{
+    content:"為您的生日準備的豪華現金禮物。";
+}
+.text_1455::before
+{
+    content:"在其他賭場無法體驗的特殊待遇！";
+}
+.text_1456::before
+{
+    content:"感謝您一直以來的支持。";
+}
+.text_1457::before
+{
+    content:"我們致力於提供其他公司無法體驗的最佳提款條件和 VIP 待遇。";
+}
+.text_1458::before
+{
+    content:"來自CROWN CASINO全體員工";
+}
+.text_1459::before
+{
+    content:"主選單";
+}
+.text_1460::before
+{
+    content:"優惠列表";
+}
+.text_1461::before
+{
+    content:"兩千種以上游戲";
+}
+.text_1462::before
+{
+    content:"感謝您現在從數以萬計的在線賭場中選擇我們CROWN CASINO。";
+}
+.text_1463::before
+{
+    content:"皇冠賭場的經營目標是真誠和真誠地與客戶打交道。我們的員工聚集了在各種在線賭場擁有豐富經驗的專家，我們每天都在通過反複試驗努力工作。";
+}
+.text_1464::before
+{
+    content:"促銷和獎金等細節寫在小細節中，我們會在描述條件時以清晰易懂的方式告訴您，以免在本網站上發生實際退出時拒絕等不公平待遇。";
+}
+.text_1465::before
+{
+    content:"為何選擇CROWN CASINO";
+}
+.text_1466::before
+{
+    content:"3分出款最速出金處理時間";
+}
+.text_1467::before
+{
+    content:"在CROWN CASINO、我們創造行業的新景觀。並提供舒適而特別的空間，簡約奢華並帶有宮殿主題的設計。";
+}
+.text_1468::before
+{
+    content:"全年";
+}
+.text_1469::before
+{
+    content:"無休客服";
+}
+.text_1470::before
+{
+    content:"提款條件革命業界第一";
+}
+.text_1471::before
+{
+    content:"簡單的豪華的設計";
+}
+.text_1472::before
+{
+    content:"為了更好地滿足廣大客戶的需求。";
+}
+.text_1473::before
+{
+    content:"激動人心的促銷、獎金和活動。";
+}
+.text_1474::before
+{
+    content:"選擇皇冠賭場的理由";
+}
+.text_1475::before
+{
+    content:"提款條件革命";
+}
+.text_1476::before
+{
+    content:"由於追求我們的客戶在CROWN CASINO最想要的東西，我們提出了提款條件革命的概念，希望客戶能夠在我們的網站上玩而沒有任何焦慮或懷疑。這體現了我們真誠對待每一位客戶的願望。";
+}
+.text_1477::before
+{
+    content:"什麼是提款條件:";
+}
+.text_1478::before
+{
+    content:"您必須下注的金額才能將獎金從獎金轉換為現金";
+}
+.text_1479::before
+{
+    content:"例如";
+}
+.text_1480::before
+{
+    content:"假設您在提款要求為“30x”的賭場（促銷或獎金）獲得 30 美元的無存款獎金。";
+}
+.text_1481::before
+{
+    content:"$30 × 30倍 = $900";
+}
+.text_1482::before
+{
+    content:"因此，除非您下注 900 美元，否則您無法提取收到的獎金。當您投注完累積金額為 900 美元時，如果您仍有資金，您可以提取剩餘金額。";
+}
+.text_1483::before
+{
+    content:"在大多數情況下，它適用於除無存款獎金外的所有獎金，例如歡迎獎金和現金返還。";
+}
+.text_1484::before
+{
+    content:"例如，假設您在第一筆存款中存入了 50 美元，歡迎獎金是您存款的 100%。那麼投注條件將是";
+}
+.text_1485::before
+{
+    content:"（存款金額 50 美元 + 獎金金額 50 美元）x 30 次 = 3,000 美元";
+}
+.text_1486::before
+{
+    content:"這將是。如果下注條件是獎金金額的50倍，不下注5000美元就不能取款，所以這個【提款條件】應該是越低越有利的。";
+}
+.text_1487::before
+{
+    content:"一般";
+}
+.text_1488::before
+{
+    content:"我們的使用條款（以下簡稱“條款”和“條款”於 2021 年 11 月 1 日生效。玩家為 www.crowncasinoofficial.com（以下簡稱“網站”、“本網站”和“我們公司”。請使用本網站前請務必閱讀這些條款。使用本網站，即表示您已同意這些條款。電視、PC、手機包括可下載的應用程序（“網站”）還包括使用或瀏覽我們的網站或其他網站我們通過設備或其他通信媒體擁有。";
+}
+.text_1489::before
+{
+    content:"本協議已翻譯成多種語言，以方便玩家理解，但若與英文版有任何差異，僅以英文版為準，法律依據以英文版為準。";
+}
+.text_1490::before
+{
+    content:"本網站保留隨時更改或修改本網站使用條款或合同的權利，恕不另行通知。";
+}
+.text_1491::before
+{
+    content:"玩家的責任和義務";
+}
+.text_1492::before
+{
+    content:"本網站只允許居住在法律不禁止在線賭博的國家的玩家註冊賬戶。";
+}
+.text_1493::before
+{
+    content:"玩家必須至少年滿 18 歲或超過其居住國家/地區的法律。玩家有責任遵守此年齡限制法。";
+}
+.text_1494::before
+{
+    content:"您全權負責確定您遵守居住國家/地區的法律並且賭博在您居住的國家/地區不違法。如果我們對此事有任何投訴或索賠，將立即失效，我們將不承擔任何責任。禁止在其居住國賭博為非法的玩家創建賬戶、存款和下注。請注意，如果玩家在受監管的國家/地區創建帳戶並下注，則資金可能不會被提取或退還。";
+}
+.text_1495::before
+{
+    content:"賬戶相關";
+}
+.text_1496::before
+{
+    content:"每個用戶、IP 地址和設備只允許使用一個帳戶。如果我們發現一個用戶擁有多個賬戶，我們保留關閉重複賬戶並退還可提取資金的權利。";
+}
+.text_1497::before
+{
+    content:"我們保留隨時以任何理由驗證您的身份並要求您提交相關文件的權利。這包括但不限於：背景調查、信用調查或法律允許的個人歷史調查。這些調查的標準會因情況而異，但會確認用戶的註冊信息，如姓名、地址、年齡、職業、用戶的財務狀況、資金來源等用戶財務交易的確認，和/或遊戲。包括活動等。";
+}
+.text_1498::before
+{
+    content:"本網站會檢查玩家的所有付款交易，以防止洗錢。本網站保留立即向相關組織報告可疑交易或遊戲中的任何可疑活動的權利。對於涉嫌洗錢和恐怖主義融資活動的賬戶，本網站保留暫停賬戶和保留賬戶餘額的權利。對於每筆存款，玩家應聲明資金合法地歸屬於玩家，並且這些資金不是通過非法方式獲得的。本網站保留根據具體情況要求提供有關此資金來源的其他信息的權利。";
+}
+.text_1499::before
+{
+    content:"本網站保留自行決定中止與玩家的合同關係的權利，恕不另行通知或解釋。";
+}
+.text_1500::before
+{
+    content:"在本網站上，如果您全年無法確認包括登錄在內的所有交易，我們將將該賬戶視為休眠賬戶。本站將在賬號變為休眠賬號時通過郵件通知相關玩家。玩家可以通過登錄他們的帳戶重新激活他們的帳戶。如果玩家賬戶被視為休眠賬戶，賬戶內所有未結資金將被指令銷毀。此外，如果我們確定本網站是必要的，我們保留暫停相關賬戶和沒收賬戶餘額的權利。";
+}
+.text_1501::before
+{
+    content:"玩家事先了解並承認，本站嚴禁任何欺詐行為，包括玩家的存款和勾結。如果本站自行判定玩家作弊或涉嫌作弊，投注及所有相關活動將因任何原因作廢，資金將作廢，您有權沒收或暫停您的賬戶。在本網站上的所有遊戲中，包括使用獎勵促銷、與正常遊戲不同的遊戲、所有欺詐行為，例如故意濫用或誤用外部支付服務以及遊戲機制，賭場保留所有獎金的權利，沒收獎金或資金沒收，以及暫停賬戶，如果賭場自行決定發現或認為。此外，本網站保留在這些情況下自行決定不明確披露詳細信息的權利。";
+}
+.text_1502::before
+{
+    content:"免責聲明";
+}
+.text_1503::before
+{
+    content:"本站不要求或強迫玩家使用本站的服務，並承認他們僅憑自己的判斷使用本站。另外，玩家同意本站僅用於個人娛樂目的，嚴禁將本站提供的所有服務用於娛樂以外的目的，本人也同意。";
+}
+.text_1504::before
+{
+    content:"本網站包含的所有信息僅供參考，無意向玩家提供任何專業建議。即使本網站上的信息不准確或不正確，本網站也不會對玩家根據該信息採取的任何行動負責。";
+}
+.text_1505::before
+{
+    content:"玩家理解在本網站賭博可能導致損失。我們不對任何經濟損失負責。";
+}
+.text_1506::before
+{
+    content:"對於使用本網站時發生的任何錯誤，我們概不負責。這包括硬件和軟件故障、服務器停機、互聯網線路延遲和斷開連接，以及所有其他可能限制玩家訪問站點或阻止遊戲的技術錯誤。您理解它可能會中斷。";
+}
+.text_1507::before
+{
+    content:"如果我們絕對酌情決定我們違反了這些條款，則玩家帳戶可能會被凍結或永久關閉。玩家明白我們有最終決定權，也有權做出這樣的決定。";
+}
+.text_1508::before
+{
+    content:"在極少數情況下，投注和付款可能會被錯誤處理。在這種情況下，我們保留使所有適用的投注和付款無效並在沒有發生錯誤的情況下重新進行正確金額的權利。";
+}
+.text_1509::before
+{
+    content:"在極少數情況下，不屬於該人的獎金或資金可能會被錯誤存入。在這種情況下，無論出於何種原因，錯誤存入的資金都將歸我們所有，並將從玩家的賬戶中扣除。如果此類資金在從您的帳戶中扣除之前無意中被提取，則它們將對我們承擔責任，直到玩家全額退還為止。請注意，如果資金意外存入玩家賬戶，玩家有責任立即通知我們的客戶支持。";
+}
+.text_1510::before
+{
+    content:"本站所有的程序、數據、文字、創意、內容等信息均為本站的專有財產，包括玩家在本站可以查看的本站各項數據。嚴禁玩家複製、存儲、修改、上傳或分發本網站上的信息或軟件。此外，在任何情況下，包括在網上，嚴禁通過第三方、其他網站或其他方式出售、出租或轉讓本網站的信息或軟件的行為。";
+}
+.text_1511::before
+{
+    content:"嚴禁將本站提供的服務、網站及相關內容用於商業和自私用途。此外，本站其他網站上的“皇冠賭場”名稱和商標均歸本站獨家所有，並不賦予玩家對其知識產權的所有權。";
+}
+.text_1512::before
+{
+    content:"保證與責任";
+}
+.text_1513::before
+{
+    content:"本網站不保證以下內容： 本網站是完美無缺的，您可以不間斷地訪問本網站提供的網站和遊戲，以及該網站和遊戲適合您的用途。 Breckenridge 不作任何此類保證，無論是明示的還是暗示性的。";
+}
+.text_1514::before
+{
+    content:"在布雷肯里奇無法控制的情況下，例如不可預見的技術問題或第三方提供商的技術問題，布雷肯里奇可能會取消和/或退款。您還承認您的計算機或移動設備以及您的互聯網連接可能會影響您網站的性能和操作。";
+}
+.text_1515::before
+{
+    content:"Breckenridge 不對由您的設備、互聯網連接或第三方提供商造成的任何故障或問題負責。這包括您無法下注或無法查看或接收與特定遊戲相關的信息。";
+}
+.text_1516::before
+{
+    content:"如果批准的遊戲回合因任何原因中斷或斷開連接，所有用戶交易都將被準確記錄。未完成的遊戲回合通常會在遊戲恢復時恢復，如果無法恢復，則該遊戲回合將被網站刪除，投注金額將退還至您的帳戶。";
+}
+.text_1517::before
+{
+    content:"本網站保留自行決定暫時禁用本網站和/或某些遊戲的權利，恕不另行通知用戶。用戶因此而遭受的任何損失，我們概不負責。";
+}
+.text_1518::before
+{
+    content:"本網站不對遊戲的任何停機、服務器中斷、延遲或技術或政治干擾負責。退款僅由本網站自行決定。";
+}
+.text_1519::before
+{
+    content:"存取款";
+}
+.text_1520::before
+{
+    content:"玩家只能通過信用卡、借記卡、電子商務和銀行賬戶存款。禁止以第三方或其他人的名義從賬戶存款。根據我們的判斷，如果我們確定您違反了此規定，所有獎金將被沒收，並且只有存款金額將退還到玩家使用的存款方式。對於從第三方賬戶存入的資金的損失，我們概不負責。";
+}
+.text_1521::before
+{
+    content:"欺詐預防政策";
+}
+.text_1522::before
+{
+    content:"我們認為防止欺詐活動很重要，並製定了嚴格的政策。作弊包括但不限於以下行為：此外，如發現欺詐行為，本站保留採取其他必要措施如暫停或凍結賬戶的權利。";
+}
+.text_1523::before
+{
+    content:"與其他玩家勾結";
+}
+.text_1524::before
+{
+    content:"計劃獲取欺詐性利潤";
+}
+.text_1525::before
+{
+    content:"取消或拒絕信用卡支付";
+}
+.text_1526::before
+{
+    content:"其他偽造";
+}
+.text_1527::before
+{
+    content:"開戶時提供虛假個人信息";
+}
+.text_1528::before
+{
+    content:"雙重投注、反向投注等非法投注";
+}
+.text_1529::before
+{
+    content:"網站確定的其他欺詐活動";
+}
+.text_1530::before
+{
+    content:"索賠";
+}
+.text_1531::before
+{
+    content:"如果您對本網站有任何投訴，請按照網站上的說明聯繫我們的客戶支持團隊。";
+}
+.text_1532::before
+{
+    content:"知識產權";
+}
+.text_1533::before
+{
+    content:"Crown 賭場（“公司”或其他類似名稱）認為保護個人信息和隱私對於更好地為我們的客戶提供服務非常重要。本隱私政策解釋了收集何種個人信息以及如何將其用於何種目的。";
+}
+.text_1534::before
+{
+    content:"開戶即視為您同意本隱私政策。如果您不同意隱私政策或拒絕處理個人信息，請不要使用本網站。";
+}
+.text_1535::before
+{
+    content:"隱私政策可能會根據需要進行修訂。我們會在修訂時通知您最新的隱私政策，但請定期查看此頁面。繼續使用本網站，即表示您已同意修訂後的隱私政策。";
+}
+.text_1536::before
+{
+    content:"收集個人信息的目的";
+}
+.text_1537::before
+{
+    content:"我們收集的個人信息類型如下：";
+}
+.text_1538::before
+{
+    content:"開戶時必須在註冊表中填寫的個人信息（包括註冊後在我的賬戶中更改的信息以及通過電子郵件或在線聊天交換的個人信息）（例如：姓名、出生日期、電子郵件）地址、電話";
+}
+.text_1539::before
+{
+    content:"通過網站、電子郵件、在線聊天等通訊工具交換的個人信息";
+}
+.text_1540::before
+{
+    content:"在網站和其他通訊工具上交換的所有賬戶歷史（例如游戲歷史、存款/取款歷史）";
+}
+.text_1541::before
+{
+    content:"登錄歷史和所有登錄信息（例如流量數據、IP 地址、瀏覽器/設備信息、博客、活動日誌）";
+}
+.text_1542::before
+{
+    content:"賬戶驗證所需的身份證明文件和證明（如護照複印件、付款證明、銀行對賬單）";
+}
+.text_1543::before
+{
+    content:"客戶調查的答复、問卷的答復以及當時輸入的個人信息";
+}
+.text_1544::before
+{
+    content:"個人信息的使用目的";
+}
+.text_1545::before
+{
+    content:"處理遊戲投注和賬戶存款和取款（包括信用卡和電子商務使用歷史）";
+}
+.text_1546::before
+{
+    content:"提供遊戲玩法及相關服務";
+}
+.text_1547::before
+{
+    content:"執行客戶支持操作（包括支持註冊和支持更改帳戶信息）";
+}
+.text_1548::before
+{
+    content:"驗證您的帳戶並驗證您的身份";
+}
+.text_1549::before
+{
+    content:"分發來自我們、合作夥伴和附屬公司的活動信息（僅適用於同意接收活動和廣告的玩家）";
+}
+.text_1550::before
+{
+    content:"遵守反洗錢、反恐融資等法律要求";
+}
+.text_1551::before
+{
+    content:"審計查處欺詐、違規、洗錢、犯規等違法行為";
+}
+.text_1552::before
+{
+    content:"獲取市場信息，如近期趨勢（參與問卷是免費的，不是強制性的）";
+}
+.text_1553::before
+{
+    content:"對收集到的數據進行調查和統計";
+}
+.text_1554::before
+{
+    content:"關於個人信息的管理";
+}
+.text_1555::before
+{
+    content:"未經您的同意，我們不會收集個人信息。但是，可能會自動收集在網站上輸入的信息和為客戶支持操作交換的信息。";
+}
+.text_1556::before
+{
+    content:"未經客戶同意，我們可能會依法從提供防欺詐系統的公司收集個人信息。除上述情況外，我們可能會向第三方提供非我們的技術支持，以確保在線支付和遊戲的順利進行。";
+}
+.text_1557::before
+{
+    content:"如果您事先同意，我們可能會將您的個人信息提供給第三方。在這種情況下，請放心，我們將與第三方合作，根據本隱私政策妥善保護個人信息。";
+}
+.text_1558::before
+{
+    content:"個人信息的處理";
+}
+.text_1559::before
+{
+    content:"我們可能會向集團公司和業務合作夥伴提供您的個人信息。這包括母公司、母公司的母公司、子公司以及與您有業務合同或協議的公司。";
+}
+.text_1560::before
+{
+    content:"您的個人信息將由我們的專職員工處理。這包括數據保護、洗錢、客戶支持、營銷和 VIP 等團隊的員工。";
+}
+.text_1561::before
+{
+    content:"上述員工在了解遊戲玩法、個人信息保護法律和數據保護的重要性後處理個人信息。";
+}
+.text_1562::before
+{
+    content:"關於向第三方提供";
+}
+.text_1563::before
+{
+    content:"我們不會向第三方出售或出借個人信息。";
+}
+.text_1564::before
+{
+    content:"如果有法律或基於法律的命令，可以提供給第三方。如果我們認為有必要保護我們、我們的客戶和我們的合作夥伴，我們也可能會向監管和法律機構披露您的個人信息。我們提供給第三方的目的如下。";
+}
+.text_1565::before
+{
+    content:"遵守遊戲許可和監管法律規定的規則";
+}
+.text_1566::before
+{
+    content:"當我們判斷為了我們公司或我們客戶的安全有必要將其提供給第三方時";
+}
+.text_1567::before
+{
+    content:"當被要求提供個人信息進行營銷推廣時";
+}
+.text_1568::before
+{
+    content:"向已獲得同意的第三方提供信息時";
+}
+.text_1569::before
+{
+    content:"個人信息的存儲";
+}
+.text_1570::before
+{
+    content:"如 7.0 服務條款所述，我們或您可以隨時關閉您的帳戶。即使在您的帳戶關閉後，您的個人信息仍將在法律規定的期限內保留。只有在確定監管機構需要調查欺詐、違反規則、洗錢、犯罪行為或其他非法活動時，才會披露這些個人信息。";
+}
+.text_1571::before
+{
+    content:"根據反洗錢協議，您有義務在最近一次結算賬戶或關閉賬戶後保留您的個人信息5年。因此，在此期限屆滿之前，不能刪除個人信息。";
+}
+.text_1572::before
+{
+    content:"個人信息的安全";
+}
+.text_1573::before
+{
+    content:"根據嚴格規定的《個人信息保護法》，我們將確定您的個人信息的使用目的，並僅為此目的收集或使用。";
+}
+.text_1574::before
+{
+    content:"我們認為謹慎處理您的個人信息和隱私並對其進行安全保護非常重要。因此，我們將盡最大努力保護客戶委託給我們的個人信息。";
+}
+.text_1575::before
+{
+    content:"賬戶只能使用客戶設置的“用戶名”和“密碼”登錄。請自行承擔管理您的登錄信息的風險，不要與他人共享。";
+}
+.text_1576::before
+{
+    content:"關於餅乾";
+}
+.text_1577::before
+{
+    content:"使用網站時，網絡瀏覽器、IP地址、參考站點等個人信息會自動記錄在計算機上並進行管理。這種技術被稱為“cookie”。我們可能會與提供網站平台的提供商和其他提供與網站運營相關的服務的合作夥伴一起收集個人信息。它還包括位置信息和站點使用情況。在獲得您的同意之前，我們不會使用 cookie 收集的信息來識別您的身份或分析您的使用情況。";
+}
+.text_1578::before
+{
+    content:"我們使用 cookie 和類似的記錄工具來簡化登錄以收集常用信息。 Cookie 是您訪問網站時存儲在您計算機上的一個小文本文件。 Cookie 是提供更好服務的必要工具，例如包含網站運營必不可少的信息和簡化常用操作。網站上使用的 cookie 按類型列出。見下文。";
+}
+.text_1579::before
+{
+    content:"管理cookies：簡化網站常用的功能和操作。 （例如：查看我的賬號，只有登錄後才能訪問））";
+}
+.text_1580::before
+{
+    content:"功能Cookies：用於分析網站使用的會話密鑰、語言、地區等信息，並重新顯示適合每個玩家的內容。";
+}
+.text_1581::before
+{
+    content:"廣告cookie：由第三方合作夥伴提供，用於了解因營銷活動導致的網站使用情況和新客戶註冊信息。此外，我們不會向附屬合作夥伴提供姓名和電子郵件地址等個人信息，但促銷 cookie 直接收集的網站使用狀態除外。此外，本網站的使用狀況可能與本公司以外的第三方收集的個人信息相關聯。屆時，關於個人信息的處理，我們將遵循各第三方發布的個人信息處理方針。";
+}
+.text_1582::before
+{
+    content:"除上述之外，我們通過向其他多家公司提供本網站來運營本網站，並且每項服務也使用cookies。這包括通過了解網站的使用狀態來改善客戶體驗的服務，以及衡量營銷活動廣告效果的服務。";
+}
+.text_1583::before
+{
+    content:"幾乎所有瀏覽器都會自動接受 cookie 的使用。您可以拒絕使用 cookie 或刪除已從瀏覽器設置中收集的 cookie。但是，如果您拒絕或刪除 cookie 的使用，則可能會干擾網站的使用。";
+}
+.text_1584::before
+{
+    content:"開始";
+}
+.text_1585::before
+{
+    content:"博彩責任";
+}
+.text_1586::before
+{
+    content:"即使您是為了玩樂而開始賭博，您也可能在不知不覺中上癮。請理解賭博可能會讓人上癮並負責任地玩遊戲。";
+}
+.text_1587::before
+{
+    content:"如果你認為這是賭癮";
+}
+.text_1588::before
+{
+    content:"使用下面的清單作為自我判斷的指南。如果賭博對您和您家人的生活產生負面影響，您會發現列表中的更多內容是正確的。";
+}
+.text_1589::before
+{
+    content:"我賭的錢足以傷害我的生命";
+}
+.text_1590::before
+{
+    content:"我打賭讓我興奮";
+}
+.text_1591::before
+{
+    content:"試圖通過賭博來挽回你在賭博中失去的東西";
+}
+.text_1592::before
+{
+    content:"借錢或賣東西賭博";
+}
+.text_1593::before
+{
+    content:"有時我擔心我依賴賭博";
+}
+.text_1594::before
+{
+    content:"我曾因賭博被人批評或說我是賭徒";
+}
+.text_1595::before
+{
+    content:"我對賭博和賭博時的態度感到內疚";
+}
+.text_1596::before
+{
+    content:"賭博導致壓力、焦慮和健康問題";
+}
+.text_1597::before
+{
+    content:"我和我的家人因賭博而出現經濟問題";
+}
+.text_1598::before
+{
+    content:"如果許多項目都適用，則您更有可能沉迷於賭博。如果您覺得您或您的家人需要有關賭博的專業建議，請考慮使用專業諮詢服務。";
+}
+.text_1599::before
+{
+    content:"會員基本資料";
+}
+.text_1600::before
+{
+    content:"本網站在菲律賓 PAGCOR 許可下運營，PAGCOR 是菲律賓政府管轄下的菲律賓博彩監管機構";
+}
+.text_1601::before
+{
+    content:"近一年";
+}
+.text_1602::before
+{
+    content:"VIP等級";
+}
+.text_1603::before
+{
+    content:"2000種以上";
+}
+.text_1604::before
+{
+    content:"客人服務";
+}
+.text_1605::before
+{
+    content:"LINE私人客服";
+}
+.text_1606::before
+{
+    content:"每月打碼量超過";
+}
+.text_1607::before
+{
+    content:"請將下列訊息傳至 admin@crowngamesofficial.com 以方便我們爲您做帳號認證。";
+}
+.text_1608::before
+{
+    content:"水電費";
+}
+.text_1609::before
+{
+    content:"手機服務帳單";
+}
+.text_1610::before
+{
+    content:"PT捕魚";
+}
+.text_1611::before
+{
+    content:"奇琴之戰";
+}
+.text_1612::before
+{
+    content:"鬥雞";
+}
+.text_1613::before
+{
+    content:"Funky籃球";
+}
+.text_1614::before
+{
+    content:"Funky足球";
+}
+.text_1615::before
+{
+    content:"鬥雞2";
+}
+.text_1616::before
+{
+    content:"現金或崩潰";
+}
+.text_1617::before
+{
+    content:"SEXY 鬥雞";
+}
+.text_1618::before
+{
+    content:"AE电子";
+}
+.text_1619::before
+{
+    content:'當前支付密碼';
+}
+.text_1620::before
+{
+    content:'新支付密碼';
+}
+.text_1621::before
+{
+    content:'確認新密碼';
+}
+.text_1622::before
+{
+    content:"Number Game";
+}
+.text_1623::before
+{
+    content:"RNGWAR";
+}
+.text_1624::before
+{
+    content:"樂爆彩";
+}
+.text_1625::before
+{
+    content:"快樂彩";
+}
+.text_1626::before
+{
+    content:"足球之星";
+}
+.text_1627::before
+{
+    content:"極速賽車";
+}
+.text_1628::before
+{
+    content:"極速時時彩";
+}
+.text_1629::before
+{
+    content:"極速快樂十分";
+}
+.text_1630::before
+{
+    content:"歡樂骷髏賓果";
+}
+.text_1631::before
+{
+    content:"請輸入身分證號碼";
+}

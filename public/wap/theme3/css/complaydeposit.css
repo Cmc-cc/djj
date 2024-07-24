@@ -1,0 +1,286 @@
+.main-container {
+    min-height: calc(100% - 60px);
+    overflow: hidden;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff;
+}
+.redspan {
+    color: red;
+}
+#content {
+
+}
+#stepwayContent {
+    overflow-y: scroll;
+    position: relative;
+    height: calc(100vh - 180px);
+}
+page-title, .page-title {
+    color: #fff;
+    background: -moz-linear-gradient(top, #424242 0, #1d1d1d 100%);
+    background: -webkit-linear-gradient(top, #424242 0,#1d1d1d 100%);
+    background: linear-gradient(to bottom, #424242 0,#1d1d1d 100%);
+}
+#page-title {
+    /*height: 70px;
+    font-size: 22px;
+    line-height: 70px;*/
+    line-height: 44px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+    /*background: linear-gradient(to bottom, #424242 0,#1d1d1d 100%);*/
+    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.panel .step-section .step-ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #efefef;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.panel .step-section .step-ul li {
+    display: inline-block;
+    color: #8f8f8f;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 46px;
+
+}
+.panel .step-section .step-ul li.active {
+    color: #171717;
+}
+.panel .step-section .step-ul li.active .step {
+    background-color: #171717;
+}
+.panel .step-section .step-ul li .step {
+    background-color: #171717;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: baseline;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    background-color: #8f8f8f;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.content-section .yourbank {
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px dashed #efefef;
+}
+.content-section .yourbank label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+    margin-bottom: 5px;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-left: 4%;
+    color: #1d2126;
+    font-size: 12px;
+}
+.content-section select {
+    height: 34px;
+    padding: 0 30px 0 10px;
+    color: #333;
+    font-size: 12px;
+    line-height: 32px;
+    border: 1px solid #bfbfbf;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width:100%;
+    background:#fff;
+}
+.content-section .deposit-tip {
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px dashed #efefef;
+}
+.content-section .deposit-tip label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+    margin-bottom: 5px;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-left: 4%;
+    color: #1d2126;
+    font-size: 12px;
+}
+.content-section .deposit-tip span {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+    margin-bottom: 5px;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-left: 4%;
+    color: #260e04;
+    font-size: 12px;
+}
+.content-section .deposit-list .account-card {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #000;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-left-width: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 1.7em;
+}
+.content-section .text-center {
+    text-align: center;
+}
+.content-section .text-center .btn {
+    min-width: 111px;
+    height: 40px;
+    margin: 0 5px;
+    padding: 0 15px;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 38px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #006538;
+    color: #fff;
+}
+
+.panel {
+    height: auto;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel .panel-heading {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 32px;
+    background: linear-gradient(to right, #131313, #afb0b1);
+    border-radius: 5px;
+}
+
+.panel .divtable {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 10px;
+}
+
+.panel .panel-heading i.icon_plus {
+    position: absolute;
+    margin-top: 5px;
+    right: 20px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(/wap/theme3/images/icon_plus.png) no-repeat center;
+}
+
+.panel .panel-heading i.icon_minus {
+    position: absolute;
+    margin-top: 5px;
+    right: 20px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(/wap/theme3/images/icon_minus.png) no-repeat center;
+}
+
+
+.panel .panel-body ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-size: 10px;
+}
+
+.panel .panel-body ol li {
+    height: 30px;
+}
+
+#despoitremark {
+    padding: 7px 8px;
+}
+
+.from-group {
+    padding-top: 10px;
+}
+
+.from-group .col-sm-1 {
+    font-size: 10px;
+    display: inline-block;
+    height: 30px;
+    width: 20%;
+    text-align: right;
+    line-height: 38px;
+}
+
+.form-control {
+    display: block;
+    width: 86%;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.panel .text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.panel .text-center .btn {
+    min-width: 111px;
+    height: 40px;
+    margin: 0 5px;
+    padding: 0 15px;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 38px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #171717;
+    color: #fff;
+}
+
+.col-sm-2 {
+    width: 77%;
+    float: right;
+    line-height: 30px;
+    height: 30px;
+}

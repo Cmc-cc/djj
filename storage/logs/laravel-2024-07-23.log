@@ -1,0 +1,448 @@
+[2024-07-23 00:07:44] local.INFO: {"name":"samsam89","amount":"100","api_id":298,"time":"20240723000744","type":1,"before_amount":"58572.61","api_name":"PG","date":"2024-07-23 00:07:44"}  
+[2024-07-23 00:08:55] local.INFO: {"name":"shing3366","amount":"120.32","api_id":272,"time":"20240723000855","type":1,"before_amount":"119683.83","api_name":"CQ","date":"2024-07-23 00:08:55"}  
+[2024-07-23 00:10:20] local.INFO: {"name":"samsam89","amount":"100","api_id":298,"time":"20240723001020","type":1,"before_amount":"58472.61","api_name":"PG","date":"2024-07-23 00:10:20"}  
+[2024-07-23 00:18:58] local.INFO: {"name":"terry0729JK2","amount":0,"api_id":626,"time":"20240723001858","type":1,"before_amount":"121044.00","api_name":"JK","date":"2024-07-23 00:18:58"}  
+[2024-07-23 00:25:38] local.INFO: {"name":"samsam89","amount":"47.17","api_id":298,"time":"20240723002538","type":1,"before_amount":"58372.61","api_name":"PG","date":"2024-07-23 00:25:38"}  
+[2024-07-23 00:27:00] local.INFO: {"name":"samsam89","amount":47,"api_id":298,"time":"20240723002700","type":2,"after_money":"58325.44","api_name":"PG","date":"2024-07-23 00:27:00"}  
+[2024-07-23 00:27:00] local.INFO: {"name":"samsam89","amount":47,"api_id":298,"time":"20240723002700","type":2,"after_money":"58325.44","api_name":"PG","date":"2024-07-23 00:27:00"}  
+[2024-07-23 00:27:20] local.INFO: {"name":"samsam89","amount":"47.17","api_id":298,"time":"20240723002720","type":1,"before_amount":"58372.44","api_name":"PG","date":"2024-07-23 00:27:20"}  
+[2024-07-23 00:27:51] local.INFO: {"name":"samsam89","amount":47,"api_id":298,"time":"20240723002751","type":2,"after_money":"58325.27","api_name":"PG","date":"2024-07-23 00:27:51"}  
+[2024-07-23 00:30:41] local.INFO: {"name":"samsam89","amount":"47.17","api_id":286,"time":"20240723003041","type":1,"before_amount":"106553.20","api_name":"JD","date":"2024-07-23 00:30:41"}  
+[2024-07-23 00:31:53] local.INFO: {"name":"sing8888","amount":"70.37","api_id":298,"time":"20240723003153","type":1,"before_amount":"58372.27","api_name":"PG","date":"2024-07-23 00:31:53"}  
+[2024-07-23 00:40:40] local.INFO: {"name":"wm7575JK20","amount":214,"api_id":650,"time":"20240723004040","type":1,"before_amount":"136923.00","api_name":"JK","date":"2024-07-23 00:40:40"}  
+[2024-07-23 00:42:48] local.INFO: {"name":"shing3366","amount":"10.12","api_id":272,"time":"20240723004248","type":1,"before_amount":"119563.51","api_name":"CQ","date":"2024-07-23 00:42:48"}  
+[2024-07-23 00:43:20] local.INFO: {"name":"wm7575JK20","amount":186,"api_id":650,"time":"20240723004320","type":2,"after_money":"136709.00","api_name":"JK","date":"2024-07-23 00:43:20"}  
+[2024-07-23 00:43:32] local.INFO: {"name":"hua169","amount":"25.39","api_id":298,"time":"20240723004332","type":1,"before_amount":"58301.90","api_name":"PG","date":"2024-07-23 00:43:32"}  
+[2024-07-23 00:43:43] local.INFO: {"name":"wm7575JK20","amount":186,"api_id":650,"time":"20240723004343","type":1,"before_amount":"136895.00","api_name":"JK","date":"2024-07-23 00:43:43"}  
+[2024-07-23 00:56:48] local.INFO: {"name":"shing123","amount":"55.27","api_id":298,"time":"20240723005648","type":1,"before_amount":"58276.51","api_name":"PG","date":"2024-07-23 00:56:48"}  
+[2024-07-23 00:57:46] local.INFO: {"name":"wm7575JK20","amount":100,"api_id":650,"time":"20240723005746","type":2,"after_money":"136709.00","api_name":"JK","date":"2024-07-23 00:57:46"}  
+[2024-07-23 00:58:59] local.INFO: {"name":"wm7575JK20","amount":100,"api_id":650,"time":"20240723005859","type":1,"before_amount":"136809.00","api_name":"JK","date":"2024-07-23 00:58:59"}  
+[2024-07-23 01:07:48] local.INFO: {"name":"samsam89","amount":"150.30","api_id":286,"time":"20240723010748","type":1,"before_amount":"106506.03","api_name":"JD","date":"2024-07-23 01:07:48"}  
+[2024-07-23 01:35:51] local.INFO: {"name":"shing123","amount":2,"api_id":298,"time":"20240723013551","type":2,"after_money":"58221.24","api_name":"PG","date":"2024-07-23 01:35:51"}  
+[2024-07-23 01:35:52] local.INFO: {"name":"shing123","amount":"0.27","api_id":298,"time":"20240723013552","type":1,"before_amount":"58223.24","api_name":"PG","date":"2024-07-23 01:35:52"}  
+[2024-07-23 01:53:50] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723015350","type":1,"before_amount":"58223.24","api_name":"PG","date":"2024-07-23 01:53:50"}  
+[2024-07-23 01:56:59] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723015659","type":1,"before_amount":"58173.24","api_name":"PG","date":"2024-07-23 01:56:59"}  
+[2024-07-23 01:57:32] local.INFO: {"name":"winwin163","amount":"120.49","api_id":298,"time":"20240723015732","type":1,"before_amount":"58123.24","api_name":"PG","date":"2024-07-23 01:57:32"}  
+[2024-07-23 02:02:38] local.INFO: {"name":"ice28x88","amount":"100.93","api_id":298,"time":"20240723020238","type":1,"before_amount":"58002.75","api_name":"PG","date":"2024-07-23 02:02:38"}  
+[2024-07-23 02:18:06] local.INFO: {"name":"shing3366JK2","amount":2,"api_id":626,"time":"20240723021806","type":2,"after_money":"121044.00","api_name":"JK","date":"2024-07-23 02:18:06"}  
+[2024-07-23 02:18:10] local.INFO: {"name":"shing3366","amount":1,"api_id":286,"time":"20240723021810","type":2,"after_money":"106355.73","api_name":"JD","date":"2024-07-23 02:18:10"}  
+[2024-07-23 02:18:11] local.INFO: {"name":"shing3366","amount":46,"api_id":272,"time":"20240723021811","type":2,"after_money":"119553.39","api_name":"CQ","date":"2024-07-23 02:18:11"}  
+[2024-07-23 02:19:53] local.INFO: {"name":"shing3366","amount":"49.12","api_id":286,"time":"20240723021953","type":1,"before_amount":"106356.73","api_name":"JD","date":"2024-07-23 02:19:53"}  
+[2024-07-23 02:21:11] local.INFO: {"name":"samsam89","amount":"50.63","api_id":298,"time":"20240723022111","type":1,"before_amount":"57901.82","api_name":"PG","date":"2024-07-23 02:21:11"}  
+[2024-07-23 02:21:55] local.INFO: {"name":"shing3366","amount":"0.12","api_id":286,"time":"20240723022155","type":1,"before_amount":"106307.61","api_name":"JD","date":"2024-07-23 02:21:55"}  
+[2024-07-23 02:22:15] local.INFO: {"name":"ice28x88","amount":"51.08","api_id":298,"time":"20240723022215","type":1,"before_amount":"57851.19","api_name":"PG","date":"2024-07-23 02:22:15"}  
+[2024-07-23 02:26:28] local.ERROR: ErrorException: Undefined property: App\Services\LEYUService::$api_id in /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php:673
+Stack trace:
+#0 /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php(673): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/www/wwwroot/2d...', 673, Array)
+#1 /www/wwwroot/2ddjjcs/djj/app/Http/Controllers/Api/SelfController.php(938): App\Services\LEYUService->get_demo_url()
+#2 [internal function]: App\Http\Controllers\Api\SelfController->login(Object(Illuminate\Http\Request))
+#3 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('login', Array)
+#5 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Api\SelfController), 'login')
+#6 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(160): Illuminate\Routing\Route->runController()
+#7 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Routing\Route->run()
+#8 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#13 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#14 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#16 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(576): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#26 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(535): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#27 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(513): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#28 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#30 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#34 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#37 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#40 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#43 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#44 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#45 /www/wwwroot/2ddjjcs/djj/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#46 {main}  
+[2024-07-23 02:26:53] local.ERROR: ErrorException: Undefined property: App\Services\LEYUService::$api_id in /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php:673
+Stack trace:
+#0 /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php(673): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/www/wwwroot/2d...', 673, Array)
+#1 /www/wwwroot/2ddjjcs/djj/app/Http/Controllers/Api/SelfController.php(938): App\Services\LEYUService->get_demo_url()
+#2 [internal function]: App\Http\Controllers\Api\SelfController->login(Object(Illuminate\Http\Request))
+#3 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('login', Array)
+#5 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Api\SelfController), 'login')
+#6 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(160): Illuminate\Routing\Route->runController()
+#7 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Routing\Route->run()
+#8 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#13 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#14 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#16 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(576): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#26 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(535): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#27 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(513): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#28 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#30 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#34 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#37 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#40 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#43 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#44 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#45 /www/wwwroot/2ddjjcs/djj/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#46 {main}  
+[2024-07-23 02:27:20] local.ERROR: ErrorException: Undefined property: App\Services\LEYUService::$api_id in /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php:673
+Stack trace:
+#0 /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php(673): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/www/wwwroot/2d...', 673, Array)
+#1 /www/wwwroot/2ddjjcs/djj/app/Http/Controllers/Api/SelfController.php(938): App\Services\LEYUService->get_demo_url()
+#2 [internal function]: App\Http\Controllers\Api\SelfController->login(Object(Illuminate\Http\Request))
+#3 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('login', Array)
+#5 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Api\SelfController), 'login')
+#6 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(160): Illuminate\Routing\Route->runController()
+#7 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Routing\Route->run()
+#8 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#13 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#14 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#16 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(576): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#26 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(535): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#27 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(513): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#28 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#30 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#34 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#37 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#40 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#43 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#44 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#45 /www/wwwroot/2ddjjcs/djj/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#46 {main}  
+[2024-07-23 02:27:30] local.ERROR: ErrorException: Undefined property: App\Services\LEYUService::$api_id in /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php:673
+Stack trace:
+#0 /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php(673): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/www/wwwroot/2d...', 673, Array)
+#1 /www/wwwroot/2ddjjcs/djj/app/Http/Controllers/Api/SelfController.php(938): App\Services\LEYUService->get_demo_url()
+#2 [internal function]: App\Http\Controllers\Api\SelfController->login(Object(Illuminate\Http\Request))
+#3 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('login', Array)
+#5 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Api\SelfController), 'login')
+#6 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(160): Illuminate\Routing\Route->runController()
+#7 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Routing\Route->run()
+#8 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#13 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#14 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#16 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(576): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#26 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(535): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#27 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(513): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#28 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#30 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#34 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#37 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#40 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#43 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#44 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#45 /www/wwwroot/2ddjjcs/djj/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#46 {main}  
+[2024-07-23 02:27:35] local.INFO: {"name":"ice28x88","amount":23,"api_id":298,"time":"20240723022735","type":2,"after_money":"57800.11","api_name":"PG","date":"2024-07-23 02:27:35"}  
+[2024-07-23 02:27:36] local.INFO: {"name":"ice28x88","amount":23,"api_id":298,"time":"20240723022736","type":2,"after_money":"57800.11","api_name":"PG","date":"2024-07-23 02:27:36"}  
+[2024-07-23 02:27:40] local.INFO: {"name":"ice28x88","amount":"23.08","api_id":298,"time":"20240723022740","type":1,"before_amount":"57823.11","api_name":"PG","date":"2024-07-23 02:27:40"}  
+[2024-07-23 02:29:25] local.INFO: {"name":"samsam89","amount":"50.73","api_id":298,"time":"20240723022925","type":1,"before_amount":"57800.03","api_name":"PG","date":"2024-07-23 02:29:25"}  
+[2024-07-23 02:31:49] local.INFO: {"name":"sing8888","amount":"50.45","api_id":298,"time":"20240723023149","type":1,"before_amount":"57749.30","api_name":"PG","date":"2024-07-23 02:31:49"}  
+[2024-07-23 02:34:12] local.INFO: {"name":"shing3366JK2","amount":52,"api_id":626,"time":"20240723023412","type":1,"before_amount":"121046.00","api_name":"JK","date":"2024-07-23 02:34:12"}  
+[2024-07-23 02:34:42] local.INFO: {"name":"samsam89","amount":"22.81","api_id":298,"time":"20240723023442","type":1,"before_amount":"57698.85","api_name":"PG","date":"2024-07-23 02:34:42"}  
+[2024-07-23 02:47:04] local.INFO: {"name":"shing3366JK2","amount":104,"api_id":626,"time":"20240723024704","type":1,"before_amount":"120994.00","api_name":"JK","date":"2024-07-23 02:47:04"}  
+[2024-07-23 03:02:47] local.INFO: {"name":"shing3366","amount":"53.43","api_id":286,"time":"20240723030247","type":1,"before_amount":"106307.61","api_name":"JD","date":"2024-07-23 03:02:47"}  
+[2024-07-23 03:38:31] local.INFO: {"name":"samsam89","amount":"50.90","api_id":286,"time":"20240723033831","type":1,"before_amount":"106254.18","api_name":"JD","date":"2024-07-23 03:38:31"}  
+[2024-07-23 03:42:34] local.INFO: {"name":"ttw1224","amount":"17.70","api_id":298,"time":"20240723034234","type":1,"before_amount":"57676.04","api_name":"PG","date":"2024-07-23 03:42:34"}  
+[2024-07-23 03:52:30] local.INFO: {"name":"ttw1224","amount":2,"api_id":298,"time":"20240723035230","type":2,"after_money":"57658.34","api_name":"PG","date":"2024-07-23 03:52:30"}  
+[2024-07-23 03:52:30] local.INFO: {"name":"ttw1224","amount":2,"api_id":298,"time":"20240723035230","type":2,"after_money":"57658.34","api_name":"PG","date":"2024-07-23 03:52:30"}  
+[2024-07-23 03:52:39] local.INFO: {"name":"ttw1224JK2","amount":2,"api_id":626,"time":"20240723035239","type":1,"before_amount":"120890.00","api_name":"JK","date":"2024-07-23 03:52:39"}  
+[2024-07-23 04:05:48] local.INFO: {"name":"ricky1314","amount":"100","api_id":298,"time":"20240723040548","type":1,"before_amount":"57660.34","api_name":"PG","date":"2024-07-23 04:05:48"}  
+[2024-07-23 04:22:32] local.INFO: {"name":"shing888","amount":"100.09","api_id":298,"time":"20240723042232","type":1,"before_amount":"57560.34","api_name":"PG","date":"2024-07-23 04:22:32"}  
+[2024-07-23 04:32:47] local.INFO: {"name":"shing888","amount":1,"api_id":298,"time":"20240723043247","type":2,"after_money":"57460.25","api_name":"PG","date":"2024-07-23 04:32:47"}  
+[2024-07-23 04:34:55] local.INFO: {"name":"hua169JK2","amount":82,"api_id":626,"time":"20240723043455","type":1,"before_amount":"120888.00","api_name":"JK","date":"2024-07-23 04:34:55"}  
+[2024-07-23 04:52:22] local.INFO: {"name":"wm7575JK2","amount":52,"api_id":626,"time":"20240723045222","type":1,"before_amount":"120806.00","api_name":"JK","date":"2024-07-23 04:52:22"}  
+[2024-07-23 05:00:19] local.INFO: {"name":"samsam89","amount":"50","api_id":286,"time":"20240723050019","type":1,"before_amount":"106203.28","api_name":"JD","date":"2024-07-23 05:00:19"}  
+[2024-07-23 05:06:43] local.INFO: {"name":"t197112","amount":"112.58","api_id":286,"time":"20240723050643","type":1,"before_amount":"106153.28","api_name":"JD","date":"2024-07-23 05:06:43"}  
+[2024-07-23 05:09:33] local.INFO: {"name":"samsam89","amount":"51.02","api_id":286,"time":"20240723050933","type":1,"before_amount":"106040.70","api_name":"JD","date":"2024-07-23 05:09:33"}  
+[2024-07-23 05:17:16] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723051716","type":1,"before_amount":"57461.25","api_name":"PG","date":"2024-07-23 05:17:16"}  
+[2024-07-23 05:19:14] local.INFO: {"name":"t197112","amount":"100.75","api_id":298,"time":"20240723051914","type":1,"before_amount":"57411.25","api_name":"PG","date":"2024-07-23 05:19:14"}  
+[2024-07-23 05:29:39] local.INFO: {"name":"t197112","amount":"100.86","api_id":298,"time":"20240723052939","type":1,"before_amount":"57310.50","api_name":"PG","date":"2024-07-23 05:29:39"}  
+[2024-07-23 05:31:39] local.INFO: {"name":"ricky1314","amount":"2.16","api_id":298,"time":"20240723053139","type":1,"before_amount":"57209.64","api_name":"PG","date":"2024-07-23 05:31:39"}  
+[2024-07-23 05:42:56] local.INFO: {"name":"samsam89","amount":1001,"api_id":298,"time":"20240723054256","type":2,"after_money":"57207.48","api_name":"PG","date":"2024-07-23 05:42:56"}  
+[2024-07-23 05:42:56] local.INFO: {"name":"samsam89","amount":1001,"api_id":298,"time":"20240723054256","type":2,"after_money":"57207.48","api_name":"PG","date":"2024-07-23 05:42:56"}  
+[2024-07-23 05:45:47] local.INFO: {"name":"samsam89","amount":"51.20","api_id":298,"time":"20240723054547","type":1,"before_amount":"58208.48","api_name":"PG","date":"2024-07-23 05:45:47"}  
+[2024-07-23 05:47:22] local.INFO: {"name":"shing888","amount":"1.09","api_id":652,"time":"20240723054722","type":1,"before_amount":"354.43","api_name":"JK","date":"2024-07-23 05:47:22"}  
+[2024-07-23 05:57:36] local.INFO: {"name":"uko1986","amount":"6.63","api_id":298,"time":"20240723055736","type":1,"before_amount":"58157.28","api_name":"PG","date":"2024-07-23 05:57:36"}  
+[2024-07-23 06:22:58] local.INFO: {"name":"uko1986","amount":"50.69","api_id":298,"time":"20240723062258","type":1,"before_amount":"58150.65","api_name":"PG","date":"2024-07-23 06:22:58"}  
+[2024-07-23 06:43:29] local.INFO: {"name":"samsam89","amount":"50.29","api_id":298,"time":"20240723064329","type":1,"before_amount":"58099.96","api_name":"PG","date":"2024-07-23 06:43:29"}  
+[2024-07-23 06:43:55] local.INFO: {"name":"kk4446","amount":"16","api_id":298,"time":"20240723064355","type":1,"before_amount":"58049.67","api_name":"PG","date":"2024-07-23 06:43:55"}  
+[2024-07-23 06:47:14] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723064714","type":1,"before_amount":"58033.67","api_name":"PG","date":"2024-07-23 06:47:14"}  
+[2024-07-23 06:55:17] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723065517","type":1,"before_amount":"57983.67","api_name":"PG","date":"2024-07-23 06:55:17"}  
+[2024-07-23 07:01:15] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723070115","type":1,"before_amount":"57933.67","api_name":"PG","date":"2024-07-23 07:01:15"}  
+[2024-07-23 07:11:48] local.INFO: {"name":"samsam89","amount":"50.43","api_id":286,"time":"20240723071148","type":1,"before_amount":"105989.68","api_name":"JD","date":"2024-07-23 07:11:48"}  
+[2024-07-23 07:47:28] local.INFO: {"name":"samsam89","amount":"16.83","api_id":298,"time":"20240723074728","type":1,"before_amount":"57883.67","api_name":"PG","date":"2024-07-23 07:47:28"}  
+[2024-07-23 10:25:40] local.INFO: {"name":"samsam89","amount":"100","api_id":298,"time":"20240723102540","type":1,"before_amount":"57877.61","api_name":"PG","date":"2024-07-23 10:25:40"}  
+[2024-07-23 10:28:46] local.INFO: {"name":"irene825","amount":"17.96","api_id":286,"time":"20240723102846","type":1,"before_amount":"105939.25","api_name":"JD","date":"2024-07-23 10:28:46"}  
+[2024-07-23 11:13:53] local.INFO: {"name":"uko1986","amount":"10.83","api_id":298,"time":"20240723111352","type":1,"before_amount":"57777.61","api_name":"PG","date":"2024-07-23 11:13:52"}  
+[2024-07-23 11:15:47] local.INFO: {"name":"uko1986","amount":"0.83","api_id":298,"time":"20240723111547","type":1,"before_amount":"57766.78","api_name":"PG","date":"2024-07-23 11:15:47"}  
+[2024-07-23 11:32:30] local.INFO: {"name":"samsam89","amount":537,"api_id":298,"time":"20240723113230","type":2,"after_money":"57766.78","api_name":"PG","date":"2024-07-23 11:32:30"}  
+[2024-07-23 11:32:30] local.INFO: {"name":"samsam89","amount":537,"api_id":298,"time":"20240723113230","type":2,"after_money":"57766.78","api_name":"PG","date":"2024-07-23 11:32:30"}  
+[2024-07-23 11:32:31] local.INFO: {"name":"samsam89","amount":537,"api_id":298,"time":"20240723113231","type":2,"after_money":"57766.78","api_name":"PG","date":"2024-07-23 11:32:31"}  
+[2024-07-23 11:32:39] local.INFO: {"name":"samsam89","amount":"138","api_id":298,"time":"20240723113239","type":1,"before_amount":"58303.78","api_name":"PG","date":"2024-07-23 11:32:39"}  
+[2024-07-23 11:43:25] local.INFO: {"name":"samsam89","amount":"100","api_id":286,"time":"20240723114325","type":1,"before_amount":"105921.29","api_name":"JD","date":"2024-07-23 11:43:25"}  
+[2024-07-23 11:48:13] local.INFO: {"name":"samsam89","amount":"50","api_id":286,"time":"20240723114813","type":1,"before_amount":"105821.29","api_name":"JD","date":"2024-07-23 11:48:13"}  
+[2024-07-23 12:19:51] local.INFO: {"name":"samsam89","amount":"50","api_id":286,"time":"20240723121951","type":1,"before_amount":"105771.29","api_name":"JD","date":"2024-07-23 12:19:51"}  
+[2024-07-23 12:26:14] local.INFO: {"name":"samsam89","amount":"100","api_id":286,"time":"20240723122613","type":1,"before_amount":"105721.29","api_name":"JD","date":"2024-07-23 12:26:13"}  
+[2024-07-23 12:26:21] local.INFO: {"name":"samsam89","amount":"100","api_id":298,"time":"20240723122621","type":1,"before_amount":"58165.78","api_name":"PG","date":"2024-07-23 12:26:21"}  
+[2024-07-23 12:31:54] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723123154","type":1,"before_amount":"58065.78","api_name":"PG","date":"2024-07-23 12:31:54"}  
+[2024-07-23 12:37:10] local.INFO: {"name":"samsam89","amount":"50","api_id":298,"time":"20240723123710","type":1,"before_amount":"58015.78","api_name":"PG","date":"2024-07-23 12:37:10"}  
+[2024-07-23 12:39:16] local.INFO: {"name":"samsam89","amount":"100.11","api_id":298,"time":"20240723123916","type":1,"before_amount":"57965.78","api_name":"PG","date":"2024-07-23 12:39:16"}  
+[2024-07-23 14:02:14] local.INFO: {"name":"samsam89","amount":96,"api_id":286,"time":"20240723140214","type":2,"after_money":"105621.29","api_name":"JD","date":"2024-07-23 14:02:14"}  
+[2024-07-23 14:02:15] local.INFO: {"name":"samsam89","amount":96,"api_id":286,"time":"20240723140215","type":2,"after_money":"105621.29","api_name":"JD","date":"2024-07-23 14:02:15"}  
+[2024-07-23 14:02:24] local.INFO: {"name":"samsam89","amount":"46","api_id":286,"time":"20240723140224","type":1,"before_amount":"105717.29","api_name":"JD","date":"2024-07-23 14:02:24"}  
+[2024-07-23 14:02:26] local.INFO: {"name":"samsam89","amount":46,"api_id":286,"time":"20240723140226","type":2,"after_money":"105671.29","api_name":"JD","date":"2024-07-23 14:02:26"}  
+[2024-07-23 14:03:02] local.INFO: {"name":"samsam89","amount":"46","api_id":286,"time":"20240723140302","type":1,"before_amount":"105717.29","api_name":"JD","date":"2024-07-23 14:03:02"}  
+[2024-07-23 14:14:53] local.INFO: {"name":"ice28x88","amount":"102.26","api_id":298,"time":"20240723141453","type":1,"before_amount":"57866.61","api_name":"PG","date":"2024-07-23 14:14:53"}  
+[2024-07-23 14:16:37] local.INFO: {"name":"shing3366","amount":"17.86","api_id":298,"time":"20240723141637","type":1,"before_amount":"57764.35","api_name":"PG","date":"2024-07-23 14:16:37"}  
+[2024-07-23 14:37:33] local.INFO: {"name":"wm7575JK2","amount":2,"api_id":626,"time":"20240723143733","type":1,"before_amount":"120754.00","api_name":"JK","date":"2024-07-23 14:37:33"}  
+[2024-07-23 14:39:20] local.INFO: {"name":"wm7575JK2","amount":100,"api_id":626,"time":"20240723143920","type":1,"before_amount":"120752.00","api_name":"JK","date":"2024-07-23 14:39:20"}  
+[2024-07-23 14:50:39] local.INFO: {"name":"wm7575JK2","amount":50,"api_id":626,"time":"20240723145039","type":1,"before_amount":"120652.00","api_name":"JK","date":"2024-07-23 14:50:39"}  
+[2024-07-23 14:52:12] local.INFO: {"name":"wm7575JK2","amount":50,"api_id":626,"time":"20240723145212","type":2,"after_money":"120602.00","api_name":"JK","date":"2024-07-23 14:52:12"}  
+[2024-07-23 14:52:34] local.INFO: {"name":"wm7575JK2","amount":50,"api_id":626,"time":"20240723145234","type":1,"before_amount":"120652.00","api_name":"JK","date":"2024-07-23 14:52:34"}  
+[2024-07-23 14:58:37] local.INFO: {"name":"samsam89","amount":"50.11","api_id":286,"time":"20240723145837","type":1,"before_amount":"105671.29","api_name":"JD","date":"2024-07-23 14:58:37"}  
+[2024-07-23 15:10:21] local.INFO: {"name":"samsam89","amount":"43.05","api_id":298,"time":"20240723151021","type":1,"before_amount":"57747.61","api_name":"PG","date":"2024-07-23 15:10:21"}  
+[2024-07-23 15:42:37] local.INFO: {"name":"wm7575JK2","amount":100,"api_id":626,"time":"20240723154237","type":1,"before_amount":"120602.00","api_name":"JK","date":"2024-07-23 15:42:37"}  
+[2024-07-23 15:59:24] local.INFO: {"name":"ricky1314","amount":"100.34","api_id":298,"time":"20240723155924","type":1,"before_amount":"57704.56","api_name":"PG","date":"2024-07-23 15:59:24"}  
+[2024-07-23 16:58:21] local.INFO: {"name":"wm7575JK2","amount":10,"api_id":626,"time":"20240723165821","type":2,"after_money":"120502.00","api_name":"JK","date":"2024-07-23 16:58:21"}  
+[2024-07-23 16:58:34] local.INFO: {"name":"wm7575JK2","amount":10,"api_id":626,"time":"20240723165834","type":1,"before_amount":"120512.00","api_name":"JK","date":"2024-07-23 16:58:34"}  
+[2024-07-23 16:58:48] local.INFO: {"name":"shing3366","amount":694,"api_id":298,"time":"20240723165848","type":2,"after_money":"57604.22","api_name":"PG","date":"2024-07-23 16:58:48"}  
+[2024-07-23 17:02:56] local.INFO: {"name":"shing3366","amount":"194","api_id":286,"time":"20240723170256","type":1,"before_amount":"105621.18","api_name":"JD","date":"2024-07-23 17:02:56"}  
+[2024-07-23 17:02:59] local.INFO: {"name":"wm7575JK2","amount":22,"api_id":626,"time":"20240723170259","type":1,"before_amount":"120502.00","api_name":"JK","date":"2024-07-23 17:02:59"}  
+[2024-07-23 17:11:29] local.INFO: {"name":"samsam89","amount":53,"api_id":298,"time":"20240723171129","type":2,"after_money":"58298.22","api_name":"PG","date":"2024-07-23 17:11:29"}  
+[2024-07-23 17:11:37] local.INFO: {"name":"samsam89","amount":"53.05","api_id":286,"time":"20240723171137","type":1,"before_amount":"105427.18","api_name":"JD","date":"2024-07-23 17:11:37"}  
+[2024-07-23 17:42:14] local.INFO: {"name":"sing8888","amount":"50.60","api_id":298,"time":"20240723174214","type":1,"before_amount":"58351.22","api_name":"PG","date":"2024-07-23 17:42:14"}  
+[2024-07-23 17:53:13] local.INFO: {"name":"sing8888","amount":"100.74","api_id":298,"time":"20240723175313","type":1,"before_amount":"58300.62","api_name":"PG","date":"2024-07-23 17:53:13"}  
+[2024-07-23 17:54:21] local.INFO: {"name":"ricky1314","amount":"100.44","api_id":298,"time":"20240723175421","type":1,"before_amount":"58199.88","api_name":"PG","date":"2024-07-23 17:54:21"}  
+[2024-07-23 18:12:58] local.INFO: {"name":"samsam89","amount":"100.21","api_id":298,"time":"20240723181258","type":1,"before_amount":"58099.44","api_name":"PG","date":"2024-07-23 18:12:58"}  
+[2024-07-23 18:18:05] local.INFO: {"name":"wm7575JK2","amount":50,"api_id":626,"time":"20240723181805","type":1,"before_amount":"120480.00","api_name":"JK","date":"2024-07-23 18:18:05"}  
+[2024-07-23 18:43:09] local.INFO: {"name":"wm7575JK5","amount":60,"api_id":627,"time":"20240723184309","type":1,"before_amount":"133097.00","api_name":"JK","date":"2024-07-23 18:43:09"}  
+[2024-07-23 19:16:39] local.INFO: {"name":"wm7575JK5","amount":70,"api_id":627,"time":"20240723191639","type":2,"after_money":"133037.00","api_name":"JK","date":"2024-07-23 19:16:39"}  
+[2024-07-23 19:16:52] local.INFO: {"name":"wm7575JK5","amount":70,"api_id":627,"time":"20240723191652","type":1,"before_amount":"133107.00","api_name":"JK","date":"2024-07-23 19:16:52"}  
+[2024-07-23 19:25:35] local.ERROR: ErrorException: Undefined property: App\Services\LEYUService::$api_id in /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php:673
+Stack trace:
+#0 /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php(673): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/www/wwwroot/2d...', 673, Array)
+#1 /www/wwwroot/2ddjjcs/djj/app/Http/Controllers/Api/SelfController.php(938): App\Services\LEYUService->get_demo_url()
+#2 [internal function]: App\Http\Controllers\Api\SelfController->login(Object(Illuminate\Http\Request))
+#3 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('login', Array)
+#5 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Api\SelfController), 'login')
+#6 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(160): Illuminate\Routing\Route->runController()
+#7 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Routing\Route->run()
+#8 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#13 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#14 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#16 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(576): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#26 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(535): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#27 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(513): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#28 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#30 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#34 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#37 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#40 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#43 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#44 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#45 /www/wwwroot/2ddjjcs/djj/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#46 {main}  
+[2024-07-23 19:25:46] local.ERROR: ErrorException: Undefined property: App\Services\LEYUService::$api_id in /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php:673
+Stack trace:
+#0 /www/wwwroot/2ddjjcs/djj/app/Services/LEYUService.php(673): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/www/wwwroot/2d...', 673, Array)
+#1 /www/wwwroot/2ddjjcs/djj/app/Http/Controllers/Api/SelfController.php(938): App\Services\LEYUService->get_demo_url()
+#2 [internal function]: App\Http\Controllers\Api\SelfController->login(Object(Illuminate\Http\Request))
+#3 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('login', Array)
+#5 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(203): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Api\SelfController), 'login')
+#6 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Route.php(160): Illuminate\Routing\Route->runController()
+#7 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(574): Illuminate\Routing\Route->run()
+#8 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#13 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#14 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#15 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#16 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(59): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(576): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#26 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(535): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#27 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Router.php(513): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#28 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#29 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#30 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#34 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#37 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#40 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(148): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#43 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#44 /www/wwwroot/2ddjjcs/djj/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#45 /www/wwwroot/2ddjjcs/djj/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#46 {main}  
+[2024-07-23 19:37:57] local.INFO: {"name":"wm7575JK10","amount":50,"api_id":628,"time":"20240723193757","type":1,"before_amount":"134434.00","api_name":"JK","date":"2024-07-23 19:37:57"}  
+[2024-07-23 19:43:35] local.INFO: {"name":"shing123","amount":"2.27","api_id":298,"time":"20240723194335","type":1,"before_amount":"57999.23","api_name":"PG","date":"2024-07-23 19:43:35"}  
+[2024-07-23 19:46:52] local.INFO: {"name":"kaaa1216","amount":"100.61","api_id":298,"time":"20240723194652","type":1,"before_amount":"57996.96","api_name":"PG","date":"2024-07-23 19:46:52"}  
+[2024-07-23 19:54:37] local.INFO: {"name":"wm7575JK10","amount":50,"api_id":628,"time":"20240723195437","type":1,"before_amount":"134384.00","api_name":"JK","date":"2024-07-23 19:54:37"}  
+[2024-07-23 19:55:26] local.INFO: {"name":"wm7575JK10","amount":50,"api_id":628,"time":"20240723195526","type":2,"after_money":"134334.00","api_name":"JK","date":"2024-07-23 19:55:26"}  
+[2024-07-23 19:55:34] local.INFO: {"name":"wm7575JK10","amount":50,"api_id":628,"time":"20240723195534","type":1,"before_amount":"134384.00","api_name":"JK","date":"2024-07-23 19:55:34"}  
+[2024-07-23 20:55:55] local.INFO: {"name":"shing3366","amount":"200","api_id":286,"time":"20240723205555","type":1,"before_amount":"105374.13","api_name":"JD","date":"2024-07-23 20:55:55"}  
+[2024-07-23 21:08:45] local.INFO: {"name":"shing3366JK2","amount":300,"api_id":626,"time":"20240723210845","type":1,"before_amount":"120430.00","api_name":"JK","date":"2024-07-23 21:08:45"}  
+[2024-07-23 21:13:41] local.INFO: {"name":"wm7575JK10","amount":200,"api_id":628,"time":"20240723211341","type":2,"after_money":"134334.00","api_name":"JK","date":"2024-07-23 21:13:41"}  
+[2024-07-23 21:28:30] local.INFO: {"name":"wm7575JK10","amount":70,"api_id":628,"time":"20240723212830","type":1,"before_amount":"134534.00","api_name":"JK","date":"2024-07-23 21:28:30"}  
+[2024-07-23 21:45:23] local.INFO: {"name":"wm7575JK10","amount":50,"api_id":628,"time":"20240723214523","type":2,"after_money":"134464.00","api_name":"JK","date":"2024-07-23 21:45:23"}  
+[2024-07-23 21:46:34] local.INFO: {"name":"wm7575JK10","amount":50,"api_id":628,"time":"20240723214634","type":1,"before_amount":"134514.00","api_name":"JK","date":"2024-07-23 21:46:34"}  
+[2024-07-23 22:05:17] local.INFO: {"name":"shing3366JK2","amount":1913,"api_id":626,"time":"20240723220517","type":2,"after_money":"120130.00","api_name":"JK","date":"2024-07-23 22:05:17"}  
+[2024-07-23 22:07:03] local.INFO: {"name":"shing3366","amount":"200","api_id":286,"time":"20240723220703","type":1,"before_amount":"105174.13","api_name":"JD","date":"2024-07-23 22:07:03"}  
+[2024-07-23 22:27:51] local.INFO: {"name":"shing3366","amount":"200","api_id":286,"time":"20240723222751","type":1,"before_amount":"104974.13","api_name":"JD","date":"2024-07-23 22:27:51"}  
+[2024-07-23 22:33:23] local.INFO: {"name":"shing3366","amount":"300","api_id":286,"time":"20240723223323","type":1,"before_amount":"104774.13","api_name":"JD","date":"2024-07-23 22:33:23"}  
+[2024-07-23 22:51:57] local.INFO: {"name":"wm7575JK2","amount":144,"api_id":626,"time":"20240723225157","type":1,"before_amount":"122043.00","api_name":"JK","date":"2024-07-23 22:51:57"}  
+[2024-07-23 22:57:13] local.INFO: {"name":"wm7575JK2","amount":61,"api_id":626,"time":"20240723225713","type":2,"after_money":"121899.00","api_name":"JK","date":"2024-07-23 22:57:13"}  
+[2024-07-23 22:57:27] local.INFO: {"name":"wm7575JK2","amount":60,"api_id":626,"time":"20240723225727","type":1,"before_amount":"121960.00","api_name":"JK","date":"2024-07-23 22:57:27"}  
+[2024-07-23 22:59:56] local.INFO: {"name":"eliseccy","amount":"22.93","api_id":298,"time":"20240723225956","type":1,"before_amount":"57899.61","api_name":"PG","date":"2024-07-23 22:59:56"}  
+[2024-07-23 23:06:31] local.INFO: {"name":"eliseccy","amount":"101.10","api_id":272,"time":"20240723230631","type":1,"before_amount":"119599.39","api_name":"CQ","date":"2024-07-23 23:06:31"}  
+[2024-07-23 23:07:26] local.INFO: {"name":"eliseccy","amount":101,"api_id":272,"time":"20240723230726","type":2,"after_money":"119498.29","api_name":"CQ","date":"2024-07-23 23:07:26"}  
+[2024-07-23 23:07:50] local.INFO: {"name":"eliseccy","amount":"101.10","api_id":276,"time":"20240723230750","type":1,"before_amount":"131040.59","api_name":"PN","date":"2024-07-23 23:07:50"}  
+[2024-07-23 23:08:30] local.INFO: {"name":"eliseccy","amount":101,"api_id":276,"time":"20240723230830","type":2,"after_money":"130939.49","api_name":"PN","date":"2024-07-23 23:08:30"}  
+[2024-07-23 23:08:44] local.INFO: {"name":"eliseccy","amount":"101.10","api_id":272,"time":"20240723230844","type":1,"before_amount":"119599.29","api_name":"CQ","date":"2024-07-23 23:08:44"}  
+[2024-07-23 23:18:27] local.INFO: {"name":"winwin163","amount":"158.11","api_id":298,"time":"20240723231827","type":1,"before_amount":"57877.61","api_name":"PG","date":"2024-07-23 23:18:27"}  
+[2024-07-23 23:19:19] local.INFO: {"name":"samsam89","amount":"6.43","api_id":298,"time":"20240723231919","type":1,"before_amount":"57719.50","api_name":"PG","date":"2024-07-23 23:19:19"}  
+[2024-07-23 23:33:40] local.INFO: {"name":"shing3366","amount":3407,"api_id":286,"time":"20240723233340","type":2,"after_money":"104474.13","api_name":"JD","date":"2024-07-23 23:33:40"}  
+[2024-07-23 23:33:40] local.INFO: {"name":"shing3366","amount":3407,"api_id":286,"time":"20240723233340","type":2,"after_money":"104474.13","api_name":"JD","date":"2024-07-23 23:33:40"}  
+[2024-07-23 23:33:41] local.INFO: {"name":"shing3366","amount":3407,"api_id":286,"time":"20240723233341","type":2,"after_money":"104474.13","api_name":"JD","date":"2024-07-23 23:33:41"}  
+[2024-07-23 23:38:37] local.INFO: {"name":"winwin163","amount":21,"api_id":298,"time":"20240723233837","type":2,"after_money":"57713.07","api_name":"PG","date":"2024-07-23 23:38:37"}  
+[2024-07-23 23:38:47] local.INFO: {"name":"winwin163","amount":"21.11","api_id":286,"time":"20240723233847","type":1,"before_amount":"107881.13","api_name":"JD","date":"2024-07-23 23:38:47"}  
+[2024-07-23 23:46:50] local.INFO: {"name":"nana888JK5","amount":80,"api_id":627,"time":"20240723234650","type":1,"before_amount":"133037.00","api_name":"JK","date":"2024-07-23 23:46:50"}  
+[2024-07-23 23:57:19] local.INFO: {"name":"nana888JK5","amount":24,"api_id":627,"time":"20240723235719","type":2,"after_money":"132957.00","api_name":"JK","date":"2024-07-23 23:57:19"}  
+[2024-07-23 23:57:45] local.INFO: {"name":"nana888JK2","amount":60,"api_id":626,"time":"20240723235745","type":1,"before_amount":"121900.00","api_name":"JK","date":"2024-07-23 23:57:45"}  

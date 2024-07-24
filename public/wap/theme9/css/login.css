@@ -1,0 +1,32 @@
+#account-box{position:static;padding:30px 0 0}#account-box:after{display:none}#header{display:none}#content{display:none}#news{display:none}#footer{display:none}#ms-header{display:none}#ms-footer{display:none}
+
+/*************ÊÖ»úºÅµÇÂ½**************************/
+#account-box .sendcodes {
+    position:relative;
+    display: none;
+}
+#account-box .reg-code {
+    padding: 9px 6px;
+    border: none;
+    background: #861436;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#account-box .reg-codediv {
+    position: relative;
+    width: 247px;
+    height: 40px;
+    top: 0px;
+    margin: 0 auto 10px;
+}
+/********************************·µË®*************************************/
+.backwater {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.backwater button{width:120px;height:40px;background:#327048;color:#fff;border:none;border-radius:6px;}

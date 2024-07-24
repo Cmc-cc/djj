@@ -1,0 +1,1415 @@
+img.loading {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    width: 80px;
+}
+.game_img{background:url(../images/game/icon/BTN_5ReelDrive.png) center no-repeat;}
+
+#ajax-content a div[class*="pt_"]{
+    width: 180px;
+    height: 120px;
+    margin: 0px auto;
+}
+.pt_atw {
+    background: url(../images/game/playtech/atw.jpg);
+}
+.pt_mobbj {
+    background: url(../images/game/playtech/Blackjack.jpg);
+}
+
+.pt_bowl {
+    background: url(../images/game/playtech/bowl.jpg);
+}
+
+.pt_hr {
+    background: url(../images/game/playtech/hr.jpg);
+}
+
+.pt_dctw {
+    background: url(../images/game/playtech/dctw.jpg);
+}
+
+.pt_ghl {
+    background: url(../images/game/playtech/ghl.jpg);
+}
+
+.pt_ghlj {
+    background: url(../images/game/playtech/ghlj.jpg);
+}
+
+.pt_head {
+    background: url(../images/game/playtech/head.jpg);
+}
+
+.pt_drts {
+    background: url(../images/game/playtech/drts.jpg);
+}
+
+.pt_kn {
+    background: url(../images/game/playtech/kn.jpg);
+}
+
+.pt_knx {
+    background: url(../images/game/playtech/knx.jpg);
+}
+
+.pt_bls {
+    background: url(../images/game/playtech/bls.jpg);
+}
+
+.pt_mro {
+    background: url(../images/game/playtech/mro.jpg);
+}
+
+.pt_pso {
+    background: url(../images/game/playtech/pso.jpg);
+}
+
+.pt_pop {
+    background: url(../images/game/playtech/pop.jpg);
+}
+
+.pt_rps {
+    background: url(../images/game/playtech/rps.jpg);
+}
+
+.pt_rcd {
+    background: url(../images/game/playtech/rcd.jpg);
+}
+
+.pt_qbd {
+    background: url(../images/game/playtech/qbd.jpg);
+}
+
+.pt_fsc {
+    background: url(../images/game/playtech/fsc.jpg);
+}
+
+.pt_hsd {
+    background: url(../images/game/playtech/hsd.jpg);
+}
+
+.pt_pbro {
+    background: url(../images/game/playtech/pbro.jpg);
+}
+
+.pt_lwh {
+    background: url(../images/game/playtech/lwh.jpg);
+}
+
+.pt_bbn {
+    background: url(../images/game/playtech/bbn.jpg);
+}
+
+.pt_sbj {
+    background: url(../images/game/playtech/sbj.jpg);
+}
+
+.pt_scs {
+    background: url(../images/game/playtech/scs.jpg);
+}
+
+.pt_gts41 {
+    background: url(../images/game/playtech/gts41.jpg);
+}
+
+.pt_fbm {
+    background: url(../images/game/playtech/fbm.jpg);
+}
+
+.pt_lom {
+    background: url(../images/game/playtech/lom.jpg);
+}
+
+.pt_sro {
+    background: url(../images/game/playtech/sro.jpg);
+}
+
+.pt_ssa {
+    background: url(../images/game/playtech/ssa.jpg);
+}
+
+.pt_gtshlksc {
+    background: url(../images/game/playtech/gtshlksc.jpg);
+}
+
+.pt_ttcsc {
+    background: url(../images/game/playtech/ttcsc.jpg);
+}
+
+.pt_gts49 {
+    background: url(../images/game/playtech/gts49.jpg);
+}
+
+.pt_essc {
+    background: url(../images/game/playtech/essc.jpg);
+}
+
+.pt_irm3sc {
+    background: url(../images/game/playtech/irm3.jpg);
+}
+
+.pt_irmn3sc {
+    background: url(../images/game/playtech/irmn3sc.jpg);
+}
+
+.pt_kkgsc {
+    background: url(../images/game/playtech/kkgsc.jpg);
+}
+
+.pt_pks {
+    background: url(../images/game/playtech/pks.jpg);
+}
+
+.pt_gtstrmsc {
+    background: url(../images/game/playtech/gtstrmsc.jpg);
+}
+
+.pt_gtsttlsc {
+    background: url(../images/game/playtech/gtsttlsc.jpg);
+}
+
+.pt_gtswvsc {
+    background: url(../images/game/playtech/gtswvsc.jpg);
+}
+
+.pt_gts42 {
+    background: url(../images/game/playtech/gts42.jpg);
+}
+
+.pt_8bs {
+    background: url(../images/game/playtech/8bs.jpg);
+}
+
+.pt_hb {
+    background: url(../images/game/playtech/hb.jpg);
+}
+
+.pt_al {
+    background: url(../images/game/playtech/al.jpg);
+}
+
+.pt_ah2 {
+    background: url(../images/game/playtech/ah2.jpg);
+}
+
+.pt_bl {
+    background: url(../images/game/playtech/bl.jpg);
+}
+
+.pt_bt {
+    background: url(../images/game/playtech/bt.jpg);
+}
+
+.pt_bld {
+    background: url(../images/game/playtech/bld.jpg);
+}
+
+.pt_bob {
+    background: url(../images/game/playtech/bob.jpg);
+}
+
+.pt_cam {
+    background: url(../images/game/playtech/cam.jpg);
+}
+
+.pt_ct {
+    background: url(../images/game/playtech/ct.jpg);
+}
+
+.pt_cm {
+    background: url(../images/game/playtech/cm.jpg);
+}
+
+.pt_cifr {
+    background: url(../images/game/playtech/cifr.jpg);
+}
+
+.pt_c7 {
+    background: url(../images/game/playtech/c7.jpg);
+}
+
+.pt_drd {
+    background: url(../images/game/playtech/drd.jpg);
+}
+
+.pt_dt {
+    background: url(../images/game/playtech/dt.jpg);
+}
+
+.pt_gs {
+    background: url(../images/game/playtech/gs.jpg);
+}
+
+.pt_dlm {
+    background: url(../images/game/playtech/dlm.jpg);
+}
+
+.pt_gtsdgk {
+    background: url(../images/game/playtech/gtsdgk.jpg);
+}
+
+.pt_eas {
+    background: url(../images/game/playtech/eas.jpg);
+}
+
+.pt_elr {
+    background: url(../images/game/playtech/elr.jpg);
+}
+
+.pt_fnf {
+    background: url(../images/game/playtech/fnf.jpg);
+}
+
+.pt_fam3 {
+    background: url(../images/game/playtech/fam3.jpg);
+}
+
+.pt_gtsftf {
+    background: url(../images/game/playtech/gtsftf.jpg);
+}
+
+.pt_fbr {
+    background: url(../images/game/playtech/fbr.jpg);
+}
+
+.pt_fow {
+    background: url(../images/game/playtech/fow.jpg);
+}
+
+.pt_fth {
+    background: url(../images/game/playtech/fth.jpg);
+}
+
+.pt_foy {
+    background: url(../images/game/playtech/foy.jpg);
+}
+
+.pt_fmn {
+    background: url(../images/game/playtech/fmn.jpg);
+}
+
+.pt_fff {
+    background: url(../images/game/playtech/fff.jpg);
+}
+
+.pt_fm {
+    background: url(../images/game/playtech/fm.jpg);
+}
+
+.pt_ges {
+    background: url(../images/game/playtech/ges.jpg);
+}
+
+.pt_ghr {
+    background: url(../images/game/playtech/ghr.jpg);
+}
+
+.pt_gc {
+    background: url(../images/game/playtech/gc.jpg);
+}
+
+.pt_grel {
+    background: url(../images/game/playtech/grel.jpg);
+}
+
+.pt_glg {
+    background: url(../images/game/playtech/atw.jpg);
+}
+
+.pt_gos {
+    background: url(../images/game/playtech/glg.jpg);
+}
+
+.pt_bib {
+    background: url(../images/game/playtech/bib.jpg);
+}
+
+.pt_gro {
+    background: url(../images/game/playtech/gro.jpg);
+}
+
+.pt_hlf {
+    background: url(../images/game/playtech/hlf.jpg);
+}
+
+.pt_hh {
+    background: url(../images/game/playtech/hh.jpg);
+}
+
+.pt_hk {
+    background: url(../images/game/playtech/hk.jpg);
+}
+
+.pt_gts50 {
+    background: url(../images/game/playtech/gts50.jpg);
+}
+
+.pt_iceh {
+    background: url(../images/game/playtech/iceh.jpg);
+}
+
+.pt_irm2 {
+    background: url(../images/game/playtech/irm2.jpg);
+}
+
+.pt_jb {
+    background: url(../images/game/playtech/jb.jpg);
+}
+
+.pt_kkg {
+    background: url(../images/game/playtech/kkg.jpg);
+}
+
+.pt_lm {
+    background: url(../images/game/playtech/lm.jpg);
+}
+
+.pt_ms {
+    background: url(../images/game/playtech/ms.jpg);
+}
+
+.pt_mcb {
+    background: url(../images/game/playtech/mcb.jpg);
+}
+
+.pt_nk {
+    background: url(../images/game/playtech/nk.jpg);
+}
+
+.pt_op {
+    background: url(../images/game/playtech/op.jpg);
+}
+
+.pt_pl {
+    background: url(../images/game/playtech/pl.jpg);
+}
+
+.pt_pnp {
+    background: url(../images/game/playtech/pnp.jpg);
+}
+
+.pt_pwz {
+    background: url(../images/game/playtech/pwz.jpg);
+}
+
+.pt_qop {
+    background: url(../images/game/playtech/qop.jpg);
+}
+
+.pt_ssl {
+    background: url(../images/game/playtech/ssl.jpg);
+}
+
+.pt_rnr {
+    background: url(../images/game/playtech/rnr.jpg);
+}
+
+.pt_rky {
+    background: url(../images/game/playtech/rky.jpg);
+}
+
+.pt_sc {
+    background: url(../images/game/playtech/sc.jpg);
+}
+
+.pt_ssp {
+    background: url(../images/game/playtech/ssp.jpg);
+}
+
+.pt_sib {
+    background: url(../images/game/playtech/sib.jpg);
+}
+
+.pt_spidc {
+    background: url(../images/game/playtech/spidc.jpg);
+}
+
+.pt_sf {
+    background: url(../images/game/playtech/sf.jpg);
+}
+
+.pt_cnpr {
+    background: url(../images/game/playtech/cnpr.jpg);
+}
+
+.pt_tst {
+    background: url(../images/game/playtech/tst.jpg);
+}
+
+.pt_avng {
+    background: url(../images/game/playtech/avng.jpg);
+}
+
+.pt_mmy {
+    background: url(../images/game/playtech/mmy.jpg);
+}
+
+.pt_trm {
+    background: url(../images/game/playtech/trm.jpg);
+}
+
+.pt_ts {
+    background: url(../images/game/playtech/ts.jpg);
+}
+
+.pt_ttc {
+    background: url(../images/game/playtech/ttc.jpg);
+}
+
+.pt_ta {
+    background: url(../images/game/playtech/ta.jpg);
+}
+
+.pt_tp {
+    background: url(../images/game/playtech/tp.jpg);
+}
+
+.pt_tr {
+    background: url(../images/game/playtech/tr.jpg);
+}
+
+.pt_trl {
+    background: url(../images/game/playtech/trl.jpg);
+}
+
+.pt_ub {
+    background: url(../images/game/playtech/ub.jpg);
+}
+
+.pt_er {
+    background: url(../images/game/playtech/er.jpg);
+}
+
+.pt_wsffr {
+    background: url(../images/game/playtech/wsffr.jpg);
+}
+
+.pt_wan {
+    background: url(../images/game/playtech/wan.jpg);
+}
+
+.pt_whc {
+    background: url(../images/game/playtech/whc.jpg);
+}
+
+.pt_wis {
+    background: url(../images/game/playtech/wis.jpg);
+}
+
+.pt_gtswng {
+    background: url(../images/game/playtech/gtswng.jpg);
+}
+
+.pt_wvm {
+    background: url(../images/game/playtech/wvm.jpg);
+}
+
+.pt_wlg {
+    background: url(../images/game/playtech/wlg.jpg);
+}
+
+.pt_xmn {
+    background: url(../images/game/playtech/xmn.jpg);
+}
+
+.pt_zcjb {
+    background: url(../images/game/playtech/zcjb.jpg);
+}
+
+.pt_bld50 {
+    background: url(../images/game/playtech/bld50.jpg);
+}
+
+.pt_ashbgt {
+    background: url(../images/game/playtech/ashbgt.jpg);
+}
+
+.pt_dt2 {
+    background: url(../images/game/playtech/dt2.jpg);
+}
+
+.pt_evj {
+    background: url(../images/game/playtech/evj.jpg);
+}
+
+.pt_fnf {
+    background: url(../images/game/playtech/fnf.jpg);
+}
+
+.pt_fnf50 {
+    background: url(../images/game/playtech/fnf50.jpg);
+}
+
+.pt_ashfmf {
+    background: url(../images/game/playtech/ashfmf.jpg);
+}
+
+.pt_fnfrj {
+    background: url(../images/game/playtech/fnfrj.jpg);
+}
+
+.pt_gtsgoc {
+    background: url(../images/game/playtech/gtsgoc.jpg);
+}
+
+.pt_glr {
+    background: url(../images/game/playtech/glr.jpg);
+}
+
+.pt_glrj {
+    background: url(../images/game/playtech/glrj.jpg);
+}
+
+.pt_irm3 {
+    background: url(../images/game/playtech/irm3.jpg);
+}
+
+.pt_irm50 {
+    background: url(../images/game/playtech/irm50.jpg);
+}
+
+.pt_irmn3 {
+    background: url(../images/game/playtech/irmn3.jpg);
+}
+
+.pt_gtsjhw {
+    background: url(../images/game/playtech/gtsjhw.jpg);
+}
+
+.pt_gts51 {
+    background: url(../images/game/playtech/gts51.jpg);
+}
+
+.pt_gtsmrln {
+    background: url(../images/game/playtech/gtsmrln.jpg);
+}
+
+.pt_gtsstg {
+    background: url(../images/game/playtech/gtsstg.jpg);
+}
+
+.pt_hlk2 {
+    background: url(../images/game/playtech/hlk2.jpg);
+}
+
+.pt_hlk50 {
+    background: url(../images/game/playtech/hlk50.jpg);
+}
+
+.pt_lvb {
+    background: url(../images/game/playtech/lvb.jpg);
+}
+
+.pt_ttl {
+    background: url(../images/game/playtech/ttl.jpg);
+}
+
+.pt_tfs {
+    background: url(../images/game/playtech/tfs.jpg);
+}
+
+.pt_xmn50 {
+    background: url(../images/game/playtech/xmn50.jpg);
+}
+
+.pt_bj21d_mh {
+    background: url(../images/game/playtech/bj21d_mh.jpg);
+}
+
+.pt_ro3d {
+    background: url(../images/game/playtech/ro3d.jpg);
+}
+
+.pt_bja {
+    background: url(../images/game/playtech/bja.jpg);
+}
+
+.pt_rodz {
+    background: url(../images/game/playtech/rodz.jpg);
+}
+
+.pt_ba {
+    background: url(../images/game/playtech/ba.jpg);
+}
+
+.pt_s21 {
+    background: url(../images/game/playtech/s21.jpg);
+}
+
+.pt_bjs {
+    background: url(../images/game/playtech/bjs.jpg);
+}
+
+.pt_car {
+    background: url(../images/game/playtech/car.jpg);
+}
+
+.pt_cheaa {
+    background: url(../images/game/playtech/cheaa.jpg);
+}
+
+.pt_rouk {
+    background: url(../images/game/playtech/rouk.jpg);
+}
+
+.pt_cr {
+    background: url(../images/game/playtech/cr.jpg);
+}
+
+.pt_ro {
+    background: url(../images/game/playtech/ro.jpg);
+}
+
+.pt_frr {
+    background: url(../images/game/playtech/frr.jpg);
+}
+
+.pt_bjhd_mh5 {
+    background: url(../images/game/playtech/bjhd_mh5.jpg);
+}
+
+.pt_lbj {
+    background: url(../images/game/playtech/lbj.jpg);
+}
+
+.pt_pg {
+    background: url(../images/game/playtech/pg.jpg);
+}
+
+/*.pfbj_mh5 {
+    background: url(../images/game/playtech/pfbj_mh5.jpg);
+}*/
+
+.rodz_g {
+    background: url(../images/game/playtech/rodz_g.jpg);
+}
+
+.pt_ro_g {
+    background: url(../images/game/playtech/ro_g.jpg);
+}
+
+.pt_frr_g {
+    background: url(../images/game/playtech/frr_g.jpg);
+}
+
+.pt_rop_g {
+    background: url(../images/game/playtech/rop_g.jpg);
+}
+
+/*.pba {
+    background: url(../images/game/playtech/pba.jpg);
+}*/
+
+.pbj {
+    background: url(../images/game/playtech/pbj.jpg);
+}
+
+.pt_rd {
+    background: url(../images/game/playtech/rd.jpg);
+}
+
+.pt_rop {
+    background: url(../images/game/playtech/rop.jpg);
+}
+
+.pt_sb {
+    background: url(../images/game/playtech/sb.jpg);
+}
+
+.pt_tqp {
+    background: url(../images/game/playtech/tqp.jpg);
+}
+
+.pt_wv {
+    background: url(../images/game/playtech/wv.jpg);
+}
+
+.pt_rom {
+    background: url(../images/game/playtech/rom.jpg);
+}
+
+.pt_jb10p {
+    background: url(../images/game/playtech/jb10p.jpg);
+}
+
+.pt_hljb {
+    background: url(../images/game/playtech/hljb.jpg);
+}
+
+.pt_af {
+    background: url(../images/game/playtech/af.jpg);
+}
+
+.pt_dw {
+    background: url(../images/game/playtech/dw.jpg);
+}
+
+.pt_po {
+    background: url(../images/game/playtech/po.jpg);
+}
+
+.pt_jp {
+    background: url(../images/game/playtech/jp.jpg);
+}
+
+.pt_mj {
+    background: url(../images/game/playtech/mj.jpg);
+}
+
+.pt_tob {
+    background: url(../images/game/playtech/tob.jpg);
+}
+
+.pt_af25 {
+    background: url(../images/game/playtech/af25.jpg);
+}
+
+.pt_jb50 {
+    background: url(../images/game/playtech/jb50.jpg);
+}
+
+.pt_7bal {
+    background: url(../images/game/playtech/7bal.jpg);
+}
+
+.pt_bjl {
+    background: url(../images/game/playtech/Blackjack Live.jpg);
+}
+
+.pt_rofl {
+    background: url(../images/game/playtech/rofl.jpg);
+}
+
+.pt_chel {
+    background: url(../images/game/playtech/chel.jpg);
+}
+
+.pt_plba {
+    background: url(../images/game/playtech/plba.jpg);
+}
+
+.pt_ubjl {
+    background: url(../images/game/playtech/ubjl.jpg);
+}
+
+.pt_vbal {
+    background: url(../images/game/playtech/vbal.jpg);
+}
+
+.pt_mfdt {
+    background: url(../images/game/playtech/mfdt.jpg);
+}
+.pt_ash3brg {
+    background: url(../images/game/playtech/ash3brg.jpg);
+}
+.pt_ashamw {
+    background: url(../images/game/playtech/ashamw.jpg);
+}
+.pt_ashbob {
+    background: url(../images/game/playtech/ashbob.jpg);
+}
+.pt_ashcpl {
+    background: url(../images/game/playtech/ashcpl.jpg);
+}
+.pt_ashfta {
+    background: url(../images/game/playtech/ashfta.jpg);
+}
+.pt_ashlob {
+    background: url(../images/game/playtech/ashlob.jpg);
+}
+.pt_ashsbd {
+    background: url(../images/game/playtech/ashsbd.jpg);
+}
+.pt_ashvrtd {
+    background: url(../images/game/playtech/ashvrtd.jpg);
+}
+.pt_ashvrth {
+    background: url(../images/game/playtech/ashvrth.jpg);
+}
+.pt_ashwgaa {
+    background: url(../images/game/playtech/ashwgaa.jpg);
+}
+.pt_bjsd_mh5 {
+    background: url(../images/game/playtech/bjsd_mh5.jpg);
+}
+.pt_bs {
+    background: url(../images/game/playtech/bs.jpg);
+}
+.pt_ctiv {
+    background: url(../images/game/playtech/ctiv.jpg);
+}
+.pt_donq {
+    background: url(../images/game/playtech/donq.jpg);
+}
+.pt_ges {
+    background: url(../images/game/playtech/ges.jpg);
+}
+.pt_gts47 {
+    background: url(../images/game/playtech/gts47.jpg);
+}
+.pt_gtsbtg {
+    background: url(../images/game/playtech/gtsbtg.jpg);
+}
+.pt_gtsflzt {
+    background: url(../images/game/playtech/gtsflzt.jpg);
+}
+.pt_gtsgme {
+    background: url(../images/game/playtech/gtsgme.jpg);
+}
+.pt_gtsir {
+    background: url(../images/game/playtech/gtsir.jpg);
+}
+.pt_gtsjxb {
+    background: url(../images/game/playtech/gtsjxb.jpg);
+}
+.pt_gtsswk {
+    background: url(../images/game/playtech/gtsswk.jpg);
+}
+.pt_jqw {
+    background: url(../images/game/playtech/jqw.jpg);
+}
+.pt_kfp {
+    background: url(../images/game/playtech/kfp.jpg);
+}
+.pt_lndg {
+    background: url(../images/game/playtech/lndg.jpg);
+}
+.pt_mgstk {
+    background: url(../images/game/playtech/mgstk.jpg);
+}
+.pt_p6dbj_mh5 {
+    background: url(../images/game/playtech/p6dbj_mh5.jpg);
+}
+.pt_pbj_mh5 {
+    background: url(../images/game/playtech/pbj_mh5.jpg);
+}
+.pt_pep {
+    background: url(../images/game/playtech/pep.jpg);
+}
+.pt_pon_mh5 {
+    background: url(../images/game/playtech/pon_mh5.jpg);
+}
+.pt_qnw {
+    background: url(../images/game/playtech/qnw.jpg);
+}
+.pt_sisjp {
+    background: url(../images/game/playtech/sisjp.jpg);
+}
+.pt_snsb {
+    background: url(../images/game/playtech/snsb.jpg);
+}
+.pt_sx {
+    background: url(../images/game/playtech/sx.jpg);
+}
+.pt_tglalcs {
+    background: url(../images/game/playtech/tglalcs.jpg);
+}
+.pt_topg {
+    background: url(../images/game/playtech/topg.jpg);
+}
+.pt_ttwfs {
+    background: url(../images/game/playtech/ttwfs.jpg);
+}
+.pt_vcstd {
+    background: url(../images/game/playtech/vcstd.jpg);
+}
+.pt_wlgjp {
+    background: url(../images/game/playtech/wlgjp.jpg);
+}
+.pt_zcjbjp {
+    background: url(../images/game/playtech/zcjbjp.jpg);
+}
+.pt_zctz {
+    background: url(../images/game/playtech/zctz.jpg);
+}
+.pt_fcgz{
+    background: url(../images/game/playtech/fcgz.jpg);
+}
+.pt_fdt{
+    background: url(../images/game/playtech/fdt.jpg);
+}
+.pt_gts5{
+    background: url(../images/game/playtech/gts5.jpg);
+}
+.pt_gts36{
+    background: url(../images/game/playtech/gts36.jpg);
+}
+.pt_gts43{
+    background: url(../images/game/playtech/gts43.jpg);
+}
+.pt_gts52{
+    background: url(../images/game/playtech/gts52.jpg);
+}
+.pt_gtsfj{
+    background: url(../images/game/playtech/gtsfj.jpg);
+}
+.pt_gtsjzc{
+    background: url(../images/game/playtech/gtsjzc.jpg);
+}
+.pt_gtslgms{
+    background: url(../images/game/playtech/gtslgms.jpg);
+}
+.pt_gtssmdm{
+    background: url(../images/game/playtech/gtssmdm.jpg);
+}
+.pt_gtssmdsc{
+    background: url(../images/game/playtech/gtssmdsc.jpg);
+}
+.pt_gtswg{
+    background: url(../images/game/playtech/gtswg.jpg);
+}
+.pt_nian_k{
+    background: url(../images/game/playtech/nian_k.jpg);
+}
+.pt_thtk{
+    background: url(../images/game/playtech/thtk.jpg);
+}
+.pt_tmqd{
+    background: url(../images/game/playtech/tmqd.jpg);
+}
+.pt_whk{
+    background: url(../images/game/playtech/whk.jpg);
+}
+.pt_tclsc{
+    background: url(../images/game/playtech/3ClownsScratch.jpg);
+}
+.pt_af4{
+    background: url(../images/game/playtech/4lineAcesandFaces.jpg);
+}
+.pt_dw4{
+    background: url(../images/game/playtech/4lineDeucesWild.jpg);
+}
+.pt_jb4{
+    background: url(../images/game/playtech/4lineJacksorBetter.jpg);
+}
+.pt_gts39{
+    background: url(../images/game/playtech/ANightOutScratch.jpg);
+}
+.pt_ashace{
+    background: url(../images/game/playtech/AceVentura.jpg);
+}
+.pt_ashadv{
+    background: url(../images/game/playtech/AdventuresinWonderlandDeluxe.jpg);
+}
+.pt_amvp{
+    background: url(../images/game/playtech/AllAmerican.jpg);
+}
+.pt_arc{
+    background: url(../images/game/playtech/Archer.jpg);
+}
+.pt_art{
+    background: url(../images/game/playtech/ArcticTreasure.jpg);
+}
+.pt_gtsatq{
+    background: url(../images/game/playtech/AtlantisQueen.jpg);
+}
+.pt_gtsatq{
+    background: url(../images/game/playtech/AvengersScratch.jpg);
+}
+.pt_gtsatq{
+    background: url(../images/game/playtech/Azteca.jpg);
+}
+.pt_bmk{
+    background: url(../images/game/playtech/BananaMonkey.jpg);
+}
+.pt_gtsbwsc{
+    background: url(../images/game/playtech/BaywatchScratch.jpg);
+}
+.pt_gtsbayw{
+    background: url(../images/game/playtech/Baywatch.jpg);
+}
+.pt_gts40{
+    background: url(../images/game/playtech/BladeScratch.jpg);
+}
+.pt_gtscnasc{
+    background: url(../images/game/playtech/CaptainAmericaScratch.jpg);
+}
+.pt_ctp2{
+    background: url(../images/game/playtech/CaptainsTreasurePro.jpg);
+}
+.pt_gtscirsj{
+    background: url(../images/game/playtech/CaptainCannonsCircusofCash.jpg);
+}
+.pt_gtscb{
+    background: url(../images/game/playtech/CashBlox.jpg);
+}
+.pt_catqk{
+    background: url(../images/game/playtech/CatQueen.jpg);
+}
+.pt_chl{
+    background: url(../images/game/playtech/CherryLove.jpg);
+}
+.pt_gtscnb{
+    background: url(../images/game/playtech/CopsNBandits.jpg);
+}
+.pt_gtscbl{
+    background: url(../images/game/playtech/CowboysAliens.jpg);
+}
+.pt_cnf{
+    background: url(../images/game/playtech/CuteFluffy.jpg);
+}
+.pt_gtsdrdsc{
+    background: url(../images/game/playtech/DaredevilScratch.jpg);
+}
+.pt_gtsdrdv{
+    background: url(../images/game/playtech/DaringDaveTheEyeofRa.jpg);
+}
+.pt_dtm{
+    background: url(../images/game/playtech/DesertTreasureMini.jpg);
+}
+.pt_dv2{
+    background: url(../images/game/playtech/DiamondValleyPro.jpg);
+}
+.pt_gts48{
+    background: url(../images/game/playtech/DolphinCashScratch.jpg);
+}
+.pt_gtsdnc{
+    background: url(../images/game/playtech/DolphinCash.jpg);
+}
+.pt_dnr{
+    background: url(../images/game/playtech/DolphinReef.jpg);
+}
+.pt_gts44{
+    background: url(../images/game/playtech/ElektraScratch.jpg);
+}
+.pt_esmk{
+    background: url(../images/game/playtech/Esmeralda.jpg);
+}
+.pt_frm{
+    background: url(../images/game/playtech/FairyMagic.jpg);
+}
+.pt_fosl{
+    background: url(../images/game/playtech/FixedOddsSlot.jpg);
+}
+.pt_frtf{
+    background: url(../images/game/playtech/Fortunate5.jpg);
+}
+.pt_kf{
+    background: url(../images/game/playtech/FortuneKeno.jpg);
+}
+.pt_fxf{
+    background: url(../images/game/playtech/FortunesofTheFox.jpg);
+}
+.pt_fdtjg{
+    background: url(../images/game/playtech/FrankieDettorisMagicSevenJackpot.jpg);
+}
+.pt_tps{
+    background: url(../images/game/playtech/FrankieFantastic7.jpg);
+}
+.pt_frl{
+    background: url(../images/game/playtech/FromRussiaWithLove.jpg);
+}
+.pt_gesjp{
+    background: url(../images/game/playtech/GeishaStoryJackpot.jpg);
+}
+.pt_gtsghrsc{
+    background: url(../images/game/playtech/GhostRiderScratch.jpg);
+}
+.pt_gts37{
+    background: url(../images/game/playtech/GhostRiderScratch.jpg);
+}
+.pt_gts37{
+    background: url(../images/game/playtech/GladiatorScratch.jpg);
+}
+.pt_gts46{
+    background: url(../images/game/playtech/GoddessOfLife.jpg);
+}
+.pt_hpb{
+    background: url(../images/game/playtech/HappyBugs.jpg);
+}
+.pt_ashhotj{
+    background: url(../images/game/playtech/HeartoftheJungle.jpg);
+}
+.pt_gtshwkp{
+    background: url(../images/game/playtech/HighwayKingsPro.jpg);
+}
+.pt_gtshwkp{
+    background: url(../images/game/playtech/HighwayKingsPro.jpg);
+}
+.pt_gtsaod{
+    background: url(../images/game/playtech/InnocenceorTemptation.jpg);
+}
+.pt_irl{
+    background: url(../images/game/playtech/IrishLuck.jpg);
+}
+.pt_jpgt{
+    background: url(../images/game/playtech/JackpotGiant.jpg);
+}
+.pt_kgdb{
+    background: url(../images/game/playtech/KingDerby.jpg);
+}
+.pt_jb_mh{
+    background: url(../images/game/playtech/JacksorBetterMultiHand.jpg);
+}
+.pt_gog{
+    background: url(../images/game/playtech/Knockout.jpg);
+}
+.pt_lcr{
+    background: url(../images/game/playtech/LaChatteRouge.jpg);
+}
+.pt_gts35{
+    background: url(../images/game/playtech/MedusasGaze.jpg);
+}
+.pt_mj1{
+    background: url(../images/game/playtech/Megajacks.jpg);
+}
+.pt_mfbr{
+    background: url(../images/game/playtech/MiniFootballRules.jpg);
+}
+.pt_mglr{
+    background: url(../images/game/playtech/MiniGladiator.jpg);
+}
+.pt_mnkt{
+    background: url(../images/game/playtech/MonkeyThunderbolt.jpg);
+}
+.pt_spm{
+    background: url(../images/game/playtech/MontyPythonsSpamalotSlot.jpg);
+}
+.pt_romw{
+    background: url(../images/game/playtech/MultiWheelRoulette.jpg);
+}
+.pt_nian{
+    background: url(../images/game/playtech/NianNianYouYu.jpg);
+}
+.pt_pmn{
+    background: url(../images/game/playtech/PantherMoon.jpg);
+}
+.pt_pgv{
+    background: url(../images/game/playtech/PenguinVacation.jpg);
+}
+.pt_pfbj_mh5{
+    background: url(../images/game/playtech/PerfectBlackjack.jpg);
+}
+.pt_pst{
+    background: url(../images/game/playtech/PharaohsSecrets.png);
+}
+.pt_paw{
+    background: url(../images/game/playtech/PiggiesandWolf.jpg);
+}
+.pt_gtspor{
+    background: url(../images/game/playtech/PlentyOFortune.jpg);
+}
+.pt_rodz_g{
+    background: url(../images/game/playtech/PremiumAmericanRoulette.jpg);
+}
+.pt_gtspwzsc{
+    background: url(../images/game/playtech/PunisherWarZoneScratch.jpg);
+}
+.pt_photk{
+    background: url(../images/game/playtech/PurpleHot.jpg);
+}
+.pt_pyrrk{
+    background: url(../images/game/playtech/PyramidofRamesses.jpg);
+}
+.pt_rng2{
+    background: url(../images/game/playtech/RomeGlory.jpg);
+}
+.pt_mro_g{
+    background: url(../images/game/playtech/RouletteMini.jpg);
+}
+.pt_gtsru{
+    background: url(../images/game/playtech/RubiksRiches.jpg);
+}
+.pt_sfh{
+    background: url(../images/game/playtech/SafariHeat.jpg);
+}
+.pt_gtssmbr{
+    background: url(../images/game/playtech/SambaBrazil.jpg);
+}
+.pt_samz{
+    background: url(../images/game/playtech/SecretsoftheAmazon.jpg);
+}
+.pt_shmst{
+    background: url(../images/game/playtech/SherlockMystery.jpg);
+}
+.pt_sis{
+    background: url(../images/game/playtech/SilentSamurai.jpg);
+}
+.pt_skp{
+    background: url(../images/game/playtech/Skazka.jpg);
+}
+.pt_spr{
+    background: url(../images/game/playtech/Sparta.jpg);
+}
+.pt_gtsspdsc{
+    background: url(../images/game/playtech/SpiderManScratch.jpg);
+}
+.pt_srcg{
+    background: url(../images/game/playtech/SpudoReillysCropsofGold.jpg);
+}
+.pt_str{
+    background: url(../images/game/playtech/Stravaganza.jpg);
+}
+.pt_sol{
+    background: url(../images/game/playtech/Streakofluck.jpg);
+}
+.pt_tpd2{
+    background: url(../images/game/playtech/ThaiParadise.jpg);
+}
+.pt_ashglss{
+    background: url(../images/game/playtech/TheGlassSlipper.jpg);
+}
+.pt_gtssprs{
+    background: url(../images/game/playtech/TheSopranos.jpg);
+}
+.pt_ashwwm{
+    background: url(../images/game/playtech/WhoWantsToBeAMillionaire.jpg);
+}
+.pt_ashwnoz{
+    background: url(../images/game/playtech/WinningsofOz.jpg);
+}
+.pt_gtsro3d{
+    background: url(../images/game/playtech/3DRoulettePremium.jpg);
+}
+.pt_psdbj{
+    background: url(../images/game/playtech/BlackjackPro.jpg);
+}
+.pt_bj_mh5{
+    background: url(../images/game/playtech/Blackjack.jpg);
+}
+.pt_gtsfc{
+    background: url(../images/game/playtech/FootballCarnival.jpg);
+}
+.pt_jp50{
+    background: url(../images/game/playtech/JokerPoker50.jpg);
+}
+.pt_gtsrkysc{
+    background: url(../images/game/playtech/RockyScratch.jpg);
+}
+.pt_dcv{
+    background: url(../images/game/playtech/TheDiscovery.jpg);
+}
+.pt_cashfi{
+    background: url(../images/game/playtech/cashfi.jpg);
+}
+.pt_ftsis{
+    background: url(../images/game/playtech/sisters.png);
+}
+.pt_aogs{
+    background: url(../images/game/playtech/aogs.jpg);
+}
+.pt_furf{
+    background: url(../images/game/playtech/furf.jpg);
+}
+.pt_zeus{
+    background: url(../images/game/playtech/zeus.jpg);
+}
+.pt_bfb{
+    background: url(../images/game/playtech/bfb.jpg);
+}
+.pt_chao{
+    background: url(../images/game/playtech/chao.jpg);
+}
+.pt_fkmj{
+    background: url(../images/game/playtech/fkmj.jpg);
+}
+.pt_chao{
+    background: url(../images/game/playtech/chao.jpg);
+}
+.pt_gtsfpc{
+    background: url(../images/game/playtech/gtsfpc.jpg);
+}
+.pt_ftg{
+    background: url(../images/game/playtech/ftg.jpg);
+}
+.pt_fday{
+    background: url(../images/game/playtech/fday.jpg);
+}
+.pt_gemq{
+    background: url(../images/game/playtech/gemq.jpg);
+}
+.pt_aztec{
+    background: url(../images/game/playtech/aztec.jpg);
+}
+.pt_gtsje{
+    background: url(../images/game/playtech/gtsje.jpg);
+}
+.pt_ght_a{
+    background: url(../images/game/playtech/ght_a.jpg);
+}
+.pt_longlong{
+    background: url(../images/game/playtech/longlong.jpg);
+}
+.pt_hlf2{
+    background: url(../images/game/playtech/hlf2.jpg);
+}
+.pt_ririjc{
+    background: url(../images/game/playtech/ririjc.jpg);
+}
+.pt_spud{
+    background: url(../images/game/playtech/spud.jpg);
+}
+.pt_trpmnk{
+    background: url(../images/game/playtech/trpmnk.jpg);
+}
+.pt_wlcsh{
+    background: url(../images/game/playtech/wlcsh.jpg);
+}
+.pt_mfrt{
+    background: url(../images/game/playtech/mfrt.jpg);
+}
+.pt_ashtmd{
+    background: url(../images/game/playtech/ashtmd.jpg);
+}
+.pt_slion{
+    background: url(../images/game/playtech/slion.png);
+}
+.pt_athn{
+    background: url(../images/game/playtech/athn.jpg);
+}
+.pt_nc_bal{
+    background: url(../images/game/playtech/nc_bal.jpg);
+}
+.pt_nc_7bal{
+    background: url(../images/game/playtech/nc_7bal.jpg);
+}
+.pt_savcas{
+    background: url(../images/game/playtech/savcas.jpg);
+}
+.pt_frtln{
+    background: url(../images/game/playtech/frtln.jpg);
+}
+.pt_hotktv{
+    background: url(../images/game/playtech/hotktv.jpg);
+}
+.pt_aogro{
+    background: url(../images/game/playtech/aogro.jpg);
+}
+.pt_heavru{
+    background: url(../images/game/playtech/heavru.jpg);
+}
+.pt_asfa{
+    background: url(../images/game/playtech/asfa.jpg);
+}
+.pt_haocs{
+    background: url(../images/game/playtech/haocs.png);
+}
+.pt_sling{
+    background: url(../images/game/playtech/sling.jpg);
+}
+.pt_hrcls{
+    background: url(../images/game/playtech/hrcls.jpg);
+}
+.pt_ririshc{
+    background: url(../images/game/playtech/ririshc.jpg);
+}
+.pt_esm{
+    background: url(../images/game/playtech/esm.jpg);
+}
+.pt_mobdt{
+    background: url(../images/game/playtech/mobdt.jpg);
+}
+.pt_mobro{
+    background: url(../images/game/playtech/mobro.jpg);
+}
+.pt_phot{
+    background: url(../images/game/playtech/phot.jpg);
+}
+.pt_tht{
+    background: url(../images/game/playtech/tht.jpg);
+}
+.pt_catqc{
+    background: url(../images/game/playtech/catqc.jpg);
+}

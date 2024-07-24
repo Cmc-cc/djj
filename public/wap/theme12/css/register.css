@@ -1,0 +1,25 @@
+﻿#Center_StepwiseRegistrationBlock_45094-stepwise-registration-steps {
+    height:auto;
+}
+
+#sendCode {
+    background-color: #1db954;
+    color: #fff;
+    width: 50%;
+    float: left;
+    height: 42px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 42px;
+    margin-left: 0px;
+}
+#regpin {
+width:100%;
+}
+#Center_StepwiseRegistrationBlock_45094-stepwise-registration-terms-link span {
+color:dodgerblue;
+}
+.stepwise-registration__item.login input {
+    background-color: #FFF;
+    background-image: linear-gradient(#6bb4f4, #0a427f);
+}

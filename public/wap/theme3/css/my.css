@@ -1,0 +1,112 @@
+.historytab{
+    margin-bottom: 20px;
+}
+.historytab thead tr th {
+    width: 25%;
+}
+.backwater .fs_button {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background: #2C70E8;
+    font-size: .6rem;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    line-height: 40px;
+    text-decoration: none;
+}
+/*分页*/
+.pagination {
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.TranRecord-top2 {
+    padding-left: 0px;
+}
+.TranRecord-top2 .tab1, .wrap .page {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.TranRecord-top2{
+    font-size: 20px;
+}
+.TranRecord-top2 .bg {
+    background-color: #f6f6f6;
+}
+.TranRecord-top2 table td {
+    line-height: 25px;
+    background-color: #fff;
+    padding: 5px;
+}
+. table td {
+    line-height: 25px;
+    background-color: #fff;
+    padding: 5px;
+}
+.TranRecord-top2 select {
+    height: 30px;
+    line-height: 1;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+    background: url(../../images/dy/select.png) no-repeat right center;
+    padding-right: 15px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.userInfo input, .userInfo select, .userInfo textarea {
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+.TranRecord-top2 .tab1, .wrap .page {
+    width: 100%;
+}
+.TranRecord-top2 table {
+    /*background-color: #ddd;*/
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+.TranRecord-top2 input {
+    border: 1px solid #ddd;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+.TranRecord-top2 .line {
+
+    padding: 10px 20px 15px;
+
+}

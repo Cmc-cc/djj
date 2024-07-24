@@ -1,0 +1,262 @@
+.banner {
+    height: 300px;
+    background: url("fishbg.jpg"/*tpa=https://www.long8571.com/images/gameLobby/fishbg.jpg*/) no-repeat center;
+}
+
+.ag-banner {
+    background-image: url("livebg.jpg"/*tpa=https://www.long8571.com/images/gameLobby/livebg.jpg*/)
+}
+
+.pok-banner {
+    background-image: url("chessbg.jpg"/*tpa=https://www.long8571.com/images/gameLobby/chessbg.jpg*/);
+}
+.fish-img{
+    /*display:inline-block;*/
+    height: 160px;
+    width:413px;
+    padding-top:120px;
+    margin:0 auto;
+    background: url("fish-text.png"/*tpa=https://www.long8571.com/images/gameLobby/fish-text.png*/)  no-repeat bottom center;
+}
+.fish-img.on{
+    background: url("fish-hover.png"/*tpa=https://www.long8571.com/images/gameLobby/fish-hover.png*/)  no-repeat bottom center;
+}
+.live-img{
+    /*display:inline-block;*/
+    height: 160px;
+    width:413px;
+    padding-top:120px;
+    margin:0 auto;
+    background: url("live-text.png"/*tpa=https://www.long8571.com/images/gameLobby/live-text.png*/)  no-repeat bottom center;
+}
+.live-img.on{
+    background: url("live-hover.png"/*tpa=https://www.long8571.com/images/gameLobby/live-hover.png*/)  no-repeat bottom center;
+}
+.chess-img{
+    /*display:inline-block;*/
+    height: 160px;
+    width:413px;
+    padding-top:114px;
+    margin:0 auto;
+    background: url("chess-text.png"/*tpa=https://www.long8571.com/images/gameLobby/chess-text.png*/)  no-repeat bottom center;
+}
+.chess-img.on{
+    background: url("chess-hover.png"/*tpa=https://www.long8571.com/images/gameLobby/chess-hover.png*/)  no-repeat bottom center;
+}
+
+.agGameList {
+    width: 1200px;
+    margin: 20px auto;
+
+}
+
+.agGameList li {
+    float: left;
+    width: 580px;
+    height: 230px;
+    border: 2px solid #666;
+    margin: 15px 8px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.agGameList li > div {
+    float: left;
+}
+
+.agGameList .left-b {
+    position: relative;
+}
+
+.agGameList .mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    padding-top: 110px;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.agGameList .mask:hover {
+    opacity: 1;
+}
+
+.mask a {
+    background-color: #ac832a;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.mask a em {
+    width: 13px;
+    height: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url("jt1.png"/*tpa=https://www.long8571.com/images/jt1.png*/) no-repeat 0 0;
+}
+
+.agGameList .right-b {
+    color: #fbd606;
+    font-size: 18px;
+    width: 217px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.right-b i {
+    display: block;
+    height: 90px;
+    background: url("ag.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/ag.png?v2*/) no-repeat center;
+}
+
+.right-b i.sunset-ico {
+    background: url("sunset-logo.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/sunset-logo.png?v2*/) no-repeat center;
+}
+
+.right-b .pt-ico {
+    background-image: url("PT.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/PT.png?v2*/)
+}
+
+.right-b .ttg-ico {
+    background-image: url("ttg.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/ttg.png?v2*/)
+}
+
+.right-b .mwg-ico, .right-b .pok {
+    background-image: url("MWG.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/MWG.png?v2*/)
+}
+
+.right-b .sw-ico {
+    background-image: url("SW.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/SW.png?v2*/)
+}
+
+.right-b .hyg-ico {
+    background-image: url("hyglogo.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/hyglogo.png?v2*/)
+}
+
+.right-b .ebet {
+    background-image: url("ebet.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/ebet.png?v2*/)
+}
+
+.right-b .chess {
+    background-image: url("761.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/761.png?v2*/)
+}
+
+.right-b .sport {
+    background-image: url("sba_sport.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/sba_sport.png?v2*/)
+}
+
+.right-b .pbsport {
+    background-image: url("i-pb.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/i-pb.png?v2*/)
+}
+
+.right-b .fanya {
+    background-image: url("i-fanya.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/i-fanya.png?v2*/)
+}
+
+.right-b .bbin {
+    background-image: url("bbin.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/bbin.png?v2*/)
+}
+
+.right-b .mg {
+    background-image: url("mg-logo.png-v2"/*tpa=https://www.long8571.com/images/gameLobby/mg-logo.png?v2*/)
+}
+
+.right-b .pok {
+    background-size: contain;
+    width: 160px;
+    margin: 0 auto
+}
+
+.pokGameList {
+    width: 1100px;
+    margin: 20px auto;
+    background: #202328;
+    padding: 50px;
+}
+
+.pokGameList li {
+    height: 250px;
+    width: 250px;
+    margin: 0 33px 36px 0;
+    text-align: center;
+    background: #181b20;
+    float: left;
+}
+
+.pokGameList li:nth-child(4n) {
+    margin: 0 0 26px 0;
+}
+
+.pokGameList li img {
+    height: 160px;
+    width: 250px;
+
+}
+
+.pokGameList .mask {
+    padding-top: 80px;
+}
+
+.pokGameList .mask-title {
+    display: block;
+    height: 76px;
+    background: #393c41;
+    color: #999;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pokGameList .mask-title p {
+    border-bottom: 1px dashed #555;
+    padding: 0 0 8px 0;
+}
+
+.pokGameList .mask-title a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 12px auto 10px;
+    background: #d4b066;
+    color: #181b20;
+    border-radius: 30px;
+    width: 90px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.pokGameList .mask-title a:hover {
+    background: #bc9c5b;
+}
+
+.pok-tab {
+    background: #202328;
+    height: 60px;
+}
+
+.pok-tab-in {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.pok-tab-in span {
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    width: 65px;
+    text-align: center;
+    color: #999;
+    border-bottom: 4px solid #202328;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pok-tab-in span.on, .pok-tab-in span:hover {
+    color: #d4b064;
+    border-bottom: 4px solid #d4b064;
+}

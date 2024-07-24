@@ -1,0 +1,2685 @@
+//平台中英文键值对
+var ZHandCH = [
+    { "ch": "game", "zh": "電子" },
+    { "ch": "live", "zh": "真人" },
+    { "ch": "lottery", "zh": "彩票" },
+    { "ch": "sport", "zh": "體育" },
+    { "ch": "fish", "zh": "捕魚" },
+    { "ch": "chess", "zh": "棋牌" },
+    { "ch": "competition", "zh": "电竞" }
+]
+//彩票单独进入彩种配置列表
+var IGLotteryList = [{
+    "plateform": "IG",
+    "gameType": "s&",
+    "gameId": "1",
+    "name": "广东快乐十分(传)",
+    "imgName": "1"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "2",
+    "name": "重庆时时彩(传)",
+    "imgName": "2"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "3",
+    "name": "北京赛车(传)",
+    "imgName": "3"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "4",
+    "name": "江苏骰宝(传)",
+    "imgName": "4"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "5",
+    "name": "幸运农场(传)",
+    "imgName": "5"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "7",
+    "name": "新疆时时彩(传)",
+    "imgName": "6"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "9",
+    "name": "云南时时彩(传)",
+    "imgName": "7"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "12",
+    "name": "广西快乐十分(传)",
+    "imgName": "8"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "13",
+    "name": "湖南快乐十分(传)",
+    "imgName": "9"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "14",
+    "name": "安徽快3(传)",
+    "imgName": "10"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "15",
+    "name": "广西快3(传)",
+    "imgName": "11"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "17",
+    "name": "幸运飞艇(传)",
+    "imgName": "12"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "18",
+    "name": "广州11选5(传)",
+    "imgName": "13"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "19",
+    "name": "江西11选5(传)",
+    "imgName": "14"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "20",
+    "name": "山东11选5(传)",
+    "imgName": "15"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "21",
+    "name": "北京11选5(传)",
+    "imgName": "16"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "22",
+    "name": "上海11选5(传)",
+    "imgName": "17"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "23",
+    "name": "辽宁11选5(传)",
+    "imgName": "18"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "24",
+    "name": "湖北11选5(传)",
+    "imgName": "19"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "25",
+    "name": "江苏11选5(传)",
+    "imgName": "20"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "27",
+    "name": "北京快乐8(传)",
+    "imgName": "21"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "32",
+    "name": "斯洛伐克快乐8(传)",
+    "imgName": "22"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "34",
+    "name": "台湾宾果(传)",
+    "imgName": "23"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "36",
+    "name": "福彩3D(传)",
+    "imgName": "24"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "37",
+    "name": "排列三(传)",
+    "imgName": "25"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "38",
+    "name": "云南快乐十分(传)",
+    "imgName": "26"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "39",
+    "name": "北京PC蛋蛋(传)",
+    "imgName": "27"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "44",
+    "name": "斯洛伐克PC蛋蛋(传)",
+    "imgName": "28"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "46",
+    "name": "台湾宾果PC蛋蛋(传)",
+    "imgName": "29"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "48",
+    "name": "极速赛车(传)",
+    "imgName": "30"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "49",
+    "name": "极速时时彩(传)",
+    "imgName": "31"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "50",
+    "name": "一分赛车(传)",
+    "imgName": "32"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "51",
+    "name": "一分时时彩(传)",
+    "imgName": "33"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "52",
+    "name": "极速快乐十分(传)",
+    "imgName": "34"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "53",
+    "name": "极速十一选五(传)",
+    "imgName": "35"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "54",
+    "name": "极速快三(传)",
+    "imgName": "36"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "55",
+    "name": "极速快乐8(传)",
+    "imgName": "37"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "56",
+    "name": "极速3D(传)",
+    "imgName": "38"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "57",
+    "name": "极速PC蛋蛋(传)",
+    "imgName": "39"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "58",
+    "name": "极速六合彩(传)",
+    "imgName": "40"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "59",
+    "name": "北京快3(传)",
+    "imgName": "41"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "60",
+    "name": "上海快3(传)",
+    "imgName": "42"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "61",
+    "name": "湖北快3(传)",
+    "imgName": "43"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "62",
+    "name": "河北快3(传)",
+    "imgName": "44"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "63",
+    "name": "甘肃快3(传)",
+    "imgName": "45"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "65",
+    "name": "三分赛车(传)",
+    "imgName": "46"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "66",
+    "name": "三分时时彩(传)",
+    "imgName": "47"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "67",
+    "name": "三分快乐十分(传)",
+    "imgName": "48"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "68",
+    "name": "三分快3(传)",
+    "imgName": "49"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "69",
+    "name": "三分十一选五(传)",
+    "imgName": "50"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "70",
+    "name": "三分3D(传)",
+    "imgName": "51"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "71",
+    "name": "三分快乐8(传)",
+    "imgName": "52"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "72",
+    "name": "三分PC蛋蛋(传)",
+    "imgName": "53"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "73",
+    "name": "IG赛车(传)",
+    "imgName": "54"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "74",
+    "name": "IG时时彩(传)",
+    "imgName": "55"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "75",
+    "name": "IG六合(传)",
+    "imgName": "56"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "76",
+    "name": "十分六合(传)",
+    "imgName": "57"
+}, {
+    "plateform": "IG",
+    "gameType": "S&",
+    "gameId": "77",
+    "name": "IG飞艇(传)",
+    "imgName": "58"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "1",
+    "name": "北京赛车(官)",
+    "imgName": "59"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "2",
+    "name": "幸运飞艇(官)",
+    "imgName": "60"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "3",
+    "name": "极速赛车(官)",
+    "imgName": "61"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "4",
+    "name": "一分赛车(官)",
+    "imgName": "62"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "21",
+    "name": "江苏快3(官)",
+    "imgName": "63"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "22",
+    "name": "安徽快3(官)",
+    "imgName": "64"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "25",
+    "name": "极速快3(官)",
+    "imgName": "65"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "41",
+    "name": "重庆时时彩(官)",
+    "imgName": "66"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "45",
+    "name": "云南时时彩(官)",
+    "imgName": "67"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "46",
+    "name": "极速时时彩(官)",
+    "imgName": "68"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "47",
+    "name": "一分时时彩(官)",
+    "imgName": "69"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "61",
+    "name": "广东11选5(官)",
+    "imgName": "70"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "62",
+    "name": "江西11选5(官)",
+    "imgName": "71"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "63",
+    "name": "山东11选5(官)",
+    "imgName": "72"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "64",
+    "name": "北京11选5(官)",
+    "imgName": "73"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "65",
+    "name": "上海11选5(官)",
+    "imgName": "74"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "66",
+    "name": "辽宁11选5(官)",
+    "imgName": "75"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "67",
+    "name": "湖北11选5(官)",
+    "imgName": "76"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "70",
+    "name": "极速11选5(官)",
+    "imgName": "77"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "81",
+    "name": "福彩3D(官)",
+    "imgName": "78"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "82",
+    "name": "极速3D(官)",
+    "imgName": "79"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "48",
+    "name": "排列五(官)",
+    "imgName": "80"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "26",
+    "name": "北京快3(官)",
+    "imgName": "81"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "27",
+    "name": "上海快3(官)",
+    "imgName": "82"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "28",
+    "name": "湖北快3(官)",
+    "imgName": "83"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "29",
+    "name": "河北快3(官)",
+    "imgName": "84"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "30",
+    "name": "甘肃快3(官)",
+    "imgName": "85"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "5",
+    "name": "三分赛车(官)",
+    "imgName": "86"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "6",
+    "name": "IG赛车(官)",
+    "imgName": "87"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "7",
+    "name": "IG飞艇(官)",
+    "imgName": "88"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "32",
+    "name": "三分快三(官)",
+    "imgName": "89"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "49",
+    "name": "三分时时彩(官)",
+    "imgName": "90"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "50",
+    "name": "IG时时彩(官)",
+    "imgName": "91"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "71",
+    "name": "三分11选5(官)",
+    "imgName": "92"
+}, {
+    "plateform": "IG",
+    "gameType": "GFC&",
+    "gameId": "83",
+    "name": "三分3D(官)",
+    "imgName": "93"
+}]
+
+var IGALotteryList = [{
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "1",
+    "name": "广东快乐十分(传)",
+    "imgName": "1"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "2",
+    "name": "重庆时时彩(传)",
+    "imgName": "2"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "3",
+    "name": "北京赛车(传)",
+    "imgName": "3"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "4",
+    "name": "江苏骰宝(传)",
+    "imgName": "4"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "5",
+    "name": "幸运农场(传)",
+    "imgName": "5"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "7",
+    "name": "新疆时时彩(传)",
+    "imgName": "6"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "9",
+    "name": "云南时时彩(传)",
+    "imgName": "7"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "12",
+    "name": "广西快乐十分(传)",
+    "imgName": "8"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "13",
+    "name": "湖南快乐十分(传)",
+    "imgName": "9"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "14",
+    "name": "安徽快3(传)",
+    "imgName": "10"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "15",
+    "name": "广西快3(传)",
+    "imgName": "11"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "17",
+    "name": "幸运飞艇(传)",
+    "imgName": "12"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "18",
+    "name": "广州11选5(传)",
+    "imgName": "13"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "19",
+    "name": "江西11选5(传)",
+    "imgName": "14"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "20",
+    "name": "山东11选5(传)",
+    "imgName": "15"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "21",
+    "name": "北京11选5(传)",
+    "imgName": "16"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "22",
+    "name": "上海11选5(传)",
+    "imgName": "17"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "23",
+    "name": "辽宁11选5(传)",
+    "imgName": "18"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "24",
+    "name": "湖北11选5(传)",
+    "imgName": "19"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "25",
+    "name": "江苏11选5(传)",
+    "imgName": "20"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "27",
+    "name": "北京快乐8(传)",
+    "imgName": "21"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "32",
+    "name": "斯洛伐克快乐8(传)",
+    "imgName": "22"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "34",
+    "name": "台湾宾果(传)",
+    "imgName": "23"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "36",
+    "name": "福彩3D(传)",
+    "imgName": "24"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "37",
+    "name": "排列三(传)",
+    "imgName": "25"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "38",
+    "name": "云南快乐十分(传)",
+    "imgName": "26"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "39",
+    "name": "北京PC蛋蛋(传)",
+    "imgName": "27"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "44",
+    "name": "斯洛伐克PC蛋蛋(传)",
+    "imgName": "28"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "46",
+    "name": "台湾宾果PC蛋蛋(传)",
+    "imgName": "29"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "48",
+    "name": "极速赛车(传)",
+    "imgName": "30"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "49",
+    "name": "极速时时彩(传)",
+    "imgName": "31"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "50",
+    "name": "一分赛车(传)",
+    "imgName": "32"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "51",
+    "name": "一分时时彩(传)",
+    "imgName": "33"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "52",
+    "name": "极速快乐十分(传)",
+    "imgName": "34"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "53",
+    "name": "极速十一选五(传)",
+    "imgName": "35"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "54",
+    "name": "极速快三(传)",
+    "imgName": "36"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "55",
+    "name": "极速快乐8(传)",
+    "imgName": "37"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "56",
+    "name": "极速3D(传)",
+    "imgName": "38"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "57",
+    "name": "极速PC蛋蛋(传)",
+    "imgName": "39"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "58",
+    "name": "极速六合彩(传)",
+    "imgName": "40"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "59",
+    "name": "北京快3(传)",
+    "imgName": "41"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "60",
+    "name": "上海快3(传)",
+    "imgName": "42"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "61",
+    "name": "湖北快3(传)",
+    "imgName": "43"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "62",
+    "name": "河北快3(传)",
+    "imgName": "44"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "63",
+    "name": "甘肃快3(传)",
+    "imgName": "45"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "65",
+    "name": "三分赛车(传)",
+    "imgName": "46"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "66",
+    "name": "三分时时彩(传)",
+    "imgName": "47"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "67",
+    "name": "三分快乐十分(传)",
+    "imgName": "48"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "68",
+    "name": "三分快3(传)",
+    "imgName": "49"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "69",
+    "name": "三分十一选五(传)",
+    "imgName": "50"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "70",
+    "name": "三分3D(传)",
+    "imgName": "51"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "71",
+    "name": "三分快乐8(传)",
+    "imgName": "52"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "72",
+    "name": "三分PC蛋蛋(传)",
+    "imgName": "53"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "73",
+    "name": "IG赛车(传)",
+    "imgName": "54"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "74",
+    "name": "IG时时彩(传)",
+    "imgName": "55"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "75",
+    "name": "IG六合(传)",
+    "imgName": "56"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "76",
+    "name": "十分六合(传)",
+    "imgName": "57"
+}, {
+    "plateform": "IGA",
+    "gameType": "S&",
+    "gameId": "77",
+    "name": "IG飞艇(传)",
+    "imgName": "58"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "1",
+    "name": "北京赛车(官)",
+    "imgName": "59"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "2",
+    "name": "幸运飞艇(官)",
+    "imgName": "60"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "3",
+    "name": "极速赛车(官)",
+    "imgName": "61"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "4",
+    "name": "一分赛车(官)",
+    "imgName": "62"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "21",
+    "name": "江苏快3(官)",
+    "imgName": "63"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "22",
+    "name": "安徽快3(官)",
+    "imgName": "64"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "25",
+    "name": "极速快3(官)",
+    "imgName": "65"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "41",
+    "name": "重庆时时彩(官)",
+    "imgName": "66"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "45",
+    "name": "云南时时彩(官)",
+    "imgName": "67"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "46",
+    "name": "极速时时彩(官)",
+    "imgName": "68"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "47",
+    "name": "一分时时彩(官)",
+    "imgName": "69"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "61",
+    "name": "广东11选5(官)",
+    "imgName": "70"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "62",
+    "name": "江西11选5(官)",
+    "imgName": "71"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "63",
+    "name": "山东11选5(官)",
+    "imgName": "72"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "64",
+    "name": "北京11选5(官)",
+    "imgName": "73"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "65",
+    "name": "上海11选5(官)",
+    "imgName": "74"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "66",
+    "name": "辽宁11选5(官)",
+    "imgName": "75"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "67",
+    "name": "湖北11选5(官)",
+    "imgName": "76"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "70",
+    "name": "极速11选5(官)",
+    "imgName": "77"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "81",
+    "name": "福彩3D(官)",
+    "imgName": "78"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "82",
+    "name": "极速3D(官)",
+    "imgName": "79"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "48",
+    "name": "排列五(官)",
+    "imgName": "80"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "26",
+    "name": "北京快3(官)",
+    "imgName": "81"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "27",
+    "name": "上海快3(官)",
+    "imgName": "82"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "28",
+    "name": "湖北快3(官)",
+    "imgName": "83"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "29",
+    "name": "河北快3(官)",
+    "imgName": "84"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "30",
+    "name": "甘肃快3(官)",
+    "imgName": "85"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "5",
+    "name": "三分赛车(官)",
+    "imgName": "86"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "6",
+    "name": "IG赛车(官)",
+    "imgName": "87"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "7",
+    "name": "IG飞艇(官)",
+    "imgName": "88"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "32",
+    "name": "三分快三(官)",
+    "imgName": "89"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "49",
+    "name": "三分时时彩(官)",
+    "imgName": "90"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "50",
+    "name": "IG时时彩(官)",
+    "imgName": "91"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "71",
+    "name": "三分11选5(官)",
+    "imgName": "92"
+}, {
+    "plateform": "IGA",
+    "gameType": "GFC&",
+    "gameId": "83",
+    "name": "三分3D(官)",
+    "imgName": "93"
+}]
+
+
+var GLILotteryList = [{
+    "plateform": "GLI",
+    "gameType": "1",
+    "name": "重庆时时彩(官)",
+    "imgName": "1"
+}, {
+    "plateform": "GLI",
+    "gameType": "6",
+    "name": "新疆时时彩(官)",
+    "imgName": "6"
+}, {
+    "plateform": "GLI",
+    "gameType": "118",
+    "name": "天津时时彩(官)",
+    "imgName": "118"
+}, {
+    "plateform": "GLI",
+    "gameType": "115",
+    "name": "腾讯分分彩(官)",
+    "imgName": "115"
+}, {
+    "plateform": "GLI",
+    "gameType": "56",
+    "name": "世彩30秒彩(官)",
+    "imgName": "56"
+}, {
+    "plateform": "GLI",
+    "gameType": "19",
+    "name": "世彩1分彩(官)",
+    "imgName": "19"
+}, {
+    "plateform": "GLI",
+    "gameType": "18",
+    "name": "世彩2分彩(官)",
+    "imgName": "18"
+},
+//{
+//    "plateform": "GLI",
+//    "gameType": "62",
+//    "name": "世彩5分彩(官)",
+//    "imgName": "62"
+//},
+{
+    "plateform": "GLI",
+    "gameType": "142",
+    "name": "HL1分彩(官)",
+    "imgName": "142"
+}, {
+    "plateform": "GLI",
+    "gameType": "143",
+    "name": "HL1.5分彩(官)",
+    "imgName": "143"
+}, {
+    "plateform": "GLI",
+    "gameType": "155",
+    "name": "HL1.5分4D彩(官)",
+    "imgName": "155"
+}, {
+    "plateform": "GLI",
+    "gameType": "119",
+    "name": "江苏快3(官)",
+    "imgName": "119"
+}, {
+    "plateform": "GLI",
+    "gameType": "134",
+    "name": "广西快3(官)",
+    "imgName": "134"
+}, {
+    "plateform": "GLI",
+    "gameType": "136",
+    "name": "北京快3(官)",
+    "imgName": "136"
+}, {
+    "plateform": "GLI",
+    "gameType": "138",
+    "name": "安徽快3(官)",
+    "imgName": "138"
+}, {
+    "plateform": "GLI",
+    "gameType": "140",
+    "name": "湖北快3(官)",
+    "imgName": "140"
+}, {
+    "plateform": "GLI",
+    "gameType": "130",
+    "name": "世彩30秒快3(官)",
+    "imgName": "130"
+}, {
+    "plateform": "GLI",
+    "gameType": "132",
+    "name": "世彩1分快3(官)",
+    "imgName": "132"
+}, {
+    "plateform": "GLI",
+    "gameType": "5",
+    "name": "山东11选5(官)",
+    "imgName": "5"
+}, {
+    "plateform": "GLI",
+    "gameType": "7",
+    "name": "江西11选5(官)",
+    "imgName": "7"
+}, {
+    "plateform": "GLI",
+    "gameType": "8",
+    "name": "广东11选5(官)",
+    "imgName": "8"
+}, {
+    "plateform": "GLI",
+    "gameType": "57",
+    "name": "世彩30秒11选5(官)",
+    "imgName": "57"
+}, {
+    "plateform": "GLI",
+    "gameType": "54",
+    "name": "世彩1分11选5(官)",
+    "imgName": "54"
+}, {
+    "plateform": "GLI",
+    "gameType": "20",
+    "name": "世彩2分11选5(官)",
+    "imgName": "20"
+},
+//{
+//    "plateform": "GLI",
+//    "gameType": "63",
+//    "name": "世彩5分11选5(官)",
+//    "imgName": "63"
+//},
+{
+    "plateform": "GLI",
+    "gameType": "106",
+    "name": "北京PK10(官)",
+    "imgName": "106"
+}, {
+    "plateform": "GLI",
+    "gameType": "114",
+    "name": "幸运飞艇(官)",
+    "imgName": "114"
+}, {
+    "plateform": "GLI",
+    "gameType": "111",
+    "name": "世彩30秒PK10(官)",
+    "imgName": "111"
+}, {
+    "plateform": "GLI",
+    "gameType": "107",
+    "name": "世彩1分PK10(官)",
+    "imgName": "107"
+}, {
+    "plateform": "GLI",
+    "gameType": "112",
+    "name": "世彩2分PK10(官)",
+    "imgName": "112"
+},
+//{
+//    "plateform": "GLI",
+//    "gameType": "113",
+//    "name": "世彩5分PK10(官)",
+//    "imgName": "113"
+//},
+{
+    "plateform": "GLI",
+    "gameType": "157",
+    "name": "广东快乐十分(官)",
+    "imgName": "157"
+},
+//{
+//    "plateform": "GLI",
+//    "gameType": "158",
+//    "name": "重庆幸运农场(官)",
+//    "imgName": "158"
+//},
+{
+    "plateform": "GLI",
+    "gameType": "11",
+    "name": "福彩3D(官)",
+    "imgName": "11"
+}, {
+    "plateform": "GLI",
+    "gameType": "12",
+    "name": "体彩P3(官)",
+    "imgName": "12"
+}, {
+    "plateform": "GLI",
+    "gameType": "108",
+    "name": "世彩30秒3D(官)",
+    "imgName": "108"
+}, {
+    "plateform": "GLI",
+    "gameType": "52",
+    "name": "世彩1分3D(官)",
+    "imgName": "52"
+}, {
+    "plateform": "GLI",
+    "gameType": "109",
+    "name": "世彩2分3D(官)",
+    "imgName": "109"
+},
+//{
+//    "plateform": "GLI",
+//    "gameType": "110",
+//    "name": "世彩5分3D(官)",
+//    "imgName": "110"
+//},
+{
+    "plateform": "GLI",
+    "gameType": "120",
+    "name": "重庆时时彩(信)",
+    "imgName": "120"
+}, {
+    "plateform": "GLI",
+    "gameType": "123",
+    "name": "新疆时时彩(信)",
+    "imgName": "123"
+}, {
+    "plateform": "GLI",
+    "gameType": "122",
+    "name": "天津时时彩(信)",
+    "imgName": "122"
+}, {
+    "plateform": "GLI",
+    "gameType": "144",
+    "name": "腾讯分分彩(信)",
+    "imgName": "144"
+}, {
+    "plateform": "GLI",
+    "gameType": "147",
+    "name": "世彩30秒彩(信)",
+    "imgName": "147"
+}, {
+    "plateform": "GLI",
+    "gameType": "148",
+    "name": "世彩1分彩(信)",
+    "imgName": "148"
+}, {
+    "plateform": "GLI",
+    "gameType": "153",
+    "name": "HL1分彩(信)",
+    "imgName": "153"
+}, {
+    "plateform": "GLI",
+    "gameType": "154",
+    "name": "HL1.5分彩(信)",
+    "imgName": "154"
+}, {
+    "plateform": "GLI",
+    "gameType": "156",
+    "name": "HL1.5分4D彩(信)",
+    "imgName": "156"
+}, {
+    "plateform": "GLI",
+    "gameType": "121",
+    "name": "江苏快3(信)",
+    "imgName": "121"
+}, {
+    "plateform": "GLI",
+    "gameType": "135",
+    "name": "广西快3(信)",
+    "imgName": "135"
+}, {
+    "plateform": "GLI",
+    "gameType": "137",
+    "name": "北京快3(信)",
+    "imgName": "137"
+}, {
+    "plateform": "GLI",
+    "gameType": "139",
+    "name": "安徽快3(信)",
+    "imgName": "139"
+}, {
+    "plateform": "GLI",
+    "gameType": "141",
+    "name": "湖北快3(信)",
+    "imgName": "141"
+}, {
+    "plateform": "GLI",
+    "gameType": "131",
+    "name": "世彩30秒快3(信)",
+    "imgName": "131"
+}, {
+    "plateform": "GLI",
+    "gameType": "133",
+    "name": "世彩1分快3(信)",
+    "imgName": "133"
+}, {
+    "plateform": "GLI",
+    "gameType": "126",
+    "name": "山东11选5(信)",
+    "imgName": "126"
+}, {
+    "plateform": "GLI",
+    "gameType": "127",
+    "name": "江西11选5(信)",
+    "imgName": "127"
+}, {
+    "plateform": "GLI",
+    "gameType": "128",
+    "name": "广东11选5 (信)",
+    "imgName": "128"
+}, {
+    "plateform": "GLI",
+    "gameType": "149",
+    "name": "世彩30秒11选5(信)",
+    "imgName": "149"
+}, {
+    "plateform": "GLI",
+    "gameType": "150",
+    "name": "世彩1分11选5(信)",
+    "imgName": "150"
+}, {
+    "plateform": "GLI",
+    "gameType": "124",
+    "name": "北京PK10(信)",
+    "imgName": "124"
+}, {
+    "plateform": "GLI",
+    "gameType": "125",
+    "name": "幸运飞艇(信)",
+    "imgName": "125"
+}, {
+    "plateform": "GLI",
+    "gameType": "151",
+    "name": "世彩30秒PK10(信)",
+    "imgName": "151"
+}, {
+    "plateform": "GLI",
+    "gameType": "152",
+    "name": "世彩1分PK10(信)",
+    "imgName": "152"
+}, {
+    "plateform": "GLI",
+    "gameType": "159",
+    "name": "广东快乐十分(信)",
+    "imgName": "159"
+},
+//{
+//    "plateform": "GLI",
+//    "gameType": "160",
+//    "name": "重庆幸运农场(信)",
+//    "imgName": "160"
+//},
+{
+    "plateform": "GLI",
+    "gameType": "129",
+    "name": "香港六合彩(信)",
+    "imgName": "129"
+}, {
+    "plateform": "GLI",
+    "gameType": "161",
+    "name": "世彩5分六合彩(信)",
+    "imgName": "161"
+}]
+
+var ELOTTOLotteryList = [{
+    "plateform": "ELOTTO",
+    "gameType": "TXFFC",
+    "name": "腾讯分分彩",
+    "imgName": "TXFFC"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "B2BCFFC",
+    "name": "天成分分彩",
+    "imgName": "B2BCFFC2"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "CQSSC",
+    "name": "重庆时时彩",
+    "imgName": "CQSSC"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "B2BCSSCC",
+    "name": "天成五分彩",
+    "imgName": "B2BCSSCC"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "XJSSC",
+    "name": "新疆时时彩",
+    "imgName": "XJSSC5"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "TCFFC",
+    "name": "天秤分分彩",
+    "imgName": "TCFFC"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "TCT5FC",
+    "name": "天蝎五分彩",
+    "imgName": "TCT5FC"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "B2BC11X5",
+    "name": "天成十一选五",
+    "imgName": "B2BC11X5"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "SD11X5",
+    "name": "山东十一选五",
+    "imgName": "SD11X5"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "JX11X5",
+    "name": "江西十一选五",
+    "imgName": "JX11X5"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "TC11X5",
+    "name": "双鱼11选5",
+    "imgName": "TC11X5"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "SH11X5",
+    "name": "上海十一选五",
+    "imgName": "SH11X5"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "FC3D",
+    "name": "福彩3D",
+    "imgName": "FC3D"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "TCP3P5",
+    "name": "体彩P3P5",
+    "imgName": "TCP3P5"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "HK6",
+    "name": "香港⑥合彩",
+    "imgName": "HK6"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "B2BCLHC",
+    "name": "天成六合彩",
+    "imgName": "B2BCLHC"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "B2BCPK10",
+    "name": "天成PK10",
+    "imgName": "B2BCPK10"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "BJPK10",
+    "name": "北京赛车PK10",
+    "imgName": "BJPK10"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "TCSPK10",
+    "name": "射手赛车",
+    "imgName": "TCSPK10"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "XYPK10",
+    "name": "幸运飞艇",
+    "imgName": "XYPK10"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "CA28",
+    "name": "加拿大28",
+    "imgName": "CA28"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "TW28",
+    "name": "台湾28",
+    "imgName": "TW28"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "B2BC28",
+    "name": "天成28",
+    "imgName": "B2BC28"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "BJLK28",
+    "name": "北京幸运28",
+    "imgName": "BJLK28"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "SHK3",
+    "name": "上海快三",
+    "imgName": "SHK3"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "B2BCK3",
+    "name": "天成快三",
+    "imgName": "B2BCK3"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "HUBK3",
+    "name": "湖北快三",
+    "imgName": "HUBK3"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "GXK3",
+    "name": "广西快三",
+    "imgName": "GXK3"
+}, {
+    "plateform": "ELOTTO",
+    "gameType": "TCSK3",
+    "name": "金牛快三",
+    "imgName": "TCSK3"
+}]
+
+var EGLotteryList = [{
+    "plateform": "EG",
+    "gameType": "1",
+    "name": "重庆时时彩",
+    "imgName": "1"
+}, {
+    "plateform": "EG",
+    "gameType": "2",
+    "name": "天津时时彩",
+    "imgName": "2"
+}, {
+    "plateform": "EG",
+    "gameType": "3",
+    "name": "新疆时时彩",
+    "imgName": "3"
+}, {
+    "plateform": "EG",
+    "gameType": "4",
+    "name": "俄罗斯1.5分彩",
+    "imgName": "4"
+}, {
+    "plateform": "EG",
+    "gameType": "5",
+    "name": "美国45秒彩",
+    "imgName": "5"
+}, {
+    "plateform": "EG",
+    "gameType": "7",
+    "name": "加拿大3.5分彩",
+    "imgName": "7"
+}, {
+    "plateform": "EG",
+    "gameType": "8",
+    "name": "新加坡2分彩",
+    "imgName": "8"
+}, {
+    "plateform": "EG",
+    "gameType": "9",
+    "name": "上海时时乐",
+    "imgName": "9"
+}, {
+    "plateform": "EG",
+    "gameType": "10",
+    "name": "分分彩",
+    "imgName": "10"
+}, {
+    "plateform": "EG",
+    "gameType": "11",
+    "name": "两分彩",
+    "imgName": "11"
+}, {
+    "plateform": "EG",
+    "gameType": "12",
+    "name": "腾讯分分彩",
+    "imgName": "12"
+}, {
+    "plateform": "EG",
+    "gameType": "13",
+    "name": "东京1.5分彩",
+    "imgName": "13"
+}, {
+    "plateform": "EG",
+    "gameType": "14",
+    "name": "新西兰45秒彩",
+    "imgName": "14"
+}, {
+    "plateform": "EG",
+    "gameType": "15",
+    "name": "广东11选5",
+    "imgName": "15"
+}, {
+    "plateform": "EG",
+    "gameType": "16",
+    "name": "广西11选5",
+    "imgName": "16"
+}, {
+    "plateform": "EG",
+    "gameType": "17",
+    "name": "福建11选5",
+    "imgName": "17"
+}, {
+    "plateform": "EG",
+    "gameType": "18",
+    "name": "山东11选5",
+    "imgName": "18"
+}, {
+    "plateform": "EG",
+    "gameType": "19",
+    "name": "安徽11选5",
+    "imgName": "19"
+}, {
+    "plateform": "EG",
+    "gameType": "20",
+    "name": "河南11选5",
+    "imgName": "20"
+}, {
+    "plateform": "EG",
+    "gameType": "21",
+    "name": "江西11选5",
+    "imgName": "21"
+}, {
+    "plateform": "EG",
+    "gameType": "22",
+    "name": "江苏11选5",
+    "imgName": "22"
+}, {
+    "plateform": "EG",
+    "gameType": "23",
+    "name": "极速11选5",
+    "imgName": "23"
+}, {
+    "plateform": "EG",
+    "gameType": "24",
+    "name": "上海11选5",
+    "imgName": "24"
+}, {
+    "plateform": "EG",
+    "gameType": "25",
+    "name": "湖北11选5",
+    "imgName": "25"
+}, {
+    "plateform": "EG",
+    "gameType": "26",
+    "name": "天津11选5",
+    "imgName": "26"
+}, {
+    "plateform": "EG",
+    "gameType": "27",
+    "name": "山西11选5",
+    "imgName": "27"
+}, {
+    "plateform": "EG",
+    "gameType": "28",
+    "name": "浙江11选5",
+    "imgName": "28"
+}, {
+    "plateform": "EG",
+    "gameType": "29",
+    "name": "吉林11选5",
+    "imgName": "29"
+}, {
+    "plateform": "EG",
+    "gameType": "30",
+    "name": "贵州11选5",
+    "imgName": "30"
+}, {
+    "plateform": "EG",
+    "gameType": "31",
+    "name": "内蒙古11选5",
+    "imgName": "31"
+}, {
+    "plateform": "EG",
+    "gameType": "32",
+    "name": "云南11选5",
+    "imgName": "32"
+}, {
+    "plateform": "EG",
+    "gameType": "33",
+    "name": "甘肃11选5",
+    "imgName": "33"
+}, {
+    "plateform": "EG",
+    "gameType": "34",
+    "name": "辽宁11选5",
+    "imgName": "34"
+}, {
+    "plateform": "EG",
+    "gameType": "35",
+    "name": "江苏快3",
+    "imgName": "35"
+}, {
+    "plateform": "EG",
+    "gameType": "36",
+    "name": "极速快3",
+    "imgName": "36"
+}, {
+    "plateform": "EG",
+    "gameType": "37",
+    "name": "上海快3",
+    "imgName": "37"
+}, {
+    "plateform": "EG",
+    "gameType": "38",
+    "name": "吉林快3",
+    "imgName": "38"
+}, {
+    "plateform": "EG",
+    "gameType": "39",
+    "name": "广西快3",
+    "imgName": "39"
+}, {
+    "plateform": "EG",
+    "gameType": "40",
+    "name": "安徽快3",
+    "imgName": "40"
+}, {
+    "plateform": "EG",
+    "gameType": "41",
+    "name": "福建快3",
+    "imgName": "41"
+}, {
+    "plateform": "EG",
+    "gameType": "42",
+    "name": "北京快3",
+    "imgName": "42"
+}, {
+    "plateform": "EG",
+    "gameType": "43",
+    "name": "河北快3",
+    "imgName": "43"
+}, {
+    "plateform": "EG",
+    "gameType": "44",
+    "name": "河南快3",
+    "imgName": "44"
+}, {
+    "plateform": "EG",
+    "gameType": "45",
+    "name": "内蒙古快3",
+    "imgName": "45"
+}, {
+    "plateform": "EG",
+    "gameType": "55",
+    "name": "重庆快乐十分",
+    "imgName": "55"
+}, {
+    "plateform": "EG",
+    "gameType": "56",
+    "name": "广东快乐十分",
+    "imgName": "56"
+}, {
+    "plateform": "EG",
+    "gameType": "57",
+    "name": "广西快乐十分",
+    "imgName": "57"
+}, {
+    "plateform": "EG",
+    "gameType": "58",
+    "name": "黑龙江快乐十分",
+    "imgName": "58"
+}, {
+    "plateform": "EG",
+    "gameType": "59",
+    "name": "湖南快乐十分",
+    "imgName": "59"
+}, {
+    "plateform": "EG",
+    "gameType": "60",
+    "name": "山西快乐十分",
+    "imgName": "60"
+}, {
+    "plateform": "EG",
+    "gameType": "61",
+    "name": "陕西快乐十分",
+    "imgName": "61"
+}, {
+    "plateform": "EG",
+    "gameType": "62",
+    "name": "天津快乐十分",
+    "imgName": "62"
+}, {
+    "plateform": "EG",
+    "gameType": "63",
+    "name": "极速快乐十分",
+    "imgName": "63"
+}, {
+    "plateform": "EG",
+    "gameType": "64",
+    "name": "广东番摊",
+    "imgName": "64"
+}, {
+    "plateform": "EG",
+    "gameType": "65",
+    "name": "双色球",
+    "imgName": "65"
+}, {
+    "plateform": "EG",
+    "gameType": "66",
+    "name": "七乐彩",
+    "imgName": "66"
+}, {
+    "plateform": "EG",
+    "gameType": "67",
+    "name": "必赢3D",
+    "imgName": "67"
+}, {
+    "plateform": "EG",
+    "gameType": "68",
+    "name": "福彩3D",
+    "imgName": "68"
+}, {
+    "plateform": "EG",
+    "gameType": "69",
+    "name": "排列三",
+    "imgName": "69"
+}, {
+    "plateform": "EG",
+    "gameType": "70",
+    "name": "排列五",
+    "imgName": "70"
+}, {
+    "plateform": "EG",
+    "gameType": "71",
+    "name": "七星彩",
+    "imgName": "71"
+}, {
+    "plateform": "EG",
+    "gameType": "72",
+    "name": "六合彩",
+    "imgName": "72"
+}, {
+    "plateform": "EG",
+    "gameType": "73",
+    "name": "极速六合彩",
+    "imgName": "73"
+}, {
+    "plateform": "EG",
+    "gameType": "74",
+    "name": "澳洲六合彩",
+    "imgName": "74"
+}, {
+    "plateform": "EG",
+    "gameType": "75",
+    "name": "10分六合彩",
+    "imgName": "75"
+}, {
+    "plateform": "EG",
+    "gameType": "76",
+    "name": "澳洲PK拾",
+    "imgName": "76"
+}, {
+    "plateform": "EG",
+    "gameType": "77",
+    "name": "新德里PK拾",
+    "imgName": "77"
+}, {
+    "plateform": "EG",
+    "gameType": "78",
+    "name": "济州岛PK拾",
+    "imgName": "78"
+}, {
+    "plateform": "EG",
+    "gameType": "79",
+    "name": "极速飞车",
+    "imgName": "79"
+}, {
+    "plateform": "EG",
+    "gameType": "80",
+    "name": "幸运飞艇",
+    "imgName": "80"
+}, {
+    "plateform": "EG",
+    "gameType": "81",
+    "name": "北京PK拾",
+    "imgName": "81"
+}, {
+    "plateform": "EG",
+    "gameType": "82",
+    "name": "北京快乐8",
+    "imgName": "82"
+}, {
+    "plateform": "EG",
+    "gameType": "83",
+    "name": "韩国快乐8",
+    "imgName": "83"
+}, {
+    "plateform": "EG",
+    "gameType": "84",
+    "name": "加拿大卑斯快乐8",
+    "imgName": "84"
+}, {
+    "plateform": "EG",
+    "gameType": "85",
+    "name": "加拿大西部快乐8",
+    "imgName": "85"
+}, {
+    "plateform": "EG",
+    "gameType": "86",
+    "name": "东京快乐8",
+    "imgName": "86"
+}, {
+    "plateform": "EG",
+    "gameType": "87",
+    "name": "新加坡快乐8",
+    "imgName": "87"
+}, {
+    "plateform": "EG",
+    "gameType": "88",
+    "name": "亚洲快乐8",
+    "imgName": "88"
+}, {
+    "plateform": "EG",
+    "gameType": "89",
+    "name": "台湾宾果",
+    "imgName": "89"
+}, {
+    "plateform": "EG",
+    "gameType": "90",
+    "name": "俄罗斯快乐8",
+    "imgName": "90"
+}, {
+    "plateform": "EG",
+    "gameType": "91",
+    "name": "澳洲快乐彩",
+    "imgName": "91"
+}, {
+    "plateform": "EG",
+    "gameType": "92",
+    "name": "丹麦快乐8",
+    "imgName": "92"
+}, {
+    "plateform": "EG",
+    "gameType": "93",
+    "name": "新西兰快乐8",
+    "imgName": "93"
+}, {
+    "plateform": "EG",
+    "gameType": "95",
+    "name": "幸运28",
+    "imgName": "95"
+}, {
+    "plateform": "EG",
+    "gameType": "96",
+    "name": "北京28",
+    "imgName": "96"
+}, {
+    "plateform": "EG",
+    "gameType": "97",
+    "name": "东京28",
+    "imgName": "97"
+}, {
+    "plateform": "EG",
+    "gameType": "98",
+    "name": "韩国28",
+    "imgName": "98"
+}, {
+    "plateform": "EG",
+    "gameType": "99",
+    "name": "加拿大卑诗28",
+    "imgName": "99"
+}, {
+    "plateform": "EG",
+    "gameType": "100",
+    "name": "加拿大西部28",
+    "imgName": "100"
+}, {
+    "plateform": "EG",
+    "gameType": "101",
+    "name": "丹麦28",
+    "imgName": "101"
+}, {
+    "plateform": "EG",
+    "gameType": "102",
+    "name": "台湾28",
+    "imgName": "102"
+}, {
+    "plateform": "EG",
+    "gameType": "103",
+    "name": "俄亥俄28",
+    "imgName": "103"
+}, {
+    "plateform": "EG",
+    "gameType": "104",
+    "name": "亚洲28",
+    "imgName": "104"
+}, {
+    "plateform": "EG",
+    "gameType": "105",
+    "name": "澳洲28",
+    "imgName": "105"
+}, {
+    "plateform": "EG",
+    "gameType": "106",
+    "name": "新加坡28",
+    "imgName": "106"
+}, {
+    "plateform": "EG",
+    "gameType": "107",
+    "name": "韩国1.5分彩",
+    "imgName": "107"
+}, {
+    "plateform": "EG",
+    "gameType": "108",
+    "name": "北京5分彩",
+    "imgName": "108"
+}, {
+    "plateform": "EG",
+    "gameType": "109",
+    "name": "台湾5分彩",
+    "imgName": "109"
+}, {
+    "plateform": "EG",
+    "gameType": "112",
+    "name": "埃及分分彩",
+    "imgName": "112"
+}, {
+    "plateform": "EG",
+    "gameType": "113",
+    "name": "埃及两分彩",
+    "imgName": "113"
+}, {
+    "plateform": "EG",
+    "gameType": "114",
+    "name": "极速番摊",
+    "imgName": "114"
+}, {
+    "plateform": "EG",
+    "gameType": "115",
+    "name": "黑龙江时时彩",
+    "imgName": "115"
+}, {
+    "plateform": "EG",
+    "gameType": "116",
+    "name": "云南时时彩",
+    "imgName": "116"
+}, {
+    "plateform": "EG",
+    "gameType": "117",
+    "name": "北京11选5",
+    "imgName": "117"
+}, {
+    "plateform": "EG",
+    "gameType": "118",
+    "name": "新疆11选5",
+    "imgName": "118"
+}, {
+    "plateform": "EG",
+    "gameType": "119",
+    "name": "云南快乐十分",
+    "imgName": "119"
+}, {
+    "plateform": "EG",
+    "gameType": "120",
+    "name": "江西快3",
+    "imgName": "120"
+}]
+
+var CBLotteryList = [{
+	"plateform": "CB",
+    "gameType": "cqssc",
+	"name": "重庆时时彩",
+	"imgName": "5"
+}, {
+	"plateform": "CB",
+    "gameType": "xjssc",
+	"name": "新疆时时彩",
+	"imgName": "6"
+}, {
+	"plateform": "CB",
+    "gameType": "tjssc",
+	"name": "天津时时彩",
+	"imgName": "7"
+}, {
+	"plateform": "CB",
+    "gameType": "sh11x5",
+	"name": "上海11选5",
+	"imgName": "8"
+}, {
+	"plateform": "CB",
+    "gameType": "ah11x5",
+	"name": "安徽11选5",
+	"imgName": "10"
+}, {
+	"plateform": "CB",
+    "gameType": "hlj11x5",
+	"name": "黑龙江11选5",
+	"imgName": "11"
+}, {
+	"plateform": "CB",
+    "gameType": "hub11x5",
+	"name": "湖北11选5",
+	"imgName": "12"
+}, {
+	"plateform": "CB",
+    "gameType": "jl11x5",
+	"name": "吉林11选5",
+	"imgName": "13"
+}, {
+	"plateform": "CB",
+    "gameType": "js11x5",
+	"name": "江苏11选5",
+	"imgName": "14"
+}, {
+	"plateform": "CB",
+    "gameType": "ln11x5",
+	"name": "辽宁11选5",
+	"imgName": "15"
+}, {
+	"plateform": "CB",
+    "gameType": "sc11x5",
+	"name": "四川11选5",
+	"imgName": "16"
+}, {
+	"plateform": "CB",
+    "gameType": "tj11x5",
+	"name": "天津11选5",
+	"imgName": "17"
+}, {
+	"plateform": "CB",
+    "gameType": "yn11x5",
+	"name": "云南11选5",
+	"imgName": "18"
+}, {
+	"plateform": "CB",
+    "gameType": "zj11x5",
+	"name": "浙江11选5",
+	"imgName": "19"
+}, {
+	"plateform": "CB",
+    "gameType": "jsk3",
+	"name": "江苏快三",
+	"imgName": "20"
+}, {
+	"plateform": "CB",
+    "gameType": "ahk3",
+	"name": "安徽快三",
+	"imgName": "21"
+}, {
+	"plateform": "CB",
+    "gameType": "hubk3",
+	"name": "湖北快三",
+	"imgName": "22"
+}, {
+	"plateform": "CB",
+    "gameType": "jlk3",
+	"name": "吉林快三",
+	"imgName": "23"
+}, {
+	"plateform": "CB",
+    "gameType": "shk3",
+	"name": "上海快三",
+	"imgName": "24"
+}, {
+	"plateform": "CB",
+    "gameType": "bjpk10",
+	"name": "北京PK10",
+	"imgName": "25"
+}, {
+	"plateform": "CB",
+    "gameType": "gd11x5",
+	"name": "广东11选5",
+	"imgName": "26"
+}, {
+	"plateform": "CB",
+    "gameType": "sd11x5",
+	"name": "山东11选5",
+	"imgName": "29"
+}, {
+	"plateform": "CB",
+    "gameType": "cqkl10f",
+	"name": "重庆快乐十分",
+	"imgName": "30"
+}, {
+	"plateform": "CB",
+    "gameType": "gdkl10f",
+	"name": "广东快乐十分",
+	"imgName": "31"
+}, {
+	"plateform": "CB",
+    "gameType": "tjkl10f",
+	"name": "天津快乐十分",
+	"imgName": "32"
+}, {
+	"plateform": "CB",
+    "gameType": "pcdd",
+	"name": "PC蛋蛋",
+	"imgName": "34"
+}, {
+	"plateform": "CB",
+    "gameType": "gpssc",
+	"name": "1.5分时时彩",
+	"imgName": "36"
+}, {
+	"plateform": "CB",
+    "gameType": "lhc",
+	"name": "六合彩",
+	"imgName": "35"
+}, {
+	"plateform": "CB",
+    "gameType": "3ssc",
+	"name": "3分时时彩",
+	"imgName": "37"
+}, {
+	"plateform": "CB",
+    "gameType": "gppk10",
+	"name": "1.5分PK10",
+	"imgName": "38"
+}, {
+	"plateform": "CB",
+    "gameType": "3pk10",
+	"name": "3分PK10",
+	"imgName": "39"
+}, {
+	"plateform": "CB",
+    "gameType": "5lhc",
+	"name": "5分六合彩",
+	"imgName": "40"
+}, {
+	"plateform": "CB",
+    "gameType": "qqffc",
+	"name": "QQ分分彩",
+	"imgName": "41"
+}, {
+	"plateform": "CB",
+    "gameType": "1fk3",
+	"name": "极速快三",
+	"imgName": "42"
+}, {
+	"plateform": "CB",
+    "gameType": "txffc",
+	"name": "腾讯分分彩",
+	"imgName": "43"
+}, {
+	"plateform": "CB",
+    "gameType": "xyftpk10",
+	"name": "幸运飞艇",
+	"imgName": "45"
+}]
+
+
+var VRLotteryList = [{ "plateform": "VR", "gameType": "1", "name": "VR 金星1.5 分彩", "imgName": "1" }
+    , { "plateform": "VR", "gameType": "2", "name": "VR 赛车", "imgName": "2" }
+    , { "plateform": "VR", "gameType": "11", "name": "VR3 分彩", "imgName": "11" }
+    //, { "plateform": "VR", "gameType": "12", "name": "VR火星5 分彩", "imgName": "12" }
+    , { "plateform": "VR", "gameType": "13", "name": "VR 快艇", "imgName": "13" }
+    , { "plateform": "VR", "gameType": "15", "name": "VR 百家乐", "imgName": "15" }
+    , { "plateform": "VR", "gameType": "16", "name": "VR六合彩", "imgName": "16" }
+    , { "plateform": "VR", "gameType": "3", "name": "重庆时时彩", "imgName": "3" }
+    , { "plateform": "VR", "gameType": "4", "name": "新疆时时彩", "imgName": "4" }
+    , { "plateform": "VR", "gameType": "5", "name": "天津时时彩", "imgName": "5" }
+    , { "plateform": "VR", "gameType": "6", "name": "广东11 选 5", "imgName": "6" }
+    , { "plateform": "VR", "gameType": "7", "name": "江西11 选 5", "imgName": "7" }
+    , { "plateform": "VR", "gameType": "8", "name": "北京赛车", "imgName": "8" }
+    , { "plateform": "VR", "gameType": "9", "name": "江苏快三", "imgName": "9" }
+    , { "plateform": "VR", "gameType": "10", "name": "幸运", "imgName": "10" }
+    , { "plateform": "VR", "gameType": "14", "name": "香港六合彩", "imgName": "14" }
+    , { "plateform": "VR", "gameType": "34", "name": "VR水星分分彩", "imgName": "34" }
+    , { "plateform": "VR", "gameType": "35", "name": "VR木星赛车", "imgName": "35" }
+    , { "plateform": "VR", "gameType": "39", "name": "VR11选5", "imgName": "39" }
+    , { "plateform": "VR", "gameType": "40", "name": "VR快三", "imgName": "40" }
+    , { "plateform": "VR", "gameType": "41", "name": "VR幸运28", "imgName": "41" }
+    , { "plateform": "VR", "gameType": "36", "name": "VR赛马", "imgName": "36" }
+    , { "plateform": "VR", "gameType": "37", "name": "VR游泳", "imgName": "37" }
+    , { "plateform": "VR", "gameType": "38", "name": "VR自行车", "imgName": "38" }
+    , { "plateform": "VR", "gameType": "17", "name": "云南时时彩", "imgName": "17" }
+    , { "plateform": "VR", "gameType": "18", "name": "上海 11 选 5", "imgName": "18" }
+    , { "plateform": "VR", "gameType": "19", "name": "山东 11 选 5", "imgName": "19" }
+    , { "plateform": "VR", "gameType": "20", "name": "新疆 11 选 5", "imgName": "20" }
+    , { "plateform": "VR", "gameType": "21", "name": "江苏 11 选 5", "imgName": "21" }
+    , { "plateform": "VR", "gameType": "22", "name": "辽宁 11 选 5", "imgName": "22" }
+    , { "plateform": "VR", "gameType": "23", "name": "河北 11 选 5", "imgName": "23" }
+    , { "plateform": "VR", "gameType": "26", "name": "吉林快三", "imgName": "26" }
+    , { "plateform": "VR", "gameType": "27", "name": "北京快三", "imgName": "27" }
+    , { "plateform": "VR", "gameType": "29", "name": "广西快三", "imgName": "29" }
+    , { "plateform": "VR", "gameType": "30", "name": "河南快三", "imgName": "30" }
+    , { "plateform": "VR", "gameType": "31", "name": "湖北快三", "imgName": "31" }
+    , { "plateform": "VR", "gameType": "32", "name": "河北快三", "imgName": "32" }
+    , { "plateform": "VR", "gameType": "33", "name": "内蒙古快三", "imgName": "33" }
+]
+
+var LBLotteryList = [
+    { "plateform": "LB", "gameType": "", "name": "LB彩票大厅", "imgName": "lb" }
+]
+
+var YCLotteryList = [
+    { "plateform": "YC", "gameType": "", "gameId": "CQSSC", "name": "重庆时时彩", "imgName": "CQSSC" },
+    { "plateform": "YC", "gameType": "", "gameId": "BJKL8", "name": "北京快乐8", "imgName": "BJKL8" },
+    { "plateform": "YC", "gameType": "", "gameId": "CQKLSF", "name": "重庆幸运农场", "imgName": "CQKLSF" },
+    { "plateform": "YC", "gameType": "", "gameId": "MLAFT", "name": "幸运飞艇", "imgName": "MLAFT" },
+    { "plateform": "YC", "gameType": "", "gameId": "BJPK10", "name": "北京PK拾", "imgName": "BJPK10" },
+    { "plateform": "YC", "gameType": "", "gameId": "JSSC", "name": "极速赛车", "imgName": "JSSC" },
+    { "plateform": "YC", "gameType": "", "gameId": "JSCQ", "name": "极速时时彩", "imgName": "JSCQ" },
+    { "plateform": "YC", "gameType": "", "gameId": "GD11X5", "name": "广东11选5", "imgName": "GD11X5" },
+    { "plateform": "YC", "gameType": "", "gameId": "GDKLSF", "name": "广东快乐十分", "imgName": "GDKLSF" },
+    { "plateform": "YC", "gameType": "", "gameId": "HK6", "name": "六合彩", "imgName": "HK6" },
+    { "plateform": "YC", "gameType": "", "gameId": "XY28", "name": "幸运28", "imgName": "XY28" },
+    { "plateform": "YC", "gameType": "", "gameId": "FC3D", "name": "福彩3D", "imgName": "FC3D" },
+    { "plateform": "YC", "gameType": "", "gameId": "AOZXY5", "name": "澳洲幸运5", "imgName": "AOZXY5" }
+]
+
+var BBLotteryList = [
+    { "plateform": "BB", "gameType": "Ltlottery", "name": "BB彩票大厅", "imgName": "bb" }
+]
+
+var BGLotteryList = [
+    { "plateform": "BG", "gameType": "CP", "gameId": "1001", "name": "重庆时时彩", "imgName": "lottery_1001" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1003", "name": "新疆时时彩", "imgName": "lottery_1003" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1004", "name": "天津时时彩", "imgName": "lottery_1004" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1006", "name": "秒秒时时彩", "imgName": "lottery_1006" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1007", "name": "2分时时彩", "imgName": "lottery_1007" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1008", "name": "5分时时彩", "imgName": "lottery_1007" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1018", "name": "分分时时彩", "imgName": "lottery_1018" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1020", "name": "十分时时彩", "imgName": "lottery_1007" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1026", "name": "澳洲幸运5", "imgName": "lottery_1026" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1027", "name": "河内5分彩", "imgName": "lottery_1027" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1021", "name": "QQ分分彩", "imgName": "lottery_1021" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1022", "name": "北京5分彩", "imgName": "lottery_1022" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1023", "name": "斯洛伐克5分彩", "imgName": "lottery_1023" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1024", "name": "加拿大3.5分彩", "imgName": "lottery_1024" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1025", "name": "腾讯分分彩", "imgName": "lottery_1025" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1401", "name": "北京赛车", "imgName": "lottery_1401" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1404", "name": "2分PK10", "imgName": "lottery_1404" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1405", "name": "5分PK10", "imgName": "lottery_1405" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1418", "name": "分分PK10", "imgName": "lottery_1418" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1420", "name": "十分赛车", "imgName": "lottery_1420" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1426", "name": "澳洲幸运10", "imgName": "lottery_1426" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1501", "name": "北京28", "imgName": "lottery_1501" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1502", "name": "加拿大28", "imgName": "lottery_1502" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1503", "name": "斯洛伐克28", "imgName": "lottery_1503" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1561", "name": "北京幸运28", "imgName": "lottery_1561" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1516", "name": "5分28", "imgName": "lottery_1516" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1517", "name": "3分28", "imgName": "lottery_1517" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1518", "name": "分分28", "imgName": "lottery_1518" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1652", "name": "加拿大幸运28", "imgName": "lottery_1502" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1201", "name": "安徽快3", "imgName": "lottery_1201" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1202", "name": "江苏快3", "imgName": "lottery_1202" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1203", "name": "吉林快3", "imgName": "lottery_1203" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1205", "name": "2分快3", "imgName": "lottery_1205" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1206", "name": "湖北快3", "imgName": "lottery_1206" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1207", "name": "贵州快3", "imgName": "lottery_1207" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1208", "name": "上海快3", "imgName": "lottery_1208" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1209", "name": "广西快3", "imgName": "lottery_1220" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1210", "name": "甘肃快3", "imgName": "lottery_1210" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1211", "name": "北京快3", "imgName": "lottery_1220" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1212", "name": "河北快3", "imgName": "lottery_1212" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1213", "name": "5分快3", "imgName": "lottery_1213" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1218", "name": "分分快3", "imgName": "lottery_1218" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1220", "name": "十分快3", "imgName": "lottery_1220" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "2001", "name": "香港六合彩", "imgName": "lottery_2001" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "2003", "name": "5分六合彩", "imgName": "lottery_2003" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "2018", "name": "3分六合彩", "imgName": "lottery_2018" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1101", "name": "广东11选5", "imgName": "lottery_1101" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1102", "name": "江西11选5", "imgName": "lottery_1102" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1103", "name": "上海11选5", "imgName": "lottery_1103" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1104", "name": "山东11选5", "imgName": "lottery_1104" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1105", "name": "湖北11选5", "imgName": "lottery_1105" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1301", "name": "幸运农场", "imgName": "lottery_1301" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1302", "name": "广东快乐十分", "imgName": "lottery_1302" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1303", "name": "湖南快乐十分", "imgName": "lottery_1303" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "2101", "name": "北京快乐8", "imgName": "lottery_2101" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "2102", "name": "加拿大快乐8", "imgName": "lottery_2102" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "2103", "name": "台湾缤果", "imgName": "lottery_2103" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "2104", "name": "斯洛伐克快乐8", "imgName": "lottery_2104" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1801", "name": "福彩3D", "imgName": "lottery_1801" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1901", "name": "排列3", "imgName": "lottery_1901" },
+    { "plateform": "BG", "gameType": "CP", "gameId": "1601", "name": "上海时时乐", "imgName": "lottery_1601" }]
+
+var CSLotteryList = [
+    { "plateform": "CS", "gameType": "4", "name": "北京赛车(PK10)", "imgName": "4" },
+    { "plateform": "CS", "gameType": "36", "name": "腾讯分分彩", "imgName": "36" },
+    { "plateform": "CS", "gameType": "24", "name": "极速赛车", "imgName": "24" },
+    { "plateform": "CS", "gameType": "17", "name": "极速飞艇", "imgName": "17" },
+    { "plateform": "CS", "gameType": "20", "name": "两分彩", "imgName": "20" },
+    { "plateform": "CS", "gameType": "2", "name": "重庆时时彩", "imgName": "2" },
+    { "plateform": "CS", "gameType": "21", "name": "极速时时彩", "imgName": "21" },
+    { "plateform": "CS", "gameType": "56", "name": "澳门PK10", "imgName": "56" },
+    { "plateform": "CS", "gameType": "58", "name": "东京PK10", "imgName": "58" },
+    { "plateform": "CS", "gameType": "50", "name": "QQ分分彩", "imgName": "50" },
+    { "plateform": "CS", "gameType": "51", "name": "微信分分彩", "imgName": "51" },
+    { "plateform": "CS", "gameType": "55", "name": "抖音分分彩", "imgName": "55" },
+    { "plateform": "CS", "gameType": "52", "name": "王者荣耀时时彩", "imgName": "52" },
+    { "plateform": "CS", "gameType": "54", "name": "英雄联盟时时彩", "imgName": "54" },
+    { "plateform": "CS", "gameType": "15", "name": "微信五分彩", "imgName": "15" },
+    { "plateform": "CS", "gameType": "57", "name": "台湾PK10", "imgName": "57" },
+    { "plateform": "CS", "gameType": "8", "name": "幸运飞艇", "imgName": "8" },
+    { "plateform": "CS", "gameType": "26", "name": "极速PC蛋蛋", "imgName": "26" },
+    { "plateform": "CS", "gameType": "12", "name": "PC蛋蛋", "imgName": "12" },
+    { "plateform": "CS", "gameType": "42", "name": "丹麦28", "imgName": "42" },
+    { "plateform": "CS", "gameType": "3", "name": "广东快乐十分", "imgName": "3" },
+    { "plateform": "CS", "gameType": "60", "name": "黑龙江时时彩", "imgName": "60" },
+    { "plateform": "CS", "gameType": "59", "name": "云南时时彩", "imgName": "59" },
+    { "plateform": "CS", "gameType": "7", "name": "天津时时彩", "imgName": "7" },
+    { "plateform": "CS", "gameType": "1", "name": "北京快乐8", "imgName": "1" },
+    { "plateform": "CS", "gameType": "9", "name": "福彩3D", "imgName": "9" },
+    { "plateform": "CS", "gameType": "10", "name": "体彩排列三", "imgName": "10" },
+    { "plateform": "CS", "gameType": "27", "name": "澳洲幸运5", "imgName": "27" },
+    { "plateform": "CS", "gameType": "28", "name": "重庆时时彩", "imgName": "28" },
+    { "plateform": "CS", "gameType": "29", "name": "澳洲幸运10", "imgName": "29" },
+    { "plateform": "CS", "gameType": "30", "name": "澳洲幸运20", "imgName": "30" },
+    { "plateform": "CS", "gameType": "6", "name": "江苏快三", "imgName": "6" },
+    { "plateform": "CS", "gameType": "33", "name": "广西快三", "imgName": "33" },
+    { "plateform": "CS", "gameType": "31", "name": "福建快三", "imgName": "31" },
+    { "plateform": "CS", "gameType": "37", "name": "甘肃快三", "imgName": "37" },
+    { "plateform": "CS", "gameType": "39", "name": "安徽快三", "imgName": "39" },
+    { "plateform": "CS", "gameType": "40", "name": "湖北快三", "imgName": "40" },
+    { "plateform": "CS", "gameType": "41", "name": "北京快三", "imgName": "41" },
+    { "plateform": "CS", "gameType": "61", "name": "内蒙古快三", "imgName": "61" },
+    { "plateform": "CS", "gameType": "62", "name": "上海快三", "imgName": "62" },
+    { "plateform": "CS", "gameType": "63", "name": "吉林快三", "imgName": "63" },
+    { "plateform": "CS", "gameType": "64", "name": "河北快三", "imgName": "64" },
+    { "plateform": "CS", "gameType": "65", "name": "安徽11选5", "imgName": "65" },
+    { "plateform": "CS", "gameType": "66", "name": "北京11选5", "imgName": "66" },
+    { "plateform": "CS", "gameType": "67", "name": "福建11选5", "imgName": "67" },
+    { "plateform": "CS", "gameType": "68", "name": "甘肃11选5", "imgName": "68" },
+    { "plateform": "CS", "gameType": "69", "name": "广西11选5", "imgName": "69" },
+    { "plateform": "CS", "gameType": "70", "name": "贵州11选5", "imgName": "70" },
+    { "plateform": "CS", "gameType": "71", "name": "河北11选5", "imgName": "71" },
+    { "plateform": "CS", "gameType": "72", "name": "黑龙江11选5", "imgName": "72" },
+    { "plateform": "CS", "gameType": "73", "name": "湖北11选5", "imgName": "73" },
+    { "plateform": "CS", "gameType": "74", "name": "吉林11选5", "imgName": "74" },
+    { "plateform": "CS", "gameType": "75", "name": "江苏11选5", "imgName": "75" },
+    { "plateform": "CS", "gameType": "76", "name": "江西11选5", "imgName": "76" },
+    { "plateform": "CS", "gameType": "77", "name": "辽宁11选5", "imgName": "77" },
+    { "plateform": "CS", "gameType": "78", "name": "内蒙古11选5", "imgName": "78" },
+    { "plateform": "CS", "gameType": "79", "name": "山东11选5", "imgName": "79" },
+    { "plateform": "CS", "gameType": "80", "name": "上海11选5", "imgName": "80" },
+    { "plateform": "CS", "gameType": "81", "name": "陕西11选5", "imgName": "81" },
+    { "plateform": "CS", "gameType": "82", "name": "天津11选5", "imgName": "82" },
+    { "plateform": "CS", "gameType": "83", "name": "新疆11选5", "imgName": "83" },
+    { "plateform": "CS", "gameType": "84", "name": "云南11选5", "imgName": "84" },
+    { "plateform": "CS", "gameType": "85", "name": "浙江11选5", "imgName": "85" },
+    { "plateform": "CS", "gameType": "35", "name": "广东11选5", "imgName": "35" }
+]
+
+var FHLotteryList = [
+    { "plateform": "FH", "name": "凤凰彩票大厅", "imgName": "fh" }
+]
+
+var CFXCLotteryList = [
+    { "plateform": "CFXC", "name": "猜涨跌大厅", "imgName": "CFXC" }
+]
+
+var CFXYLotteryList = [
+    { "plateform": "CFXY", "name": "预言家大厅", "imgName": "CFXY" }
+]
+
+var YGCPLotteryList = [
+    { "plateform": "YGCP", "gameType": "CQSSC", "name": "重庆时时彩", "imgName": "CQSSC" },
+    { "plateform": "YGCP", "gameType": "XJSSC", "name": "新疆时时彩", "imgName": "XJSSC" },
+    { "plateform": "YGCP", "gameType": "TJSSC", "name": "天津时时彩", "imgName": "TJSSC" },
+    { "plateform": "YGCP", "gameType": "FFC", "name": "分分彩", "imgName": "FFC" },
+    { "plateform": "YGCP", "gameType": "EFC", "name": "二分彩", "imgName": "EFC" },
+    { "plateform": "YGCP", "gameType": "WFC", "name": "五分彩", "imgName": "WFC" },
+    { "plateform": "YGCP", "gameType": "BJSC", "name": "北京赛车", "imgName": "BJSC" },
+    { "plateform": "YGCP", "gameType": "XYFT", "name": "幸运飞艇", "imgName": "XYFT" },
+    { "plateform": "YGCP", "gameType": "FKSC", "name": "疯狂赛车", "imgName": "FKSC" },
+    { "plateform": "YGCP", "gameType": "SFSC", "name": "幸运赛车", "imgName": "SFSC" },
+    { "plateform": "YGCP", "gameType": "JSK3", "name": "江苏快三", "imgName": "JSK3" },
+    { "plateform": "YGCP", "gameType": "AHK3", "name": "安徽快三", "imgName": "AHK3" },
+    { "plateform": "YGCP", "gameType": "HUBK3", "name": "湖北快三", "imgName": "HUBK3" },
+    { "plateform": "YGCP", "gameType": "HEBK3", "name": "河北快三", "imgName": "HEBK3" },
+    { "plateform": "YGCP", "gameType": "GXK3", "name": "广西快三", "imgName": "GXK3" },
+    { "plateform": "YGCP", "gameType": "SHHK3", "name": "上海快三", "imgName": "SHHK3" },
+    { "plateform": "YGCP", "gameType": "BJK3", "name": "北京快三", "imgName": "BJK3" },
+    { "plateform": "YGCP", "gameType": "JXK3", "name": "江西快三", "imgName": "JXK3" },
+    { "plateform": "YGCP", "gameType": "GSK3", "name": "甘肃快三", "imgName": "GSK3" },
+    { "plateform": "YGCP", "gameType": "JLK3", "name": "吉林快三", "imgName": "JLK3" },
+    { "plateform": "YGCP", "gameType": "FFK3", "name": "极速快三", "imgName": "FFK3" },
+    { "plateform": "YGCP", "gameType": "WFK3", "name": "幸运快三", "imgName": "WFK3" },
+    { "plateform": "YGCP", "gameType": "SH11X5", "name": "上海11选5", "imgName": "SH11X5" },
+    { "plateform": "YGCP", "gameType": "JX11X5", "name": "江西11选5", "imgName": "JX11X5" },
+    { "plateform": "YGCP", "gameType": "SD11X5", "name": "山东11选5", "imgName": "SD11X5" },
+    { "plateform": "YGCP", "gameType": "GD11X5", "name": "广东11选5", "imgName": "GD11X5" },
+    { "plateform": "YGCP", "gameType": "LHC", "name": "六合彩", "imgName": "LHC" },
+    { "plateform": "YGCP", "gameType": "SFLHC", "name": "十分六合彩", "imgName": "SFLHC" },
+    { "plateform": "YGCP", "gameType": "WFLHC", "name": "五分六合彩", "imgName": "WFLHC" },
+    { "plateform": "YGCP", "gameType": "PCEGG", "name": "PC蛋蛋", "imgName": "PCEGG" },
+    { "plateform": "YGCP", "gameType": "JND28", "name": "加拿大28", "imgName": "JND28" },
+    { "plateform": "YGCP", "gameType": "FF28", "name": "极速28", "imgName": "FF28" },
+    { "plateform": "YGCP", "gameType": "PL3", "name": "排列三", "imgName": "PL3" },
+    { "plateform": "YGCP", "gameType": "FC3D", "name": "福彩3D", "imgName": "FC3D" },
+    { "plateform": "YGCP", "gameType": "JS3D", "name": "极速3D", "imgName": "JS3D" },
+    { "plateform": "YGCP", "gameType": "HNKLSF", "name": "湖南快十", "imgName": "HNKLSF" },
+    { "plateform": "YGCP", "gameType": "GDKLSF", "name": "广东快十", "imgName": "GDKLSF" },
+    { "plateform": "YGCP", "gameType": "CQXYNC", "name": "幸运农场", "imgName": "CQXYNC" },
+
+    //{ "plateform": "YGCP", "gameType": "LBJSC", "name": "老北京赛车", "imgName": "LBJSC" },
+    //{ "plateform": "YGCP", "gameType": "LQCSSC", "name": "老重庆时时彩", "imgName": "LQCSSC" },
+    //{ "plateform": "YGCP", "gameType": "TFSC", "name": "十分赛车", "imgName": "TFSC" },
+    //{ "plateform": "YGCP", "gameType": "WFFT", "name": "五分飞艇", "imgName": "WFFT" },
+    //{ "plateform": "YGCP", "gameType": "SF11X5", "name": "三分11选5", "imgName": "SF11X5" },
+    //{ "plateform": "YGCP", "gameType": "WF11X5", "name": "五分11选5", "imgName": "WF11X5" },
+    //{ "plateform": "YGCP", "gameType": "TF11X5", "name": "十分11选5", "imgName": "TF11X5" },
+    //{ "plateform": "YGCP", "gameType": "AMFC", "name": "澳门极速彩", "imgName": "AMFC" },
+    //{ "plateform": "YGCP", "gameType": "XGFC", "name": "香港极速彩", "imgName": "XGFC" },
+    //{ "plateform": "YGCP", "gameType": "SFC", "name": "三分彩", "imgName": "SFC" },
+    //{ "plateform": "YGCP", "gameType": "TFC", "name": "十分彩", "imgName": "TFC" },
+    //{ "plateform": "YGCP", "gameType": "SLHC", "name": "三分六合彩", "imgName": "SLHC" },
+    //{ "plateform": "YGCP", "gameType": "FFLHC", "name": "极速六合彩", "imgName": "FFLHC" },
+    //{ "plateform": "YGCP", "gameType": "TFK3", "name": "十分快三", "imgName": "TFK3" },
+    //{ "plateform": "YGCP", "gameType": "SFK3", "name": "三分快三", "imgName": "SFK3" },
+    //{ "plateform": "YGCP", "gameType": "SF28", "name": "三分28", "imgName": "SF28" },
+    //{ "plateform": "YGCP", "gameType": "WF28", "name": "五分28", "imgName": "WF28" },
+    //{ "plateform": "YGCP", "gameType": "KL3F", "name": "快乐3分", "imgName": "KL3F" },
+    //{ "plateform": "YGCP", "gameType": "KL5F", "name": "快乐5分", "imgName": "KL5F" },
+    //{ "plateform": "YGCP", "gameType": "KLTF", "name": "快乐10分", "imgName": "KLTF" }
+]
+
+var GGCPLotteryList = [
+    { "plateform": "GGCP", "gameId": "cqssc", "name": "重庆时时彩", "imgName": "127" },
+    { "plateform": "GGCP", "gameId": "xjssc", "name": "新疆时时彩", "imgName": "126" },
+    { "plateform": "GGCP", "gameId": "hljssc", "name": "黑龙江时时彩", "imgName": "125" },
+    { "plateform": "GGCP", "gameId": "bjssc", "name": "北京时时彩", "imgName": "124" },
+    { "plateform": "GGCP", "gameId": "hkjssc", "name": "香港时时彩", "imgName": "122" },
+    { "plateform": "GGCP", "gameId": "m3jssc", "name": "三分时时彩", "imgName": "121" },
+    { "plateform": "GGCP", "gameId": "sd11x5", "name": "山东11选5", "imgName": "110" },
+    { "plateform": "GGCP", "gameId": "jx11x5", "name": "江西11选5", "imgName": "109" },
+    { "plateform": "GGCP", "gameId": "gd11x5", "name": "广东11选5", "imgName": "108" },
+    { "plateform": "GGCP", "gameId": "bjk8", "name": "北京快乐8", "imgName": "4" },
+    { "plateform": "GGCP", "gameId": "bjpk10", "name": "北京PK10", "imgName": "5" },
+    { "plateform": "GGCP", "gameId": "jsk3", "name": "江苏快3", "imgName": "99" },
+    { "plateform": "GGCP", "gameId": "ahk3", "name": "安徽快3", "imgName": "100" },
+    { "plateform": "GGCP", "gameId": "tcp3", "name": "体彩P3", "imgName": "3" },
+    { "plateform": "GGCP", "gameId": "bj28", "name": "幸运28", "imgName": "6" },
+    { "plateform": "GGCP", "gameId": "ca28", "name": "加拿大28", "imgName": "7" },
+    { "plateform": "GGCP", "gameId": "six", "name": "香港六合彩", "imgName": "20" },
+    { "plateform": "GGCP", "gameId": "m5six", "name": "极速六合彩", "imgName": "21" },
+    { "plateform": "GGCP", "gameId": "sh11x5", "name": "上海11选5", "imgName": "107" },
+    { "plateform": "GGCP", "gameId": "ah11x5", "name": "安徽11选5", "imgName": "106" },
+    { "plateform": "GGCP", "gameId": "js11x5", "name": "江苏11选5", "imgName": "105" },
+    { "plateform": "GGCP", "gameId": "m111x5", "name": "分分11选5", "imgName": "101" },
+    { "plateform": "GGCP", "gameId": "cwkeno", "name": "加拿大西部快乐8", "imgName": "8" },
+    { "plateform": "GGCP", "gameId": "mlaft", "name": "马耳他幸运飞艇", "imgName": "9" },
+    { "plateform": "GGCP", "gameId": "FF28", "name": "台湾宾果", "imgName": "10" },
+    { "plateform": "GGCP", "gameId": "cwkeno28", "name": "加拿大西部幸运28", "imgName": "30" },
+    { "plateform": "GGCP", "gameId": "mlaft28", "name": "马耳他幸运28", "imgName": "31" },
+    { "plateform": "GGCP", "gameId": "twbingo28", "name": "台湾宾果幸运28", "imgName": "32" },
+    { "plateform": "GGCP", "gameId": "m1pk10", "name": "极速pk10", "imgName": "33" },
+    { "plateform": "GGCP", "gameId": "jsft", "name": "极速飞艇", "imgName": "34" },
+    { "plateform": "GGCP", "gameId": "slovakk8", "name": "斯洛伐克快乐8", "imgName": "35" },
+    { "plateform": "GGCP", "gameId": "tokyok8", "name": "东京快乐8", "imgName": "36" },
+
+    //{ "plateform": "GGCP", "gameId": "slovak28", "name": "斯洛伐克28", "imgName": "sssss" },
+    //{ "plateform": "GGCP", "gameId": "tokyok28", "name": "东京28", "imgName": "dddd" },
+    { "plateform": "GGCP", "gameId": "ln11x5", "name": "辽宁11选5", "imgName": "103" },
+    { "plateform": "GGCP", "gameId": "shk3", "name": "上海快3", "imgName": "97" },
+    //{ "plateform": "GGCP", "gameId": "xjp28", "name": "新加坡28", "imgName": "dsss" },
+    //{ "plateform": "GGCP", "gameId": "hffc", "name": "韩国1.5分彩", "imgName": "JXK3" },
+    //{ "plateform": "GGCP", "gameId": "h8", "name": "韩国快乐8", "imgName": "GSK3" },
+    { "plateform": "GGCP", "gameId": "m1k3", "name": "分分快三", "imgName": "98" },
+    { "plateform": "GGCP", "gameId": "b3d", "name": "福彩3D", "imgName": "2" },
+    //{ "plateform": "GGCP", "gameId": "tjssc", "name": "天津时时彩", "imgName": "TJSSC" },
+
+    { "plateform": "GGCP", "gameId": "m1hk", "name": "香港分分彩", "imgName": "120" },
+    { "plateform": "GGCP", "gameId": "m1js", "name": "极速1分彩", "imgName": "119" },
+    { "plateform": "GGCP", "gameId": "s30canada", "name": "加拿大30秒彩", "imgName": "118" },
+    { "plateform": "GGCP", "gameId": "s30js", "name": "极速30秒彩", "imgName": "117" },
+    { "plateform": "GGCP", "gameId": "m1s30tokyo", "name": "东京1.5分彩", "imgName": "116" },
+    { "plateform": "GGCP", "gameId": "m5cwkeno", "name": "加拿大5分彩", "imgName": "115" },
+    { "plateform": "GGCP", "gameId": "m5tw", "name": "台湾5分彩", "imgName": "114" },
+    { "plateform": "GGCP", "gameId": "m5slovak", "name": "斯洛伐克5分彩", "imgName": "113" },
+    { "plateform": "GGCP", "gameId": "cqxync", "name": "重庆幸运农场", "imgName": "50" },
+    { "plateform": "GGCP", "gameId": "gdk10", "name": "广东快乐十分", "imgName": "51" },
+    { "plateform": "GGCP", "gameId": "hnk10", "name": "湖南快乐十分", "imgName": "52" },
+    { "plateform": "GGCP", "gameId": "tjk10", "name": "天津快乐十分", "imgName": "53" },
+    { "plateform": "GGCP", "gameId": "sxk10", "name": "山西快乐十分", "imgName": "54" },
+    { "plateform": "GGCP", "gameId": "nyssc", "name": "南阳时时彩", "imgName": "112" },
+    { "plateform": "GGCP", "gameId": "ms11x5", "name": "秒速11选5", "imgName": "104" },
+    //{ "plateform": "GGCP", "gameId": "txffc", "name": "腾讯分分彩", "imgName": "" },
+    //{ "plateform": "GGCP", "gameId": "qqffc", "name": "QQ分分彩", "imgName": "" },
+    { "plateform": "GGCP", "gameId": "nyffc", "name": "南洋分分彩", "imgName": "26" },
+]

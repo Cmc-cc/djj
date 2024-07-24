@@ -1,0 +1,67 @@
+﻿/****************彩票**********/
+#indexLottery li[plateform="LB"] i {
+    background: url(../images/lottery/LB.png) no-repeat;
+    background-size:cover;
+}
+#indexLottery li[plateform="BB"] i {
+    background: url(../images/lottery/BB.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="CB"] i {
+    background: url(../images/lottery/CB.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="EG"] i {
+    background: url(../images/lottery/EG.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="ELOTTO"] i {
+    background: url(../images/lottery/ELOTTO.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="GLI"] i {
+    background: url(../images/lottery/GLI.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="IG"] i {
+    background: url(../images/lottery/IG.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="IG6"] i {
+    background: url(../images/lottery/IG6.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="IGGFC"] i {
+    background: url(../images/lottery/IGGFC.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="IGA"] i {
+    background: url(../images/lottery/IGA.png) no-repeat;
+    background-size: cover;
+}
+
+#indexLottery li[plateform="IGA6"] i {
+    background: url(../images/lottery/IGA6.png) no-repeat;
+    background-size: cover;
+}
+
+#indexLottery li[plateform="IGAGFC"] i {
+    background: url(../images/lottery/IGAGFC.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="VR"] i {
+    background: url(../images/lottery/VR.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="YC"] i {
+    background: url(../images/lottery/YC.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="BG"] i {
+    background: url(../images/lottery/BG.png) no-repeat;
+    background-size: cover;
+}
+#indexLottery li[plateform="CS"] i {
+    background: url(../images/lottery/cs.png) no-repeat;
+    background-size: cover;
+}

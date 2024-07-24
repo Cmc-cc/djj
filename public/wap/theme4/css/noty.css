@@ -1,0 +1,14 @@
+/* CSS Document */
+
+.myTheme.noty_container_type_error .noty_text,.myTheme.noty_container_type_success .noty_text,.myTheme .noty_close{background:url(/images/noty_icon.png) no-repeat;}
+.myTheme { overflow: hidden; border: 1px solid #aaa; box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1); position: relative; border-radius:5px; font-size:14px;}
+.myTheme{font-weight:bold; background-color:#fff; color:#333;}
+.myTheme.noty_container_type_error .noty_text{background-position:0 -165px; padding-left:26px; height:18px; line-height:18px; display:block;}
+.myTheme.noty_container_type_success .noty_text{background-position:0 -88px; padding-left:26px; height:18px; line-height:18px; display:block;}
+.myTheme.noty_container_type_alert { background-color: #f5f5f5; }
+.myTheme.noty_container_type_information { background-color: #bbe1e8; }
+.myTheme.noty_container_type_warning { background-color: #fbb450; color: #fff; }
+.myTheme .noty_message { padding: 25px 30px; }
+.myTheme .noty_close { position: absolute; top: 10px; right: 10px; background-position:0 -250px; width: 14px; height: 14px; visibility: hidden; opacity: 0.5; cursor: pointer;}
+.myTheme:hover > .noty_bar > .noty_message > .noty_close { visibility: visible; }
+.noty_modal.myTheme { position: fixed; width: 100%; height: 100%; background-color: #000; z-index: 10000; opacity: 0.6; display: none; border: none; left: 0; top: 0 }

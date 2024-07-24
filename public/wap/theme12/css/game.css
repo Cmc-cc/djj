@@ -1,0 +1,111 @@
+﻿.gameView .ptgame-content {
+    min-height: 450px;
+    padding-bottom: .5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-flex: 1;
+    flex: 1;
+}
+[clearfix]::before, [clearfix]::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.gameView .ptgame-content .ptgame-item {
+    margin-left: 2.3%;
+    margin-top: .5rem;
+}
+
+.gameView .ptgame-content .ptgame-item {
+    background-color: #fff;
+    width: 30%;
+    padding-top: .4rem;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    font-size: .373333rem;
+    border-radius: .533333rem;
+}
+    .gameView .ptgame-content .ptgame-item img {
+        width: 2.346667rem;
+        min-height: 88px;
+        min-width: 88px;
+    }
+    .gameView .ptgame-content .ptgame-item .text[data-v-38c8ad3c] {
+        color: #8b9096;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        font-size: 15px;
+    }
+
+    .gameView .ptgame-content .ptgame-item > p {
+        padding: 0 5px 0 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+.gameView.view div .van-search {
+    background: rgba(219, 221, 223, 0.71);
+}
+
+.gameView .van-search {
+    padding: 0;
+    height: 3rem;
+    line-height: 1rem;
+    padding: 5px 8px;
+}
+.van-search .van-cell {
+    -ms-flex: 1;
+    flex: 1;
+    padding: .04286rem .14286rem;
+    border-radius: .05714rem;
+}
+
+.gameView .van-cell {
+    height: 2.7rem;
+    line-height: 1.7rem;
+    /* padding-left: .533333rem; */
+}
+.gameView .van-search .van-icon-search {
+    width: 24px;
+    height: 24px;
+    font-size: 22px;
+    line-height: .7rem;
+}
+
+.van-search .van-cell__left-icon {
+    color: #999;
+}
+
+.van-cell__left-icon {
+    min-width: 1em;
+    font-size: .22857rem;
+    line-height: .34286rem;
+    margin-right: .07143rem;
+}
+
+.van-icon, .van-icon:before {
+    display: inline-block;
+}
+
+.van-icon {
+    position: relative;
+    font: normal normal normal .2rem/1 vant-icon;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.van-cell__value--alone {
+    text-align: left;
+}
+
+.van-cell__value {
+    overflow: hidden;
+    text-align: right;
+    position: relative;
+    vertical-align: middle;
+    margin-top: -2rem;
+}

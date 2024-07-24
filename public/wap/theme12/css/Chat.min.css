@@ -1,0 +1,1065 @@
+html,
+body {
+	margin: 0;
+	/*overflow: hidden;*/
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sbHidden {
+	display: none !important;
+}
+
+.textAlignRight {
+	text-align: right;
+}
+
+.inputError {
+	outline: 1px solid #f20000 !important;
+}
+
+.isDraggable {
+	cursor: move;
+}
+
+.newMessageTextStyle {
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+}
+
+.error {
+	color: #f20000;
+	font-weight: 600;
+}
+
+#sbChatInnerContainer {
+	width: 350px;
+	height: 500px;
+	background-color: rgba(4, 25, 47, 0.95);
+}
+
+#sbChatInnerContainer #sbChatBanner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 50px;
+	background: #11447d;
+}
+
+#sbChatInnerContainer #sbChatBannerLogo {
+	height: 50px;
+	width: 42px;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAFLCAYAAAAKzPJ0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1NjI0ZGY0ZS0wODMyLWZhNGMtYmQwZC1mNjIyMzBlMmRmNGMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTk4OTI2QTlBNzcxMTFFOEFERjhCNzVFNkRCRDAzMUYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTk4OTI2QThBNzcxMTFFOEFERjhCNzVFNkRCRDAzMUYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3YmJhNjY3NC00OTRlLTQyNDQtYmZkZS03ZTkyOTI1YThmNmMiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo3OTI3ZDgyMC04NWFjLTExZTgtOTMw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') no-repeat center center;
+	margin-left: 18px;
+	background-size: contain;
+}
+
+#sbChatInnerContainer #sbMenuButton {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+#sbChatInnerContainer #sbMenuButton:hover:before {
+	opacity: 0.85;
+}
+
+#sbChatInnerContainer #sbMenuButton:before {
+	content: "";
+	position: absolute;
+	left: 7px;
+	top: 11px;
+	bottom: 12px;
+	width: 26px;
+	background: linear-gradient(#ffffff, #ffffff 3px, #11447d 3px, #11447d 7px, #ffffff 7px, #ffffff 10px, #11447d 10px, #11447d 14px, #ffffff 14px, #ffffff 16px);
+}
+
+#sbChatInnerContainer #sbMenuButton.sbHidden+#sbChatBannerInfo {
+	padding-left: 40px;
+}
+
+#sbChatInnerContainer #sbChatUndraggable,
+#sbChatInnerContainer #sbDiscussion {
+	height: calc(100% - 50px);
+}
+
+#sbChatInnerContainer #sbDiscussion {
+	padding: 6px 8px 0 8px;
+	overflow-y: auto;
+	max-height: 366px;
+	margin: 0;
+	font-family: 'Tahoma Regular', sans-serif;
+	-webkit-overflow-scrolling: touch;
+}
+
+#sbChatInnerContainer #sbDiscussion div {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	-ms-word-wrap: break-word;
+}
+
+#sbChatInnerContainer .sbMessageSentTime {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	margin: 0 3px 0 0;
+	height: 100%;
+}
+
+#sbChatInnerContainer .sbChatMessage {
+	border-radius: 9px;
+	padding: 9px 20px 9px 9px;
+	margin-bottom: 9px;
+	width: 85%;
+}
+
+#sbChatInnerContainer .sbChatMessage:last-child {
+	margin-bottom: 0;
+}
+
+#sbChatInnerContainer .sbOutgoingMessage {
+	position: relative;
+	background-color: #11447d;
+	border: #cccccc;
+	border-top-right-radius: 0;
+	margin-right: 10px;
+	float: right;
+}
+
+#sbChatInnerContainer .sbOutgoingMessage .sbPlayerName {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: top;
+	color: #999999;
+}
+
+#sbChatInnerContainer .sbOutgoingMessage .sbMessageText {
+	color: #ffffff;
+	font-size: 12px;
+	position: relative;
+	background-color: #11447d;
+}
+
+#sbChatInnerContainer .sbOutgoingMessage .sbMessageSentTime {
+	color: #999999;
+}
+
+#sbChatInnerContainer .sbOutgoingMessage:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 16px 16px 0 0;
+	border-color: #11447d transparent transparent transparent;
+	position: absolute;
+	top: 0;
+	right: -16px;
+}
+
+#sbChatInnerContainer .sbIncomingMessage {
+	position: relative;
+	background-color: #ffffff;
+	border: #ffffff;
+	border-top-left-radius: 0;
+	float: left;
+	margin-left: 10px;
+}
+
+#sbChatInnerContainer .sbIncomingMessage .sbAgentName {
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+	color: #666666;
+	vertical-align: top;
+}
+
+#sbChatInnerContainer .sbIncomingMessage .sbMessageText {
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+#sbChatInnerContainer .sbIncomingMessage .sbMessageSentTime,
+#sbChatInnerContainer .sbIncomingMessage .sbSenderName.sbAgentName {
+	vertical-align: top;
+	color: #666666;
+}
+
+#sbChatInnerContainer .sbIncomingMessage:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 16px 16px 0;
+	border-color: transparent #ffffff transparent transparent;
+	position: absolute;
+	top: 0;
+	left: -16px;
+}
+
+#sbChatInnerContainer .sbMessageText+br {
+	display: none;
+}
+
+#sbChatInnerContainer #sbNotificationArea {
+	padding: 4px 4px 0 8px;
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 64px;
+	font-family: Arial, sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	color: #ffffff;
+}
+
+#sbChatInnerContainer #sbInputArea {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 5px;
+	height: 64px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+#sbChatInnerContainer #sbInputArea ::-webkit-input-placeholder {
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+#sbChatInnerContainer #sbInputArea ::-moz-placeholder {
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+#sbChatInnerContainer #sbInputArea :-ms-input-placeholder {
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+#sbChatInnerContainer #sbInputArea #sbMessage {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: auto;
+	resize: none;
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 5px;
+	outline: none;
+}
+
+#sbChatInnerContainer #sbInputArea #sbSendMessage {
+	-webkit-box-flex: 0;
+	-ms-flex-positive: 0;
+	flex-grow: 0;
+	width: auto;
+	padding: 0 14px;
+	z-index: 3;
+}
+
+#sbChatInnerContainer #sbInputArea>*+* {
+	margin-left: 5px;
+}
+
+#sbChatInnerContainer #sbInnerOverlay {
+	position: absolute;
+	display: block;
+	top: 50px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#sbChatInnerContainer #sbMenu {
+	position: fixed;
+	top: 50px;
+	right: 0;
+	min-width: 120px;
+	z-index: 2;
+}
+
+#sbChatInnerContainer #sbMenu ul {
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#sbChatInnerContainer #sbMenu ul li {
+	position: relative;
+	height: 40px;
+	padding: 0 15px;
+	background-color: #ffffff;
+	font-family: 'Tahoma Regular', sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 40px;
+	text-align: left;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#sbChatInnerContainer #sbMenu ul li:last-child {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#sbChatInnerContainer #sbMenu ul li:hover,
+#sbChatInnerContainer #sbMenu ul li:active {
+	background-color: #db0100;
+	border-color: #db0100;
+	color: #ffffff;
+}
+
+#sbChatInnerContainer #sbMenu ul li.disbledMenuItem {
+	background-color: #999999;
+	color: #666666;
+	pointer-events: none;
+}
+
+#sbChatInnerContainer #sbMenu input[type="file"] {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.btn,
+input[type="button"] {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 15px;
+	background-color: #1db954;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #1db954;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn:hover,
+input[type="button"]:hover {
+	background-color: #1aa74c;
+	border-color: #1aa74c;
+	color: #ffffff;
+}
+
+.btn.disabledState,
+input[type="button"].disabledState {
+	background: #1db954;
+	pointer-events: none;
+	color: #ffffff;
+	border: 1px solid #1db954;
+	cursor: default;
+}
+
+.btn::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+	border: none;
+}
+
+.linkBtn {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.linkBtn:hover {
+	text-decoration: underline;
+}
+
+#sbGuestTranscriptSendButton,
+#sbEmailViewSendButton,
+#sbSurveySendButton {
+	float: right;
+}
+
+.sbMobileView#sbChatInnerContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.sbMobileView#sbChatInnerContainer #sbChatUndraggable,
+.sbMobileView#sbChatInnerContainer #sbDiscussion {
+	height: calc(100% - 98px);
+}
+
+.sbMobileView#sbChatInnerContainer #sbEmailViewFormContainer .textField.error,
+.sbMobileView#sbChatInnerContainer #sbEmailViewFormContainer .mailField.error {
+	max-width: none;
+}
+
+.sbMobileView#sbChatInnerContainer #sbChatBanner {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 0 2px;
+	background: #04192f;
+}
+
+.sbMobileView#sbChatInnerContainer #sbChatBannerInfo {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.sbMobileView#sbChatInnerContainer #sbChatBannerInfo .bannerInfoName {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	bottom: 1px;
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'Tahoma Regular', sans-serif;
+	color: #ffffff;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussionMsgWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	min-height: 100%;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenuButton {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+	width: 40px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenuButton>div {
+	width: 40px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMinimizeMenuItem {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+}
+
+.sbMobileView#sbChatInnerContainer #sbChatBannerLogo {
+	display: none !important;
+}
+
+.sbMobileView#sbChatInnerContainer #sbInnerOverlay {
+	top: 40px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion {
+	position: absolute;
+	top: 40px;
+	bottom: 58px;
+	left: 0;
+	width: 100%;
+	max-height: none;
+	overflow-y: scroll;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbChatMessage {
+	padding: 0;
+	float: none !important;
+	width: 99%;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbIncomingMessage {
+	background-color: transparent;
+	border-color: transparent;
+	word-break: break-word;
+	padding-right: 15%;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbIncomingMessage .sbMessageText {
+	display: inline-block;
+	font-size: 14px;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 6px 9px;
+	border-radius: 4px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbIncomingMessage .sbMessageText:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-right: 10px solid #ffffff;
+	left: -6px;
+	bottom: 4px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbIncomingMessage .sbMessageSentTime,
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbIncomingMessage .sbAgentName {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbIncomingMessage:before,
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbIncomingMessage:after {
+	display: none;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbOutgoingMessage {
+	background-color: transparent;
+	border-color: transparent;
+	text-align: right;
+	word-break: break-word;
+	padding-left: 15%;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbOutgoingMessage .sbMessageText {
+	display: inline-block;
+	font-size: 14px;
+	text-align: left;
+	background-color: #11447d;
+	color: #ffffff;
+	padding: 6px 20px 6px 9px;
+	border-radius: 4px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbOutgoingMessage .sbMessageText:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 10px solid #11447d;
+	right: -6px;
+	bottom: 4px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbOutgoingMessage .sbMessageSentTime,
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbOutgoingMessage .sbPlayerName {
+	color: #999999;
+}
+
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbOutgoingMessage:after,
+.sbMobileView#sbChatInnerContainer #sbDiscussion .sbOutgoingMessage:before {
+	display: none;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenu {
+	width: auto;
+	top: 40px;
+	right: 0;
+	left: 0;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenu li {
+	background-color: #04192f;
+	border-radius: 0;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenu li:active {
+	background-color: #db0100;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenu li:first-child {
+	border-top: 1px solid #0859af;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenu li:last-child {
+	border-radius: 0;
+	background-color: #db0100;
+}
+
+.sbMobileView#sbChatInnerContainer #sbMenu input[type="file"] {
+	width: 100%;
+}
+
+.sbMobileView#sbChatInnerContainer #sbNotificationArea {
+	bottom: 38px;
+	padding: 5px 0 0 15px;
+	font-size: 11px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbInputArea {
+	height: 38px;
+	padding: 0 0 0 15px;
+	border-top: 1px solid #999999;
+	background: #ffffff;
+}
+
+.sbMobileView#sbChatInnerContainer #sbInputArea #sbMessage {
+	width: 100%;
+	height: 24px;
+	margin: 6px 0 6px 0;
+	border: transparent;
+	background: transparent;
+	padding: 0 55px 0 0;
+	color: #000000;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.sbMobileView#sbChatInnerContainer #sbInputArea #sbSendMessage {
+	position: absolute;
+	right: 5px;
+	top: 2px;
+	bottom: 2px;
+	height: auto;
+	width: auto;
+	padding: 5px 8px;
+	font-size: 14px;
+	font-weight: 600;
+	background-image: none;
+	border-radius: 2px;
+	-webkit-appearance: none;
+	border: 0;
+	color: #fff;
+	background: #1db954;
+}
+
+.sbMobileView .sbChatHeaderIcon {
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	background-repeat: no-repeat;
+	background-size: contain !important;
+}
+
+.sbMobileView .sbChatMenuIcon {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	height: 20px;
+	width: 20px;
+	background-size: contain !important;
+	background-repeat: no-repeat;
+}
+
+.sbMobileView .minimizeIcon {
+	position: relative;
+	width: 18px;
+	bottom: 2px;
+	border-bottom: 2px solid #ffffff;
+}
+
+.sbMobileView .minimizeIcon:before {
+	content: '';
+	position: absolute;
+	height: 18px;
+	width: 0px;
+	border-right: 2px solid #ffffff;
+	-webkit-transform: rotate(-45deg) translate(-1px, 0.5px);
+	transform: rotate(-45deg) translate(-1px, 0.5px);
+}
+
+.sbMobileView .minimizeIcon:after {
+	content: '';
+	position: absolute;
+	bottom: 3px;
+	right: 0;
+	height: 10px;
+	width: 10px;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+
+.sbMobileView .envelopeIcon {
+	
+	-webkit-transform: scale(1.2, 1.4);
+	transform: scale(1.2, 1.4);
+}
+
+.sbMobileView .sendFileIcon {
+	
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.sbMobileView .closeIcon {
+	
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.sbMobileView ::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 7px;
+}
+
+.sbMobileView ::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.sbMobileView .sbChatSubPage {
+	top: 40px;
+	right: 0;
+	max-height: 100vh;
+	background-color: #053160;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView .sbStatusIndicator {
+	left: 26px !important;
+	right: auto !important;
+	bottom: 20px !important;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView .sbChatSubPageBottom {
+	text-align: left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.sbMobileView #sbGuestTranscriptErrorMessage {
+	margin: 0 !important;
+}
+
+.sbMobileView.sbChatMobileView_landscape #sbGuestTranscriptCloseButton {
+	bottom: -30px;
+	padding-bottom: 20px !important;
+}
+
+.sbChatSubPage {
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(5, 49, 96, 0.1);
+	padding: 20px !important;
+	overflow: auto;
+	font-family: 'Tahoma Regular', sans-serif;
+	color: #ffffff;
+}
+
+.sbChatSubPage#sbEmailViewContainer {
+	background-color: rgba(4, 25, 47, 0.9);
+}
+
+.sbChatSubPage span {
+	width: 30%;
+	max-width: 90px;
+	padding-right: 5px;
+	line-height: 21px;
+	color: #ffffff;
+	word-break: break-word;
+}
+
+.sbChatSubPage .textField,
+.sbChatSubPage .mailField {
+	font-size: 14px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.sbChatSubPage .textField.error,
+.sbChatSubPage .mailField.error {
+	display: inline-block;
+	line-height: 20px;
+	max-width: 170px;
+}
+
+.sbChatSubPage .textArea {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 14px;
+}
+
+.sbChatSubPage .textArea textarea {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	min-height: 160px;
+	width: 70%;
+	margin-bottom: 20px !important;
+	padding: 2px;
+	border: 1px solid #ffffff;
+	font-family: Arial, sans-serif;
+	outline: none;
+	resize: none;
+}
+
+.sbChatSubPage .textArea textarea.required {
+	border: 1px solid #f20000;
+}
+
+.sbChatSubPage .textArea textarea:focus {
+	border: 1px solid #f59120;
+	outline: none;
+}
+
+.sbChatSubPage input[type="email"],
+.sbChatSubPage input[type="text"],
+.sbChatSubPage select {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	width: 70%;
+	height: 21px;
+	padding: 2px;
+	border: 1px solid #ffffff;
+}
+
+.sbChatSubPage input[type="email"]:focus,
+.sbChatSubPage input[type="text"]:focus,
+.sbChatSubPage select:focus {
+	border: 1px solid #f59120;
+	outline: none;
+}
+
+.sbChatSubPage input[type="email"].required,
+.sbChatSubPage input[type="text"].required,
+.sbChatSubPage select.required {
+	border: 1px solid #f20000;
+}
+
+.sbChatSubPage .sbChatSubPageBottom {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	left: 20px;
+	text-align: right;
+}
+
+.sbChatSubPage .sbChatSubPageBottom .linkBtn {
+	position: relative;
+}
+
+#sbSurveyWelcomeMessageLabel,
+#sbEmailViewHeaderMessage {
+	color: #ffffff;
+	text-align: justify;
+}
+
+.sbStatusIndicator {
+	position: absolute;
+	bottom: 12px;
+	right: 7px;
+	left: auto;
+	width: 8px;
+	height: 4px;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.sbStatusIndicator:before,
+.sbStatusIndicator:after {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 2px;
+	width: 9px;
+	height: 9px;
+	border-bottom: 1px solid transparent;
+	-webkit-transform: translateX(-4.5px);
+	transform: translateX(-4.5px);
+}
+
+.sbStatusIndicator:after {
+	-webkit-transform: rotate(90deg) translateX(4.5px);
+	transform: rotate(90deg) translateX(4.5px);
+}
+
+[data-delivery-status='Delivered'] .sbStatusIndicator {
+	border-color: #1db954;
+}
+
+[data-delivery-status='Failed'] .sbStatusIndicator {
+	border-color: transparent;
+}
+
+[data-delivery-status='Failed'] .sbStatusIndicator:before,
+[data-delivery-status='Failed'] .sbStatusIndicator:after {
+	border-color: #f20000;
+}
+
+[data-delivery-status='Unknown'] .sbStatusIndicator {
+	border-color: #999999;
+}
+
+#sbChatInnerContainer.sbMobileView .sbChatSubPageBottom {
+	position: relative;
+	clear: both;
+	top: 20px;
+	left: 0;
+	margin-bottom: 20px;
+}
+
+#sbChatInnerContainer.sbMobileView .linkBtn {
+	right: auto;
+}
+
+#sbChatInnerContainer.rtl #sbDiscussion .sbChatMessage {
+	padding: 9px 9px 9px 20px;
+}
+
+#sbChatInnerContainer.rtl #sbDiscussion .sbChatMessage .sbStatusIndicator {
+	left: 6px;
+	right: auto;
+	bottom: 12px;
+}
+
+#sbChatInnerContainer.rtl #sbChatUndraggable {
+	direction: rtl;
+}
+
+#sbChatInnerContainer.rtl #sbChatUndraggable span.sbMessageSentTime {
+	margin: 0 3px 0 3px;
+}
+
+#sbChatInnerContainer.rtl #sbNotificationArea {
+	padding: 4px 8px 0 4px;
+}
+
+#sbChatInnerContainer.rtl #sbMenu {
+	direction: rtl;
+}
+
+#sbChatInnerContainer.rtl #sbMenu li {
+	text-align: right;
+}
+
+#sbChatInnerContainer.rtl #sbInputArea>*+* {
+	margin: 0 5px 0 0;
+}
+
+#sbChatInnerContainer.rtl .sbChatSubPage {
+	direction: rtl;
+}
+
+#sbChatInnerContainer.rtl .sbChatSubPage textArea {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+#sbChatInnerContainer.rtl .sbChatSubPage span {
+	text-align: right;
+	padding-left: 5px;
+}
+
+#sbChatInnerContainer.rtl .sbChatSubPage .btn {
+	float: left;
+	-webkit-transform: translate(0);
+	transform: translate(0);
+}
+
+#sbChatInnerContainer.rtl .sbChatSubPage .sbChatSubPageBottom {
+	text-align: left;
+}
+
+#sbChatInnerContainer.rtl #sbEmailViewContainer,
+#sbChatInnerContainer.rtl #sbTranscriptToGuestContainer {
+	direction: rtl;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbMenu span.sbChatMenuIcon {
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable .sbIncomingMessage .sbChatMessage-header {
+	float: right;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable .sbIncomingMessage .sbMessageText {
+	clear: both;
+	float: right;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable .sbIncomingMessage .sbMessageText:after {
+	left: 0;
+	right: 0;
+	-webkit-transform: rotate(180deg) translateY(8px);
+	transform: rotate(180deg) translateY(8px);
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable .sbOutgoingMessage .sbChatMessage-header {
+	text-align: left;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable .sbOutgoingMessage .sbMessageText {
+	clear: both;
+	float: left;
+	text-align: right;
+	padding: 6px 9px 6px 20px;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable .sbOutgoingMessage .sbMessageText:after {
+	left: -10px;
+	right: auto;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable #sbMessage {
+	padding-right: initial;
+	padding-left: 55px;
+	text-align: right !important;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable #sbSendMessage {
+	left: 5px;
+	right: initial;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable #sbNotificationArea {
+	padding: 5px 15px 0 0;
+}
+
+#sbChatInnerContainer.rtl.sbMobileView #sbChatUndraggable #sbInputArea {
+	padding: 0 15px 0 0;
+}

@@ -1,0 +1,222 @@
+/* 优惠活动 */
+.activity-container .activity-site {
+  width: 893px;
+  margin: 15px auto 0 auto;
+  position: relative;
+  top: 15px;
+}
+.activity-container .activity-site .activity-ico {
+  background: url('../images/activitytitle.png') no-repeat 0 0;
+  color: #ffffff;
+  font-size: 16px;
+  height: 56px;
+  width: 56px;
+  left: -26px;
+  position: absolute;
+  text-align: center;
+  top: -5px;
+  font-size: 0;
+}
+html[language='en'] .activity-container .activity-site .activity-ico {
+  background: url('../images/en/activitytitle.png') no-repeat 0 0;
+  color: #ffffff;
+  font-size: 16px;
+  height: 56px;
+  width: 56px;
+  left: -26px;
+  position: absolute;
+  text-align: center;
+  top: -5px;
+  font-size: 0;
+}
+html[language='th'] .activity-container .activity-site .activity-ico {
+  background: url('../images/th/activitytitle.png') no-repeat 0 0;
+  color: #ffffff;
+  font-size: 16px;
+  height: 56px;
+  width: 56px;
+  left: -26px;
+  position: absolute;
+  text-align: center;
+  top: -5px;
+  font-size: 0;
+}
+.activity-container .activitybar {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 17px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 33px;
+  width: 853px;
+  line-height: 33px;
+  font-size: 14px;
+  margin: 0 0 16px 40px;
+  overflow: hidden;
+}
+.activity-nav li {
+  float: left;
+  margin: 1px;
+  display: inline;
+  height: 31px;
+}
+.activity-nav li a {
+  display: block;
+  padding: 0 10px;
+  line-height: 31px;
+  height: 31px;
+  /*color: #000;*/
+}
+.activity-nav li a:hover {
+  color: #059C74;
+}
+.activity-nav li.active a {
+  background: #425fb4;
+  border: 2px solid #828ead;
+  border-radius: 15px;
+  line-height: 27px;
+  height: 27px;
+}
+.activity-container .activity-content {
+  border-left: 3px solid #059C74;
+  margin-bottom: 5px;
+  /*min-height: 500px;*/
+}
+.activity-container .activity-content h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+  color:#ffac00;
+}
+.activity-content .activity-list {
+  background: url('../images/graybg.png') repeat 0 0;
+  padding: 5px;
+  width: 843px;
+  margin-left: 37px;
+}
+.activity-container .activity-site .activity-box {
+  position: relative;
+  background: url('../images/graybg.png') repeat 0 0;
+  margin: 0 auto;
+  margin-bottom: 6px;
+  width: 843px;
+}
+.activity-container .activity-site .activity-box-body {
+  padding: 10px;
+  display: none;
+}
+.activity-box-body .tit{font-size:16px;text-align:center;color:#ffac00;margin:15px 0;}
+.activity-container .activity-site .activity-box .infobox {
+  float: right;
+  position: relative;
+  width: 843px;
+}
+.activity-container .activity-site .activity-box .infobox .sicon {
+  background: url('../images/activityicon.png') no-repeat 0 0;
+  height: 22px;
+  left: -25px;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+.activity-container .activity-site .activity-box .infobox .info {
+  color: #fff;
+}
+.activity-container .activity-site .activity-box .infobox .info h4 {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.activity-container .activity-site .activity-box .infobox .info p {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.activity-container .activity-site .activity-box .infobox .info table {
+  color: #fff;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.activity-container .activity-site .activity-box .infobox .info table th,
+.activity-container .activity-site .activity-box .infobox .info table td {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #d9d9d9;
+  height: 18px;
+  text-align: center;
+}
+.activity-container .activity-site .activity-box .infobox .info .activitystate {
+  float: left;
+  width: 374px;
+  padding: 15px 5px 5px 5px;
+  height: 129px;
+  overflow: hidden;
+}
+.activity-container .activity-site .activity-box .infobox .info .activitystate span {
+  line-height: 26px;
+}
+.activity-container .activity-site .activity-box .infobox .info .activity-show-btn {
+  width: 87px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background: #b52030;
+  border: #9e9788 2px solid;
+  border-radius: 13px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg {
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  height: 258px;
+  width: 99%;
+  float: left;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p1 {
+  background: url('../images/activity/p1.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p2 {
+  background: url('../images/activity/p2.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p3 {
+  background: url('../images/activity/p3.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p4 {
+  background: url('../images/activity/p4.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p5 {
+  background: url('../images/activity/p5.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p6 {
+  background: url('../images/activity/p6.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p7 {
+  background: url('../images/activity/p7.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p8 {
+  background: url('../images/activity/p8.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p9 {
+  background: url('../images/activity/p9.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p11 {
+  background: url('../images/activity/p11.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p12 {
+  background: url('../images/activity/p12.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p13 {
+  background: url('../images/activity/p13.jpg') no-repeat 0 0;
+}
+.activity-container .activity-site .activity-box .infobox .info .activityimg.p14 {
+  background: url('../images/activity/p14.jpg') no-repeat 0 0;
+}
+.redw {
+  color: #ffff5b;
+}
+.fc_pink{color:#EA4CFF;}
+.fc_blue{color:#9CA4FC;}
+.tab_list div{float:left;height:100%;}
+
+.activity-banner {
+    background: url('../images/activity_bg.jpg') center no-repeat;
+    width: 100%;
+    height: 386px;
+}
